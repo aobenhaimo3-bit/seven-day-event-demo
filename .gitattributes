@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.jpg binary
+*.png binary
+datasets/project3/news.jsonl -text
+datasets/project3/case_news.jsonl -text
+datasets/project3/cases.json -text

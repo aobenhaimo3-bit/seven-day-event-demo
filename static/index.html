@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>七日事件预测实验台 · Project 3</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">跳到预测结果</a>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="七日事件预测实验台首页"><span class="brand-mark" aria-hidden="true">7<span>日</span></span><span>事件预测实验台<small>计算社会科学 · PROJECT 3</small></span></a>
+    <span class="model-state" id="model-state"><span aria-hidden="true"></span>正在连接本地模型</span>
+  </header>
+  <main class="workbench">
+    <aside class="controls-panel" aria-labelledby="controls-title">
+      <div class="panel-heading"><p class="eyebrow">研究工作区</p><h1 id="controls-title">从历史证据<br>看接下来七天</h1><p>选定研究局势与截止日，检查新闻线索如何形成预测。</p></div>
+      <form id="analysis-form">
+        <label for="case-select">研究案例</label>
+        <select id="case-select" disabled><option>正在加载案例…</option></select>
+        <p class="field-note" id="case-split">项目数据只在本机处理</p>
+        <label for="as-of">预测截止日</label>
+        <input id="as-of" type="date" required disabled>
+        <p class="field-note" id="history-range">只使用截止日及此前的新闻。</p>
+        <button class="button run-button" id="run" type="submit" disabled><span>运行七日预测</span><span aria-hidden="true">↗</span></button>
+      </form>
+      <section class="import-section" aria-labelledby="import-title">
+        <h2 id="import-title">导入自己的测试集</h2>
+        <p>JSON 或 JSONL，每个案例包含一组带日期的新闻。</p>
+        <label class="button import-button" for="file-input">选择本地文件<span aria-hidden="true">＋</span></label>
+        <input class="visually-hidden" id="file-input" type="file" accept=".json,.jsonl,application/json">
+        <div class="import-links"><a href="/api/example" download="project3-input-template.json">下载格式模板</a><button id="restore-project" type="button" class="text-button" hidden>返回项目案例</button></div>
+        <p class="field-note" id="import-meta">无外部 API 调用</p>
+      </section>
+      <div class="scope-note"><span class="scope-icon" aria-hidden="true">i</span><p>本版以 CAMEO 19 军事行动报道为目标。威胁、部署和协商用于观察历史变化。</p></div>
+    </aside>
+    <div class="main-panel">
+      <div class="status" id="status" role="status" aria-live="polite">正在载入项目案例与实验模型…</div>
+      <section id="results" class="results" aria-labelledby="result-title" tabindex="-1" aria-busy="false">
+        <div class="initial-state" id="initial-state"><div class="initial-rule" aria-hidden="true"><span>历史</span><i></i><span>未来 7 天</span></div><h2>准备读取历史证据</h2><p>项目案例载入后会自动运行首个示例。你也可以导入自己的测试集。</p></div>
+        <div id="result-content" hidden>
+          <div class="stale-note" id="stale-note" role="note" hidden>输入已改变。下方保留上一次结果，请重新运行预测。</div>
+          <header class="result-header"><div><p class="eyebrow" id="result-id">案例</p><h2 id="result-title">—</h2><p class="case-situation" id="case-situation"></p></div><button id="export" class="button export-button" type="button" disabled>导出结果 ↓</button></header>
+          <section class="forecast-sheet" aria-labelledby="forecast-title">
+            <div class="window-ribbon"><div class="history-window"><span>已知历史</span><strong id="history-window">—</strong></div><div class="cutoff-marker"><span>截止日</span><strong id="cutoff-date">—</strong></div><div class="future-window"><span>未来 7 天</span><strong id="future-window">—</strong></div></div>
+            <div class="forecast-body"><div class="forecast-main"><p class="eyebrow">CAMEO 19 · 常规军事行动</p><h3 id="forecast-title">未来七天出现军事行动报道</h3><div class="probability-row"><strong id="probability-value">—</strong><span class="experiment-tag">实验预测</span></div><p id="probability-description" class="probability-description"></p><div class="probability-track" id="probability-track" aria-hidden="true"><span id="probability-fill"></span></div><div class="baseline-row" id="baselines"></div></div><div class="prediction-boundary"><p class="boundary-label">如何理解这个数字</p><p>它估计未来七天内，项目新闻中出现军事行动报道的可能性。</p><p class="boundary-emphasis">真实行动发生概率尚未验证。</p><p>标签由本地事件检测流程生成，报道遗漏、覆盖差异与识别错误都会影响结果。</p></div></div>
+            <p class="benchmark-note" id="benchmark-note" hidden></p>
+            <div class="future-days" id="future-days" aria-label="未来七天日期"></div>
+          </section>
+          <dl class="history-summary" id="history-summary"></dl>
+          <section class="timeline-section" aria-labelledby="timeline-title"><div class="section-heading"><div><p class="eyebrow">截止日之前</p><h3 id="timeline-title">新闻证据时间线</h3></div><p>点击某一天，可将它设为新的截止日。</p></div><div class="timeline-legend"><span><i class="news-key"></i>新闻篇数</span><span><i class="action-key"></i>19 类候选报道篇数</span><span class="timeline-disclaimer">按报道日期排列</span></div><div id="timeline-chart" class="timeline-chart"></div><div class="chart-range"><span id="chart-start">—</span><span>预测截止日 →</span></div><div class="signal-strip" id="signal-strip"></div><p class="report-count-note">以上按报道篇数统计，同一现实事件可能被多篇新闻重复报道。</p></section>
+          <section class="drivers-section" aria-labelledby="drivers-title"><div class="section-heading"><div><p class="eyebrow">模型依据</p><h3 id="drivers-title">哪些历史信号影响了预测</h3></div></div><div id="drivers" class="drivers"></div></section>
+          <section class="evidence-section" aria-labelledby="evidence-title"><div class="section-heading"><div><p class="eyebrow">可检查的原文</p><h3 id="evidence-title">事件候选与新闻证据</h3></div><p id="evidence-count"></p></div><div class="filters"><label for="type-filter">行为类型<select id="type-filter"><option value="all">全部类型</option><option value="19">19 军事行动</option><option value="13">13 威胁</option><option value="15">15 军事姿态</option><option value="cooperation">03 / 04 协商意向与会谈</option></select></label><label for="status-filter">识别状态<select id="status-filter"><option value="all">全部状态</option><option value="candidate">自动候选</option><option value="reported">已报告</option><option value="uncertain">待核实 / 争议</option><option value="planned">计划 / 风险</option><option value="historical">历史回顾</option></select></label></div><div id="events" class="event-list"></div><button id="show-more" type="button" class="button show-more" hidden>继续查看证据</button></section>
+          <section class="quality-section" aria-labelledby="quality-title"><h3 id="quality-title">数据覆盖与使用边界</h3><ul id="quality-list"></ul></section>
+        </div>
+      </section>
+      <details class="methods" id="methods"><summary>模型与数据口径<span aria-hidden="true">＋</span></summary><div class="methods-body"><p>本版预测对象是未来七天的军事行动报道。训练中的“未检测到报道”不等于现实中没有事件；本页的数值不能用于声称真实冲突发生概率。</p><p>模型使用截止日前的可用历史。项目现有三个月片段不足以在每个滚动日都提供完整三个月回看，实际历史天数会单独展示。</p><p>训练与验证只纳入未来七天中至少三个日期有新闻的窗口，因此结果主要反映有持续报道的局势，不能直接推广到新闻稀少的情形。</p><dl id="model-facts" class="model-facts"></dl><p id="evaluation-note">验证指标只针对新闻弱标签，不是真实事件准确率。</p><div id="evaluation-metrics" class="evaluation-metrics"></div><button id="model-report-button" type="button" class="text-button">下载模型说明 JSON</button></div></details>
+      <footer class="page-footer"><span>PROJECT 3 · 七日事件预测实验</span><span>本地运行 · 新闻证据可追溯</span></footer>
+    </div>
+  </main>
+</body>
+</html>

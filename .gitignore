@@ -1,0 +1,25 @@
+# User-provided news, labels and answers must stay local.
+local-data/
+data/
+outputs/
+tmp/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.zip
+*.csv
+*.jsonl
+!datasets/project3/news.jsonl
+!datasets/project3/case_news.jsonl
+*.pdf
+*.html.bak
+artifacts/*
+!artifacts/research-model.json
+!artifacts/model-report.json
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

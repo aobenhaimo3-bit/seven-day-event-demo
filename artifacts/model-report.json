@@ -1,0 +1,80 @@
+{
+  "model_type": "cameo19_observed_news_week_ahead_research",
+  "target": "未来7天出现19类军事行动报道",
+  "target_kind": "weak_supervision_proxy",
+  "trained_through": "2025-05-01",
+  "detector_rule_version": "conservative-assertion-v3",
+  "sample_dependence_note": "Rolling historical windows overlap and the same article may appear under several cases; samples are correlated and validation uncertainty is not estimated as independent trials.",
+  "training_sample_count": 105,
+  "validation_sample_count": 22,
+  "final_training_sample_count": 127,
+  "minimum_history_days": 28,
+  "maximum_history_days": 92,
+  "historical_window_note": "训练使用28–92天可用历史；并非每个锚点均有完整三个月。",
+  "training_proxy_positives": 82,
+  "training_proxy_negatives": 23,
+  "validation_metrics": {
+    "sample_count": 22,
+    "positives": 20,
+    "negatives": 2,
+    "brier": 0.101094,
+    "log_loss": 0.337399,
+    "accuracy": 0.909091,
+    "confusion": {
+      "tp": 19,
+      "tn": 1,
+      "fp": 1,
+      "fn": 1
+    },
+    "baseline_brier": 0.100438,
+    "persistence_brier": 0.227273,
+    "target_semantics": "weak_news_proxy_validation",
+    "independently_verified_real_event_labels": false
+  },
+  "detector_examples": 260,
+  "selected_lambda": 50,
+  "validation_beats_base_rate_brier": false,
+  "excluded_samples": {
+    "train": {
+      "insufficient_history_news": 6,
+      "future_coverage_unknown": 23
+    },
+    "validation": {
+      "insufficient_history_news": 9,
+      "future_coverage_unknown": 11
+    },
+    "validation_time_purge": 0
+  },
+  "probability_calibrated": false,
+  "real_event_probability_available": false,
+  "future_coverage_condition": "训练仅纳入未来7天至少3个有报道日的历史窗口，存在覆盖条件筛选偏差；推断不读取未来覆盖。",
+  "note": "只验证未来报道代理标签；尚无完整独立七天事件真值，不是实际事件概率或真实冲突准确率。",
+  "data_provenance": {
+    "train": {
+      "path": "local-data/train_pairs.jsonl",
+      "sha256": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601"
+    },
+    "validation": {
+      "path": "local-data/validation_pairs.jsonl",
+      "sha256": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+    },
+    "pilot": {
+      "path": "local-data/annotations.jsonl",
+      "sha256": "50a9e4cd83c81c3977a4a301fafc4a6c3be009f66dfd07e9c1742bbea5a994a0"
+    },
+    "aliases": {
+      "path": "local-data/case_aliases.json",
+      "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
+    }
+  },
+  "build_contract": {
+    "client_date": "2026-11-03",
+    "target": "Future seven days contain a locally detected CAMEO-19 report in the supplied news stream",
+    "actual_event_probability_validated": false,
+    "real_event_probability": null,
+    "test_input_used_for_fit": false,
+    "test_gold_used": false,
+    "synthetic_training_data_used": false,
+    "runtime_llm_api_required": false
+  }
+}

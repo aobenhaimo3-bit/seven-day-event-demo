@@ -1,0 +1,212 @@
+[
+  {
+    "case_id": "S001",
+    "countries_regions": "俄罗斯；乌克兰",
+    "target_situation": "俄罗斯—乌克兰关系，以及双方相关的外交、军事和区域安全局势。",
+    "news_start": "2021-11-24",
+    "news_end": "2022-02-23"
+  },
+  {
+    "case_id": "S002",
+    "countries_regions": "埃塞俄比亚政府；提格雷武装",
+    "target_situation": "埃塞俄比亚、提格雷及相关厄立特里亚地区的政治、军事、安全与外交局势。",
+    "news_start": "2022-05-24",
+    "news_end": "2022-08-23"
+  },
+  {
+    "case_id": "S003",
+    "countries_regions": "亚美尼亚；阿塞拜疆",
+    "target_situation": "亚美尼亚—阿塞拜疆关系、边境与卡拉巴赫局势，以及双方相关的政治与安全动向。",
+    "news_start": "2022-06-13",
+    "news_end": "2022-09-12"
+  },
+  {
+    "case_id": "S004",
+    "countries_regions": "吉尔吉斯斯坦；塔吉克斯坦",
+    "target_situation": "吉尔吉斯斯坦—塔吉克斯坦关系、边境局势，以及双方相关的政治与安全动向。",
+    "news_start": "2022-06-14",
+    "news_end": "2022-09-13"
+  },
+  {
+    "case_id": "S005",
+    "countries_regions": "苏丹武装部队；快速支援部队",
+    "target_situation": "苏丹政府、苏丹武装部队与快速支援部队及相关地区的政治、军事、安全和外交局势。",
+    "news_start": "2023-01-15",
+    "news_end": "2023-04-14"
+  },
+  {
+    "case_id": "S006",
+    "countries_regions": "阿塞拜疆；卡拉巴赫亚美尼亚武装",
+    "target_situation": "阿塞拜疆、亚美尼亚和卡拉巴赫地区的政治、军事、安全、外交及双方关系。",
+    "news_start": "2023-06-19",
+    "news_end": "2023-09-18"
+  },
+  {
+    "case_id": "S007",
+    "countries_regions": "以色列；哈马斯／加沙",
+    "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+    "news_start": "2023-07-07",
+    "news_end": "2023-10-06"
+  },
+  {
+    "case_id": "S008",
+    "countries_regions": "缅甸军方；三兄弟联盟",
+    "target_situation": "缅甸军方、民族武装、三兄弟联盟及相关地区的政治、军事、安全和外交局势。",
+    "news_start": "2023-07-26",
+    "news_end": "2023-10-25"
+  },
+  {
+    "case_id": "S009",
+    "countries_regions": "也门胡塞武装；红海航运",
+    "target_situation": "也门、胡塞武装、红海和亚丁湾地区的政治、军事、航运安全及外交局势。",
+    "news_start": "2023-08-19",
+    "news_end": "2023-11-18"
+  },
+  {
+    "case_id": "S010",
+    "countries_regions": "美国；英国；也门胡塞武装",
+    "target_situation": "美国、英国、也门和胡塞武装及相关红海、中东地区的外交、军事、安全与政治局势。",
+    "news_start": "2023-10-11",
+    "news_end": "2024-01-10"
+  },
+  {
+    "case_id": "S011",
+    "countries_regions": "伊朗；巴基斯坦",
+    "target_situation": "伊朗—巴基斯坦关系、俾路支及边境地区的政治、军事、安全、外交和相关动向。",
+    "news_start": "2023-10-16",
+    "news_end": "2024-01-15"
+  },
+  {
+    "case_id": "S012",
+    "countries_regions": "伊朗；以色列",
+    "target_situation": "伊朗、以色列及相关中东地区的外交、军事、安全和政治局势。",
+    "news_start": "2024-01-13",
+    "news_end": "2024-04-12"
+  },
+  {
+    "case_id": "S013",
+    "countries_regions": "乌克兰；俄罗斯／库尔斯克",
+    "target_situation": "俄罗斯—乌克兰关系、库尔斯克及相关地区的外交、军事、安全和政治局势。",
+    "news_start": "2024-05-06",
+    "news_end": "2024-08-05"
+  },
+  {
+    "case_id": "S014",
+    "countries_regions": "以色列；黎巴嫩／真主党",
+    "target_situation": "以色列、黎巴嫩、真主党及相关中东地区的外交、军事、安全和政治局势。",
+    "news_start": "2024-06-23",
+    "news_end": "2024-09-22"
+  },
+  {
+    "case_id": "S015",
+    "countries_regions": "伊朗；以色列",
+    "target_situation": "伊朗、以色列及相关中东地区的外交、军事、安全和政治局势。",
+    "news_start": "2024-07-01",
+    "news_end": "2024-09-30"
+  },
+  {
+    "case_id": "S016",
+    "countries_regions": "叙利亚政府；反对派／HTS",
+    "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+    "news_start": "2024-08-27",
+    "news_end": "2024-11-26"
+  },
+  {
+    "case_id": "S017",
+    "countries_regions": "刚果（金）；M23／卢旺达",
+    "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+    "news_start": "2024-10-23",
+    "news_end": "2025-01-22"
+  },
+  {
+    "case_id": "S018",
+    "countries_regions": "美国；也门胡塞武装",
+    "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+    "news_start": "2024-12-15",
+    "news_end": "2025-03-14"
+  },
+  {
+    "case_id": "S019",
+    "countries_regions": "以色列；哈马斯／加沙",
+    "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+    "news_start": "2024-12-18",
+    "news_end": "2025-03-17"
+  },
+  {
+    "case_id": "S020",
+    "countries_regions": "印度；巴基斯坦",
+    "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+    "news_start": "2025-02-07",
+    "news_end": "2025-05-06"
+  },
+  {
+    "case_id": "S021",
+    "countries_regions": "以色列；伊朗",
+    "target_situation": "以色列、伊朗及相关中东地区的外交、军事、安全和政治局势。",
+    "news_start": "2025-03-13",
+    "news_end": "2025-06-12"
+  },
+  {
+    "case_id": "S022",
+    "countries_regions": "以色列；叙利亚",
+    "target_situation": "以色列、叙利亚、德鲁兹群体及相关中东地区的外交、军事、安全和政治局势。",
+    "news_start": "2025-04-16",
+    "news_end": "2025-07-15"
+  },
+  {
+    "case_id": "S023",
+    "countries_regions": "泰国；柬埔寨",
+    "target_situation": "泰国—柬埔寨关系、边境局势，以及双方相关的政治与安全动向。",
+    "news_start": "2025-04-24",
+    "news_end": "2025-07-23"
+  },
+  {
+    "case_id": "S024",
+    "countries_regions": "巴基斯坦；阿富汗塔利班",
+    "target_situation": "巴基斯坦、阿富汗、塔利班及相关边境地区的政治、军事、安全和外交局势。",
+    "news_start": "2025-07-09",
+    "news_end": "2025-10-08"
+  },
+  {
+    "case_id": "S025",
+    "countries_regions": "泰国；柬埔寨",
+    "target_situation": "泰国—柬埔寨关系、边境局势，以及双方相关的政治与安全动向。",
+    "news_start": "2025-09-07",
+    "news_end": "2025-12-06"
+  },
+  {
+    "case_id": "S026",
+    "countries_regions": "美国；委内瑞拉",
+    "target_situation": "美国、委内瑞拉及相关加勒比、拉美地区的政治、军事、安全、外交、制裁和双方关系。",
+    "news_start": "2025-10-03",
+    "news_end": "2026-01-02"
+  },
+  {
+    "case_id": "S027",
+    "countries_regions": "叙利亚政府；库尔德武装／SDF",
+    "target_situation": "叙利亚政府、库尔德武装、SDF及相关阿勒颇地区的政治、军事、安全和外交局势。",
+    "news_start": "2025-10-06",
+    "news_end": "2026-01-05"
+  },
+  {
+    "case_id": "S028",
+    "countries_regions": "巴基斯坦；阿富汗塔利班",
+    "target_situation": "巴基斯坦、阿富汗、塔利班及相关边境地区的政治、军事、安全和外交局势。",
+    "news_start": "2025-11-21",
+    "news_end": "2026-02-20"
+  },
+  {
+    "case_id": "S029",
+    "countries_regions": "美国；以色列；伊朗",
+    "target_situation": "美国、伊朗、以色列及相关中东地区的外交、军事、安全和政治局势，包括以黎、以巴局势和相关地区动向。",
+    "news_start": "2025-11-28",
+    "news_end": "2026-02-27"
+  },
+  {
+    "case_id": "S030",
+    "countries_regions": "以色列；黎巴嫩／真主党",
+    "target_situation": "以色列、黎巴嫩、真主党及相关中东地区的外交、军事、安全和政治局势。",
+    "news_start": "2025-12-02",
+    "news_end": "2026-03-01"
+  }
+]
