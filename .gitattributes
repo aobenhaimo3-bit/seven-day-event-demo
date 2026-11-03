@@ -4,3 +4,5 @@
 datasets/project3/news.jsonl -text
 datasets/project3/case_news.jsonl -text
 datasets/project3/cases.json -text
+research/annotations.jsonl -text
+research/case_aliases.json -text

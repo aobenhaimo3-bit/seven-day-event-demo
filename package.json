@@ -1,6 +1,6 @@
 {
   "name": "seven-day-event-demo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Local CAMEO news-event research demo with a seven-day reported-action proxy model",
   "type": "module",
@@ -9,6 +9,8 @@
     "start": "node server.mjs",
     "test": "node --test",
     "build-model": "node build-model.mjs",
+    "prepare": "node scripts/prepare-development.mjs && node scripts/prepare-input.mjs",
+    "predict-test": "node scripts/predict-batch.mjs",
     "prepare-input": "node scripts/prepare-input.mjs",
     "check": "node --check static/app.js"
   }
