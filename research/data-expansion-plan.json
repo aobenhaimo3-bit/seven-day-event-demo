@@ -1,0 +1,26 @@
+{
+  "version": "calendar-source-expansion-v2",
+  "revision_note": "Pre-delivery source QA: accept multilingual Global Voices author profiles for English articles and exclude explicit republishing/media-partnership statements missed by the initial parser. Reparse the same cached candidate pool; windows, seed, quotas and labels are unchanged. Preliminary v1/v1.1 drafts are preserved for audit and are not the delivered dataset.",
+  "created_on": "2026-11-04",
+  "seed": "seven-day-calendar-source-v1",
+  "language": "en",
+  "sources": ["Global Voices", "Voice of America"],
+  "target_per_source_window": 8,
+  "selection": "Round-robin across calendar months, within each month ascending SHA256(seed|window_id|publisher|canonical_url). No detector scores or event keywords used. Keep shortages visible.",
+  "label_policy": "All new records remain unassigned, pending and labels:null. A calendar-control sampling stratum is not a verified peaceful period or negative label.",
+  "scope_policy": "Country/region queries retrieve a broad candidate pool; case relevance remains unverified. Domestic, cultural and military stories are not removed based on event type.",
+  "reuse_policy": "Save English text only from openly licensed Global Voices stories or VOA original reporting. Exclude identified wire/partner republications and non-text media from usable full-text samples. Preserve links, authors, license, retrieval time and content hashes.",
+  "freeze_policy": "Do not modify the fixed 60 review articles, existing data splits or frozen model. New data need human review and story/case/time grouping before any future fit.",
+  "windows": [
+    {"id":"cross-S016","stratum":"same_window_cross_media","reference_case":"S016","topic":"叙利亚政府与反对派","start":"2024-08-27","end":"2024-11-26","terms":["Syria","Syrian"]},
+    {"id":"cross-S017","stratum":"same_window_cross_media","reference_case":"S017","topic":"刚果（金）、M23与卢旺达","start":"2024-10-23","end":"2025-01-22","terms":["Congo","Rwanda","M23"]},
+    {"id":"cross-S018","stratum":"same_window_cross_media","reference_case":"S018","topic":"美国、也门胡塞与红海","start":"2024-12-15","end":"2025-03-14","terms":["Yemen","Houthi","Red Sea"]},
+    {"id":"cross-S019","stratum":"same_window_cross_media","reference_case":"S019","topic":"以色列、哈马斯与加沙","start":"2024-12-18","end":"2025-03-17","terms":["Gaza","Israel","Palestine"]},
+    {"id":"cross-S020","stratum":"same_window_cross_media","reference_case":"S020","topic":"印度、巴基斯坦与克什米尔","start":"2025-02-07","end":"2025-05-06","terms":["India","Pakistan","Kashmir"]},
+    {"id":"calendar-S016","stratum":"general_calendar_control","reference_case":"S016","topic":"叙利亚政府与反对派","start":"2024-01-01","end":"2024-03-31","terms":["Syria","Syrian"]},
+    {"id":"calendar-S017","stratum":"general_calendar_control","reference_case":"S017","topic":"刚果（金）、M23与卢旺达","start":"2024-01-01","end":"2024-03-31","terms":["Congo","Rwanda","M23"]},
+    {"id":"calendar-S018","stratum":"general_calendar_control","reference_case":"S018","topic":"美国、也门胡塞与红海","start":"2024-01-01","end":"2024-03-31","terms":["Yemen","Houthi","Red Sea"]},
+    {"id":"calendar-S019","stratum":"general_calendar_control","reference_case":"S019","topic":"以色列、哈马斯与加沙","start":"2024-01-01","end":"2024-03-31","terms":["Gaza","Israel","Palestine"]},
+    {"id":"calendar-S020","stratum":"general_calendar_control","reference_case":"S020","topic":"印度、巴基斯坦与克什米尔","start":"2024-01-01","end":"2024-03-31","terms":["India","Pakistan","Kashmir"]}
+  ]
+}

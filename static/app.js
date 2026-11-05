@@ -203,7 +203,7 @@ function renderFutureDays(window) {
 }
 
 function renderHistorySummary(history) {
-  const defs = [["使用新闻", history.news_count, "条"], ["可用历史", history.available_days, "天"], ["有报道日期", history.active_days, "天"], ["排除未来新闻", history.excluded_future_count, "条"]];
+  const defs = [["去重相关新闻", history.news_count, "条"], ["可用历史", history.available_days, "天"], ["相关报道日期", history.active_days, "天"], ["最近相关报道距截止日", history.latest_relevant_news_age_days, "天"], ["排除重复新闻", history.excluded_duplicate_count, "条"], ["排除无关新闻", history.excluded_irrelevant_count, "条"], ["排除未来新闻", history.excluded_future_count, "条"]];
   $("history-summary").replaceChildren(...defs.map(([label, value, unit]) => { const div = el("div"); const dd = el("dd", "", number(value)); dd.append(el("small", "", unit)); div.append(el("dt", "", label), dd); return div; }));
 }
 
@@ -324,13 +324,13 @@ function renderModelFacts(model) {
   const metrics = modelValue(model, ["validation_metrics", "evaluation.validation", "validation.metrics", "validation"]) || {};
   const brier = metrics.brier ?? metrics.brier_score;
   const baseline = metrics.baseline_brier;
-  const defs = [["模型 Brier", brier], ["常数报道率基线 Brier", baseline], ["上一周延续基线 Brier", metrics.persistence_brier], ["模型 Log loss", metrics.log_loss ?? metrics.logloss]];
+  const defs = [["模型 Brier", brier], ["常数报道率基线 Brier", baseline], ["上一周延续基线 Brier", metrics.persistence_brier], ["模型 Log loss", metrics.log_loss ?? metrics.logloss], ["常数基线 Log loss", metrics.baseline_log_loss]];
   $("evaluation-metrics").replaceChildren(...defs.filter(([, value]) => numeric(value)).map(([label, value]) => { const span = el("span", "", label); span.append(el("strong", "", value.toFixed(6))); return span; }));
   const compared = numeric(brier) && numeric(baseline);
   const beats = compared && brier < baseline;
   $("benchmark-note").hidden = !compared;
   $("benchmark-note").textContent = compared ? `验证集：模型 Brier ${brier.toFixed(6)}，常数基线 ${baseline.toFixed(6)}（越低越好）。${beats ? "在新闻弱标签上低于该基线，仍未验证真实事件概率。" : "目前未优于常数基线，尚不能证明模型预测更好。"}` : "";
-  $("evaluation-note").textContent = `验证指标只针对新闻弱标签，不是真实事件准确率。Brier 越低越好。${compared && !beats ? "当前模型未优于常数报道率基线。" : ""}`;
+  $("evaluation-note").textContent = `验证指标只针对新闻弱标签，不是真实事件准确率。Brier 越低越好。${compared && !beats ? "当前模型未优于常数报道率基线。" : ""}${numeric(brier) && numeric(metrics.persistence_brier) && brier >= metrics.persistence_brier ? "当前模型未优于上一周延续基线。" : ""}`;
 }
 
 function downloadJson(value, filename) {

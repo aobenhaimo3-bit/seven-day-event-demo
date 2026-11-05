@@ -6,3 +6,7 @@ datasets/project3/case_news.jsonl -text
 datasets/project3/cases.json -text
 research/annotations.jsonl -text
 research/case_aliases.json -text
+research/baselines/scoped-assertion-v4-engine.mjs -text
+research/baselines/event-context-coverage-v5/* -text
+research/baselines/full-text-multisignal-v6/* -text
+research/baselines/scoped-event-recall-v7/* -text

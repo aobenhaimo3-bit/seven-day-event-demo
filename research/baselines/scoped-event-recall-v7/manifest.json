@@ -1,0 +1,43 @@
+{
+  "version": "scoped-event-recall-v7",
+  "files": {
+    "engine.mjs": "95593064f4225143d7d0217dbd41e463b7f3db7519dec88b633d52851c2db292",
+    "assertions.mjs": "9ab2159587c95a59022e6680616189c576ce6f19e18cd5125d30bfb6874df2a7",
+    "temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+    "event-relations.mjs": "c9e4e67b1377d5ab644da11cf20e20838f04cf029930a8a447d22e752c817cc9",
+    "action-vocabulary.mjs": "08a0b835671e662d5501694c4ebba6853b2ace9745252a0c22bb90c7bf9a0cf0",
+    "communication.mjs": "abdd7f3327c1ded0c2cb22afaac6f18651ea165f322d5b3547f64800e5cb75fc",
+    "scope.mjs": "5523f0926e9c15dc6f37120dd74f572ff47225005df3119cd0716a8debb493b3",
+    "model.json": "a797b0a63800d00a1d2719ca3ea891eff3e662d7657a6b8578b3375cbc762b33",
+    "model-report.json": "275cafefa95bc631fb686ba2cbb21a8d1684d7b4809002abceb89e3dedcf61f5",
+    "recognition.json": "532e49f9309a173a8d629358b92c438202d0207ebb2dd0c657fdd3814694d5fd",
+    "recognition-summary.json": "6ef355680ef5acba95a6a6df272d1549957fe7442a2297d9c386f046d7be2ea5"
+  },
+  "rule_source_sha256": {
+    "lib/engine.mjs": "95593064f4225143d7d0217dbd41e463b7f3db7519dec88b633d52851c2db292",
+    "lib/assertions.mjs": "9ab2159587c95a59022e6680616189c576ce6f19e18cd5125d30bfb6874df2a7",
+    "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+    "lib/event-relations.mjs": "c9e4e67b1377d5ab644da11cf20e20838f04cf029930a8a447d22e752c817cc9",
+    "lib/action-vocabulary.mjs": "08a0b835671e662d5501694c4ebba6853b2ace9745252a0c22bb90c7bf9a0cf0",
+    "lib/communication.mjs": "abdd7f3327c1ded0c2cb22afaac6f18651ea165f322d5b3547f64800e5cb75fc",
+    "lib/scope.mjs": "5523f0926e9c15dc6f37120dd74f572ff47225005df3119cd0716a8debb493b3"
+  },
+  "data_provenance": {
+    "train": {
+      "path": "local-data/train_pairs.jsonl",
+      "sha256": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601"
+    },
+    "validation": {
+      "path": "local-data/validation_pairs.jsonl",
+      "sha256": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+    },
+    "pilot": {
+      "path": "local-data/annotations.jsonl",
+      "sha256": "50a9e4cd83c81c3977a4a301fafc4a6c3be009f66dfd07e9c1742bbea5a994a0"
+    },
+    "aliases": {
+      "path": "local-data/case_aliases.json",
+      "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {parseCachedPage,matchWindows,LICENSE} from '../scripts/collect-open-news-supplement.mjs';
+const paragraph='The communities in Congo describe their work and their daily lives in the region. '.repeat(8);
+const page=lines=>lines.map((s,i)=>`L${i}: ${s}`).join('\n');
+const fixture=['# A Congo report','By 【2†Reporter Name】','January 22, 2025','15','0','【3†Image】','Credit: photographer',paragraph,'Previous Article','Unrelated casino footer'];
+test('extracts complete credited prose without images, views, caption or promotional footer',()=>{const r=parseCachedPage([page(fixture)]);assert.equal(r.reason,null);assert.equal(r.text,paragraph.trim());assert.deepEqual(r.authors,['Reporter Name']);assert.equal(r.published_date,'2025-01-22');assert.equal(LICENSE,'CC BY-NC-SA 4.0');});
+test('rejects missing article tail and gaps rather than storing an excerpt as full text',()=>{assert.equal(parseCachedPage([page(fixture.slice(0,8))]).reason,'full_article_end_missing');assert.equal(parseCachedPage([page(fixture).split('\n').filter(l=>!l.startsWith('L7:')).join('\n')]).reason,'incomplete_page_lines');});
+test('preserves third-party republication evidence but excludes it from usable original corpus',()=>{const r=parseCachedPage([page(fixture.map(s=>s===paragraph?'This story was originally published by Another Publisher. '+paragraph:s))]);assert.equal(r.reason,'third_party_republication_notice');});
+test('fixed date windows and neutral words establish only candidate matching',()=>{const w=[{id:'cross',start:'2024-10-23',end:'2025-01-22',terms:['Congo']}];assert.equal(matchWindows({published_date:'2025-01-22',title:'Congo education',text:''},w).length,1);assert.equal(matchWindows({published_date:'2025-01-23',title:'Congo education',text:''},w).length,0);assert.equal(matchWindows({published_date:'2025-01-22',title:'Congolese education',text:''},w).length,0);});

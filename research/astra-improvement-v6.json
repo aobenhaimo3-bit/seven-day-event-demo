@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "kind": "development_improvement_against_model_silver_labels",
+  "independent_holdout": false,
+  "human_gold_available": false,
+  "cohort_sha256": "e522ece272c506692f46f4ae491fccd21aa70625b7113850e4097cb3356678b2",
+  "annotation_sha256": "3d34df5f764b4b108294c38aeb9ebb3404ad6c2dfa10c58457edf5f70892e012",
+  "coverage": {
+    "selected": 220,
+    "scored": 179,
+    "excluded": {
+      "model_review_queue": 37,
+      "prior_quarantine": 4,
+      "overlap": 0,
+      "total": 41
+    }
+  },
+  "before_model": {
+    "rule_version": "event-context-coverage-v5",
+    "model_sha256": "f69aa1bbe8652a107cc3bbdb5b899b4664663a9758697f81140bfdf870e7b941",
+    "rule_source_sha256": {
+      "lib/engine.mjs": "079f2326864ea62d9842ade82418c1c737167db675d266b72860d58122c41e7a",
+      "lib/assertions.mjs": "8c2a3d43b62d6250c727e425c77d613728292f6787482fba62bf5ca45f110d18",
+      "lib/temporal.mjs": "30d837e8ee893e805247edb6217e7932d291a55f65a6a8d17d7545dd135247bf",
+      "lib/event-relations.mjs": "022156c7668dcd9262b249742d5461280c55e96a2a759bfcbf6ee8cea415aac5"
+    },
+    "detector_trained_through": "2024-09-25"
+  },
+  "after_model": {
+    "rule_version": "full-text-multisignal-v6",
+    "model_sha256": "bae2c85344d4b5a09740e3f6fa017ea9eb9d07328339840d9a1089bc43d7f106",
+    "rule_source_sha256": {
+      "lib/engine.mjs": "e1c4c2b2fbd5c9ac36d02895cc0d52a9be08f7bf0ba2b4c3d25ea1ebff50fe17",
+      "lib/assertions.mjs": "ac37462d9663d2170173f895e37dd6a321a6a807c2075a42f53d143152ca56a0",
+      "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+      "lib/event-relations.mjs": "d9acf6e1f07892c60bef7e3c9464e2f667c28fa0e59e4d8840826b440e53129d"
+    },
+    "detector_trained_through": "2024-09-25"
+  },
+  "recognition": {
+    "before": {
+      "count": 179,
+      "exact_match_count": 85,
+      "exact_match_agreement": 0.4748603351955307,
+      "metrics": {
+        "relevance": {
+          "tp": 71,
+          "tn": 63,
+          "fp": 20,
+          "fn": 25,
+          "support": 179,
+          "positive_labels": 96,
+          "negative_labels": 83,
+          "precision": 0.7802197802197802,
+          "recall": 0.7395833333333334,
+          "f1": 0.7593582887700535,
+          "agreement": 0.7486033519553073
+        },
+        "action": {
+          "tp": 21,
+          "tn": 118,
+          "fp": 8,
+          "fn": 32,
+          "support": 179,
+          "positive_labels": 53,
+          "negative_labels": 126,
+          "precision": 0.7241379310344828,
+          "recall": 0.39622641509433965,
+          "f1": 0.5121951219512195,
+          "agreement": 0.776536312849162
+        },
+        "threat": {
+          "tp": 2,
+          "tn": 156,
+          "fp": 1,
+          "fn": 20,
+          "support": 179,
+          "positive_labels": 22,
+          "negative_labels": 157,
+          "precision": 0.6666666666666666,
+          "recall": 0.09090909090909091,
+          "f1": 0.16,
+          "agreement": 0.88268156424581
+        },
+        "posture": {
+          "tp": 1,
+          "tn": 176,
+          "fp": 0,
+          "fn": 2,
+          "support": 179,
+          "positive_labels": 3,
+          "negative_labels": 176,
+          "precision": 1,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "agreement": 0.9888268156424581
+        },
+        "cooperation": {
+          "tp": 2,
+          "tn": 153,
+          "fp": 3,
+          "fn": 21,
+          "support": 179,
+          "positive_labels": 23,
+          "negative_labels": 156,
+          "precision": 0.4,
+          "recall": 0.08695652173913043,
+          "f1": 0.14285714285714285,
+          "agreement": 0.8659217877094972
+        }
+      }
+    },
+    "after": {
+      "count": 179,
+      "exact_match_count": 94,
+      "exact_match_agreement": 0.5251396648044693,
+      "metrics": {
+        "relevance": {
+          "tp": 78,
+          "tn": 67,
+          "fp": 16,
+          "fn": 18,
+          "support": 179,
+          "positive_labels": 96,
+          "negative_labels": 83,
+          "precision": 0.8297872340425532,
+          "recall": 0.8125,
+          "f1": 0.8210526315789474,
+          "agreement": 0.8100558659217877
+        },
+        "action": {
+          "tp": 22,
+          "tn": 120,
+          "fp": 6,
+          "fn": 31,
+          "support": 179,
+          "positive_labels": 53,
+          "negative_labels": 126,
+          "precision": 0.7857142857142857,
+          "recall": 0.41509433962264153,
+          "f1": 0.5432098765432098,
+          "agreement": 0.7932960893854749
+        },
+        "threat": {
+          "tp": 3,
+          "tn": 157,
+          "fp": 0,
+          "fn": 19,
+          "support": 179,
+          "positive_labels": 22,
+          "negative_labels": 157,
+          "precision": 1,
+          "recall": 0.13636363636363635,
+          "f1": 0.24,
+          "agreement": 0.8938547486033519
+        },
+        "posture": {
+          "tp": 1,
+          "tn": 176,
+          "fp": 0,
+          "fn": 2,
+          "support": 179,
+          "positive_labels": 3,
+          "negative_labels": 176,
+          "precision": 1,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "agreement": 0.9888268156424581
+        },
+        "cooperation": {
+          "tp": 3,
+          "tn": 156,
+          "fp": 0,
+          "fn": 20,
+          "support": 179,
+          "positive_labels": 23,
+          "negative_labels": 156,
+          "precision": 1,
+          "recall": 0.13043478260869565,
+          "f1": 0.23076923076923078,
+          "agreement": 0.888268156424581
+        }
+      }
+    },
+    "transitions": {
+      "fully_resolved": 14,
+      "newly_mismatched": 5,
+      "resolved_field_errors": 26,
+      "new_field_errors": 6
+    }
+  },
+  "forecast_comparison": {
+    "schema_version": 1,
+    "baseline_version": "event-context-coverage-v5",
+    "current_version": "full-text-multisignal-v6",
+    "baseline_manifest_sha256": "48df54dbdc14dc8bac9355bd06bc5c9a0d7379d35293b948eab26cdcd1a288dc",
+    "baseline_files_sha256": {
+      "engine.mjs": "079f2326864ea62d9842ade82418c1c737167db675d266b72860d58122c41e7a",
+      "assertions.mjs": "8c2a3d43b62d6250c727e425c77d613728292f6787482fba62bf5ca45f110d18",
+      "temporal.mjs": "30d837e8ee893e805247edb6217e7932d291a55f65a6a8d17d7545dd135247bf",
+      "event-relations.mjs": "022156c7668dcd9262b249742d5461280c55e96a2a759bfcbf6ee8cea415aac5",
+      "model.json": "f69aa1bbe8652a107cc3bbdb5b899b4664663a9758697f81140bfdf870e7b941",
+      "model-report.json": "8fbca037b34bd462005ac6c039d4facd7adb8d97cc46e2de64abaf20f07cdff9"
+    },
+    "current_source_sha256": {
+      "lib/engine.mjs": "e1c4c2b2fbd5c9ac36d02895cc0d52a9be08f7bf0ba2b4c3d25ea1ebff50fe17",
+      "lib/assertions.mjs": "ac37462d9663d2170173f895e37dd6a321a6a807c2075a42f53d143152ca56a0",
+      "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+      "lib/event-relations.mjs": "d9acf6e1f07892c60bef7e3c9464e2f667c28fa0e59e4d8840826b440e53129d"
+    },
+    "data_provenance": {
+      "train": {
+        "path": "local-data/train_pairs.jsonl",
+        "sha256": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601"
+      },
+      "validation": {
+        "path": "local-data/validation_pairs.jsonl",
+        "sha256": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+      },
+      "pilot": {
+        "path": "local-data/annotations.jsonl",
+        "sha256": "50a9e4cd83c81c3977a4a301fafc4a6c3be009f66dfd07e9c1742bbea5a994a0"
+      },
+      "aliases": {
+        "path": "local-data/case_aliases.json",
+        "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
+      }
+    },
+    "evaluation_contract": {
+      "evaluation_kind": "development_forecast_weak_report_proxy_comparison",
+      "independent_holdout": false,
+      "independent_gold_available": false,
+      "split_unchanged": true,
+      "fit_on_training_only": true,
+      "normalization_fit_on_training_only": true,
+      "test_input_used": false,
+      "test_gold_used": false,
+      "silver_annotations_added_to_training": false,
+      "hyperparameters": "Each version retains its own validation-selected lambda from the original grid. Validation has been used for development and tuning.",
+      "target": "At least one automatically detected military-action report in the next seven days of sufficiently covered supplied news, not independently verified real-world action.",
+      "recognition_distinction": "Astra labels evaluate article-level extraction separately. They are not forecast targets and do not establish future-event accuracy.",
+      "comparison_limit": "Native windows and detector-derived targets can change. Use common-window matrices with both old and new fixed labels, and inspect additions, removals and changed labels.",
+      "dependence_limit": "Overlapping historical windows, shared articles and case/media dependence prevent interpreting these small samples as independent trials; no statistical significance or calibrated real-event probability is claimed."
+    },
+    "native": {
+      "before": {
+        "rule_version": "event-context-coverage-v5",
+        "train_windows": 70,
+        "validation_cases": 3,
+        "lambda": 50,
+        "metrics": {
+          "sample_count": 14,
+          "positives": 12,
+          "negatives": 2,
+          "brier": 0.073717,
+          "log_loss": 0.26599,
+          "accuracy": 1,
+          "confusion": {
+            "tp": 12,
+            "tn": 2,
+            "fp": 0,
+            "fn": 0
+          },
+          "baseline_brier": 0.12387,
+          "baseline_log_loss": 0.415213,
+          "baseline_accuracy": 0.857143,
+          "persistence_brier": 0.071429,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      },
+      "after": {
+        "rule_version": "full-text-multisignal-v6",
+        "train_windows": 72,
+        "validation_cases": 3,
+        "lambda": 50,
+        "metrics": {
+          "sample_count": 15,
+          "positives": 11,
+          "negatives": 4,
+          "brier": 0.094256,
+          "log_loss": 0.310361,
+          "accuracy": 0.866667,
+          "confusion": {
+            "tp": 10,
+            "tn": 3,
+            "fp": 1,
+            "fn": 1
+          },
+          "baseline_brier": 0.203835,
+          "baseline_log_loss": 0.605438,
+          "baseline_accuracy": 0.733333,
+          "persistence_brier": 0.133333,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      }
+    },
+    "common_windows": {
+      "count": 14,
+      "changed_labels": 1,
+      "evaluated_on_old_labels": {
+        "before": {
+          "sample_count": 14,
+          "positives": 12,
+          "negatives": 2,
+          "brier": 0.073717,
+          "log_loss": 0.26599,
+          "accuracy": 1,
+          "confusion": {
+            "tp": 12,
+            "tn": 2,
+            "fp": 0,
+            "fn": 0
+          },
+          "baseline_brier": 0.12387,
+          "baseline_log_loss": 0.415213,
+          "baseline_accuracy": 0.857143,
+          "persistence_brier": 0.071429,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        },
+        "after": {
+          "sample_count": 14,
+          "positives": 12,
+          "negatives": 2,
+          "brier": 0.054847,
+          "log_loss": 0.219555,
+          "accuracy": 0.928571,
+          "confusion": {
+            "tp": 11,
+            "tn": 2,
+            "fp": 0,
+            "fn": 1
+          },
+          "baseline_brier": 0.123526,
+          "baseline_log_loss": 0.414038,
+          "baseline_accuracy": 0.857143,
+          "persistence_brier": 0.071429,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      },
+      "evaluated_on_new_labels": {
+        "before": {
+          "sample_count": 14,
+          "positives": 11,
+          "negatives": 3,
+          "brier": 0.091544,
+          "log_loss": 0.302413,
+          "accuracy": 0.928571,
+          "confusion": {
+            "tp": 11,
+            "tn": 2,
+            "fp": 1,
+            "fn": 0
+          },
+          "baseline_brier": 0.169505,
+          "baseline_log_loss": 0.523255,
+          "baseline_accuracy": 0.785714,
+          "persistence_brier": 0.142857,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        },
+        "after": {
+          "sample_count": 14,
+          "positives": 11,
+          "negatives": 3,
+          "brier": 0.090773,
+          "log_loss": 0.298595,
+          "accuracy": 0.857143,
+          "confusion": {
+            "tp": 10,
+            "tn": 2,
+            "fp": 1,
+            "fn": 1
+          },
+          "baseline_brier": 0.169858,
+          "baseline_log_loss": 0.524461,
+          "baseline_accuracy": 0.785714,
+          "persistence_brier": 0.142857,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      },
+      "note": "Both model comparisons use the same anchors and target labels within each matrix. Constant and persistence baselines are version-specific: own training rate and own detected historical action. Neither label definition is independent truth."
+    },
+    "changed_validation_labels": [
+      {
+        "key": "S018/2025-01-18",
+        "old_label": 1,
+        "new_label": 0
+      }
+    ],
+    "dropped_validation_windows": [],
+    "added_validation_windows": [
+      {
+        "key": "S020/2025-03-20",
+        "new_label": 0
+      }
+    ],
+    "validation_predictions": [
+      {
+        "key": "S018/2025-01-18",
+        "before": {
+          "label": 1,
+          "probability": 0.6247876581262467,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 0,
+          "probability": 0.751487381925866,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-01-14",
+        "before": {
+          "label": 1,
+          "probability": 0.9238361619025183,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9349711273339287,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-01-21",
+        "before": {
+          "label": 1,
+          "probability": 0.9337105191427396,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9395021919269766,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-01-28",
+        "before": {
+          "label": 1,
+          "probability": 0.9275139302219465,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9319317479562316,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-02-04",
+        "before": {
+          "label": 1,
+          "probability": 0.9307772770975492,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9348982752648974,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-02-11",
+        "before": {
+          "label": 1,
+          "probability": 0.9275898812524348,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9331239673908941,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-02-18",
+        "before": {
+          "label": 1,
+          "probability": 0.9162806009219596,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9203773270621673,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-02-25",
+        "before": {
+          "label": 1,
+          "probability": 0.9297285350656724,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9357844144746474,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S019/2025-03-04",
+        "before": {
+          "label": 1,
+          "probability": 0.9175237527693703,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9196939713586175,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S020/2025-03-06",
+        "before": {
+          "label": 0,
+          "probability": 0.3943571776588444,
+          "persistence": 0,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 0,
+          "probability": 0.2616635099107353,
+          "persistence": 0,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S020/2025-03-13",
+        "before": {
+          "label": 0,
+          "probability": 0.42256716861309407,
+          "persistence": 0,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 0,
+          "probability": 0.3242114767388207,
+          "persistence": 0,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S020/2025-03-20",
+        "before": null,
+        "after": {
+          "label": 0,
+          "probability": 0.37817181678076284,
+          "persistence": 0,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S020/2025-04-10",
+        "before": {
+          "label": 1,
+          "probability": 0.5231811801576741,
+          "persistence": 0,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.4804589818275571,
+          "persistence": 0,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S020/2025-04-17",
+        "before": {
+          "label": 1,
+          "probability": 0.5523937740693695,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.5772656037583325,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      },
+      {
+        "key": "S020/2025-04-24",
+        "before": {
+          "label": 1,
+          "probability": 0.7080522141101854,
+          "persistence": 1,
+          "constant_probability": 0.8194444444444444
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.7861278600144771,
+          "persistence": 1,
+          "constant_probability": 0.8243243243243243
+        }
+      }
+    ]
+  },
+  "remaining_issues": [
+    "S016/S018 alias gates are narrower than the regional scope accepted by the model annotator; a documented scope policy is still needed.",
+    "Topic relevance boundaries, attribution, implicit threats and cross-sentence references still require review.",
+    "Model silver labels and the reused development cohort are not an independent human test; low-support classes remain unstable.",
+    "Source independence, missing historical snapshots and original publisher quotas remain unresolved data limitations."
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "comparison_date": "2026-11-04",
+  "baseline_commit": "f5c28ce22f6465ca1764c4762486b0a010cdd4d5",
+  "baseline_engine_sha256": "8453e8b492d87c9612b0c15bd5f2b67ed236616541a80627b4fbdb1902eda4ae",
+  "current_engine_sha256": "7d36d35025ea125bf115c600ae7b2a15556bcaeb908b8439d9eb14c4109dd0c5",
+  "data_provenance": {
+    "train": {
+      "path": "local-data/train_pairs.jsonl",
+      "sha256": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601"
+    },
+    "validation": {
+      "path": "local-data/validation_pairs.jsonl",
+      "sha256": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+    },
+    "pilot": {
+      "path": "local-data/annotations.jsonl",
+      "sha256": "50a9e4cd83c81c3977a4a301fafc4a6c3be009f66dfd07e9c1742bbea5a994a0"
+    },
+    "aliases": {
+      "path": "local-data/case_aliases.json",
+      "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
+    }
+  },
+  "evaluation_contract": {
+    "split_unchanged": true,
+    "fit_on_training_only": true,
+    "test_input_used": false,
+    "independent_gold_available": false,
+    "hyperparameters": "Each version uses its own validation-selected lambda from the unchanged grid [0.1,1,10,50]. This is development validation, not an untouched test.",
+    "comparison_limit": "Extraction and eligibility changed together. Native metrics have different samples and targets. Common-window matrices hold both windows and labels fixed, in both label definitions; neither label definition is independent gold.",
+    "scope_limit": "Conservative lexical scope gates do not implement full actor-relation extraction. False negatives and residual false positives remain possible."
+  },
+  "native": {
+    "before": {
+      "rule_version": "conservative-assertion-v3",
+      "train_windows": 105,
+      "validation_cases": 4,
+      "lambda": 50,
+      "metrics": {
+        "sample_count": 22,
+        "positives": 20,
+        "negatives": 2,
+        "brier": 0.101094,
+        "log_loss": 0.337399,
+        "accuracy": 0.909091,
+        "confusion": {
+          "tp": 19,
+          "tn": 1,
+          "fp": 1,
+          "fn": 1
+        },
+        "baseline_brier": 0.100438,
+        "baseline_log_loss": 0.366787,
+        "baseline_accuracy": 0.909091,
+        "persistence_brier": 0.227273,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    },
+    "after": {
+      "rule_version": "scoped-assertion-v4",
+      "train_windows": 70,
+      "validation_cases": 3,
+      "lambda": 50,
+      "metrics": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.095961,
+        "log_loss": 0.318185,
+        "accuracy": 0.928571,
+        "confusion": {
+          "tp": 11,
+          "tn": 2,
+          "fp": 0,
+          "fn": 1
+        },
+        "baseline_brier": 0.12511,
+        "baseline_log_loss": 0.419278,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    }
+  },
+  "common_windows": {
+    "count": 14,
+    "changed_labels": 2,
+    "evaluated_on_old_labels": {
+      "before": {
+        "sample_count": 14,
+        "positives": 14,
+        "negatives": 0,
+        "brier": 0.034152,
+        "log_loss": 0.172194,
+        "accuracy": 1,
+        "confusion": {
+          "tp": 14,
+          "tn": 0,
+          "fp": 0,
+          "fn": 0
+        },
+        "baseline_brier": 0.05031,
+        "baseline_log_loss": 0.253988,
+        "baseline_accuracy": 1,
+        "persistence_brier": 0.142857,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      },
+      "after": {
+        "sample_count": 14,
+        "positives": 14,
+        "negatives": 0,
+        "brier": 0.123201,
+        "log_loss": 0.373377,
+        "accuracy": 0.785714,
+        "confusion": {
+          "tp": 11,
+          "tn": 0,
+          "fp": 0,
+          "fn": 3
+        },
+        "baseline_brier": 0.037809,
+        "baseline_log_loss": 0.216223,
+        "baseline_accuracy": 1,
+        "persistence_brier": 0.214286,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    },
+    "evaluated_on_new_labels": {
+      "before": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.092922,
+        "log_loss": 0.297135,
+        "accuracy": 0.857143,
+        "confusion": {
+          "tp": 12,
+          "tn": 0,
+          "fp": 2,
+          "fn": 0
+        },
+        "baseline_brier": 0.129082,
+        "baseline_log_loss": 0.431243,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.142857,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      },
+      "after": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.095961,
+        "log_loss": 0.318185,
+        "accuracy": 0.928571,
+        "confusion": {
+          "tp": 11,
+          "tn": 2,
+          "fp": 0,
+          "fn": 1
+        },
+        "baseline_brier": 0.12511,
+        "baseline_log_loss": 0.419278,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    },
+    "note": "Persistence uses each version’s own historical action detector; constant baselines use each version’s training rate."
+  },
+  "dropped_validation_windows": [
+    {
+      "key": "S016/2024-10-14",
+      "old_label": 1
+    },
+    {
+      "key": "S016/2024-11-11",
+      "old_label": 1
+    },
+    {
+      "key": "S018/2025-02-01",
+      "old_label": 0
+    },
+    {
+      "key": "S018/2025-02-08",
+      "old_label": 1
+    },
+    {
+      "key": "S018/2025-03-01",
+      "old_label": 1
+    },
+    {
+      "key": "S020/2025-03-20",
+      "old_label": 1
+    },
+    {
+      "key": "S020/2025-03-27",
+      "old_label": 1
+    },
+    {
+      "key": "S020/2025-04-03",
+      "old_label": 0
+    }
+  ],
+  "added_validation_windows": [],
+  "validation_predictions": [
+    {
+      "key": "S016/2024-10-14",
+      "before": {
+        "label": 1,
+        "probability": 0.5982154127888513,
+        "persistence": 1
+      },
+      "after": null
+    },
+    {
+      "key": "S016/2024-11-11",
+      "before": {
+        "label": 1,
+        "probability": 0.5506155913876761,
+        "persistence": 1
+      },
+      "after": null
+    },
+    {
+      "key": "S018/2025-01-18",
+      "before": {
+        "label": 1,
+        "probability": 0.7086767984074572,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.6205442511024751,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S018/2025-02-01",
+      "before": {
+        "label": 0,
+        "probability": 0.491563465794782,
+        "persistence": 0
+      },
+      "after": null
+    },
+    {
+      "key": "S018/2025-02-08",
+      "before": {
+        "label": 1,
+        "probability": 0.5724459181838035,
+        "persistence": 0
+      },
+      "after": null
+    },
+    {
+      "key": "S018/2025-03-01",
+      "before": {
+        "label": 1,
+        "probability": 0.43770075753026305,
+        "persistence": 0
+      },
+      "after": null
+    },
+    {
+      "key": "S019/2025-01-14",
+      "before": {
+        "label": 1,
+        "probability": 0.9422883776730304,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9181010048827852,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-01-21",
+      "before": {
+        "label": 1,
+        "probability": 0.9416267827280833,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9201850164226644,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-01-28",
+      "before": {
+        "label": 1,
+        "probability": 0.9355080992466458,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9145376461185041,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-04",
+      "before": {
+        "label": 1,
+        "probability": 0.9376027015550407,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9178206172767286,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-11",
+      "before": {
+        "label": 1,
+        "probability": 0.9317220476521918,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9090388492767603,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-18",
+      "before": {
+        "label": 1,
+        "probability": 0.9359616056619833,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9061184805632981,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-25",
+      "before": {
+        "label": 1,
+        "probability": 0.9367575950927916,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9108756934591096,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-03-04",
+      "before": {
+        "label": 1,
+        "probability": 0.9279345570323733,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9121486632812214,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S020/2025-03-06",
+      "before": {
+        "label": 1,
+        "probability": 0.7069348837953626,
+        "persistence": 0
+      },
+      "after": {
+        "label": 0,
+        "probability": 0.3921544952483327,
+        "persistence": 0
+      }
+    },
+    {
+      "key": "S020/2025-03-13",
+      "before": {
+        "label": 1,
+        "probability": 0.7044590626495106,
+        "persistence": 1
+      },
+      "after": {
+        "label": 0,
+        "probability": 0.4171646396117828,
+        "persistence": 0
+      }
+    },
+    {
+      "key": "S020/2025-03-20",
+      "before": {
+        "label": 1,
+        "probability": 0.7822812878902184,
+        "persistence": 1
+      },
+      "after": null
+    },
+    {
+      "key": "S020/2025-03-27",
+      "before": {
+        "label": 1,
+        "probability": 0.7367689553609472,
+        "persistence": 1
+      },
+      "after": null
+    },
+    {
+      "key": "S020/2025-04-03",
+      "before": {
+        "label": 0,
+        "probability": 0.724738958396186,
+        "persistence": 1
+      },
+      "after": null
+    },
+    {
+      "key": "S020/2025-04-10",
+      "before": {
+        "label": 1,
+        "probability": 0.6971509389439421,
+        "persistence": 0
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.3063213481413456,
+        "persistence": 0
+      }
+    },
+    {
+      "key": "S020/2025-04-17",
+      "before": {
+        "label": 1,
+        "probability": 0.7342140817157619,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.5172926882705732,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S020/2025-04-24",
+      "before": {
+        "label": 1,
+        "probability": 0.842146714068913,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.6876250796334155,
+        "persistence": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "review_kind": "assistant_source_and_scope_screening_not_human_gold",
+  "reviewed_on": "2026-11-04",
+  "input_version": "calendar-source-expansion-v2",
+  "input_sha256": "4a5789f2034b58be03e0615defedf970df7d261a1d9d024861e2d60ba08f7109",
+  "policy": "Preserve frozen source records. These findings are a separate priority review/quarantine queue, never event or negative labels. Do not count these rows as verified case coverage.",
+  "findings": [
+    {"pair_id":"EXP-calendar-S017::GV-807444","code":"geographic_term_false_match","suggested_disposition":"quarantine_from_case_coverage","detail":"全文关于多哥语言，Congo 只出现在 Niger-Congo 语系名称中；不构成刚果（金）/M23/卢旺达主题报道。","evidence":"which belong to the large Niger-Congo language family","url":"https://globalvoices.org/2024/02/22/which-local-language-is-most-widely-spoken-in-togo/"},
+    {"pair_id":"EXP-cross-S017::GV-823830","code":"incidental_country_mention","suggested_disposition":"quarantine_from_case_coverage","detail":"主要报道尼日利亚与利比亚足球争议，卢旺达仅出现在小组积分对比；不是以刚果或卢旺达为主要对象的新闻。","evidence":"while Rwanda has five points","url":"https://globalvoices.org/2024/11/14/hostile-hosts-in-african-football-the-nigeria-versus-libya-scandal/"},
+    {"pair_id":"EXP-cross-S017::GV-825796","code":"historical_analogy_not_case_focus","suggested_disposition":"quarantine_from_case_coverage","detail":"报道科特迪瓦 2010–2011 年危机纪录片，卢旺达仅是人物经历的类比；新闻发表日不能把被类比的历史内容变为当前案例报道。","evidence":"whether in Kigali, Rwanda, or the Bakassi Peninsula between Cameroon and Nigeria","url":"https://globalvoices.org/2025/01/03/cameroonian-journalist-revisits-the-2010-2011-ivorian-political-crisis-in-a-documentary/"},
+    {"pair_id":"EXP-calendar-S018::GV-806852","code":"co_publication_and_original_date_unresolved","suggested_disposition":"quarantine_pending_origin_and_scope_review","detail":"主体是苏丹断网声明；正文明确与 Access Now 共同发表，且宣称原发于 2023-02-09。现有来源字段只写 Global Voices、页面日期为 2024-02-14，不足以证明独立来源或原发时间；原文日期也可能为笔误，不能擅自更正。","evidence":"Originally co-published by Access Now on February 9, 2023","url":"https://globalvoices.org/2024/02/14/keepiton-in-times-of-war-sudans-communications-shutdown-must-be-reversed-urgently/"}
+  ]
+}

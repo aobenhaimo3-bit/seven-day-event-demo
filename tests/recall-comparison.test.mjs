@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {verifyV6Snapshot,BASELINE} from '../scripts/compare-validation-v7.mjs';
+import {compareRecognition} from '../scripts/report-recall-v7.mjs';
+const names=['engine.mjs','assertions.mjs','temporal.mjs','event-relations.mjs','model.json','model-report.json','recognition.json','recognition-summary.json'];
+test('v7 comparison protects all eight frozen v6 files including recognition labels',()=>{const files=Object.fromEntries(names.map(n=>[n,createHash('sha256').update(n).digest('hex')]));verifyV6Snapshot({version:BASELINE,files},n=>n);for(const file of names)assert.throws(()=>verifyV6Snapshot({version:BASELINE,files},n=>n===file?'changed':n),/changed/);assert.throws(()=>verifyV6Snapshot({version:BASELINE,files:{...files,extra:'hash'}},n=>n),/manifest/);});
+const labels={relevance:true,action:true,threat:false,posture:false,cooperation:false};
+const before=()=>({cohort_sha256:'cohort',annotation_sha256:'labels',predictions:[{pair_id:'x',case_id:'C',publisher:'P',dataset:'D',source_sha256:'source',labels:{...labels},prediction:{...labels,action:false}},{pair_id:'y',case_id:'C',publisher:'P',dataset:'D',source_sha256:'source2',labels:{...labels},prediction:{...labels}}]});
+test('recall comparison retains resolved and newly introduced field errors separately',()=>{const a=before(),b=structuredClone(a);b.predictions[0].prediction.action=true;b.predictions[1].prediction.threat=true;const r=compareRecognition(a,b);assert.equal(r.before.metrics.action.fn,1);assert.equal(r.after.metrics.action.fn,0);assert.equal(r.after.metrics.threat.fp,1);assert.equal(r.changes.fully_resolved,1);assert.equal(r.changes.newly_mismatched,1);assert.equal(r.changes.resolved_field_errors,1);assert.equal(r.changes.new_field_errors,1);assert.equal(r.by_publisher.P.after.count,2);});
+test('recall comparison rejects changed cohort IDs labels or original text hashes',()=>{for(const mutate of [r=>r.cohort_sha256='other',r=>r.annotation_sha256='other',r=>r.predictions.reverse(),r=>r.predictions[0].labels.action=false,r=>r.predictions[0].source_sha256='changed']){const a=before(),b=structuredClone(a);mutate(b);assert.throws(()=>compareRecognition(a,b));}});

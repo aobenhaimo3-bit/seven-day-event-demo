@@ -1,0 +1,33 @@
+import fs from 'node:fs/promises';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
+import {createHash} from 'node:crypto';
+import {decodeHtml,extractArticle} from './collect-globalvoices.mjs';
+const run=promisify(execFile),out='local-data/expansion/2026-11-04';
+const hash=x=>createHash('sha256').update(x).digest('hex');
+function fullText(body){return extractArticle(body.replace(/twitter-tweet|instagram-media|fb-post/g,'quoted-source'));}
+async function get(url){return (await run('curl.exe',['-sSL','--retry','2','--max-time','40',url],{maxBuffer:20e6})).stdout;}
+function bodies(html){const out=[];for(const m of html.matchAll(/<div\b[^>]*class=["'][^"']*\bbody-description\b[^"']*["'][^>]*>/g)){const rest=html.slice(m.index+m[0].length);let depth=1;for(const tag of rest.matchAll(/<\/?div\b[^>]*>/g)){depth+=tag[0].startsWith('</')?-1:1;if(!depth){out.push(rest.slice(0,tag.index));break;}}}return out;}
+export function parse(html,url){let ld;for(const m of html.matchAll(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/g)){try{const j=JSON.parse(m[1]);ld||=[j,...(j['@graph']||[])].find(x=>x['@type']==='NewsArticle');}catch{}}
+ if(!ld)return null;const authored=[].concat(ld.author||[]);if(!authored.length||authored.some(a=>!/^https:\/\/www\.commondreams\.org\/author\//.test(a.url||'')||!/Common Dreams/.test(a.description||'')))return null;
+ const parts=bodies(html).map(body=>({body,...fullText(body)}));const b=parts.find(x=>x.text.startsWith((ld.articleBody||'').slice(0,70)));if(!b||b.text.length<500)return null;
+ if(/(?:originally|first) (?:published|appeared)|republished (?:from|with)|reprinted (?:from|with)/i.test(b.text))return null;
+ const date=ld.datePublished?.slice(0,10);const match=(date>='2024-12-15'&&date<='2025-03-14'&&/\b(?:Yemen|Houthis?|Red Sea)\b/i.test(ld.headline+' '+b.text.slice(0,800)))?'cross-S018':(date>='2024-08-27'&&date<='2024-11-26'&&/\bSyria(?:n)?\b/i.test(ld.headline+' '+b.text.slice(0,800)))?'cross-S016':null;if(!match)return null;
+ const authors=authored.map(a=>{const escaped=a.url.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');const re=new RegExp('<a[^>]+href=["\']'+escaped+'["\'][^>]*>([^<]+)<\\/a>');return decodeHtml(html.match(re)?.[1]||a.name);});
+ const links=[...b.body.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)].map(m=>({text:extractArticle(m[2]).text,url:new URL(decodeHtml(m[1]),url).href}));
+ return {news_id:'CD-'+hash(url).slice(0,16),publisher:'Common Dreams',editorial_origin:'Common Dreams',canonical_url:url,title:decodeHtml(ld.headline),text:b.text,body_html:b.body,text_links:links,source_links:[...new Set(links.map(x=>x.url))],published_date:date,source_modified_at:ld.dateModified,authors,author_urls:authored.map(x=>x.url),author_descriptions:authored.map(x=>x.description),license:'CC BY-NC-ND 3.0 US',license_url:'https://creativecommons.org/licenses/by-nc-nd/3.0/us/',license_source_url:'https://www.commondreams.org/republish-our-work',attribution:`${authors.join(', ')} / Common Dreams / ${url}`,retrieved_at:new Date().toISOString(),window_ids:[match],query_terms:match==='cross-S018'?['Yemen','Houthi','Red Sea']:['Syria','Syrian'],content_sha256:hash(b.text),full_text_status:'available',exclusion_reason:null,genre:'news_reporting',reporting_independence_verified:false,wire_source_citation_present:links.some(x=>/reuters|apnews|afp\.com/.test(x.url)),historical_snapshot_verified:false};
+}
+if(process.argv[2]==='finalize'){
+ const file=`${out}/common-dreams-supplement-candidates.jsonl`;const rows=(await fs.readFile(file,'utf8')).trim().split('\n').map(JSON.parse);
+ for(const r of rows){r.body_html=r.body_html.replace(/<(figure|iframe|script|style)\b[^>]*>[\s\S]*?<\/\1>/gi,'').replace(/<img\b[^>]*>/gi,'');r.text=fullText(r.body_html).text;r.content_sha256=hash(r.text);r.extraction_note='Article prose and inline quotations retained; media/captions/scripts excluded; whitespace normalized; links preserved separately and in body_html.';}
+ await fs.writeFile(file,rows.map(r=>JSON.stringify(r)).join('\n')+'\n');console.log(rows.map(x=>[x.news_id,x.text.length]));
+}else if(process.argv[2]==='probe'){
+ for(const i of [50,75,100,150]){const s=await get(`https://www.commondreams.org/feeds/sitemaps/sitemap_${i}.xml`);await fs.writeFile(`${out}/cd-sitemap-${i}.xml`,s);const dates=[...s.matchAll(/<lastmod>(.*?)<\/lastmod>/g)].map(x=>x[1]);console.log(i,dates.length,dates[0],dates.at(-1));console.log([...s.matchAll(/<loc>(https:\/\/www\.commondreams\.org\/(?:news|opinion)\/.*?)<\/loc>/g)].slice(0,2).map(x=>x[1]));}
+}else if(process.argv[2]==='collect'){
+ const urls=new Set(['https://www.commondreams.org/news/us-israel-airstrikes-yemen','https://www.commondreams.org/news/lebanon-pager-attacks-international-law','https://www.commondreams.org/news/amnesty-international-lebanon','https://www.commondreams.org/news/lebanon-border-crossing']);const log=[];
+ for(let i=14;i<=30;i++){let s;try{s=await fs.readFile(`${out}/cd-sitemap-${i}.xml`,'utf8');}catch{s=await get(`https://www.commondreams.org/feeds/sitemaps/sitemap_${i}.xml`);await fs.writeFile(`${out}/cd-sitemap-${i}.xml`,s);}for(const m of s.matchAll(/<loc>(https:\/\/www\.commondreams\.org\/news\/[^<]+)<\/loc>/g))if(/yemen|houthi|red-sea|syria/i.test(m[1]))urls.add(m[1]);console.log('sitemap',i,'candidate urls',urls.size);}
+ const records=[];for(const url of urls){try{const html=await get(url);const r=parse(html,url);log.push({url,accepted:!!r});if(r){records.push(r);console.log('accepted',r.published_date,r.window_ids[0],r.title);}}catch(e){log.push({url,error:e.message});}}
+ await fs.writeFile(`${out}/common-dreams-supplement-candidates.jsonl`,records.map(r=>JSON.stringify(r)).join('\n')+'\n');await fs.writeFile(`${out}/common-dreams-supplement-metadata.json`,JSON.stringify({retrieved_at:new Date().toISOString(),policy:'Official sitemap shards 14-30; neutral geographic URL terms; original staff NewsArticle only; publication date and title+lead800 geographic term gates. Search-discovered official URL included. Not exhaustive; no event labels or outcome keywords. Source citations do not establish independent corroboration.',license_evidence:'cd-license.html',log,count:records.length},null,2));console.log('DONE',records.length);
+}else if(process.argv[2]==='page'){
+ const url=process.argv[3],s=await get(url);await fs.writeFile(`${out}/cd-page-probe.html`,s);console.log('bytes',s.length);console.log([...s.matchAll(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/g)].map(x=>x[1].slice(0,5000)));console.log([...s.matchAll(/.{0,100}(?:article-body|body-description|creativecommons|articleBody).{0,180}/g)].slice(0,15).map(x=>x[0]));
+}

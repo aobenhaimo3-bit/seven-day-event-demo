@@ -1,0 +1,1728 @@
+{
+  "schema_version": 1,
+  "evaluation_kind": "development_agreement_with_astra_silver_labels",
+  "label_provenance": "GPT-6 Astra model-assisted silver labels, not human gold",
+  "independent_holdout": false,
+  "human_gold_available": false,
+  "cohort_sha256": "e522ece272c506692f46f4ae491fccd21aa70625b7113850e4097cb3356678b2",
+  "input_sha256": "bfca5543280b8bd64250fc6e75dcdd92c4cfac5ef343ecb79d589fdce766a598",
+  "annotation_sha256": "3d34df5f764b4b108294c38aeb9ebb3404ad6c2dfa10c58457edf5f70892e012",
+  "model_info": {
+    "rule_version": "event-context-coverage-v5",
+    "model_sha256": "f69aa1bbe8652a107cc3bbdb5b899b4664663a9758697f81140bfdf870e7b941",
+    "rule_source_sha256": {
+      "lib/engine.mjs": "079f2326864ea62d9842ade82418c1c737167db675d266b72860d58122c41e7a",
+      "lib/assertions.mjs": "8c2a3d43b62d6250c727e425c77d613728292f6787482fba62bf5ca45f110d18",
+      "lib/temporal.mjs": "30d837e8ee893e805247edb6217e7932d291a55f65a6a8d17d7545dd135247bf",
+      "lib/event-relations.mjs": "022156c7668dcd9262b249742d5461280c55e96a2a759bfcbf6ee8cea415aac5"
+    },
+    "detector_trained_through": "2024-09-25"
+  },
+  "coverage": {
+    "selected": 220,
+    "scored": 179,
+    "excluded": {
+      "model_review_queue": 37,
+      "prior_quarantine": 4,
+      "overlap": 0,
+      "total": 41
+    }
+  },
+  "summary": {
+    "count": 179,
+    "exact_match_count": 85,
+    "exact_match_agreement": 0.4748603351955307,
+    "metrics": {
+      "relevance": {
+        "tp": 71,
+        "tn": 63,
+        "fp": 20,
+        "fn": 25,
+        "support": 179,
+        "positive_labels": 96,
+        "negative_labels": 83,
+        "precision": 0.7802197802197802,
+        "recall": 0.7395833333333334,
+        "f1": 0.7593582887700535,
+        "agreement": 0.7486033519553073
+      },
+      "action": {
+        "tp": 21,
+        "tn": 118,
+        "fp": 8,
+        "fn": 32,
+        "support": 179,
+        "positive_labels": 53,
+        "negative_labels": 126,
+        "precision": 0.7241379310344828,
+        "recall": 0.39622641509433965,
+        "f1": 0.5121951219512195,
+        "agreement": 0.776536312849162
+      },
+      "threat": {
+        "tp": 2,
+        "tn": 156,
+        "fp": 1,
+        "fn": 20,
+        "support": 179,
+        "positive_labels": 22,
+        "negative_labels": 157,
+        "precision": 0.6666666666666666,
+        "recall": 0.09090909090909091,
+        "f1": 0.16,
+        "agreement": 0.88268156424581
+      },
+      "posture": {
+        "tp": 1,
+        "tn": 176,
+        "fp": 0,
+        "fn": 2,
+        "support": 179,
+        "positive_labels": 3,
+        "negative_labels": 176,
+        "precision": 1,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "agreement": 0.9888268156424581
+      },
+      "cooperation": {
+        "tp": 2,
+        "tn": 153,
+        "fp": 3,
+        "fn": 21,
+        "support": 179,
+        "positive_labels": 23,
+        "negative_labels": 156,
+        "precision": 0.4,
+        "recall": 0.08695652173913043,
+        "f1": 0.14285714285714285,
+        "agreement": 0.8659217877094972
+      }
+    }
+  },
+  "by_dataset": {
+    "expansion_160": {
+      "count": 128,
+      "exact_match_count": 68,
+      "exact_match_agreement": 0.53125,
+      "metrics": {
+        "relevance": {
+          "tp": 46,
+          "tn": 52,
+          "fp": 11,
+          "fn": 19,
+          "support": 128,
+          "positive_labels": 65,
+          "negative_labels": 63,
+          "precision": 0.8070175438596491,
+          "recall": 0.7076923076923077,
+          "f1": 0.7540983606557377,
+          "agreement": 0.765625
+        },
+        "action": {
+          "tp": 14,
+          "tn": 89,
+          "fp": 5,
+          "fn": 20,
+          "support": 128,
+          "positive_labels": 34,
+          "negative_labels": 94,
+          "precision": 0.7368421052631579,
+          "recall": 0.4117647058823529,
+          "f1": 0.5283018867924528,
+          "agreement": 0.8046875
+        },
+        "threat": {
+          "tp": 2,
+          "tn": 112,
+          "fp": 1,
+          "fn": 13,
+          "support": 128,
+          "positive_labels": 15,
+          "negative_labels": 113,
+          "precision": 0.6666666666666666,
+          "recall": 0.13333333333333333,
+          "f1": 0.2222222222222222,
+          "agreement": 0.890625
+        },
+        "posture": {
+          "tp": 1,
+          "tn": 125,
+          "fp": 0,
+          "fn": 2,
+          "support": 128,
+          "positive_labels": 3,
+          "negative_labels": 125,
+          "precision": 1,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "agreement": 0.984375
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 109,
+          "fp": 1,
+          "fn": 18,
+          "support": 128,
+          "positive_labels": 18,
+          "negative_labels": 110,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.8515625
+        }
+      }
+    },
+    "fixed_60": {
+      "count": 51,
+      "exact_match_count": 17,
+      "exact_match_agreement": 0.3333333333333333,
+      "metrics": {
+        "relevance": {
+          "tp": 25,
+          "tn": 11,
+          "fp": 9,
+          "fn": 6,
+          "support": 51,
+          "positive_labels": 31,
+          "negative_labels": 20,
+          "precision": 0.7352941176470589,
+          "recall": 0.8064516129032258,
+          "f1": 0.7692307692307693,
+          "agreement": 0.7058823529411765
+        },
+        "action": {
+          "tp": 7,
+          "tn": 29,
+          "fp": 3,
+          "fn": 12,
+          "support": 51,
+          "positive_labels": 19,
+          "negative_labels": 32,
+          "precision": 0.7,
+          "recall": 0.3684210526315789,
+          "f1": 0.4827586206896552,
+          "agreement": 0.7058823529411765
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 44,
+          "fp": 0,
+          "fn": 7,
+          "support": 51,
+          "positive_labels": 7,
+          "negative_labels": 44,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.8627450980392157
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 51,
+          "fp": 0,
+          "fn": 0,
+          "support": 51,
+          "positive_labels": 0,
+          "negative_labels": 51,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 2,
+          "tn": 44,
+          "fp": 2,
+          "fn": 3,
+          "support": 51,
+          "positive_labels": 5,
+          "negative_labels": 46,
+          "precision": 0.5,
+          "recall": 0.4,
+          "f1": 0.4444444444444444,
+          "agreement": 0.9019607843137255
+        }
+      }
+    }
+  },
+  "by_case": {
+    "S016": {
+      "count": 34,
+      "exact_match_count": 17,
+      "exact_match_agreement": 0.5,
+      "metrics": {
+        "relevance": {
+          "tp": 8,
+          "tn": 12,
+          "fp": 3,
+          "fn": 11,
+          "support": 34,
+          "positive_labels": 19,
+          "negative_labels": 15,
+          "precision": 0.7272727272727273,
+          "recall": 0.42105263157894735,
+          "f1": 0.5333333333333333,
+          "agreement": 0.5882352941176471
+        },
+        "action": {
+          "tp": 3,
+          "tn": 21,
+          "fp": 1,
+          "fn": 9,
+          "support": 34,
+          "positive_labels": 12,
+          "negative_labels": 22,
+          "precision": 0.75,
+          "recall": 0.25,
+          "f1": 0.375,
+          "agreement": 0.7058823529411765
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 33,
+          "fp": 0,
+          "fn": 1,
+          "support": 34,
+          "positive_labels": 1,
+          "negative_labels": 33,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.9705882352941176
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 33,
+          "fp": 0,
+          "fn": 1,
+          "support": 34,
+          "positive_labels": 1,
+          "negative_labels": 33,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.9705882352941176
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 32,
+          "fp": 1,
+          "fn": 1,
+          "support": 34,
+          "positive_labels": 1,
+          "negative_labels": 33,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.9411764705882353
+        }
+      }
+    },
+    "S017": {
+      "count": 29,
+      "exact_match_count": 9,
+      "exact_match_agreement": 0.3103448275862069,
+      "metrics": {
+        "relevance": {
+          "tp": 9,
+          "tn": 8,
+          "fp": 12,
+          "fn": 0,
+          "support": 29,
+          "positive_labels": 9,
+          "negative_labels": 20,
+          "precision": 0.42857142857142855,
+          "recall": 1,
+          "f1": 0.6,
+          "agreement": 0.5862068965517241
+        },
+        "action": {
+          "tp": 0,
+          "tn": 21,
+          "fp": 0,
+          "fn": 8,
+          "support": 29,
+          "positive_labels": 8,
+          "negative_labels": 21,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.7241379310344828
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 28,
+          "fp": 0,
+          "fn": 1,
+          "support": 29,
+          "positive_labels": 1,
+          "negative_labels": 28,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.9655172413793104
+        },
+        "posture": {
+          "tp": 1,
+          "tn": 28,
+          "fp": 0,
+          "fn": 0,
+          "support": 29,
+          "positive_labels": 1,
+          "negative_labels": 28,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 1,
+          "tn": 27,
+          "fp": 0,
+          "fn": 1,
+          "support": 29,
+          "positive_labels": 2,
+          "negative_labels": 27,
+          "precision": 1,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "agreement": 0.9655172413793104
+        }
+      }
+    },
+    "S018": {
+      "count": 35,
+      "exact_match_count": 8,
+      "exact_match_agreement": 0.22857142857142856,
+      "metrics": {
+        "relevance": {
+          "tp": 24,
+          "tn": 1,
+          "fp": 1,
+          "fn": 9,
+          "support": 35,
+          "positive_labels": 33,
+          "negative_labels": 2,
+          "precision": 0.96,
+          "recall": 0.7272727272727273,
+          "f1": 0.8275862068965517,
+          "agreement": 0.7142857142857143
+        },
+        "action": {
+          "tp": 12,
+          "tn": 10,
+          "fp": 4,
+          "fn": 9,
+          "support": 35,
+          "positive_labels": 21,
+          "negative_labels": 14,
+          "precision": 0.75,
+          "recall": 0.5714285714285714,
+          "f1": 0.6486486486486487,
+          "agreement": 0.6285714285714286
+        },
+        "threat": {
+          "tp": 2,
+          "tn": 19,
+          "fp": 0,
+          "fn": 14,
+          "support": 35,
+          "positive_labels": 16,
+          "negative_labels": 19,
+          "precision": 1,
+          "recall": 0.125,
+          "f1": 0.2222222222222222,
+          "agreement": 0.6
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 35,
+          "fp": 0,
+          "fn": 0,
+          "support": 35,
+          "positive_labels": 0,
+          "negative_labels": 35,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 30,
+          "fp": 0,
+          "fn": 5,
+          "support": 35,
+          "positive_labels": 5,
+          "negative_labels": 30,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.8571428571428571
+        }
+      }
+    },
+    "S019": {
+      "count": 41,
+      "exact_match_count": 14,
+      "exact_match_agreement": 0.34146341463414637,
+      "metrics": {
+        "relevance": {
+          "tp": 29,
+          "tn": 6,
+          "fp": 1,
+          "fn": 5,
+          "support": 41,
+          "positive_labels": 34,
+          "negative_labels": 7,
+          "precision": 0.9666666666666667,
+          "recall": 0.8529411764705882,
+          "f1": 0.90625,
+          "agreement": 0.8536585365853658
+        },
+        "action": {
+          "tp": 5,
+          "tn": 27,
+          "fp": 3,
+          "fn": 6,
+          "support": 41,
+          "positive_labels": 11,
+          "negative_labels": 30,
+          "precision": 0.625,
+          "recall": 0.45454545454545453,
+          "f1": 0.5263157894736842,
+          "agreement": 0.7804878048780488
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 36,
+          "fp": 1,
+          "fn": 4,
+          "support": 41,
+          "positive_labels": 4,
+          "negative_labels": 37,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.8780487804878049
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 40,
+          "fp": 0,
+          "fn": 1,
+          "support": 41,
+          "positive_labels": 1,
+          "negative_labels": 40,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.975609756097561
+        },
+        "cooperation": {
+          "tp": 1,
+          "tn": 24,
+          "fp": 2,
+          "fn": 14,
+          "support": 41,
+          "positive_labels": 15,
+          "negative_labels": 26,
+          "precision": 0.3333333333333333,
+          "recall": 0.06666666666666667,
+          "f1": 0.1111111111111111,
+          "agreement": 0.6097560975609756
+        }
+      }
+    },
+    "S020": {
+      "count": 40,
+      "exact_match_count": 37,
+      "exact_match_agreement": 0.925,
+      "metrics": {
+        "relevance": {
+          "tp": 1,
+          "tn": 36,
+          "fp": 3,
+          "fn": 0,
+          "support": 40,
+          "positive_labels": 1,
+          "negative_labels": 39,
+          "precision": 0.25,
+          "recall": 1,
+          "f1": 0.4,
+          "agreement": 0.925
+        },
+        "action": {
+          "tp": 1,
+          "tn": 39,
+          "fp": 0,
+          "fn": 0,
+          "support": 40,
+          "positive_labels": 1,
+          "negative_labels": 39,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "agreement": 1
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 40,
+          "fp": 0,
+          "fn": 0,
+          "support": 40,
+          "positive_labels": 0,
+          "negative_labels": 40,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 40,
+          "fp": 0,
+          "fn": 0,
+          "support": 40,
+          "positive_labels": 0,
+          "negative_labels": 40,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 40,
+          "fp": 0,
+          "fn": 0,
+          "support": 40,
+          "positive_labels": 0,
+          "negative_labels": 40,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        }
+      }
+    }
+  },
+  "by_publisher": {
+    "Al Jazeera": {
+      "count": 51,
+      "exact_match_count": 17,
+      "exact_match_agreement": 0.3333333333333333,
+      "metrics": {
+        "relevance": {
+          "tp": 25,
+          "tn": 11,
+          "fp": 9,
+          "fn": 6,
+          "support": 51,
+          "positive_labels": 31,
+          "negative_labels": 20,
+          "precision": 0.7352941176470589,
+          "recall": 0.8064516129032258,
+          "f1": 0.7692307692307693,
+          "agreement": 0.7058823529411765
+        },
+        "action": {
+          "tp": 7,
+          "tn": 29,
+          "fp": 3,
+          "fn": 12,
+          "support": 51,
+          "positive_labels": 19,
+          "negative_labels": 32,
+          "precision": 0.7,
+          "recall": 0.3684210526315789,
+          "f1": 0.4827586206896552,
+          "agreement": 0.7058823529411765
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 44,
+          "fp": 0,
+          "fn": 7,
+          "support": 51,
+          "positive_labels": 7,
+          "negative_labels": 44,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.8627450980392157
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 51,
+          "fp": 0,
+          "fn": 0,
+          "support": 51,
+          "positive_labels": 0,
+          "negative_labels": 51,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 2,
+          "tn": 44,
+          "fp": 2,
+          "fn": 3,
+          "support": 51,
+          "positive_labels": 5,
+          "negative_labels": 46,
+          "precision": 0.5,
+          "recall": 0.4,
+          "f1": 0.4444444444444444,
+          "agreement": 0.9019607843137255
+        }
+      }
+    },
+    "Common Dreams": {
+      "count": 1,
+      "exact_match_count": 0,
+      "exact_match_agreement": 0,
+      "metrics": {
+        "relevance": {
+          "tp": 1,
+          "tn": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "positive_labels": 1,
+          "negative_labels": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "agreement": 1
+        },
+        "action": {
+          "tp": 1,
+          "tn": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "positive_labels": 1,
+          "negative_labels": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "agreement": 1
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 0,
+          "fp": 0,
+          "fn": 1,
+          "support": 1,
+          "positive_labels": 1,
+          "negative_labels": 0,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "positive_labels": 0,
+          "negative_labels": 1,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 1,
+          "fp": 0,
+          "fn": 0,
+          "support": 1,
+          "positive_labels": 0,
+          "negative_labels": 1,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        }
+      }
+    },
+    "Global Voices": {
+      "count": 52,
+      "exact_match_count": 38,
+      "exact_match_agreement": 0.7307692307692307,
+      "metrics": {
+        "relevance": {
+          "tp": 5,
+          "tn": 36,
+          "fp": 4,
+          "fn": 7,
+          "support": 52,
+          "positive_labels": 12,
+          "negative_labels": 40,
+          "precision": 0.5555555555555556,
+          "recall": 0.4166666666666667,
+          "f1": 0.47619047619047616,
+          "agreement": 0.7884615384615384
+        },
+        "action": {
+          "tp": 0,
+          "tn": 46,
+          "fp": 0,
+          "fn": 6,
+          "support": 52,
+          "positive_labels": 6,
+          "negative_labels": 46,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.8846153846153846
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 52,
+          "fp": 0,
+          "fn": 0,
+          "support": 52,
+          "positive_labels": 0,
+          "negative_labels": 52,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 51,
+          "fp": 0,
+          "fn": 1,
+          "support": 52,
+          "positive_labels": 1,
+          "negative_labels": 51,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.9807692307692307
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 52,
+          "fp": 0,
+          "fn": 0,
+          "support": 52,
+          "positive_labels": 0,
+          "negative_labels": 52,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        }
+      }
+    },
+    "ISS Today": {
+      "count": 6,
+      "exact_match_count": 2,
+      "exact_match_agreement": 0.3333333333333333,
+      "metrics": {
+        "relevance": {
+          "tp": 6,
+          "tn": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "positive_labels": 6,
+          "negative_labels": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "agreement": 1
+        },
+        "action": {
+          "tp": 1,
+          "tn": 2,
+          "fp": 0,
+          "fn": 3,
+          "support": 6,
+          "positive_labels": 4,
+          "negative_labels": 2,
+          "precision": 1,
+          "recall": 0.25,
+          "f1": 0.4,
+          "agreement": 0.5
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 4,
+          "fp": 1,
+          "fn": 1,
+          "support": 6,
+          "positive_labels": 1,
+          "negative_labels": 5,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.6666666666666666
+        },
+        "posture": {
+          "tp": 1,
+          "tn": 5,
+          "fp": 0,
+          "fn": 0,
+          "support": 6,
+          "positive_labels": 1,
+          "negative_labels": 5,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 3,
+          "fp": 0,
+          "fn": 3,
+          "support": 6,
+          "positive_labels": 3,
+          "negative_labels": 3,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.5
+        }
+      }
+    },
+    "Middle East Monitor": {
+      "count": 12,
+      "exact_match_count": 2,
+      "exact_match_agreement": 0.16666666666666666,
+      "metrics": {
+        "relevance": {
+          "tp": 5,
+          "tn": 0,
+          "fp": 1,
+          "fn": 6,
+          "support": 12,
+          "positive_labels": 11,
+          "negative_labels": 1,
+          "precision": 0.8333333333333334,
+          "recall": 0.45454545454545453,
+          "f1": 0.5882352941176471,
+          "agreement": 0.4166666666666667
+        },
+        "action": {
+          "tp": 0,
+          "tn": 7,
+          "fp": 1,
+          "fn": 4,
+          "support": 12,
+          "positive_labels": 4,
+          "negative_labels": 8,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.5833333333333334
+        },
+        "threat": {
+          "tp": 1,
+          "tn": 8,
+          "fp": 0,
+          "fn": 3,
+          "support": 12,
+          "positive_labels": 4,
+          "negative_labels": 8,
+          "precision": 1,
+          "recall": 0.25,
+          "f1": 0.4,
+          "agreement": 0.75
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 12,
+          "fp": 0,
+          "fn": 0,
+          "support": 12,
+          "positive_labels": 0,
+          "negative_labels": 12,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 8,
+          "fp": 1,
+          "fn": 3,
+          "support": 12,
+          "positive_labels": 3,
+          "negative_labels": 9,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.6666666666666666
+        }
+      }
+    },
+    "Mongabay": {
+      "count": 4,
+      "exact_match_count": 0,
+      "exact_match_agreement": 0,
+      "metrics": {
+        "relevance": {
+          "tp": 0,
+          "tn": 0,
+          "fp": 4,
+          "fn": 0,
+          "support": 4,
+          "positive_labels": 0,
+          "negative_labels": 4,
+          "precision": 0,
+          "recall": null,
+          "f1": 0,
+          "agreement": 0
+        },
+        "action": {
+          "tp": 0,
+          "tn": 4,
+          "fp": 0,
+          "fn": 0,
+          "support": 4,
+          "positive_labels": 0,
+          "negative_labels": 4,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "threat": {
+          "tp": 0,
+          "tn": 4,
+          "fp": 0,
+          "fn": 0,
+          "support": 4,
+          "positive_labels": 0,
+          "negative_labels": 4,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 4,
+          "fp": 0,
+          "fn": 0,
+          "support": 4,
+          "positive_labels": 0,
+          "negative_labels": 4,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 4,
+          "fp": 0,
+          "fn": 0,
+          "support": 4,
+          "positive_labels": 0,
+          "negative_labels": 4,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "agreement": 1
+        }
+      }
+    },
+    "Voice of America": {
+      "count": 53,
+      "exact_match_count": 26,
+      "exact_match_agreement": 0.49056603773584906,
+      "metrics": {
+        "relevance": {
+          "tp": 29,
+          "tn": 16,
+          "fp": 2,
+          "fn": 6,
+          "support": 53,
+          "positive_labels": 35,
+          "negative_labels": 18,
+          "precision": 0.9354838709677419,
+          "recall": 0.8285714285714286,
+          "f1": 0.8787878787878788,
+          "agreement": 0.8490566037735849
+        },
+        "action": {
+          "tp": 12,
+          "tn": 30,
+          "fp": 4,
+          "fn": 7,
+          "support": 53,
+          "positive_labels": 19,
+          "negative_labels": 34,
+          "precision": 0.75,
+          "recall": 0.631578947368421,
+          "f1": 0.6857142857142857,
+          "agreement": 0.7924528301886793
+        },
+        "threat": {
+          "tp": 1,
+          "tn": 44,
+          "fp": 0,
+          "fn": 8,
+          "support": 53,
+          "positive_labels": 9,
+          "negative_labels": 44,
+          "precision": 1,
+          "recall": 0.1111111111111111,
+          "f1": 0.2,
+          "agreement": 0.8490566037735849
+        },
+        "posture": {
+          "tp": 0,
+          "tn": 52,
+          "fp": 0,
+          "fn": 1,
+          "support": 53,
+          "positive_labels": 1,
+          "negative_labels": 52,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.9811320754716981
+        },
+        "cooperation": {
+          "tp": 0,
+          "tn": 41,
+          "fp": 0,
+          "fn": 12,
+          "support": 53,
+          "positive_labels": 12,
+          "negative_labels": 41,
+          "precision": null,
+          "recall": 0,
+          "f1": 0,
+          "agreement": 0.7735849056603774
+        }
+      }
+    }
+  },
+  "mismatches": [
+    {
+      "pair_id": "S016::P3N07350",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S016::P3N07398",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S016::P3N07599",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S016::P3N07606",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S016::P3N07641",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S016::P3N07660",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S016::P3N07683",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S016::P3N07684",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07688",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07689",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07701",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07732",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07835",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07844",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07888",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07937",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S017::P3N07942",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N07724",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N07807",
+      "fields": [
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N07866",
+      "fields": [
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N07873",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N07980",
+      "fields": [
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N08199",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N08235",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N08490",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N08493",
+      "fields": [
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "S018::P3N08531",
+      "fields": [
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "S019::P3N07836",
+      "fields": [
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "S019::P3N07924",
+      "fields": [
+        "action",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "S019::P3N07971",
+      "fields": [
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "S019::P3N08265",
+      "fields": [
+        "threat",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "S019::P3N08295",
+      "fields": [
+        "action",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "S019::P3N08356",
+      "fields": [
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "S020::P3N08415",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-822001",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-822972",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7848255",
+      "fields": [
+        "relevance",
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7800869",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7787117",
+      "fields": [
+        "relevance",
+        "action",
+        "posture"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-823101",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::GV-825627",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::VOA-7947198",
+      "fields": [
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-827541",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-830639",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-826293",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7908063",
+      "fields": [
+        "threat",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7939119",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7980148",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7952796",
+      "fields": [
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7953674",
+      "fields": [
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-832655",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7539864",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7530476",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7496092",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S018::GV-804645",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7433777",
+      "fields": [
+        "action",
+        "threat",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7442506",
+      "fields": [
+        "threat",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7446136",
+      "fields": [
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-805295",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-806959",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-805492",
+      "fields": [
+        "relevance",
+        "posture"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-809026",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7453714",
+      "fields": [
+        "action",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7542616",
+      "fields": [
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7497240",
+      "fields": [
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-809519",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S016::MEMO-748566",
+      "fields": [
+        "relevance",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S016::MEMO-751691",
+      "fields": [
+        "relevance",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S017::VOA-7889825",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S017::MB-292518",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S017::ISS-47821550a0bc4d88",
+      "fields": [
+        "action",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S017::MB-292797",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-767750",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::CD-5049a925d7593c2f",
+      "fields": [
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-770689",
+      "fields": [
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-775873",
+      "fields": [
+        "relevance",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-767447",
+      "fields": [
+        "relevance",
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-770908",
+      "fields": [
+        "relevance",
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-767366",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-777019",
+      "fields": [
+        "relevance",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-781203",
+      "fields": [
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7963488",
+      "fields": [
+        "threat",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-8007713",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S017::MB-277443",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S017::MB-280300",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S017::ISS-7511499b4b88aaf8",
+      "fields": [
+        "action",
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7458908",
+      "fields": [
+        "relevance"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7510198",
+      "fields": [
+        "action"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7436803",
+      "fields": [
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7497821",
+      "fields": [
+        "threat"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::ISS-55f05604f9b0afd2",
+      "fields": [
+        "action",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::ISS-54e5d6964edabac5",
+      "fields": [
+        "threat",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7458679",
+      "fields": [
+        "action",
+        "cooperation"
+      ]
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7486115",
+      "fields": [
+        "cooperation"
+      ]
+    }
+  ],
+  "limitations": [
+    "Agreement is with GPT-6 Astra model-generated labels, not human gold or independently verified events.",
+    "All five labels of a record are excluded if any label is uncertain, either annotation round disagrees, a model quality flag exists, or prior source/scope quarantine applies. Exclusions never become negative labels.",
+    "These development cases can inform repairs; reuse for post-repair scoring is a diagnostic, not an untouched holdout.",
+    "Media and case groups are small and dependent. No statistical significance or population generalization is inferred.",
+    "Article-level agreement does not measure future seven-day event forecast accuracy."
+  ]
+}

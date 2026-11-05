@@ -23,5 +23,20 @@ jobs:
       - run: node scripts/prepare-input.mjs
       - run: node build-model.mjs
       - run: node scripts/predict-batch.mjs
+      - run: node scripts/prepare-evaluation.mjs
+      - run: node scripts/evaluate-recognition.mjs
+      - name: Verify unreviewed evaluation has no scores
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const report = JSON.parse(fs.readFileSync('local-data/evaluation/recognition-report.json', 'utf8'));
+          assert.equal(report.status, 'not_evaluable');
+          assert.equal(report.coverage.selected, 60);
+          assert.equal(report.coverage.reviewed, 0);
+          assert.equal(report.metrics, null);
+          assert.deepEqual(report.predictions, []);
+          assert.equal(report.independent_holdout, false);
+          NODE
       - run: npm test
       - run: npm run check

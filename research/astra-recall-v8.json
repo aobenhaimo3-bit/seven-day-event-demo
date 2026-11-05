@@ -1,0 +1,2716 @@
+{
+  "schema_version": 1,
+  "evaluation_kind": "development_recall_comparison_against_astra_silver_labels",
+  "independent_holdout": false,
+  "human_gold_available": false,
+  "cohort_sha256": "e522ece272c506692f46f4ae491fccd21aa70625b7113850e4097cb3356678b2",
+  "annotation_sha256": "3d34df5f764b4b108294c38aeb9ebb3404ad6c2dfa10c58457edf5f70892e012",
+  "coverage": {
+    "selected": 220,
+    "scored": 179,
+    "excluded": {
+      "model_review_queue": 37,
+      "prior_quarantine": 4,
+      "overlap": 0,
+      "total": 41
+    }
+  },
+  "before_model": {
+    "rule_version": "scoped-event-recall-v7",
+    "model_sha256": "a797b0a63800d00a1d2719ca3ea891eff3e662d7657a6b8578b3375cbc762b33",
+    "rule_source_sha256": {
+      "lib/engine.mjs": "95593064f4225143d7d0217dbd41e463b7f3db7519dec88b633d52851c2db292",
+      "lib/assertions.mjs": "9ab2159587c95a59022e6680616189c576ce6f19e18cd5125d30bfb6874df2a7",
+      "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+      "lib/event-relations.mjs": "c9e4e67b1377d5ab644da11cf20e20838f04cf029930a8a447d22e752c817cc9",
+      "lib/action-vocabulary.mjs": "08a0b835671e662d5501694c4ebba6853b2ace9745252a0c22bb90c7bf9a0cf0",
+      "lib/communication.mjs": "abdd7f3327c1ded0c2cb22afaac6f18651ea165f322d5b3547f64800e5cb75fc",
+      "lib/scope.mjs": "5523f0926e9c15dc6f37120dd74f572ff47225005df3119cd0716a8debb493b3"
+    },
+    "detector_trained_through": "2024-09-25"
+  },
+  "after_model": {
+    "rule_version": "scoped-communication-recall-v8",
+    "model_sha256": "3258a999cf1b3d2f57c7d85f298edaf798cc4571bb609a54ce67579194e0f9da",
+    "rule_source_sha256": {
+      "lib/engine.mjs": "fc8667662c539055d3e42528664e5aea215afc4baef15caca0e36622256e9698",
+      "lib/assertions.mjs": "9ab2159587c95a59022e6680616189c576ce6f19e18cd5125d30bfb6874df2a7",
+      "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+      "lib/event-relations.mjs": "c9e4e67b1377d5ab644da11cf20e20838f04cf029930a8a447d22e752c817cc9",
+      "lib/action-vocabulary.mjs": "08a0b835671e662d5501694c4ebba6853b2ace9745252a0c22bb90c7bf9a0cf0",
+      "lib/communication.mjs": "6f891ae5e8238457e12ad2ba0e099989973b5c552edd40d3287d7722b054a270",
+      "lib/scope.mjs": "9fdc3f95cc4b6577d6b07acd5cf8ecf8de5fee5c3ca21bcc18d9e3427ac3693f",
+      "lib/threat.mjs": "17aedad02c4aaecd836a071c082a825df4eb412aaf98563cff0376eac7fb6e0d",
+      "lib/cooperation.mjs": "ee4aa3cad178442efae303c72e85c7d93b51ee9dbd7931561022d3a6fc3cb78b",
+      "lib/communication-context.mjs": "f78eee0f9ba2c3677a9b865792f469231786a6b980f09597d8f6a781c82840b3"
+    },
+    "detector_trained_through": "2024-09-25"
+  },
+  "recognition": {
+    "before": {
+      "count": 179,
+      "exact_match_count": 103,
+      "exact_match_agreement": 0.5754189944134078,
+      "metrics": {
+        "relevance": {
+          "tp": 94,
+          "tn": 63,
+          "fp": 20,
+          "fn": 2,
+          "support": 179,
+          "positive_labels": 96,
+          "negative_labels": 83,
+          "precision": 0.8245614035087719,
+          "recall": 0.9791666666666666,
+          "f1": 0.8952380952380953,
+          "agreement": 0.8770949720670391
+        },
+        "action": {
+          "tp": 33,
+          "tn": 120,
+          "fp": 6,
+          "fn": 20,
+          "support": 179,
+          "positive_labels": 53,
+          "negative_labels": 126,
+          "precision": 0.8461538461538461,
+          "recall": 0.6226415094339622,
+          "f1": 0.717391304347826,
+          "agreement": 0.8547486033519553
+        },
+        "threat": {
+          "tp": 8,
+          "tn": 156,
+          "fp": 1,
+          "fn": 14,
+          "support": 179,
+          "positive_labels": 22,
+          "negative_labels": 157,
+          "precision": 0.8888888888888888,
+          "recall": 0.36363636363636365,
+          "f1": 0.5161290322580645,
+          "agreement": 0.9162011173184358
+        },
+        "posture": {
+          "tp": 1,
+          "tn": 176,
+          "fp": 0,
+          "fn": 2,
+          "support": 179,
+          "positive_labels": 3,
+          "negative_labels": 176,
+          "precision": 1,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "agreement": 0.9888268156424581
+        },
+        "cooperation": {
+          "tp": 8,
+          "tn": 153,
+          "fp": 3,
+          "fn": 15,
+          "support": 179,
+          "positive_labels": 23,
+          "negative_labels": 156,
+          "precision": 0.7272727272727273,
+          "recall": 0.34782608695652173,
+          "f1": 0.47058823529411764,
+          "agreement": 0.8994413407821229
+        }
+      }
+    },
+    "after": {
+      "count": 179,
+      "exact_match_count": 116,
+      "exact_match_agreement": 0.6480446927374302,
+      "metrics": {
+        "relevance": {
+          "tp": 94,
+          "tn": 63,
+          "fp": 20,
+          "fn": 2,
+          "support": 179,
+          "positive_labels": 96,
+          "negative_labels": 83,
+          "precision": 0.8245614035087719,
+          "recall": 0.9791666666666666,
+          "f1": 0.8952380952380953,
+          "agreement": 0.8770949720670391
+        },
+        "action": {
+          "tp": 34,
+          "tn": 120,
+          "fp": 6,
+          "fn": 19,
+          "support": 179,
+          "positive_labels": 53,
+          "negative_labels": 126,
+          "precision": 0.85,
+          "recall": 0.6415094339622641,
+          "f1": 0.7311827956989247,
+          "agreement": 0.8603351955307262
+        },
+        "threat": {
+          "tp": 14,
+          "tn": 157,
+          "fp": 0,
+          "fn": 8,
+          "support": 179,
+          "positive_labels": 22,
+          "negative_labels": 157,
+          "precision": 1,
+          "recall": 0.6363636363636364,
+          "f1": 0.7777777777777778,
+          "agreement": 0.9553072625698324
+        },
+        "posture": {
+          "tp": 1,
+          "tn": 176,
+          "fp": 0,
+          "fn": 2,
+          "support": 179,
+          "positive_labels": 3,
+          "negative_labels": 176,
+          "precision": 1,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "agreement": 0.9888268156424581
+        },
+        "cooperation": {
+          "tp": 15,
+          "tn": 155,
+          "fp": 1,
+          "fn": 8,
+          "support": 179,
+          "positive_labels": 23,
+          "negative_labels": 156,
+          "precision": 0.9375,
+          "recall": 0.6521739130434783,
+          "f1": 0.7692307692307693,
+          "agreement": 0.9497206703910615
+        }
+      }
+    },
+    "by_case": {
+      "S016": {
+        "before": {
+          "count": 34,
+          "exact_match_count": 18,
+          "exact_match_agreement": 0.5294117647058824,
+          "metrics": {
+            "relevance": {
+              "tp": 19,
+              "tn": 9,
+              "fp": 6,
+              "fn": 0,
+              "support": 34,
+              "positive_labels": 19,
+              "negative_labels": 15,
+              "precision": 0.76,
+              "recall": 1,
+              "f1": 0.8636363636363636,
+              "agreement": 0.8235294117647058
+            },
+            "action": {
+              "tp": 6,
+              "tn": 21,
+              "fp": 1,
+              "fn": 6,
+              "support": 34,
+              "positive_labels": 12,
+              "negative_labels": 22,
+              "precision": 0.8571428571428571,
+              "recall": 0.5,
+              "f1": 0.631578947368421,
+              "agreement": 0.7941176470588235
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 33,
+              "fp": 0,
+              "fn": 1,
+              "support": 34,
+              "positive_labels": 1,
+              "negative_labels": 33,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9705882352941176
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 33,
+              "fp": 0,
+              "fn": 1,
+              "support": 34,
+              "positive_labels": 1,
+              "negative_labels": 33,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9705882352941176
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 32,
+              "fp": 1,
+              "fn": 1,
+              "support": 34,
+              "positive_labels": 1,
+              "negative_labels": 33,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9411764705882353
+            }
+          }
+        },
+        "after": {
+          "count": 34,
+          "exact_match_count": 20,
+          "exact_match_agreement": 0.5882352941176471,
+          "metrics": {
+            "relevance": {
+              "tp": 19,
+              "tn": 9,
+              "fp": 6,
+              "fn": 0,
+              "support": 34,
+              "positive_labels": 19,
+              "negative_labels": 15,
+              "precision": 0.76,
+              "recall": 1,
+              "f1": 0.8636363636363636,
+              "agreement": 0.8235294117647058
+            },
+            "action": {
+              "tp": 6,
+              "tn": 21,
+              "fp": 1,
+              "fn": 6,
+              "support": 34,
+              "positive_labels": 12,
+              "negative_labels": 22,
+              "precision": 0.8571428571428571,
+              "recall": 0.5,
+              "f1": 0.631578947368421,
+              "agreement": 0.7941176470588235
+            },
+            "threat": {
+              "tp": 1,
+              "tn": 33,
+              "fp": 0,
+              "fn": 0,
+              "support": 34,
+              "positive_labels": 1,
+              "negative_labels": 33,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 33,
+              "fp": 0,
+              "fn": 1,
+              "support": 34,
+              "positive_labels": 1,
+              "negative_labels": 33,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9705882352941176
+            },
+            "cooperation": {
+              "tp": 1,
+              "tn": 32,
+              "fp": 1,
+              "fn": 0,
+              "support": 34,
+              "positive_labels": 1,
+              "negative_labels": 33,
+              "precision": 0.5,
+              "recall": 1,
+              "f1": 0.6666666666666666,
+              "agreement": 0.9705882352941176
+            }
+          }
+        }
+      },
+      "S017": {
+        "before": {
+          "count": 29,
+          "exact_match_count": 16,
+          "exact_match_agreement": 0.5517241379310345,
+          "metrics": {
+            "relevance": {
+              "tp": 9,
+              "tn": 14,
+              "fp": 6,
+              "fn": 0,
+              "support": 29,
+              "positive_labels": 9,
+              "negative_labels": 20,
+              "precision": 0.6,
+              "recall": 1,
+              "f1": 0.75,
+              "agreement": 0.7931034482758621
+            },
+            "action": {
+              "tp": 2,
+              "tn": 21,
+              "fp": 0,
+              "fn": 6,
+              "support": 29,
+              "positive_labels": 8,
+              "negative_labels": 21,
+              "precision": 1,
+              "recall": 0.25,
+              "f1": 0.4,
+              "agreement": 0.7931034482758621
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 27,
+              "fp": 1,
+              "fn": 1,
+              "support": 29,
+              "positive_labels": 1,
+              "negative_labels": 28,
+              "precision": 0,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9310344827586207
+            },
+            "posture": {
+              "tp": 1,
+              "tn": 28,
+              "fp": 0,
+              "fn": 0,
+              "support": 29,
+              "positive_labels": 1,
+              "negative_labels": 28,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 1,
+              "tn": 27,
+              "fp": 0,
+              "fn": 1,
+              "support": 29,
+              "positive_labels": 2,
+              "negative_labels": 27,
+              "precision": 1,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "agreement": 0.9655172413793104
+            }
+          }
+        },
+        "after": {
+          "count": 29,
+          "exact_match_count": 16,
+          "exact_match_agreement": 0.5517241379310345,
+          "metrics": {
+            "relevance": {
+              "tp": 9,
+              "tn": 14,
+              "fp": 6,
+              "fn": 0,
+              "support": 29,
+              "positive_labels": 9,
+              "negative_labels": 20,
+              "precision": 0.6,
+              "recall": 1,
+              "f1": 0.75,
+              "agreement": 0.7931034482758621
+            },
+            "action": {
+              "tp": 2,
+              "tn": 21,
+              "fp": 0,
+              "fn": 6,
+              "support": 29,
+              "positive_labels": 8,
+              "negative_labels": 21,
+              "precision": 1,
+              "recall": 0.25,
+              "f1": 0.4,
+              "agreement": 0.7931034482758621
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 28,
+              "fp": 0,
+              "fn": 1,
+              "support": 29,
+              "positive_labels": 1,
+              "negative_labels": 28,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9655172413793104
+            },
+            "posture": {
+              "tp": 1,
+              "tn": 28,
+              "fp": 0,
+              "fn": 0,
+              "support": 29,
+              "positive_labels": 1,
+              "negative_labels": 28,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 1,
+              "tn": 27,
+              "fp": 0,
+              "fn": 1,
+              "support": 29,
+              "positive_labels": 2,
+              "negative_labels": 27,
+              "precision": 1,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "agreement": 0.9655172413793104
+            }
+          }
+        }
+      },
+      "S018": {
+        "before": {
+          "count": 35,
+          "exact_match_count": 15,
+          "exact_match_agreement": 0.42857142857142855,
+          "metrics": {
+            "relevance": {
+              "tp": 31,
+              "tn": 1,
+              "fp": 1,
+              "fn": 2,
+              "support": 35,
+              "positive_labels": 33,
+              "negative_labels": 2,
+              "precision": 0.96875,
+              "recall": 0.9393939393939394,
+              "f1": 0.9538461538461539,
+              "agreement": 0.9142857142857143
+            },
+            "action": {
+              "tp": 18,
+              "tn": 10,
+              "fp": 4,
+              "fn": 3,
+              "support": 35,
+              "positive_labels": 21,
+              "negative_labels": 14,
+              "precision": 0.8181818181818182,
+              "recall": 0.8571428571428571,
+              "f1": 0.8372093023255814,
+              "agreement": 0.8
+            },
+            "threat": {
+              "tp": 8,
+              "tn": 19,
+              "fp": 0,
+              "fn": 8,
+              "support": 35,
+              "positive_labels": 16,
+              "negative_labels": 19,
+              "precision": 1,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "agreement": 0.7714285714285715
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 35,
+              "fp": 0,
+              "fn": 0,
+              "support": 35,
+              "positive_labels": 0,
+              "negative_labels": 35,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 1,
+              "tn": 29,
+              "fp": 1,
+              "fn": 4,
+              "support": 35,
+              "positive_labels": 5,
+              "negative_labels": 30,
+              "precision": 0.5,
+              "recall": 0.2,
+              "f1": 0.2857142857142857,
+              "agreement": 0.8571428571428571
+            }
+          }
+        },
+        "after": {
+          "count": 35,
+          "exact_match_count": 21,
+          "exact_match_agreement": 0.6,
+          "metrics": {
+            "relevance": {
+              "tp": 31,
+              "tn": 1,
+              "fp": 1,
+              "fn": 2,
+              "support": 35,
+              "positive_labels": 33,
+              "negative_labels": 2,
+              "precision": 0.96875,
+              "recall": 0.9393939393939394,
+              "f1": 0.9538461538461539,
+              "agreement": 0.9142857142857143
+            },
+            "action": {
+              "tp": 19,
+              "tn": 10,
+              "fp": 4,
+              "fn": 2,
+              "support": 35,
+              "positive_labels": 21,
+              "negative_labels": 14,
+              "precision": 0.8260869565217391,
+              "recall": 0.9047619047619048,
+              "f1": 0.8636363636363636,
+              "agreement": 0.8285714285714286
+            },
+            "threat": {
+              "tp": 11,
+              "tn": 19,
+              "fp": 0,
+              "fn": 5,
+              "support": 35,
+              "positive_labels": 16,
+              "negative_labels": 19,
+              "precision": 1,
+              "recall": 0.6875,
+              "f1": 0.8148148148148148,
+              "agreement": 0.8571428571428571
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 35,
+              "fp": 0,
+              "fn": 0,
+              "support": 35,
+              "positive_labels": 0,
+              "negative_labels": 35,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 4,
+              "tn": 30,
+              "fp": 0,
+              "fn": 1,
+              "support": 35,
+              "positive_labels": 5,
+              "negative_labels": 30,
+              "precision": 1,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "agreement": 0.9714285714285714
+            }
+          }
+        }
+      },
+      "S019": {
+        "before": {
+          "count": 41,
+          "exact_match_count": 19,
+          "exact_match_agreement": 0.4634146341463415,
+          "metrics": {
+            "relevance": {
+              "tp": 34,
+              "tn": 5,
+              "fp": 2,
+              "fn": 0,
+              "support": 41,
+              "positive_labels": 34,
+              "negative_labels": 7,
+              "precision": 0.9444444444444444,
+              "recall": 1,
+              "f1": 0.9714285714285714,
+              "agreement": 0.9512195121951219
+            },
+            "action": {
+              "tp": 6,
+              "tn": 29,
+              "fp": 1,
+              "fn": 5,
+              "support": 41,
+              "positive_labels": 11,
+              "negative_labels": 30,
+              "precision": 0.8571428571428571,
+              "recall": 0.5454545454545454,
+              "f1": 0.6666666666666666,
+              "agreement": 0.8536585365853658
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 37,
+              "fp": 0,
+              "fn": 4,
+              "support": 41,
+              "positive_labels": 4,
+              "negative_labels": 37,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9024390243902439
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 1,
+              "support": 41,
+              "positive_labels": 1,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.975609756097561
+            },
+            "cooperation": {
+              "tp": 6,
+              "tn": 25,
+              "fp": 1,
+              "fn": 9,
+              "support": 41,
+              "positive_labels": 15,
+              "negative_labels": 26,
+              "precision": 0.8571428571428571,
+              "recall": 0.4,
+              "f1": 0.5454545454545454,
+              "agreement": 0.7560975609756098
+            }
+          }
+        },
+        "after": {
+          "count": 41,
+          "exact_match_count": 24,
+          "exact_match_agreement": 0.5853658536585366,
+          "metrics": {
+            "relevance": {
+              "tp": 34,
+              "tn": 5,
+              "fp": 2,
+              "fn": 0,
+              "support": 41,
+              "positive_labels": 34,
+              "negative_labels": 7,
+              "precision": 0.9444444444444444,
+              "recall": 1,
+              "f1": 0.9714285714285714,
+              "agreement": 0.9512195121951219
+            },
+            "action": {
+              "tp": 6,
+              "tn": 29,
+              "fp": 1,
+              "fn": 5,
+              "support": 41,
+              "positive_labels": 11,
+              "negative_labels": 30,
+              "precision": 0.8571428571428571,
+              "recall": 0.5454545454545454,
+              "f1": 0.6666666666666666,
+              "agreement": 0.8536585365853658
+            },
+            "threat": {
+              "tp": 2,
+              "tn": 37,
+              "fp": 0,
+              "fn": 2,
+              "support": 41,
+              "positive_labels": 4,
+              "negative_labels": 37,
+              "precision": 1,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "agreement": 0.9512195121951219
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 1,
+              "support": 41,
+              "positive_labels": 1,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.975609756097561
+            },
+            "cooperation": {
+              "tp": 9,
+              "tn": 26,
+              "fp": 0,
+              "fn": 6,
+              "support": 41,
+              "positive_labels": 15,
+              "negative_labels": 26,
+              "precision": 1,
+              "recall": 0.6,
+              "f1": 0.75,
+              "agreement": 0.8536585365853658
+            }
+          }
+        }
+      },
+      "S020": {
+        "before": {
+          "count": 40,
+          "exact_match_count": 35,
+          "exact_match_agreement": 0.875,
+          "metrics": {
+            "relevance": {
+              "tp": 1,
+              "tn": 34,
+              "fp": 5,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 1,
+              "negative_labels": 39,
+              "precision": 0.16666666666666666,
+              "recall": 1,
+              "f1": 0.2857142857142857,
+              "agreement": 0.875
+            },
+            "action": {
+              "tp": 1,
+              "tn": 39,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 1,
+              "negative_labels": 39,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 0,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 0,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 0,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        },
+        "after": {
+          "count": 40,
+          "exact_match_count": 35,
+          "exact_match_agreement": 0.875,
+          "metrics": {
+            "relevance": {
+              "tp": 1,
+              "tn": 34,
+              "fp": 5,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 1,
+              "negative_labels": 39,
+              "precision": 0.16666666666666666,
+              "recall": 1,
+              "f1": 0.2857142857142857,
+              "agreement": 0.875
+            },
+            "action": {
+              "tp": 1,
+              "tn": 39,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 1,
+              "negative_labels": 39,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 0,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 0,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 40,
+              "fp": 0,
+              "fn": 0,
+              "support": 40,
+              "positive_labels": 0,
+              "negative_labels": 40,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        }
+      }
+    },
+    "by_publisher": {
+      "Al Jazeera": {
+        "before": {
+          "count": 51,
+          "exact_match_count": 28,
+          "exact_match_agreement": 0.5490196078431373,
+          "metrics": {
+            "relevance": {
+              "tp": 30,
+              "tn": 12,
+              "fp": 8,
+              "fn": 1,
+              "support": 51,
+              "positive_labels": 31,
+              "negative_labels": 20,
+              "precision": 0.7894736842105263,
+              "recall": 0.967741935483871,
+              "f1": 0.8695652173913043,
+              "agreement": 0.8235294117647058
+            },
+            "action": {
+              "tp": 12,
+              "tn": 28,
+              "fp": 4,
+              "fn": 7,
+              "support": 51,
+              "positive_labels": 19,
+              "negative_labels": 32,
+              "precision": 0.75,
+              "recall": 0.631578947368421,
+              "f1": 0.6857142857142857,
+              "agreement": 0.7843137254901961
+            },
+            "threat": {
+              "tp": 5,
+              "tn": 44,
+              "fp": 0,
+              "fn": 2,
+              "support": 51,
+              "positive_labels": 7,
+              "negative_labels": 44,
+              "precision": 1,
+              "recall": 0.7142857142857143,
+              "f1": 0.8333333333333334,
+              "agreement": 0.9607843137254902
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 51,
+              "fp": 0,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 0,
+              "negative_labels": 51,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 5,
+              "tn": 45,
+              "fp": 1,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 5,
+              "negative_labels": 46,
+              "precision": 0.8333333333333334,
+              "recall": 1,
+              "f1": 0.9090909090909091,
+              "agreement": 0.9803921568627451
+            }
+          }
+        },
+        "after": {
+          "count": 51,
+          "exact_match_count": 30,
+          "exact_match_agreement": 0.5882352941176471,
+          "metrics": {
+            "relevance": {
+              "tp": 30,
+              "tn": 12,
+              "fp": 8,
+              "fn": 1,
+              "support": 51,
+              "positive_labels": 31,
+              "negative_labels": 20,
+              "precision": 0.7894736842105263,
+              "recall": 0.967741935483871,
+              "f1": 0.8695652173913043,
+              "agreement": 0.8235294117647058
+            },
+            "action": {
+              "tp": 12,
+              "tn": 28,
+              "fp": 4,
+              "fn": 7,
+              "support": 51,
+              "positive_labels": 19,
+              "negative_labels": 32,
+              "precision": 0.75,
+              "recall": 0.631578947368421,
+              "f1": 0.6857142857142857,
+              "agreement": 0.7843137254901961
+            },
+            "threat": {
+              "tp": 6,
+              "tn": 44,
+              "fp": 0,
+              "fn": 1,
+              "support": 51,
+              "positive_labels": 7,
+              "negative_labels": 44,
+              "precision": 1,
+              "recall": 0.8571428571428571,
+              "f1": 0.9230769230769231,
+              "agreement": 0.9803921568627451
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 51,
+              "fp": 0,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 0,
+              "negative_labels": 51,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 5,
+              "tn": 46,
+              "fp": 0,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 5,
+              "negative_labels": 46,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            }
+          }
+        }
+      },
+      "Common Dreams": {
+        "before": {
+          "count": 1,
+          "exact_match_count": 1,
+          "exact_match_agreement": 1,
+          "metrics": {
+            "relevance": {
+              "tp": 1,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 1,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "action": {
+              "tp": 1,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 1,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 1,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 1,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 1,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 0,
+              "negative_labels": 1,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 1,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 0,
+              "negative_labels": 1,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        },
+        "after": {
+          "count": 1,
+          "exact_match_count": 1,
+          "exact_match_agreement": 1,
+          "metrics": {
+            "relevance": {
+              "tp": 1,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 1,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "action": {
+              "tp": 1,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 1,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 1,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 1,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 1,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 0,
+              "negative_labels": 1,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 1,
+              "fp": 0,
+              "fn": 0,
+              "support": 1,
+              "positive_labels": 0,
+              "negative_labels": 1,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        }
+      },
+      "Global Voices": {
+        "before": {
+          "count": 52,
+          "exact_match_count": 36,
+          "exact_match_agreement": 0.6923076923076923,
+          "metrics": {
+            "relevance": {
+              "tp": 12,
+              "tn": 31,
+              "fp": 9,
+              "fn": 0,
+              "support": 52,
+              "positive_labels": 12,
+              "negative_labels": 40,
+              "precision": 0.5714285714285714,
+              "recall": 1,
+              "f1": 0.7272727272727273,
+              "agreement": 0.8269230769230769
+            },
+            "action": {
+              "tp": 0,
+              "tn": 46,
+              "fp": 0,
+              "fn": 6,
+              "support": 52,
+              "positive_labels": 6,
+              "negative_labels": 46,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.8846153846153846
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 52,
+              "fp": 0,
+              "fn": 0,
+              "support": 52,
+              "positive_labels": 0,
+              "negative_labels": 52,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 51,
+              "fp": 0,
+              "fn": 1,
+              "support": 52,
+              "positive_labels": 1,
+              "negative_labels": 51,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9807692307692307
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 52,
+              "fp": 0,
+              "fn": 0,
+              "support": 52,
+              "positive_labels": 0,
+              "negative_labels": 52,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        },
+        "after": {
+          "count": 52,
+          "exact_match_count": 36,
+          "exact_match_agreement": 0.6923076923076923,
+          "metrics": {
+            "relevance": {
+              "tp": 12,
+              "tn": 31,
+              "fp": 9,
+              "fn": 0,
+              "support": 52,
+              "positive_labels": 12,
+              "negative_labels": 40,
+              "precision": 0.5714285714285714,
+              "recall": 1,
+              "f1": 0.7272727272727273,
+              "agreement": 0.8269230769230769
+            },
+            "action": {
+              "tp": 0,
+              "tn": 46,
+              "fp": 0,
+              "fn": 6,
+              "support": 52,
+              "positive_labels": 6,
+              "negative_labels": 46,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.8846153846153846
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 52,
+              "fp": 0,
+              "fn": 0,
+              "support": 52,
+              "positive_labels": 0,
+              "negative_labels": 52,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 51,
+              "fp": 0,
+              "fn": 1,
+              "support": 52,
+              "positive_labels": 1,
+              "negative_labels": 51,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9807692307692307
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 52,
+              "fp": 0,
+              "fn": 0,
+              "support": 52,
+              "positive_labels": 0,
+              "negative_labels": 52,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        }
+      },
+      "ISS Today": {
+        "before": {
+          "count": 6,
+          "exact_match_count": 2,
+          "exact_match_agreement": 0.3333333333333333,
+          "metrics": {
+            "relevance": {
+              "tp": 6,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 6,
+              "positive_labels": 6,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "action": {
+              "tp": 3,
+              "tn": 2,
+              "fp": 0,
+              "fn": 1,
+              "support": 6,
+              "positive_labels": 4,
+              "negative_labels": 2,
+              "precision": 1,
+              "recall": 0.75,
+              "f1": 0.8571428571428571,
+              "agreement": 0.8333333333333334
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 5,
+              "fp": 0,
+              "fn": 1,
+              "support": 6,
+              "positive_labels": 1,
+              "negative_labels": 5,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.8333333333333334
+            },
+            "posture": {
+              "tp": 1,
+              "tn": 5,
+              "fp": 0,
+              "fn": 0,
+              "support": 6,
+              "positive_labels": 1,
+              "negative_labels": 5,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 3,
+              "fp": 0,
+              "fn": 3,
+              "support": 6,
+              "positive_labels": 3,
+              "negative_labels": 3,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.5
+            }
+          }
+        },
+        "after": {
+          "count": 6,
+          "exact_match_count": 2,
+          "exact_match_agreement": 0.3333333333333333,
+          "metrics": {
+            "relevance": {
+              "tp": 6,
+              "tn": 0,
+              "fp": 0,
+              "fn": 0,
+              "support": 6,
+              "positive_labels": 6,
+              "negative_labels": 0,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "action": {
+              "tp": 3,
+              "tn": 2,
+              "fp": 0,
+              "fn": 1,
+              "support": 6,
+              "positive_labels": 4,
+              "negative_labels": 2,
+              "precision": 1,
+              "recall": 0.75,
+              "f1": 0.8571428571428571,
+              "agreement": 0.8333333333333334
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 5,
+              "fp": 0,
+              "fn": 1,
+              "support": 6,
+              "positive_labels": 1,
+              "negative_labels": 5,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.8333333333333334
+            },
+            "posture": {
+              "tp": 1,
+              "tn": 5,
+              "fp": 0,
+              "fn": 0,
+              "support": 6,
+              "positive_labels": 1,
+              "negative_labels": 5,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 3,
+              "fp": 0,
+              "fn": 3,
+              "support": 6,
+              "positive_labels": 3,
+              "negative_labels": 3,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.5
+            }
+          }
+        }
+      },
+      "Middle East Monitor": {
+        "before": {
+          "count": 12,
+          "exact_match_count": 4,
+          "exact_match_agreement": 0.3333333333333333,
+          "metrics": {
+            "relevance": {
+              "tp": 10,
+              "tn": 0,
+              "fp": 1,
+              "fn": 1,
+              "support": 12,
+              "positive_labels": 11,
+              "negative_labels": 1,
+              "precision": 0.9090909090909091,
+              "recall": 0.9090909090909091,
+              "f1": 0.9090909090909091,
+              "agreement": 0.8333333333333334
+            },
+            "action": {
+              "tp": 4,
+              "tn": 8,
+              "fp": 0,
+              "fn": 0,
+              "support": 12,
+              "positive_labels": 4,
+              "negative_labels": 8,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 1,
+              "tn": 8,
+              "fp": 0,
+              "fn": 3,
+              "support": 12,
+              "positive_labels": 4,
+              "negative_labels": 8,
+              "precision": 1,
+              "recall": 0.25,
+              "f1": 0.4,
+              "agreement": 0.75
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 12,
+              "fp": 0,
+              "fn": 0,
+              "support": 12,
+              "positive_labels": 0,
+              "negative_labels": 12,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 9,
+              "fp": 0,
+              "fn": 3,
+              "support": 12,
+              "positive_labels": 3,
+              "negative_labels": 9,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.75
+            }
+          }
+        },
+        "after": {
+          "count": 12,
+          "exact_match_count": 8,
+          "exact_match_agreement": 0.6666666666666666,
+          "metrics": {
+            "relevance": {
+              "tp": 10,
+              "tn": 0,
+              "fp": 1,
+              "fn": 1,
+              "support": 12,
+              "positive_labels": 11,
+              "negative_labels": 1,
+              "precision": 0.9090909090909091,
+              "recall": 0.9090909090909091,
+              "f1": 0.9090909090909091,
+              "agreement": 0.8333333333333334
+            },
+            "action": {
+              "tp": 4,
+              "tn": 8,
+              "fp": 0,
+              "fn": 0,
+              "support": 12,
+              "positive_labels": 4,
+              "negative_labels": 8,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 2,
+              "tn": 8,
+              "fp": 0,
+              "fn": 2,
+              "support": 12,
+              "positive_labels": 4,
+              "negative_labels": 8,
+              "precision": 1,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "agreement": 0.8333333333333334
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 12,
+              "fp": 0,
+              "fn": 0,
+              "support": 12,
+              "positive_labels": 0,
+              "negative_labels": 12,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 3,
+              "tn": 9,
+              "fp": 0,
+              "fn": 0,
+              "support": 12,
+              "positive_labels": 3,
+              "negative_labels": 9,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            }
+          }
+        }
+      },
+      "Mongabay": {
+        "before": {
+          "count": 4,
+          "exact_match_count": 3,
+          "exact_match_agreement": 0.75,
+          "metrics": {
+            "relevance": {
+              "tp": 0,
+              "tn": 3,
+              "fp": 1,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": 0,
+              "recall": null,
+              "f1": 0,
+              "agreement": 0.75
+            },
+            "action": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        },
+        "after": {
+          "count": 4,
+          "exact_match_count": 3,
+          "exact_match_agreement": 0.75,
+          "metrics": {
+            "relevance": {
+              "tp": 0,
+              "tn": 3,
+              "fp": 1,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": 0,
+              "recall": null,
+              "f1": 0,
+              "agreement": 0.75
+            },
+            "action": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "threat": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 0,
+              "tn": 4,
+              "fp": 0,
+              "fn": 0,
+              "support": 4,
+              "positive_labels": 0,
+              "negative_labels": 4,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            }
+          }
+        }
+      },
+      "Voice of America": {
+        "before": {
+          "count": 53,
+          "exact_match_count": 29,
+          "exact_match_agreement": 0.5471698113207547,
+          "metrics": {
+            "relevance": {
+              "tp": 35,
+              "tn": 17,
+              "fp": 1,
+              "fn": 0,
+              "support": 53,
+              "positive_labels": 35,
+              "negative_labels": 18,
+              "precision": 0.9722222222222222,
+              "recall": 1,
+              "f1": 0.9859154929577465,
+              "agreement": 0.9811320754716981
+            },
+            "action": {
+              "tp": 13,
+              "tn": 32,
+              "fp": 2,
+              "fn": 6,
+              "support": 53,
+              "positive_labels": 19,
+              "negative_labels": 34,
+              "precision": 0.8666666666666667,
+              "recall": 0.6842105263157895,
+              "f1": 0.7647058823529411,
+              "agreement": 0.8490566037735849
+            },
+            "threat": {
+              "tp": 1,
+              "tn": 43,
+              "fp": 1,
+              "fn": 8,
+              "support": 53,
+              "positive_labels": 9,
+              "negative_labels": 44,
+              "precision": 0.5,
+              "recall": 0.1111111111111111,
+              "f1": 0.18181818181818182,
+              "agreement": 0.8301886792452831
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 52,
+              "fp": 0,
+              "fn": 1,
+              "support": 53,
+              "positive_labels": 1,
+              "negative_labels": 52,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9811320754716981
+            },
+            "cooperation": {
+              "tp": 3,
+              "tn": 39,
+              "fp": 2,
+              "fn": 9,
+              "support": 53,
+              "positive_labels": 12,
+              "negative_labels": 41,
+              "precision": 0.6,
+              "recall": 0.25,
+              "f1": 0.35294117647058826,
+              "agreement": 0.7924528301886793
+            }
+          }
+        },
+        "after": {
+          "count": 53,
+          "exact_match_count": 36,
+          "exact_match_agreement": 0.6792452830188679,
+          "metrics": {
+            "relevance": {
+              "tp": 35,
+              "tn": 17,
+              "fp": 1,
+              "fn": 0,
+              "support": 53,
+              "positive_labels": 35,
+              "negative_labels": 18,
+              "precision": 0.9722222222222222,
+              "recall": 1,
+              "f1": 0.9859154929577465,
+              "agreement": 0.9811320754716981
+            },
+            "action": {
+              "tp": 14,
+              "tn": 32,
+              "fp": 2,
+              "fn": 5,
+              "support": 53,
+              "positive_labels": 19,
+              "negative_labels": 34,
+              "precision": 0.875,
+              "recall": 0.7368421052631579,
+              "f1": 0.8,
+              "agreement": 0.8679245283018868
+            },
+            "threat": {
+              "tp": 5,
+              "tn": 44,
+              "fp": 0,
+              "fn": 4,
+              "support": 53,
+              "positive_labels": 9,
+              "negative_labels": 44,
+              "precision": 1,
+              "recall": 0.5555555555555556,
+              "f1": 0.7142857142857143,
+              "agreement": 0.9245283018867925
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 52,
+              "fp": 0,
+              "fn": 1,
+              "support": 53,
+              "positive_labels": 1,
+              "negative_labels": 52,
+              "precision": null,
+              "recall": 0,
+              "f1": 0,
+              "agreement": 0.9811320754716981
+            },
+            "cooperation": {
+              "tp": 7,
+              "tn": 40,
+              "fp": 1,
+              "fn": 5,
+              "support": 53,
+              "positive_labels": 12,
+              "negative_labels": 41,
+              "precision": 0.875,
+              "recall": 0.5833333333333334,
+              "f1": 0.7,
+              "agreement": 0.8867924528301887
+            }
+          }
+        }
+      }
+    },
+    "by_dataset": {
+      "expansion_160": {
+        "before": {
+          "count": 128,
+          "exact_match_count": 75,
+          "exact_match_agreement": 0.5859375,
+          "metrics": {
+            "relevance": {
+              "tp": 64,
+              "tn": 51,
+              "fp": 12,
+              "fn": 1,
+              "support": 128,
+              "positive_labels": 65,
+              "negative_labels": 63,
+              "precision": 0.8421052631578947,
+              "recall": 0.9846153846153847,
+              "f1": 0.9078014184397163,
+              "agreement": 0.8984375
+            },
+            "action": {
+              "tp": 21,
+              "tn": 92,
+              "fp": 2,
+              "fn": 13,
+              "support": 128,
+              "positive_labels": 34,
+              "negative_labels": 94,
+              "precision": 0.9130434782608695,
+              "recall": 0.6176470588235294,
+              "f1": 0.7368421052631579,
+              "agreement": 0.8828125
+            },
+            "threat": {
+              "tp": 3,
+              "tn": 112,
+              "fp": 1,
+              "fn": 12,
+              "support": 128,
+              "positive_labels": 15,
+              "negative_labels": 113,
+              "precision": 0.75,
+              "recall": 0.2,
+              "f1": 0.3157894736842105,
+              "agreement": 0.8984375
+            },
+            "posture": {
+              "tp": 1,
+              "tn": 125,
+              "fp": 0,
+              "fn": 2,
+              "support": 128,
+              "positive_labels": 3,
+              "negative_labels": 125,
+              "precision": 1,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "agreement": 0.984375
+            },
+            "cooperation": {
+              "tp": 3,
+              "tn": 108,
+              "fp": 2,
+              "fn": 15,
+              "support": 128,
+              "positive_labels": 18,
+              "negative_labels": 110,
+              "precision": 0.6,
+              "recall": 0.16666666666666666,
+              "f1": 0.2608695652173913,
+              "agreement": 0.8671875
+            }
+          }
+        },
+        "after": {
+          "count": 128,
+          "exact_match_count": 86,
+          "exact_match_agreement": 0.671875,
+          "metrics": {
+            "relevance": {
+              "tp": 64,
+              "tn": 51,
+              "fp": 12,
+              "fn": 1,
+              "support": 128,
+              "positive_labels": 65,
+              "negative_labels": 63,
+              "precision": 0.8421052631578947,
+              "recall": 0.9846153846153847,
+              "f1": 0.9078014184397163,
+              "agreement": 0.8984375
+            },
+            "action": {
+              "tp": 22,
+              "tn": 92,
+              "fp": 2,
+              "fn": 12,
+              "support": 128,
+              "positive_labels": 34,
+              "negative_labels": 94,
+              "precision": 0.9166666666666666,
+              "recall": 0.6470588235294118,
+              "f1": 0.7586206896551724,
+              "agreement": 0.890625
+            },
+            "threat": {
+              "tp": 8,
+              "tn": 113,
+              "fp": 0,
+              "fn": 7,
+              "support": 128,
+              "positive_labels": 15,
+              "negative_labels": 113,
+              "precision": 1,
+              "recall": 0.5333333333333333,
+              "f1": 0.6956521739130435,
+              "agreement": 0.9453125
+            },
+            "posture": {
+              "tp": 1,
+              "tn": 125,
+              "fp": 0,
+              "fn": 2,
+              "support": 128,
+              "positive_labels": 3,
+              "negative_labels": 125,
+              "precision": 1,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "agreement": 0.984375
+            },
+            "cooperation": {
+              "tp": 10,
+              "tn": 109,
+              "fp": 1,
+              "fn": 8,
+              "support": 128,
+              "positive_labels": 18,
+              "negative_labels": 110,
+              "precision": 0.9090909090909091,
+              "recall": 0.5555555555555556,
+              "f1": 0.6896551724137931,
+              "agreement": 0.9296875
+            }
+          }
+        }
+      },
+      "fixed_60": {
+        "before": {
+          "count": 51,
+          "exact_match_count": 28,
+          "exact_match_agreement": 0.5490196078431373,
+          "metrics": {
+            "relevance": {
+              "tp": 30,
+              "tn": 12,
+              "fp": 8,
+              "fn": 1,
+              "support": 51,
+              "positive_labels": 31,
+              "negative_labels": 20,
+              "precision": 0.7894736842105263,
+              "recall": 0.967741935483871,
+              "f1": 0.8695652173913043,
+              "agreement": 0.8235294117647058
+            },
+            "action": {
+              "tp": 12,
+              "tn": 28,
+              "fp": 4,
+              "fn": 7,
+              "support": 51,
+              "positive_labels": 19,
+              "negative_labels": 32,
+              "precision": 0.75,
+              "recall": 0.631578947368421,
+              "f1": 0.6857142857142857,
+              "agreement": 0.7843137254901961
+            },
+            "threat": {
+              "tp": 5,
+              "tn": 44,
+              "fp": 0,
+              "fn": 2,
+              "support": 51,
+              "positive_labels": 7,
+              "negative_labels": 44,
+              "precision": 1,
+              "recall": 0.7142857142857143,
+              "f1": 0.8333333333333334,
+              "agreement": 0.9607843137254902
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 51,
+              "fp": 0,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 0,
+              "negative_labels": 51,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 5,
+              "tn": 45,
+              "fp": 1,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 5,
+              "negative_labels": 46,
+              "precision": 0.8333333333333334,
+              "recall": 1,
+              "f1": 0.9090909090909091,
+              "agreement": 0.9803921568627451
+            }
+          }
+        },
+        "after": {
+          "count": 51,
+          "exact_match_count": 30,
+          "exact_match_agreement": 0.5882352941176471,
+          "metrics": {
+            "relevance": {
+              "tp": 30,
+              "tn": 12,
+              "fp": 8,
+              "fn": 1,
+              "support": 51,
+              "positive_labels": 31,
+              "negative_labels": 20,
+              "precision": 0.7894736842105263,
+              "recall": 0.967741935483871,
+              "f1": 0.8695652173913043,
+              "agreement": 0.8235294117647058
+            },
+            "action": {
+              "tp": 12,
+              "tn": 28,
+              "fp": 4,
+              "fn": 7,
+              "support": 51,
+              "positive_labels": 19,
+              "negative_labels": 32,
+              "precision": 0.75,
+              "recall": 0.631578947368421,
+              "f1": 0.6857142857142857,
+              "agreement": 0.7843137254901961
+            },
+            "threat": {
+              "tp": 6,
+              "tn": 44,
+              "fp": 0,
+              "fn": 1,
+              "support": 51,
+              "positive_labels": 7,
+              "negative_labels": 44,
+              "precision": 1,
+              "recall": 0.8571428571428571,
+              "f1": 0.9230769230769231,
+              "agreement": 0.9803921568627451
+            },
+            "posture": {
+              "tp": 0,
+              "tn": 51,
+              "fp": 0,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 0,
+              "negative_labels": 51,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "agreement": 1
+            },
+            "cooperation": {
+              "tp": 5,
+              "tn": 46,
+              "fp": 0,
+              "fn": 0,
+              "support": 51,
+              "positive_labels": 5,
+              "negative_labels": 46,
+              "precision": 1,
+              "recall": 1,
+              "f1": 1,
+              "agreement": 1
+            }
+          }
+        }
+      }
+    },
+    "changes": {
+      "fully_resolved": 13,
+      "newly_mismatched": 0,
+      "resolved_field_errors": 17,
+      "new_field_errors": 0
+    }
+  },
+  "forecast_comparison": {
+    "schema_version": 1,
+    "baseline_version": "scoped-event-recall-v7",
+    "current_version": "scoped-communication-recall-v8",
+    "baseline_manifest_sha256": "efe955a02e422c5f4692b52613ba7641f762bac814161b3bb3be879713ef42dc",
+    "baseline_files_sha256": {
+      "engine.mjs": "95593064f4225143d7d0217dbd41e463b7f3db7519dec88b633d52851c2db292",
+      "assertions.mjs": "9ab2159587c95a59022e6680616189c576ce6f19e18cd5125d30bfb6874df2a7",
+      "temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+      "event-relations.mjs": "c9e4e67b1377d5ab644da11cf20e20838f04cf029930a8a447d22e752c817cc9",
+      "action-vocabulary.mjs": "08a0b835671e662d5501694c4ebba6853b2ace9745252a0c22bb90c7bf9a0cf0",
+      "communication.mjs": "abdd7f3327c1ded0c2cb22afaac6f18651ea165f322d5b3547f64800e5cb75fc",
+      "scope.mjs": "5523f0926e9c15dc6f37120dd74f572ff47225005df3119cd0716a8debb493b3",
+      "model.json": "a797b0a63800d00a1d2719ca3ea891eff3e662d7657a6b8578b3375cbc762b33",
+      "model-report.json": "275cafefa95bc631fb686ba2cbb21a8d1684d7b4809002abceb89e3dedcf61f5",
+      "recognition.json": "532e49f9309a173a8d629358b92c438202d0207ebb2dd0c657fdd3814694d5fd",
+      "recognition-summary.json": "6ef355680ef5acba95a6a6df272d1549957fe7442a2297d9c386f046d7be2ea5"
+    },
+    "current_source_sha256": {
+      "lib/engine.mjs": "fc8667662c539055d3e42528664e5aea215afc4baef15caca0e36622256e9698",
+      "lib/assertions.mjs": "9ab2159587c95a59022e6680616189c576ce6f19e18cd5125d30bfb6874df2a7",
+      "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+      "lib/event-relations.mjs": "c9e4e67b1377d5ab644da11cf20e20838f04cf029930a8a447d22e752c817cc9",
+      "lib/action-vocabulary.mjs": "08a0b835671e662d5501694c4ebba6853b2ace9745252a0c22bb90c7bf9a0cf0",
+      "lib/communication.mjs": "6f891ae5e8238457e12ad2ba0e099989973b5c552edd40d3287d7722b054a270",
+      "lib/scope.mjs": "9fdc3f95cc4b6577d6b07acd5cf8ecf8de5fee5c3ca21bcc18d9e3427ac3693f",
+      "lib/threat.mjs": "17aedad02c4aaecd836a071c082a825df4eb412aaf98563cff0376eac7fb6e0d",
+      "lib/cooperation.mjs": "ee4aa3cad178442efae303c72e85c7d93b51ee9dbd7931561022d3a6fc3cb78b",
+      "lib/communication-context.mjs": "f78eee0f9ba2c3677a9b865792f469231786a6b980f09597d8f6a781c82840b3"
+    },
+    "data_provenance": {
+      "train": {
+        "path": "local-data/train_pairs.jsonl",
+        "sha256": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601"
+      },
+      "validation": {
+        "path": "local-data/validation_pairs.jsonl",
+        "sha256": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+      },
+      "pilot": {
+        "path": "local-data/annotations.jsonl",
+        "sha256": "50a9e4cd83c81c3977a4a301fafc4a6c3be009f66dfd07e9c1742bbea5a994a0"
+      },
+      "aliases": {
+        "path": "local-data/case_aliases.json",
+        "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
+      }
+    },
+    "evaluation_contract": {
+      "evaluation_kind": "development_forecast_weak_report_proxy_comparison",
+      "independent_holdout": false,
+      "independent_gold_available": false,
+      "split_unchanged": true,
+      "fit_on_training_only": true,
+      "normalization_fit_on_training_only": true,
+      "test_input_used": false,
+      "test_gold_used": false,
+      "silver_annotations_added_to_training": false,
+      "hyperparameters": "Each version uses its original-grid validation-selected lambda; validation has been used for development.",
+      "target": "Detector-derived next-seven-day military-action report proxy, not independently verified events.",
+      "comparison_limit": "Compare common windows with both fixed label definitions; native windows/targets may change. Small dependent samples do not establish significance or generalization."
+    },
+    "native": {
+      "before": {
+        "rule_version": "scoped-event-recall-v7",
+        "train_windows": 72,
+        "validation_cases": 4,
+        "lambda": 10,
+        "metrics": {
+          "sample_count": 16,
+          "positives": 13,
+          "negatives": 3,
+          "brier": 0.069969,
+          "log_loss": 0.215034,
+          "accuracy": 0.875,
+          "confusion": {
+            "tp": 11,
+            "tn": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "baseline_brier": 0.152986,
+          "baseline_log_loss": 0.484848,
+          "baseline_accuracy": 0.8125,
+          "persistence_brier": 0.0625,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      },
+      "after": {
+        "rule_version": "scoped-communication-recall-v8",
+        "train_windows": 72,
+        "validation_cases": 4,
+        "lambda": 10,
+        "metrics": {
+          "sample_count": 16,
+          "positives": 13,
+          "negatives": 3,
+          "brier": 0.065294,
+          "log_loss": 0.217087,
+          "accuracy": 0.875,
+          "confusion": {
+            "tp": 11,
+            "tn": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "baseline_brier": 0.152986,
+          "baseline_log_loss": 0.484848,
+          "baseline_accuracy": 0.8125,
+          "persistence_brier": 0.0625,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      }
+    },
+    "common_windows": {
+      "count": 16,
+      "changed_labels": 0,
+      "evaluated_on_old_labels": {
+        "before": {
+          "sample_count": 16,
+          "positives": 13,
+          "negatives": 3,
+          "brier": 0.069969,
+          "log_loss": 0.215034,
+          "accuracy": 0.875,
+          "confusion": {
+            "tp": 11,
+            "tn": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "baseline_brier": 0.152986,
+          "baseline_log_loss": 0.484848,
+          "baseline_accuracy": 0.8125,
+          "persistence_brier": 0.0625,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        },
+        "after": {
+          "sample_count": 16,
+          "positives": 13,
+          "negatives": 3,
+          "brier": 0.065294,
+          "log_loss": 0.217087,
+          "accuracy": 0.875,
+          "confusion": {
+            "tp": 11,
+            "tn": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "baseline_brier": 0.152986,
+          "baseline_log_loss": 0.484848,
+          "baseline_accuracy": 0.8125,
+          "persistence_brier": 0.0625,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      },
+      "evaluated_on_new_labels": {
+        "before": {
+          "sample_count": 16,
+          "positives": 13,
+          "negatives": 3,
+          "brier": 0.069969,
+          "log_loss": 0.215034,
+          "accuracy": 0.875,
+          "confusion": {
+            "tp": 11,
+            "tn": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "baseline_brier": 0.152986,
+          "baseline_log_loss": 0.484848,
+          "baseline_accuracy": 0.8125,
+          "persistence_brier": 0.0625,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        },
+        "after": {
+          "sample_count": 16,
+          "positives": 13,
+          "negatives": 3,
+          "brier": 0.065294,
+          "log_loss": 0.217087,
+          "accuracy": 0.875,
+          "confusion": {
+            "tp": 11,
+            "tn": 3,
+            "fp": 0,
+            "fn": 2
+          },
+          "baseline_brier": 0.152986,
+          "baseline_log_loss": 0.484848,
+          "baseline_accuracy": 0.8125,
+          "persistence_brier": 0.0625,
+          "target_semantics": "weak_news_proxy_validation",
+          "independently_verified_real_event_labels": false
+        }
+      },
+      "note": "Both model comparisons use the same anchors and target labels within each matrix. Constant and persistence baselines are version-specific: own training rate and own detected historical action. Neither label definition is independent truth."
+    },
+    "changed_validation_labels": [],
+    "dropped_validation_windows": [],
+    "added_validation_windows": [],
+    "validation_predictions": [
+      {
+        "key": "S016/2024-11-11",
+        "before": {
+          "label": 1,
+          "probability": 0.5380524229130738,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.5893621476805838,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S018/2025-01-18",
+        "before": {
+          "label": 1,
+          "probability": 0.9154884662833198,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.8280186408190897,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-01-14",
+        "before": {
+          "label": 1,
+          "probability": 0.9863847624098527,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.977031304476302,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-01-21",
+        "before": {
+          "label": 1,
+          "probability": 0.9873640902550571,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9813316192158821,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-01-28",
+        "before": {
+          "label": 1,
+          "probability": 0.9816944266692582,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9791737660315729,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-02-04",
+        "before": {
+          "label": 1,
+          "probability": 0.9827264151528005,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9794879124919781,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-02-11",
+        "before": {
+          "label": 1,
+          "probability": 0.98125587249718,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9772064576222624,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-02-18",
+        "before": {
+          "label": 1,
+          "probability": 0.9751776513399864,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.965779040825525,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-02-25",
+        "before": {
+          "label": 1,
+          "probability": 0.9840491331648772,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.9818582243130372,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S019/2025-03-04",
+        "before": {
+          "label": 1,
+          "probability": 0.9744389568857965,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.962781570232118,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S020/2025-03-06",
+        "before": {
+          "label": 0,
+          "probability": 0.061651972282958795,
+          "persistence": 0
+        },
+        "after": {
+          "label": 0,
+          "probability": 0.07808605006751083,
+          "persistence": 0
+        }
+      },
+      {
+        "key": "S020/2025-03-13",
+        "before": {
+          "label": 0,
+          "probability": 0.09343015975791744,
+          "persistence": 0
+        },
+        "after": {
+          "label": 0,
+          "probability": 0.12192166005737896,
+          "persistence": 0
+        }
+      },
+      {
+        "key": "S020/2025-03-20",
+        "before": {
+          "label": 0,
+          "probability": 0.12567783736751606,
+          "persistence": 0
+        },
+        "after": {
+          "label": 0,
+          "probability": 0.16592566744576115,
+          "persistence": 0
+        }
+      },
+      {
+        "key": "S020/2025-04-10",
+        "before": {
+          "label": 1,
+          "probability": 0.2960183577845685,
+          "persistence": 0
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.348473545822063,
+          "persistence": 0
+        }
+      },
+      {
+        "key": "S020/2025-04-17",
+        "before": {
+          "label": 1,
+          "probability": 0.41571150833994236,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.4851230732399799,
+          "persistence": 1
+        }
+      },
+      {
+        "key": "S020/2025-04-24",
+        "before": {
+          "label": 1,
+          "probability": 0.8245097348386119,
+          "persistence": 1
+        },
+        "after": {
+          "label": 1,
+          "probability": 0.6786234073240908,
+          "persistence": 1
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Agreement is with GPT-6 Astra model-generated labels, not human gold or independently verified events.",
+    "All five labels of a record are excluded if any label is uncertain, either annotation round disagrees, a model quality flag exists, or prior source/scope quarantine applies. Exclusions never become negative labels.",
+    "These development cases can inform repairs; reuse for post-repair scoring is a diagnostic, not an untouched holdout.",
+    "Media and case groups are small and dependent. No statistical significance or population generalization is inferred.",
+    "Article-level agreement does not measure future seven-day event forecast accuracy."
+  ],
+  "scope_policies": {
+    "S016": {
+      "theatre": [
+        "Syria",
+        "Syrian",
+        "Damascus",
+        "Aleppo",
+        "Idlib"
+      ],
+      "description": "叙利亚境内政治、军事与安全局势，包括参与当地冲突的外部力量"
+    },
+    "S018": {
+      "theatre": [
+        "Yemen",
+        "Yemeni",
+        "Houthi",
+        "Houthis",
+        "Ansar Allah",
+        "Sanaa",
+        "Saada",
+        "Hudaydah",
+        "Red Sea",
+        "Gulf of Aden"
+      ],
+      "description": "也门及胡塞相关军事、安全与外交活动，包括红海与对外冲突"
+    },
+    "S019": {
+      "theatre": [
+        "Gaza",
+        "West Bank",
+        "Palestinian",
+        "Palestine",
+        "Hamas",
+        "Rafah"
+      ],
+      "description": "以巴局势及加沙相关军事、安全与外交活动"
+    }
+  },
+  "method_note": "This round targets communication recall and false positives using the same frozen model labels and development cohort; results are diagnostic, not independent human accuracy."
+}

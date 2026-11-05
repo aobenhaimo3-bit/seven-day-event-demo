@@ -1,0 +1,37 @@
+{
+  "version": "full-text-multisignal-v6",
+  "files": {
+    "engine.mjs": "e1c4c2b2fbd5c9ac36d02895cc0d52a9be08f7bf0ba2b4c3d25ea1ebff50fe17",
+    "assertions.mjs": "ac37462d9663d2170173f895e37dd6a321a6a807c2075a42f53d143152ca56a0",
+    "temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+    "event-relations.mjs": "d9acf6e1f07892c60bef7e3c9464e2f667c28fa0e59e4d8840826b440e53129d",
+    "model.json": "bae2c85344d4b5a09740e3f6fa017ea9eb9d07328339840d9a1089bc43d7f106",
+    "model-report.json": "6e5156273cb56107e71f3333a0a9804de0b9ec27f8d2331d699dd0e0b0bc651f",
+    "recognition.json": "276757ad1e2db4268bb2e2cf7a7e5e5cfb8ac1b41cbe9db614c7935ef9fb15f7",
+    "recognition-summary.json": "6952ef003e3ba6cc4f54df3695fcb5950bcbf3173848bf44e15c4a973b053add"
+  },
+  "rule_source_sha256": {
+    "lib/engine.mjs": "e1c4c2b2fbd5c9ac36d02895cc0d52a9be08f7bf0ba2b4c3d25ea1ebff50fe17",
+    "lib/assertions.mjs": "ac37462d9663d2170173f895e37dd6a321a6a807c2075a42f53d143152ca56a0",
+    "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+    "lib/event-relations.mjs": "d9acf6e1f07892c60bef7e3c9464e2f667c28fa0e59e4d8840826b440e53129d"
+  },
+  "data_provenance": {
+    "train": {
+      "path": "local-data/train_pairs.jsonl",
+      "sha256": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601"
+    },
+    "validation": {
+      "path": "local-data/validation_pairs.jsonl",
+      "sha256": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+    },
+    "pilot": {
+      "path": "local-data/annotations.jsonl",
+      "sha256": "50a9e4cd83c81c3977a4a301fafc4a6c3be009f66dfd07e9c1742bbea5a994a0"
+    },
+    "aliases": {
+      "path": "local-data/case_aliases.json",
+      "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
+    }
+  }
+}

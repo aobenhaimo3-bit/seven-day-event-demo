@@ -2,8 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import http from "node:http";
 import { fileURLToPath } from "node:url";
-import { analyzeCase, summarizeModel } from "./lib/engine.mjs";
-import { MODEL_PATH, DEMO_ROOT, readDemoCases, readPilotSummary, trainingProvenance, hasDevelopmentData, inputTemplate, validateImportedCase } from "./lib/data.mjs";
+import { analyzeCase, summarizeModel, DETECTOR_RULE_VERSION } from "./lib/engine.mjs";
+import { MODEL_PATH, DEMO_ROOT, readDemoCases, readPilotSummary, trainingProvenance, ruleProvenance, hasDevelopmentData, inputTemplate, validateImportedCase } from "./lib/data.mjs";
 
 const MAX_BODY_BYTES = 25 * 1024 * 1024;
 
@@ -11,6 +11,10 @@ export function loadFrozenModel() {
   if (!fs.existsSync(MODEL_PATH)) throw new Error("缺少artifacts/research-model.json，请恢复公开仓库附带的冻结模型，或自行准备本地数据后运行npm run build-model");
   const model = JSON.parse(fs.readFileSync(MODEL_PATH, "utf8"));
   if (model.schema_version !== 1 || model.model_type !== "cameo19_observed_news_week_ahead_research" || !model.forecast || !model.detector) throw new Error("模型结构或预测目标不匹配");
+  if (model.detector_rule_version !== DETECTOR_RULE_VERSION) throw new Error("模型与事件识别或覆盖规则版本不一致，请运行node build-model.mjs重新训练。");
+  for (const [file, hash] of Object.entries(ruleProvenance())) {
+    if (model.rule_source_sha256?.[file] !== hash) throw new Error(`识别规则${file}已变化，请运行node build-model.mjs重新训练。`);
+  }
   if (model.build_contract?.test_gold_used !== false || model.build_contract?.actual_event_probability_validated !== false) throw new Error("模型的实验边界声明不完整");
   const current = hasDevelopmentData() ? trainingProvenance() : {};
   for (const [key, value] of Object.entries(current)) {

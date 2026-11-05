@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "seed": "recognition-development-review-2026-11-04-v1",
+  "per_case_limit": 12,
+  "pool": "local-data/validation_pairs.jsonl; S016-S020 only",
+  "evaluation_kind": "development_recognition_evaluation",
+  "independent_holdout": false,
+  "limitation": "These development validation cases have already been used for forecast hyperparameter selection. Human annotation is independent of detector output, but this is not an untouched generalization test or future-event gold standard.",
+  "sampling": "Three equal calendar-time strata per case, SHA-256(seed + pair_id) ranking, proportional quotas then deterministic backfill. No model output or event keywords used for selection.",
+  "source_pool_sha256": "b60fdfacba5e5f86a0d3564211e4d66c3da5bd20adaa6c8144667e86b4be626f",
+  "source_pool_count": 1042,
+  "cases": [
+    {
+      "case_id": "S016",
+      "pool_count": 27,
+      "selected_count": 12
+    },
+    {
+      "case_id": "S017",
+      "pool_count": 18,
+      "selected_count": 12
+    },
+    {
+      "case_id": "S018",
+      "pool_count": 55,
+      "selected_count": 12
+    },
+    {
+      "case_id": "S019",
+      "pool_count": 736,
+      "selected_count": 12
+    },
+    {
+      "case_id": "S020",
+      "pool_count": 206,
+      "selected_count": 12
+    }
+  ],
+  "records": [
+    {
+      "pair_id": "S016::P3N07350",
+      "case_id": "S016",
+      "news_id": "P3N07350",
+      "date": "2024-09-04",
+      "time_stratum": 0,
+      "source_sha256": "768249ba08580fa66e4698237814341e1bc1ffbf5a5198d74de4974e57a553f3"
+    },
+    {
+      "pair_id": "S016::P3N07398",
+      "case_id": "S016",
+      "news_id": "P3N07398",
+      "date": "2024-09-09",
+      "time_stratum": 0,
+      "source_sha256": "c9afc67d4ce689ce3d9a3d1ee438b622e08c774cf535ccbc475b827ac183b9a8"
+    },
+    {
+      "pair_id": "S016::P3N07599",
+      "case_id": "S016",
+      "news_id": "P3N07599",
+      "date": "2024-09-26",
+      "time_stratum": 0,
+      "source_sha256": "af93be8706001c85aa80b926bcde7a78de8c0ee44744d2732048732663e083d4"
+    },
+    {
+      "pair_id": "S016::P3N07606",
+      "case_id": "S016",
+      "news_id": "P3N07606",
+      "date": "2024-09-27",
+      "time_stratum": 1,
+      "source_sha256": "ca10d3db9ced6d5a9c9bfc2633d0a92aea6082bd45ee6fe17656b298f27104b5"
+    },
+    {
+      "pair_id": "S016::P3N07641",
+      "case_id": "S016",
+      "news_id": "P3N07641",
+      "date": "2024-09-29",
+      "time_stratum": 1,
+      "source_sha256": "97b6a2dc53671eb07007646b20e49eecbccd8203233198f8c8ddb6e325d7b478"
+    },
+    {
+      "pair_id": "S016::P3N07660",
+      "case_id": "S016",
+      "news_id": "P3N07660",
+      "date": "2024-09-30",
+      "time_stratum": 1,
+      "source_sha256": "543efa0cf5f9e4b8f62c4245ff73e6aa4d7a2874335f91c316169056168f6123"
+    },
+    {
+      "pair_id": "S016::P3N07668",
+      "case_id": "S016",
+      "news_id": "P3N07668",
+      "date": "2024-10-04",
+      "time_stratum": 1,
+      "source_sha256": "6763fd2b0a435bf2299fdb2a9beb07cc85ef0e082e49e385a344dc62efcacc01"
+    },
+    {
+      "pair_id": "S016::P3N07675",
+      "case_id": "S016",
+      "news_id": "P3N07675",
+      "date": "2024-10-24",
+      "time_stratum": 1,
+      "source_sha256": "993251647e84395e45719c45a73a652b49faeb483cc5f77f6a413da856efac74"
+    },
+    {
+      "pair_id": "S016::P3N07681",
+      "case_id": "S016",
+      "news_id": "P3N07681",
+      "date": "2024-11-12",
+      "time_stratum": 2,
+      "source_sha256": "68dc701b75aa2c3e4e3cc5252cf2772bb6a3d7c7388b5b54fdfe1a92fcb7fcd2"
+    },
+    {
+      "pair_id": "S016::P3N07683",
+      "case_id": "S016",
+      "news_id": "P3N07683",
+      "date": "2024-11-14",
+      "time_stratum": 2,
+      "source_sha256": "61a76c3a7d5fe3184440efc0bc946f5e97d5d11817bf3c33b0aceeb589c9d049"
+    },
+    {
+      "pair_id": "S016::P3N07684",
+      "case_id": "S016",
+      "news_id": "P3N07684",
+      "date": "2024-11-14",
+      "time_stratum": 2,
+      "source_sha256": "5d7b6ad90cc1b2fc9bbfdbf937ecdc475e70f7ccd2ba828244545cb61bffeecb"
+    },
+    {
+      "pair_id": "S016::P3N07686",
+      "case_id": "S016",
+      "news_id": "P3N07686",
+      "date": "2024-11-20",
+      "time_stratum": 2,
+      "source_sha256": "8464d9d4a27b19b525b40abcdf1cf9e51113698eb362b04459c9e8169ac69485"
+    },
+    {
+      "pair_id": "S017::P3N07677",
+      "case_id": "S017",
+      "news_id": "P3N07677",
+      "date": "2024-10-26",
+      "time_stratum": 0,
+      "source_sha256": "7323d4d7ba3063ab212cfb22200d60f40a29c1775dd86f72ebddaaee1d9dff81"
+    },
+    {
+      "pair_id": "S017::P3N07678",
+      "case_id": "S017",
+      "news_id": "P3N07678",
+      "date": "2024-11-04",
+      "time_stratum": 0,
+      "source_sha256": "0ef0f9321f25bef0ad2ccaa12d69d71526af0ede3800143ebc7a41bacd112687"
+    },
+    {
+      "pair_id": "S017::P3N07688",
+      "case_id": "S017",
+      "news_id": "P3N07688",
+      "date": "2024-12-13",
+      "time_stratum": 1,
+      "source_sha256": "529684fbcdd4260acf1f8f747ceb46ff325f934a8e659a08d54e96dbf965345f"
+    },
+    {
+      "pair_id": "S017::P3N07689",
+      "case_id": "S017",
+      "news_id": "P3N07689",
+      "date": "2024-12-15",
+      "time_stratum": 1,
+      "source_sha256": "6bb2b06aea7ccbd2496b3c470bc3079f6e8f7dd272c9336f8cdc06d718c61967"
+    },
+    {
+      "pair_id": "S017::P3N07701",
+      "case_id": "S017",
+      "news_id": "P3N07701",
+      "date": "2024-12-18",
+      "time_stratum": 1,
+      "source_sha256": "ef213420b3e3b0212a05a3005aa711873f9636c2e47c3354f348bb0423ab3484"
+    },
+    {
+      "pair_id": "S017::P3N07732",
+      "case_id": "S017",
+      "news_id": "P3N07732",
+      "date": "2024-12-22",
+      "time_stratum": 1,
+      "source_sha256": "825bf380d873ef8143ac6ff570ffe2371a0b5760f1bbbcc437f230af72b6b815"
+    },
+    {
+      "pair_id": "S017::P3N07817",
+      "case_id": "S017",
+      "news_id": "P3N07817",
+      "date": "2025-01-01",
+      "time_stratum": 2,
+      "source_sha256": "8413adaa22159b4335901f7755e953f46ed0dc92852d503039c9f8ee81fe7911"
+    },
+    {
+      "pair_id": "S017::P3N07835",
+      "case_id": "S017",
+      "news_id": "P3N07835",
+      "date": "2025-01-05",
+      "time_stratum": 2,
+      "source_sha256": "afa2f728f5db792bbd677504e1e569bfb7609592b91976668f7f9834500fd7a3"
+    },
+    {
+      "pair_id": "S017::P3N07844",
+      "case_id": "S017",
+      "news_id": "P3N07844",
+      "date": "2025-01-06",
+      "time_stratum": 2,
+      "source_sha256": "71ffb35018f36e4de83375bd321ab8e0f9ccf02a8d8c5170e395df4400ceb37c"
+    },
+    {
+      "pair_id": "S017::P3N07888",
+      "case_id": "S017",
+      "news_id": "P3N07888",
+      "date": "2025-01-13",
+      "time_stratum": 2,
+      "source_sha256": "e045c21f5dea4e59ef6d280215e91faba2f211df21ebfc96fe16f6757921f45a"
+    },
+    {
+      "pair_id": "S017::P3N07937",
+      "case_id": "S017",
+      "news_id": "P3N07937",
+      "date": "2025-01-17",
+      "time_stratum": 2,
+      "source_sha256": "68a6bf28d82d1521cd12ccb0f9c7808e305f4b8683a37b94a214cd7fe14b1f7e"
+    },
+    {
+      "pair_id": "S017::P3N07942",
+      "case_id": "S017",
+      "news_id": "P3N07942",
+      "date": "2025-01-17",
+      "time_stratum": 2,
+      "source_sha256": "9400b86890b16c45b61d2580ff6376534205272b1d5b9f0f55d280a5b5a1274d"
+    },
+    {
+      "pair_id": "S018::P3N07724",
+      "case_id": "S018",
+      "news_id": "P3N07724",
+      "date": "2024-12-20",
+      "time_stratum": 0,
+      "source_sha256": "5d945df3d065ae67d82c7a7ce283d1fb24d071e9f95c056c789dcd5dcdf2a220"
+    },
+    {
+      "pair_id": "S018::P3N07807",
+      "case_id": "S018",
+      "news_id": "P3N07807",
+      "date": "2024-12-31",
+      "time_stratum": 0,
+      "source_sha256": "d5d973b96ffc5f1b6ac89015c4bd3bc091a52189656028bd6e19bbbee2191bb8"
+    },
+    {
+      "pair_id": "S018::P3N07866",
+      "case_id": "S018",
+      "news_id": "P3N07866",
+      "date": "2025-01-10",
+      "time_stratum": 0,
+      "source_sha256": "a5cb6de2d0bc8b295c607a764ff05416d0bfe5fb41483f9e65fd49c023f569d1"
+    },
+    {
+      "pair_id": "S018::P3N07873",
+      "case_id": "S018",
+      "news_id": "P3N07873",
+      "date": "2025-01-11",
+      "time_stratum": 0,
+      "source_sha256": "2f0479be88c036db3934d7fdd0ce5c10d9767eda9a8ffc1ef178614969b01f9a"
+    },
+    {
+      "pair_id": "S018::P3N07980",
+      "case_id": "S018",
+      "news_id": "P3N07980",
+      "date": "2025-01-20",
+      "time_stratum": 1,
+      "source_sha256": "fa7e96cc577278484c4783330d44261cbbe3d3549246e8653c2354b562bcc939"
+    },
+    {
+      "pair_id": "S018::P3N08010",
+      "case_id": "S018",
+      "news_id": "P3N08010",
+      "date": "2025-01-22",
+      "time_stratum": 1,
+      "source_sha256": "1c8484cb35a09b246dbe5991a3bfbf5029b4676539a6504741640dacb9b4c758"
+    },
+    {
+      "pair_id": "S018::P3N08199",
+      "case_id": "S018",
+      "news_id": "P3N08199",
+      "date": "2025-02-07",
+      "time_stratum": 1,
+      "source_sha256": "dedafd99849f8b9dfa3ad62053b5e94ae503dd8d049a706cf849a29ec275a68f"
+    },
+    {
+      "pair_id": "S018::P3N08235",
+      "case_id": "S018",
+      "news_id": "P3N08235",
+      "date": "2025-02-11",
+      "time_stratum": 1,
+      "source_sha256": "6fa6fe88d192c97a3941df7584840c4a65ca286af91168c0aada3e535e1a1ce5"
+    },
+    {
+      "pair_id": "S018::P3N08326",
+      "case_id": "S018",
+      "news_id": "P3N08326",
+      "date": "2025-02-18",
+      "time_stratum": 2,
+      "source_sha256": "fb0ca68ea8fb7d2e87421019974ccae56c42c1aee009133d4bf9b5fdc493a4b6"
+    },
+    {
+      "pair_id": "S018::P3N08490",
+      "case_id": "S018",
+      "news_id": "P3N08490",
+      "date": "2025-03-07",
+      "time_stratum": 2,
+      "source_sha256": "ed89fa8cde1cf4cc1bec2bc9028b90ca3c955de75d7de1e916be7553157e8b6e"
+    },
+    {
+      "pair_id": "S018::P3N08493",
+      "case_id": "S018",
+      "news_id": "P3N08493",
+      "date": "2025-03-08",
+      "time_stratum": 2,
+      "source_sha256": "d7b9ec12d83603b4e3e19b3cd380d08738ccb46785ba2c41fe6663390252e012"
+    },
+    {
+      "pair_id": "S018::P3N08531",
+      "case_id": "S018",
+      "news_id": "P3N08531",
+      "date": "2025-03-12",
+      "time_stratum": 2,
+      "source_sha256": "a9dccf7b50021a8dd532f5544241fcf7649c7a25af68bf4645e4104cc0c5bbd3"
+    },
+    {
+      "pair_id": "S019::P3N07814",
+      "case_id": "S019",
+      "news_id": "P3N07814",
+      "date": "2025-01-01",
+      "time_stratum": 0,
+      "source_sha256": "b7e35d8420937e207d2441c1258f8393545aa8591fc492b2d3964c7e2704ae84"
+    },
+    {
+      "pair_id": "S019::P3N07836",
+      "case_id": "S019",
+      "news_id": "P3N07836",
+      "date": "2025-01-05",
+      "time_stratum": 0,
+      "source_sha256": "8d90053bddd2aa34455897945b1dd9bd253161badb78c86d0acf09c57dc6eaa8"
+    },
+    {
+      "pair_id": "S019::P3N07848",
+      "case_id": "S019",
+      "news_id": "P3N07848",
+      "date": "2025-01-07",
+      "time_stratum": 0,
+      "source_sha256": "26a6aa21e4bad96656390ab8f5894c4283a64c528248f94c217f866e6bc2e554"
+    },
+    {
+      "pair_id": "S019::P3N07924",
+      "case_id": "S019",
+      "news_id": "P3N07924",
+      "date": "2025-01-16",
+      "time_stratum": 0,
+      "source_sha256": "a0741bcde608aca87c81dff1263084a770173b2889b42c308b8eb87d895e2ddc"
+    },
+    {
+      "pair_id": "S019::P3N07971",
+      "case_id": "S019",
+      "news_id": "P3N07971",
+      "date": "2025-01-19",
+      "time_stratum": 1,
+      "source_sha256": "470ccd0fb53175f51785e319501ed8bad56eff078a652bd5c65364a7c00d583f"
+    },
+    {
+      "pair_id": "S019::P3N07991",
+      "case_id": "S019",
+      "news_id": "P3N07991",
+      "date": "2025-01-21",
+      "time_stratum": 1,
+      "source_sha256": "d8eb3287ae4f337a1854f9ff9300e06c4205132642c67ef1adff2d27e7e335e1"
+    },
+    {
+      "pair_id": "S019::P3N08018",
+      "case_id": "S019",
+      "news_id": "P3N08018",
+      "date": "2025-01-23",
+      "time_stratum": 1,
+      "source_sha256": "6878f432c9e4b0602816627091f0848f79f92a4d1e63bc1f0173c63ee5073c36"
+    },
+    {
+      "pair_id": "S019::P3N08265",
+      "case_id": "S019",
+      "news_id": "P3N08265",
+      "date": "2025-02-13",
+      "time_stratum": 1,
+      "source_sha256": "1350210339f1a2570d8ade68b6085d16fc0c42f28ae6095ba28bce97b554983b"
+    },
+    {
+      "pair_id": "S019::P3N08295",
+      "case_id": "S019",
+      "news_id": "P3N08295",
+      "date": "2025-02-16",
+      "time_stratum": 2,
+      "source_sha256": "e59fa50989f2824d8fd195864067dcec2d0bbd433f08a00ab1559cca7500a30c"
+    },
+    {
+      "pair_id": "S019::P3N08356",
+      "case_id": "S019",
+      "news_id": "P3N08356",
+      "date": "2025-02-21",
+      "time_stratum": 2,
+      "source_sha256": "f8040df50947e6bbec8bc612f1a16357f4d8a2c9fdcb52051db5c05b580ed759"
+    },
+    {
+      "pair_id": "S019::P3N08487",
+      "case_id": "S019",
+      "news_id": "P3N08487",
+      "date": "2025-03-06",
+      "time_stratum": 2,
+      "source_sha256": "2c709bfe9b85abf0bbd38d8641c5b2883674a551d90ba09032f97dac2b1b63cc"
+    },
+    {
+      "pair_id": "S019::P3N08528",
+      "case_id": "S019",
+      "news_id": "P3N08528",
+      "date": "2025-03-12",
+      "time_stratum": 2,
+      "source_sha256": "896a4ccf494be7a34731bd901c26670dc792c8fe6a30bdc001b5464a3060f618"
+    },
+    {
+      "pair_id": "S020::P3N08202",
+      "case_id": "S020",
+      "news_id": "P3N08202",
+      "date": "2025-02-08",
+      "time_stratum": 0,
+      "source_sha256": "859f0fdc7e672dfaca1e1aa871f55f6470a940e6bd849a78d59c32abb5b5f80c"
+    },
+    {
+      "pair_id": "S020::P3N08254",
+      "case_id": "S020",
+      "news_id": "P3N08254",
+      "date": "2025-02-12",
+      "time_stratum": 0,
+      "source_sha256": "940aad5768b7c711bccc67883a44e9fbe8acda841fbe4df4577a3b227ad181f5"
+    },
+    {
+      "pair_id": "S020::P3N08394",
+      "case_id": "S020",
+      "news_id": "P3N08394",
+      "date": "2025-02-25",
+      "time_stratum": 0,
+      "source_sha256": "e134f1086560a41169b03823e5f51b36d11999fb16e762365abc261e6905b5f7"
+    },
+    {
+      "pair_id": "S020::P3N08415",
+      "case_id": "S020",
+      "news_id": "P3N08415",
+      "date": "2025-02-27",
+      "time_stratum": 0,
+      "source_sha256": "b320fdebb088315e4e3209871d86da5a8b89eb5a960c8fd290c48202bb719b1c"
+    },
+    {
+      "pair_id": "S020::P3N08617",
+      "case_id": "S020",
+      "news_id": "P3N08617",
+      "date": "2025-03-20",
+      "time_stratum": 1,
+      "source_sha256": "b24c48382b28e6d3f34b1307665ddf1696e0f60679f8a050134fe3663e1ed21e"
+    },
+    {
+      "pair_id": "S020::P3N08640",
+      "case_id": "S020",
+      "news_id": "P3N08640",
+      "date": "2025-03-22",
+      "time_stratum": 1,
+      "source_sha256": "0e06847009c2b72198d6a1ae1d0a17972ee564c28d3243ac7faac8cb36183229"
+    },
+    {
+      "pair_id": "S020::P3N08701",
+      "case_id": "S020",
+      "news_id": "P3N08701",
+      "date": "2025-03-28",
+      "time_stratum": 1,
+      "source_sha256": "12d5f2e03bb39281814cc8928a54e13acd9d807b2a0d0bcd48863319299c5519"
+    },
+    {
+      "pair_id": "S020::P3N08742",
+      "case_id": "S020",
+      "news_id": "P3N08742",
+      "date": "2025-04-02",
+      "time_stratum": 1,
+      "source_sha256": "e2ecddce37707f61c7e48c2a724c4cf72cdd671a84375c7398dff86399931ba7"
+    },
+    {
+      "pair_id": "S020::P3N08888",
+      "case_id": "S020",
+      "news_id": "P3N08888",
+      "date": "2025-04-19",
+      "time_stratum": 2,
+      "source_sha256": "dc8c3930691100fdf42f598ef4c2d88d059ac9d80a7a70e462c7c498ffe5db2f"
+    },
+    {
+      "pair_id": "S020::P3N08937",
+      "case_id": "S020",
+      "news_id": "P3N08937",
+      "date": "2025-04-23",
+      "time_stratum": 2,
+      "source_sha256": "e9f823af9e3685368d54ad9fc6164981a5c2af6cee29e669591de45db9e1d68b"
+    },
+    {
+      "pair_id": "S020::P3N08956",
+      "case_id": "S020",
+      "news_id": "P3N08956",
+      "date": "2025-04-25",
+      "time_stratum": 2,
+      "source_sha256": "445c822762f4d3f809f5ef9833f8a4da5b13aaf8c2c0ec4c9eb33a646f16d367"
+    },
+    {
+      "pair_id": "S020::P3N08970",
+      "case_id": "S020",
+      "news_id": "P3N08970",
+      "date": "2025-04-26",
+      "time_stratum": 2,
+      "source_sha256": "7f6bc03883ed8a79f8ed20aa5e38d13063763af62b322a0899ad55fce0ee2d68"
+    }
+  ],
+  "manifest_sha256": "2342ad51f2595f18a813ec9caec5d71efd9b5ecd981fc628fbf42b446f0960c2"
+}

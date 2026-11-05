@@ -5,7 +5,7 @@ import { analyzeCase, buildResearchModel, extractArticleSignals, researchInterna
 // These tiny artificial records are unit-test fixtures only. They must never enter the demo model or default datasets.
 const add = researchInternals.addDays;
 function fixtureCase(id, start, n = 84) {
-  return { case_id: id, actors: ['Alpha', 'Beta'], countries_regions: 'unit-test fixture', target_situation: 'synthetic unit-test only', news_start: start, news_end: add(start, n - 1), news: Array.from({ length: n }, (_, i) => ({ news_id: id + '-' + i, date: add(start, i), title: i % 21 < 7 ? 'Alpha military attacked Beta forces with artillery' : 'Alpha and Beta held diplomatic talks', text: i % 21 < 7 ? 'Alpha troops attacked Beta military forces. Artillery shelling killed soldiers.' : 'Alpha and Beta officials met for peace talks.', publisher: 'unit-test fixture' })) };
+  return { case_id: id, actors: ['Alpha', 'Beta'], countries_regions: 'unit-test fixture', target_situation: 'synthetic unit-test only', news_start: start, news_end: add(start, n - 1), news: Array.from({ length: n }, (_, i) => ({ news_id: id + '-' + i, date: add(start, i), title: i % 21 < 7 ? 'Alpha military attacked Beta forces with artillery' : 'Alpha and Beta held diplomatic talks', text: (i % 21 < 7 ? 'Alpha troops attacked Beta military forces. Artillery shelling killed soldiers.' : 'Alpha and Beta officials met for peace talks.') + ' Dispatch number ' + i + '.', publisher: 'unit-test fixture' })) };
 }
 const pilotPairs = [{ pair_id: 't:1', news: { date: '2020-01-01', title: 'Alpha troops attacked Beta', text: 'Alpha military forces attacked Beta with artillery and shelling killed soldiers.' } }, { pair_id: 't:2', news: { date: '2020-01-01', title: 'Alpha and Beta held talks', text: 'Alpha officials held diplomatic peace talks with Beta.' } }];
 const pilotAnnotations = [{ pair_id: 't:1', split: 'train', relevance: 'yes', events: [{ cameo_code: '194', evidence_quote: pilotPairs[0].news.text }] }, { pair_id: 't:2', split: 'train', relevance: 'yes', events: [{ cameo_code: '04', evidence_quote: pilotPairs[1].news.text }] }];
@@ -80,7 +80,8 @@ test('conditional past verbs, warning nouns, negated airstrikes and month-dated 
     assert.equal(r.events.some(e => e.code.startsWith('19') && e.status === 'candidate'), false, title);
   }
   const title = 'On May 3, Russia airstrikes hit Ukraine troops';
-  assert.equal(extractArticleSignals(c, { news_id: 'may', title, text: title, date: '2025-06-01' }, model).action, true);
+  assert.equal(extractArticleSignals(c, { news_id: 'may', title, text: title, date: '2025-05-03' }, model).action, true);
+  assert.equal(extractArticleSignals(c, { news_id: 'old-may', title, text: title, date: '2025-06-01' }, model).action, false);
 });
 
 test('future labels can change without changing an anchor historical feature vector', () => {
@@ -88,7 +89,7 @@ test('future labels can change without changing an anchor historical feature vec
   const cutoff = add(c.news_start, 27);
   const before = researchInternals.rollingSamples([c], model).samples.find(r => r.as_of === cutoff);
   const altered = { ...c, news: c.news.map(n => n.date > cutoff && n.date <= add(cutoff, 7)
-    ? { ...n, title: 'Alpha air strikes hit Beta troops', text: 'Alpha air strikes hit Beta military forces.' } : n) };
+    ? { ...n, title: 'Alpha air strikes hit Beta troops', text: 'Alpha air strikes hit Beta military forces. Dispatch ' + n.news_id + '.' } : n) };
   const after = researchInternals.rollingSamples([altered], model).samples.find(r => r.as_of === cutoff);
   assert.deepEqual(before.x, after.x);
   assert.equal(after.y, 1);

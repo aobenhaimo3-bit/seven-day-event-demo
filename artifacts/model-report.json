@@ -3,51 +3,59 @@
   "target": "未来7天出现19类军事行动报道",
   "target_kind": "weak_supervision_proxy",
   "trained_through": "2025-05-01",
-  "detector_rule_version": "conservative-assertion-v3",
+  "detector_rule_version": "scoped-communication-recall-v8",
   "sample_dependence_note": "Rolling historical windows overlap and the same article may appear under several cases; samples are correlated and validation uncertainty is not estimated as independent trials.",
-  "training_sample_count": 105,
-  "validation_sample_count": 22,
-  "final_training_sample_count": 127,
+  "training_sample_count": 72,
+  "validation_sample_count": 16,
+  "training_case_count": 11,
+  "validation_case_count": 4,
+  "coverage_semantics": "Only case-relevant, scope-configured, unique normalized full texts count. Earliest publication wins across IDs/dates; exact reprints cannot refresh coverage. Both training and inference require 10 unique articles, 3 relevant days in the past 28 days, and latest relevant unique article no older than 7 days. Future coverage uses unique relevant texts too.",
+  "maximum_news_age_days": 7,
+  "final_training_sample_count": 88,
   "minimum_history_days": 28,
   "maximum_history_days": 92,
   "historical_window_note": "训练使用28–92天可用历史；并非每个锚点均有完整三个月。",
-  "training_proxy_positives": 82,
-  "training_proxy_negatives": 23,
+  "training_proxy_positives": 61,
+  "training_proxy_negatives": 11,
   "validation_metrics": {
-    "sample_count": 22,
-    "positives": 20,
-    "negatives": 2,
-    "brier": 0.101094,
-    "log_loss": 0.337399,
-    "accuracy": 0.909091,
+    "sample_count": 16,
+    "positives": 13,
+    "negatives": 3,
+    "brier": 0.065294,
+    "log_loss": 0.217087,
+    "accuracy": 0.875,
     "confusion": {
-      "tp": 19,
-      "tn": 1,
-      "fp": 1,
-      "fn": 1
+      "tp": 11,
+      "tn": 3,
+      "fp": 0,
+      "fn": 2
     },
-    "baseline_brier": 0.100438,
-    "persistence_brier": 0.227273,
+    "baseline_brier": 0.152986,
+    "baseline_log_loss": 0.484848,
+    "baseline_accuracy": 0.8125,
+    "persistence_brier": 0.0625,
     "target_semantics": "weak_news_proxy_validation",
     "independently_verified_real_event_labels": false
   },
   "detector_examples": 260,
-  "selected_lambda": 50,
-  "validation_beats_base_rate_brier": false,
+  "selected_lambda": 10,
+  "validation_beats_base_rate_brier": true,
   "excluded_samples": {
     "train": {
-      "insufficient_history_news": 6,
-      "future_coverage_unknown": 23
+      "insufficient_history_news": 25,
+      "stale_history_news": 5,
+      "future_coverage_unknown": 32
     },
     "validation": {
-      "insufficient_history_news": 9,
-      "future_coverage_unknown": 11
+      "insufficient_history_news": 14,
+      "stale_history_news": 2,
+      "future_coverage_unknown": 10
     },
     "validation_time_purge": 0
   },
   "probability_calibrated": false,
   "real_event_probability_available": false,
-  "future_coverage_condition": "训练仅纳入未来7天至少3个有报道日的历史窗口，存在覆盖条件筛选偏差；推断不读取未来覆盖。",
+  "future_coverage_condition": "训练仅纳入未来7天至少3个有相关报道日的历史窗口，存在覆盖条件筛选偏差；推断不读取未来覆盖。",
   "note": "只验证未来报道代理标签；尚无完整独立七天事件真值，不是实际事件概率或真实冲突准确率。",
   "data_provenance": {
     "train": {
@@ -67,8 +75,20 @@
       "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
     }
   },
+  "rule_source_sha256": {
+    "lib/engine.mjs": "fc8667662c539055d3e42528664e5aea215afc4baef15caca0e36622256e9698",
+    "lib/assertions.mjs": "9ab2159587c95a59022e6680616189c576ce6f19e18cd5125d30bfb6874df2a7",
+    "lib/temporal.mjs": "f1cd4f932400ea986d75362801c3de81d43159293804af176da349f4db0fab1e",
+    "lib/event-relations.mjs": "c9e4e67b1377d5ab644da11cf20e20838f04cf029930a8a447d22e752c817cc9",
+    "lib/action-vocabulary.mjs": "08a0b835671e662d5501694c4ebba6853b2ace9745252a0c22bb90c7bf9a0cf0",
+    "lib/communication.mjs": "6f891ae5e8238457e12ad2ba0e099989973b5c552edd40d3287d7722b054a270",
+    "lib/scope.mjs": "9fdc3f95cc4b6577d6b07acd5cf8ecf8de5fee5c3ca21bcc18d9e3427ac3693f",
+    "lib/threat.mjs": "17aedad02c4aaecd836a071c082a825df4eb412aaf98563cff0376eac7fb6e0d",
+    "lib/cooperation.mjs": "ee4aa3cad178442efae303c72e85c7d93b51ee9dbd7931561022d3a6fc3cb78b",
+    "lib/communication-context.mjs": "f78eee0f9ba2c3677a9b865792f469231786a6b980f09597d8f6a781c82840b3"
+  },
   "build_contract": {
-    "client_date": "2026-11-03",
+    "client_date": "2026-11-05",
     "target": "Future seven days contain a locally detected CAMEO-19 report in the supplied news stream",
     "actual_event_probability_validated": false,
     "real_event_probability": null,

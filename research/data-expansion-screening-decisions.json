@@ -1,0 +1,9 @@
+{
+  "kind": "assistant_pre_delivery_scope_screening_not_event_labels",
+  "decisions": [
+    {"news_id":"MEMO-707202","window_id":"calendar-S017","disposition":"exclude","reason":"主体是以色列与巴勒斯坦人口迁移主张及历史类比；虽然标题和开头提到 Congo，全文对刚果自身的情况仅有短暂提及，不能用于补刚果主题覆盖。保留候选及链接，不赋负标签。"},
+    {"news_id":"MB-291235","window_id":"cross-S017","disposition":"exclude","reason":"跨国刚果盆地概览；本轮补充刚果（金）主体稿，保留候选供区域研究，不能把盆地名称自动当作刚果（金）国家范围。"},
+    {"news_id":"MB-293188","window_id":"cross-S017","disposition":"exclude","reason":"跨国刚果盆地研究；本轮选择明确以刚果（金）为主体的候选，不把区域名自动当作国家主题。"},
+    {"news_id":"VOA-8007713","window_id":"cross-S019","disposition":"review","reason":"美爱双边访问的多议题报道，包含真实加沙分歧段落，但多数篇幅谈贸易、税率等；需人工核对能否用于本案例，不当成已验证覆盖。"}
+  ]
+}

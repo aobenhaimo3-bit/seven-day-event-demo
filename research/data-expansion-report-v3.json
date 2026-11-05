@@ -1,0 +1,2039 @@
+{
+  "version": "calendar-source-expansion-v3",
+  "target_pairs": 160,
+  "base_pairs": 116,
+  "added_pairs": 44,
+  "selected_pairs": 160,
+  "unique_news": 159,
+  "remaining_window_shortage": 0,
+  "coverage": [
+    {
+      "window_id": "cross-S016",
+      "stratum": "same_window_cross_media",
+      "base_pairs": 14,
+      "added_pairs": 2,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 7,
+        "Middle East Monitor": 2,
+        "Voice of America": 7
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "cross-S017",
+      "stratum": "same_window_cross_media",
+      "base_pairs": 8,
+      "added_pairs": 8,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "African Arguments": 1,
+        "Global Voices": 8,
+        "ISS Today": 3,
+        "Mongabay": 3,
+        "Voice of America": 1
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "cross-S018",
+      "stratum": "same_window_cross_media",
+      "base_pairs": 3,
+      "added_pairs": 13,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Common Dreams": 1,
+        "Global Voices": 1,
+        "Middle East Monitor": 12,
+        "Voice of America": 2
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "cross-S019",
+      "stratum": "same_window_cross_media",
+      "base_pairs": 14,
+      "added_pairs": 2,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 8,
+        "Voice of America": 8
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "cross-S020",
+      "stratum": "same_window_cross_media",
+      "base_pairs": 16,
+      "added_pairs": 0,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 8,
+        "Voice of America": 8
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "calendar-S016",
+      "stratum": "general_calendar_control",
+      "base_pairs": 15,
+      "added_pairs": 1,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 7,
+        "Voice of America": 9
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "calendar-S017",
+      "stratum": "general_calendar_control",
+      "base_pairs": 8,
+      "added_pairs": 8,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 6,
+        "GroundUp": 1,
+        "ISS Today": 2,
+        "Mongabay": 3,
+        "Voice of America": 4
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "calendar-S018",
+      "stratum": "general_calendar_control",
+      "base_pairs": 10,
+      "added_pairs": 6,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 2,
+        "ISS Today": 3,
+        "Voice of America": 11
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "calendar-S019",
+      "stratum": "general_calendar_control",
+      "base_pairs": 12,
+      "added_pairs": 4,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 8,
+        "ISS Today": 2,
+        "Voice of America": 6
+      },
+      "verified_case_relevant": 0
+    },
+    {
+      "window_id": "calendar-S020",
+      "stratum": "general_calendar_control",
+      "base_pairs": 16,
+      "added_pairs": 0,
+      "target": 16,
+      "selected": 16,
+      "shortage": 0,
+      "by_publisher": {
+        "Global Voices": 8,
+        "Voice of America": 8
+      },
+      "verified_case_relevant": 0
+    }
+  ],
+  "candidate_screening": [
+    {
+      "window_id": "cross-S016",
+      "available_candidate_records": 44,
+      "neutral_focus_records": 19,
+      "source_authorized_records": 44,
+      "eligible_records": 19
+    },
+    {
+      "window_id": "cross-S017",
+      "available_candidate_records": 39,
+      "neutral_focus_records": 16,
+      "source_authorized_records": 39,
+      "eligible_records": 14
+    },
+    {
+      "window_id": "cross-S018",
+      "available_candidate_records": 172,
+      "neutral_focus_records": 31,
+      "source_authorized_records": 172,
+      "eligible_records": 31
+    },
+    {
+      "window_id": "cross-S019",
+      "available_candidate_records": 39,
+      "neutral_focus_records": 11,
+      "source_authorized_records": 39,
+      "eligible_records": 11
+    },
+    {
+      "window_id": "cross-S020",
+      "available_candidate_records": 55,
+      "neutral_focus_records": 27,
+      "source_authorized_records": 55,
+      "eligible_records": 27
+    },
+    {
+      "window_id": "calendar-S016",
+      "available_candidate_records": 25,
+      "neutral_focus_records": 9,
+      "source_authorized_records": 25,
+      "eligible_records": 9
+    },
+    {
+      "window_id": "calendar-S017",
+      "available_candidate_records": 38,
+      "neutral_focus_records": 13,
+      "source_authorized_records": 38,
+      "eligible_records": 12
+    },
+    {
+      "window_id": "calendar-S018",
+      "available_candidate_records": 147,
+      "neutral_focus_records": 26,
+      "source_authorized_records": 147,
+      "eligible_records": 26
+    },
+    {
+      "window_id": "calendar-S019",
+      "available_candidate_records": 72,
+      "neutral_focus_records": 27,
+      "source_authorized_records": 72,
+      "eligible_records": 27
+    },
+    {
+      "window_id": "calendar-S020",
+      "available_candidate_records": 51,
+      "neutral_focus_records": 32,
+      "source_authorized_records": 51,
+      "eligible_records": 32
+    }
+  ],
+  "original_publisher_coverage": [
+    {
+      "window_id": "cross-S016",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 7,
+      "shortage": 1
+    },
+    {
+      "window_id": "cross-S016",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 7,
+      "shortage": 1
+    },
+    {
+      "window_id": "cross-S017",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    },
+    {
+      "window_id": "cross-S017",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 1,
+      "shortage": 7
+    },
+    {
+      "window_id": "cross-S018",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 1,
+      "shortage": 7
+    },
+    {
+      "window_id": "cross-S018",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 2,
+      "shortage": 6
+    },
+    {
+      "window_id": "cross-S019",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    },
+    {
+      "window_id": "cross-S019",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    },
+    {
+      "window_id": "cross-S020",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    },
+    {
+      "window_id": "cross-S020",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    },
+    {
+      "window_id": "calendar-S016",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 7,
+      "shortage": 1
+    },
+    {
+      "window_id": "calendar-S016",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 9,
+      "shortage": 0
+    },
+    {
+      "window_id": "calendar-S017",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 6,
+      "shortage": 2
+    },
+    {
+      "window_id": "calendar-S017",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 4,
+      "shortage": 4
+    },
+    {
+      "window_id": "calendar-S018",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 2,
+      "shortage": 6
+    },
+    {
+      "window_id": "calendar-S018",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 11,
+      "shortage": 0
+    },
+    {
+      "window_id": "calendar-S019",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    },
+    {
+      "window_id": "calendar-S019",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 6,
+      "shortage": 2
+    },
+    {
+      "window_id": "calendar-S020",
+      "publisher": "Global Voices",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    },
+    {
+      "window_id": "calendar-S020",
+      "publisher": "Voice of America",
+      "target": 8,
+      "selected": 8,
+      "shortage": 0
+    }
+  ],
+  "original_publisher_shortage": 37,
+  "rejected_new_candidates": [
+    {
+      "window_id": "cross-S018",
+      "news_id": "VOA-7920087",
+      "url": "https://www.voanews.com/a/us-strikes-houthi-controlled-sites-in-yemen-amid-rising-regional-tensions/7920087.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "cross-S018",
+      "news_id": "VOA-7947198",
+      "url": "https://www.voanews.com/a/researchers-houthis-have-advantages-in-protecting-leaders-from-threatened-strikes/7947198.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "cross-S019",
+      "news_id": "VOA-7908063",
+      "url": "https://www.voanews.com/a/trump-wants-to-quickly-end-gaza-war-can-he-/7908063.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "cross-S019",
+      "news_id": "VOA-7953674",
+      "url": "https://www.voanews.com/a/un-chief-appeals-israeli-law-banning-unrwa/7953674.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "cross-S019",
+      "news_id": "VOA-7952796",
+      "url": "https://www.voanews.com/a/more-than-300-000-palestinians-returned-to-gaza-city-authorities-say-/7952796.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "cross-S019",
+      "news_id": "VOA-7965802",
+      "url": "https://www.voanews.com/a/who-more-routes-out-of-gaza-needed-to-evacuate-thousands-who-need-lifesaving-treatment/7965802.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "cross-S019",
+      "news_id": "VOA-7980148",
+      "url": "https://www.voanews.com/a/saudi-prince-proving-crucial-to-trump-efforts-to-end-ukraine-gaza-wars/7980148.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "calendar-S017",
+      "news_id": "VOA-7496092",
+      "url": "https://www.voanews.com/a/un-security-council-sanctions-6-rebel-leaders-in-congo/7496092.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "calendar-S017",
+      "news_id": "VOA-7539028",
+      "url": "https://www.voanews.com/a/dr-congo-facing-alarming-levels-of-violence-hunger-poverty-disease-/7539028.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "calendar-S018",
+      "news_id": "VOA-7516779",
+      "url": "https://www.voanews.com/a/at-least-2-killed-in-houthi-strike-on-commercial-ship/7516779.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "calendar-S018",
+      "news_id": "VOA-7442506",
+      "url": "https://www.voanews.com/a/houthis-attack-maltese-flagged-vessel-in-the-gulf-of-aden-/7442506.html",
+      "reason": "existing_url"
+    },
+    {
+      "window_id": "calendar-S018",
+      "news_id": "VOA-7436954",
+      "url": "https://www.voanews.com/a/us-uk-strike-back-at-several-houthi-sites-in-yemen-/7436954.html",
+      "reason": "strong_text_near_duplicate"
+    }
+  ],
+  "used_for_training": false,
+  "labels": "all_new_pending_null",
+  "historical_snapshots_verified": 0,
+  "limitations": [
+    "Window totals count unreviewed candidate pairs, not verified case coverage or independent events.",
+    "Original GV/VOA quotas are separate from expanded-panel totals.",
+    "The delivered v2 is retained including known relevance/origin audit concerns; see audit flags before use.",
+    "Search-index and sitemap discovery are incomplete and source selection is not representative.",
+    "New full text is the current retrieved version, not an authenticated historical snapshot."
+  ],
+  "candidate_records": 1240,
+  "selected_pairs_by_publisher": {
+    "African Arguments": 1,
+    "Common Dreams": 1,
+    "Global Voices": 63,
+    "GroundUp": 1,
+    "ISS Today": 10,
+    "Middle East Monitor": 14,
+    "Mongabay": 6,
+    "Voice of America": 64
+  },
+  "added_pairs_by_publisher": {
+    "African Arguments": 1,
+    "Common Dreams": 1,
+    "GroundUp": 1,
+    "ISS Today": 10,
+    "Middle East Monitor": 14,
+    "Mongabay": 6,
+    "Voice of America": 11
+  },
+  "selected_pairs_by_stratum": {
+    "general_calendar_control": 80,
+    "same_window_cross_media": 80
+  },
+  "new_pairs_by_genre": {
+    "fact_check_analysis": 1,
+    "mixed_reporting_commentary": 1,
+    "news_reporting": 32,
+    "policy_analysis": 10
+  },
+  "base_sha256": "4a5789f2034b58be03e0615defedf970df7d261a1d9d024861e2d60ba08f7109",
+  "plan_sha256": "94cc14a292c916dcf4891315ed06ba212f93a85a68dc759c377bae46be9ff90a",
+  "source_files": [
+    {
+      "name": "globalvoices-candidates.jsonl",
+      "sha256": "20bead3d0903ea9cd1d3f1a1b9af0854005a814a7d4caf2de336a8b0f56a9806"
+    },
+    {
+      "name": "voa-candidates.jsonl",
+      "sha256": "ba6a72172d295366f5cd12bf8a8320aa02fa1df588ca7905cccef293208bd53e"
+    },
+    {
+      "name": "voa-supplement-candidates.jsonl",
+      "sha256": "db64d256f294a4cb926ef77daaae312cda0c35a5555c8e4d3487c6fca2346e61"
+    },
+    {
+      "name": "open-news-supplement-candidates.jsonl",
+      "sha256": "08b73a568ac79c0972e9fbba28b64e8b194934a7eafdf715ea524c4402d0a4c7"
+    },
+    {
+      "name": "common-dreams-supplement-candidates.jsonl",
+      "sha256": "51c5b2d67881950777a9637c108c1198587d5502d60703a225f38fee94702973"
+    },
+    {
+      "name": "conversation-supplement-candidates.jsonl",
+      "sha256": "c8b2a2f32b98da6cc2e0f91d758c34b13c6e39d3980093ec2f3f6ef142dc1c81"
+    },
+    {
+      "name": "iss-supplement-candidates.jsonl",
+      "sha256": "70ae464df161bf0b7edd9d1c06972b2ff7cdb9f92b62b6f5964caf63a1665a35"
+    },
+    {
+      "name": "memo-supplement-candidates.jsonl",
+      "sha256": "d739bc681d19c21c169fa0f16844c4e9eeb4daeeb7b498a03023b611f34b3c7a"
+    },
+    {
+      "name": "mongabay-supplement-candidates.jsonl",
+      "sha256": "93676e6dfbb7ebd60ee86733a07f95784e0c322e3c6d73d539b5cc1acb72bb8d"
+    },
+    {
+      "name": "voa-congo-gap-candidates.jsonl",
+      "sha256": "bdd09a80230842adec02d07bd8b3405a38eb3fe74307dcfc772e01e96abf78e8"
+    },
+    {
+      "name": "groundup-supplement-candidates.jsonl",
+      "sha256": "4110087042140b0ddd2aeef8d337d42abb7fb1b0b1fbe3a0d754978cdb198ff2"
+    }
+  ],
+  "protected_files": {
+    "local-data/evaluation/review.jsonl": "bfc045310638539e6947debc390d9571f1f46bbd542aa8a3ab47b7f958b3086e",
+    "artifacts/research-model.json": "f69aa1bbe8652a107cc3bbdb5b899b4664663a9758697f81140bfdf870e7b941",
+    "local-data/train_pairs.jsonl": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601",
+    "local-data/validation_pairs.jsonl": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+  },
+  "scope_screening_decisions": [
+    {
+      "news_id": "MEMO-707202",
+      "window_id": "calendar-S017",
+      "disposition": "exclude",
+      "reason": "主体是以色列与巴勒斯坦人口迁移主张及历史类比；虽然标题和开头提到 Congo，全文对刚果自身的情况仅有短暂提及，不能用于补刚果主题覆盖。保留候选及链接，不赋负标签。"
+    },
+    {
+      "news_id": "MB-291235",
+      "window_id": "cross-S017",
+      "disposition": "exclude",
+      "reason": "跨国刚果盆地概览；本轮补充刚果（金）主体稿，保留候选供区域研究，不能把盆地名称自动当作刚果（金）国家范围。"
+    },
+    {
+      "news_id": "MB-293188",
+      "window_id": "cross-S017",
+      "disposition": "exclude",
+      "reason": "跨国刚果盆地研究；本轮选择明确以刚果（金）为主体的候选，不把区域名自动当作国家主题。"
+    },
+    {
+      "news_id": "VOA-8007713",
+      "window_id": "cross-S019",
+      "disposition": "review",
+      "reason": "美爱双边访问的多议题报道，包含真实加沙分歧段落，但多数篇幅谈贸易、税率等；需人工核对能否用于本案例，不当成已验证覆盖。"
+    }
+  ],
+  "scope_screening_sha256": "471c14516ac7511d4455dff9c8f55c795f6db1be5f8cb4a925aa1a983be5492f",
+  "priority_quarantine_pairs": 4,
+  "inventory_after_priority_quarantine": 156,
+  "quality_findings_sha256": "c10a0d9704779b741a6602021bb64947f34bf29f6982c2cecd5ed4b71e70906b",
+  "selected_file": "samples-calendar-source-expansion-v3.jsonl",
+  "selected_sha256": "0e33c984e9dca3b4bd00ec35fb9e0b36b4965d3ab5d8a4b632944905c7106abe",
+  "audit": {
+    "errors": 0,
+    "flag_counts": {
+      "historical_snapshot_unverified": 160,
+      "case_term_absent_from_title": 55,
+      "modified_after_publication": 45,
+      "modified_before_publication": 7,
+      "possible_multilingual_quote": 4,
+      "origin_statement_needs_review": 1,
+      "unsigned_publisher_origin_needs_review": 14,
+      "source_reuse_caveat": 11,
+      "analysis_not_field_reporting": 10,
+      "scope_review_required": 1,
+      "geographic_term_false_match": 1,
+      "incidental_country_mention": 1,
+      "historical_analogy_not_case_focus": 1,
+      "co_publication_and_original_date_unresolved": 1
+    },
+    "near_duplicates": 0
+  },
+  "selected": [
+    {
+      "pair_id": "EXP-cross-S016::GV-820578",
+      "window": "cross-S016",
+      "publisher": "Global Voices",
+      "date": "2024-09-18",
+      "url": "https://globalvoices.org/2024/09/18/mass-pager-attack-in-lebanon-raises-concerns-over-cyber-warfare-and-terrorism/",
+      "sha256": "caba096d2ac292aa0cf2cdec23ae56403911ceac79773aa3d7bd9e640a60f8a0",
+      "content_group": "04293051df74c9048314215d4c9577ec75ed4545e2fb513ff297a4c464453ae3"
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-822001",
+      "window": "cross-S016",
+      "publisher": "Global Voices",
+      "date": "2024-10-11",
+      "url": "https://globalvoices.org/2024/10/11/israel-is-using-surveillance-technologically-to-subjugate-and-target-palestinians/",
+      "sha256": "5bcceb7c18ee4d8b6d6560bd8855ea0325bd84abdb3ce7fb72e2b52944ba1c4e",
+      "content_group": "ec687d22f0bcb4246c864f85c3d2ac18f6c548058562790c1ac9b4b9e9c257fd"
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-823893",
+      "window": "cross-S016",
+      "publisher": "Global Voices",
+      "date": "2024-11-13",
+      "url": "https://globalvoices.org/2024/11/13/from-egypt-to-libya-migrant-deaths-in-the-mediterranean-are-either-ignored-or-normalized/",
+      "sha256": "ff440d2140877bc30c2f3cdcd5aea538d8253e998c112dd95dbac92d7266ec40",
+      "content_group": "3fdbbd0fac9579bbf300d5faeef3cd19847e614c39a9a04ed33eb0028aceb7a5"
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-668706",
+      "window": "cross-S016",
+      "publisher": "Global Voices",
+      "date": "2024-09-10",
+      "url": "https://globalvoices.org/2024/09/10/paralympics-ceremony-in-syria-faces-backlash-and-censorship-amid-accusations-of-paganism/",
+      "sha256": "3c2b0077ad20dcfdb3b8e90f0f5247b455f53a67dfbab6213fb9649a4bab4974",
+      "content_group": "c4dec54cf7560d06867293b63bf02d3cc20117f3ddcee7c7beea895938ebac9e"
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-822972",
+      "window": "cross-S016",
+      "publisher": "Global Voices",
+      "date": "2024-10-24",
+      "url": "https://globalvoices.org/2024/10/24/turkey-rocked-by-a-terrorist-attack/",
+      "sha256": "edab4f8924d48ec54b70dedc2f851ce47063852fbf3f620b24fee4431ec47fa9",
+      "content_group": "a7142150c669fa8a73fa7a4b9c0fb7248ba4524419a242cdb40be5f13bf5ace6"
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-822397",
+      "window": "cross-S016",
+      "publisher": "Global Voices",
+      "date": "2024-10-14",
+      "url": "https://globalvoices.org/2024/10/14/our-heart-that-burned-israel-is-wiping-out-centuries-of-heritage-in-southern-lebanon/",
+      "sha256": "0884ae1eb7ad35c22037c7e038e8242767a7c38376ff6687bef7bf3ffd56f84b",
+      "content_group": "7cbeda8f9ec838ce7f6fc840560526fe93074d22934300ca0a9664dc071713f3"
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-823296",
+      "window": "cross-S016",
+      "publisher": "Global Voices",
+      "date": "2024-10-30",
+      "url": "https://globalvoices.org/2024/10/30/israels-war-on-the-united-nations-why-a-ban-on-unrwa-sets-a-dangerous-precedent/",
+      "sha256": "f4b75ced34c77e57dafe3713acf4b50e6717b3e030467fe28140a0acfd1f383a",
+      "content_group": "9b4fb6951571ec83f0b52ed7f2e3bce0ac7d4a6c53f9aef77b6666ffdbef333e"
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7793374",
+      "window": "cross-S016",
+      "publisher": "Voice of America",
+      "date": "2024-09-21",
+      "url": "https://www.voanews.com/a/humanitarian-crisis-in-syria-threatens-to-spiral-out-of-control/7793374.html",
+      "sha256": "b4801423bde7445ff78e395ac7253467cfddb6b9c12fe140574c7313b7ca64c3",
+      "content_group": "723a40651c70ccbcf292d8f2cb69202e63c644a30f1c98852d6db5b675e05f8d"
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7810883",
+      "window": "cross-S016",
+      "publisher": "Voice of America",
+      "date": "2024-10-04",
+      "url": "https://www.voanews.com/a/why-has-syria-stayed-out-of-the-israel-hezbollah-conflict-/7810883.html",
+      "sha256": "028ab7506db88032f20d4271b436794409648df98dc8e755dd15e9aa9321edb6",
+      "content_group": "09224cf19e1c12079c30af5168de9147a7186cf7ab7e4baf998d711a7a05b0af"
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7848255",
+      "window": "cross-S016",
+      "publisher": "Voice of America",
+      "date": "2024-11-01",
+      "url": "https://www.voanews.com/a/recent-us-strikes-spotlight-growing-islamic-state-threat-in-syria/7848255.html",
+      "sha256": "2682ac52125321024a0242fee2b47eccb6a01928d57dba2c2771a8f482c9e42f",
+      "content_group": "4e75b1016de646aff1f466c42da6a92224779d037c5b8952acd6f895414e4d20"
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7792540",
+      "window": "cross-S016",
+      "publisher": "Voice of America",
+      "date": "2024-09-20",
+      "url": "https://www.voanews.com/a/fresh-clashes-reported-between-us-backed-forces-government-troops-in-eastern-syria/7792540.html",
+      "sha256": "2535c01bdc231da252d89edd9db2c888e58aa7396919fc663daec6f4cafdb5a3",
+      "content_group": "d72862370bd970483f6bc7378c468b8c9f8fc90c3f2386708e793107812c8f24"
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7876656",
+      "window": "cross-S016",
+      "publisher": "Voice of America",
+      "date": "2024-11-25",
+      "url": "https://www.voanews.com/a/can-israeli-strikes-in-syria-undermine-iran-backed-militias-/7876656.html",
+      "sha256": "3c1036eea810d05ef1e909e974408b143a74d45e9829e3a7860c94aea8ecd443",
+      "content_group": "2181469a21165c495573697e9792dab37577b911b8e2b8d57fe26041f1a079ea"
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7800869",
+      "window": "cross-S016",
+      "publisher": "Voice of America",
+      "date": "2024-09-26",
+      "url": "https://www.voanews.com/a/syrian-refugees-flee-increasing-conflict-in-lebanon/7800869.html",
+      "sha256": "ebc4c2a77250a9931f4943280461327390ec2c8a1f715ebe545c0229c948eb51",
+      "content_group": "053b982ca2eaacd19086a8007c2c91e840a366c3cb2f6b3dbe965bd64b0a9802"
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7787117",
+      "window": "cross-S016",
+      "publisher": "Voice of America",
+      "date": "2024-09-17",
+      "url": "https://www.voanews.com/a/turkish-backed-group-besiege-syrian-kurdish-village-after-protest/7787117.html",
+      "sha256": "494d70d75f8caee553ad7c36a1b38fc1fdecec08f419fe168bbdfdc0bf11879a",
+      "content_group": "148b8c944d3c310ba113ecb4855f8d41d7f39d110969b788172ab03d4209488a"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-822887",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2024-10-31",
+      "url": "https://globalvoices.org/2024/10/31/ugandan-journalist-nila-yasmin-african-women-hold-the-power-to-transform-intra-african-trade/",
+      "sha256": "b4ec27310c89deec5da8d6ad866c359d358ca71370fea03ee8c911737642beb4",
+      "content_group": "8812605cde32eda454c095a137b1bb7f1820ff42e8ba2435f9741aa32f53aa88"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-823830",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2024-11-14",
+      "url": "https://globalvoices.org/2024/11/14/hostile-hosts-in-african-football-the-nigeria-versus-libya-scandal/",
+      "sha256": "9c61b833b5b72f794b3e7352ce404bf95ebcf1f1d24c9e130fba236072554d40",
+      "content_group": "09429d2a7dd76caa55c517496a355edf6a476a591cfac94adbd8add1fe375a52"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-825517",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2024-12-14",
+      "url": "https://globalvoices.org/2024/12/14/the-revolving-door-of-africas-displacement-crises/",
+      "sha256": "1e0d0446b5237bad3ef6db095e10f1f9c662067718807c63ae2c51a210bac9a8",
+      "content_group": "7121dc4c7ccb491ce0f0756a317f9ac258109e34cd8777f13e1d3861fa1d9ca9"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-825796",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2025-01-03",
+      "url": "https://globalvoices.org/2025/01/03/cameroonian-journalist-revisits-the-2010-2011-ivorian-political-crisis-in-a-documentary/",
+      "sha256": "6bd0a5c2f8c333c9839125775b352e072e600c9df87ef4ad657e6c7dcfa71106",
+      "content_group": "1ae2016b6310701dda4ffd7205c3bb71bae8240b9bd503aeea7df82c22b26d80"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-823101",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2024-11-01",
+      "url": "https://globalvoices.org/2024/11/01/transforming-trauma-into-art-through-smoke-and-spirit-congolese-artist-geraldine-tobe/",
+      "sha256": "49a97877bc228dc3b6270419403aa8c8d5e8a0dad2c337a834f99f06317d8eff",
+      "content_group": "d958baeb67813beba8859fa1166aa6a2881c208eeada4cade9cdf72b73291d74"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-827322",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2025-01-18",
+      "url": "https://globalvoices.org/2025/01/18/at-what-cost-are-we-bridging-africas-digital-divide/",
+      "sha256": "99e4088b06c8968a9ab95c6df3e0bc79b646ad7ea57434a6eb3cb2d800b66d6f",
+      "content_group": "a81ba671687fcf634c3705534c8f6ae1287fdde9eea46f7744759835fa810ff2"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-824104",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2024-11-22",
+      "url": "https://globalvoices.org/2024/11/22/the-art-of-destruction-and-creation-exploring-identity-and-spirituality-in-the-work-of-alexis-peskine/",
+      "sha256": "a7a81c53287499661a5fcf44d267c21e54080778ecde32fd4406f6fa4388dcdd",
+      "content_group": "8406781ce578c855c4b1b4a62739e7a940ad06d68b8d81e36356b707781a47b7"
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-823013",
+      "window": "cross-S017",
+      "publisher": "Global Voices",
+      "date": "2024-11-20",
+      "url": "https://globalvoices.org/2024/11/20/nigeria-ranks-lowest-among-sub-saharan-african-countries-in-womens-representation-in-parliament/",
+      "sha256": "25609a521cb2b51d56923937071bcc5d14661f4030d38cee5b2e272c145c381f",
+      "content_group": "df131cd4a0bb71e386d084e3dc0c9926dd5625c89cede2b2d274811c58389953"
+    },
+    {
+      "pair_id": "EXP-cross-S018::GV-825627",
+      "window": "cross-S018",
+      "publisher": "Global Voices",
+      "date": "2024-12-23",
+      "url": "https://globalvoices.org/2024/12/23/west-asia-and-north-africa-in-2024-turmoil-transformation-and-trauma/",
+      "sha256": "9c84d89fd965b11cbd8d3b7140401f8d20cec2a26162d0fb408425cc7e6b730c",
+      "content_group": "09e0cd8791f3b459d74c4c9c6a2f1dc35b92cbca1208d54f9853a657623ba55c"
+    },
+    {
+      "pair_id": "EXP-cross-S018::VOA-7920087",
+      "window": "cross-S018",
+      "publisher": "Voice of America",
+      "date": "2024-12-31",
+      "url": "https://www.voanews.com/a/us-strikes-houthi-controlled-sites-in-yemen-amid-rising-regional-tensions/7920087.html",
+      "sha256": "eba8e540f9235837c4abdb06bc068424889e300d87f1b3e58ed47dd14c346618",
+      "content_group": "3233f6c3aaea818854c04f1b25985d3fb8db4eb5576e3e7bf13f8ef58132c0ef"
+    },
+    {
+      "pair_id": "EXP-cross-S018::VOA-7947198",
+      "window": "cross-S018",
+      "publisher": "Voice of America",
+      "date": "2025-01-23",
+      "url": "https://www.voanews.com/a/researchers-houthis-have-advantages-in-protecting-leaders-from-threatened-strikes/7947198.html",
+      "sha256": "d8bc30101ccd948d2521ac2e1aec58612617629c2ffa0957480fbb3bb4a1e505",
+      "content_group": "921422b4240500cb47ce016c50334be7afb20724d44cae8e642040c72b5d5128"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-826263",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2024-12-23",
+      "url": "https://globalvoices.org/2024/12/23/artificial-intelligence-narratives-a-global-voices-report/",
+      "sha256": "808bffe0dc66886474736b0ddcd26d74f90eaf3a8985891d8f8f66e53f79832e",
+      "content_group": "ec20ec001cfc9219d0681880d9242bfe526b0f64f55565c053964350c4d6451b"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-827541",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2025-01-18",
+      "url": "https://globalvoices.org/2025/01/18/after-466-days-of-war-a-ceasefire-is-declared-in-gaza-to-begin-on-bidens-last-day-in-office/",
+      "sha256": "b5bbc747c0f9490e3a1f95175976d7b2284dff5ab72f26be0881728e3cb2e9db",
+      "content_group": "e71ab02f86c72f81ef253b207600aebc800c568e19d0e3fcd92167144c20167a"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-829479",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2025-02-26",
+      "url": "https://globalvoices.org/2025/02/26/for-how-long-aramaic-language-and-its-enduring-legacy-in-syria/",
+      "sha256": "93a58c7854b24a924dd9feb67cf6ef16516c551e3b397acaf41b62041ca975c3",
+      "content_group": "93b7089be895a03f78d1151082615460f45b2c36cdfd56be8c7497db475eb33e"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-830639",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2025-03-15",
+      "url": "https://globalvoices.org/2025/03/15/another-test-for-international-justice-sudan-takes-the-uae-to-the-icj-over-its-complicity-in-genocide/",
+      "sha256": "3c8495720ba0e07458ef137ca9230970ab4d82fc38650ee5791b720186b18538",
+      "content_group": "f8dc0944e3077ed2fa35719619b65050848b0bb7b681cf8fc15f5f2a58013a97"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-826293",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2024-12-31",
+      "url": "https://globalvoices.org/2024/12/31/namesakes-in-gaza-carrying-the-martyrs-with-us-in-diaspora/",
+      "sha256": "5d0c3818faf3a6b94e5549560df03328e6b8eaa3232742f4f96bfea21d62badb",
+      "content_group": "abfcfb3e9f7cdfa338f44456d801be16ed69080492f4f2c862c8d7025ec7c3d2"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-827361",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2025-01-16",
+      "url": "https://globalvoices.org/2025/01/16/guided-by-the-light-photos-from-latin-america-and-the-caribbean-with-love/",
+      "sha256": "db873933249cf83b17c1fada912c17e0782e180c8782d297fce0fc36efe7a678",
+      "content_group": "41e7c3a668cc22e0677ed9b6a59e41b60fd39b766d9e3c32fa942d2e0f95352e"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-829351",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2025-02-26",
+      "url": "https://globalvoices.org/2025/02/26/misinformation-and-smear-attacks-follow-the-freeze-of-usaid-funding-in-the-western-balkans/",
+      "sha256": "4aa2be1dfd0276ada0454c648b39d103bc88c90e51df5abee6668846336eab81",
+      "content_group": "835c447de0d978cb27baf8e82cd7241b85cf24634e0d7c13bbdf2a3e761fdf89"
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-830268",
+      "window": "cross-S019",
+      "publisher": "Global Voices",
+      "date": "2025-03-08",
+      "url": "https://globalvoices.org/2025/03/08/the-crackdown-on-academic-freedom-in-europe-more-than-just-a-right-wing-phenomenon/",
+      "sha256": "588f7438eb124e13fabc7508e5aaeb3905c70b2fa634158dbce1854ebb2fa662",
+      "content_group": "f709964718bdc7c50c6b40e6058094276b51043eea180c391bff0138a034f020"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7908063",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2024-12-20",
+      "url": "https://www.voanews.com/a/trump-wants-to-quickly-end-gaza-war-can-he-/7908063.html",
+      "sha256": "2b91411ef0e1eb177d334ca21fed23f7902c2660af29387e4584f94c9e524481",
+      "content_group": "206aff2a11923d43e2e74b577c71935bf4e10e12e95f1500b2d7f66905b6966b"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7939119",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2025-01-16",
+      "url": "https://www.voanews.com/a/report-china-israel-named-leading-jailers-of-journalists-/7939119.html",
+      "sha256": "fb2294db66c40493185130adbdcdc3d71cadc34017619bb236512276bd7768e7",
+      "content_group": "ecb0ee6c74c57f6ce5e98e7eee3788a9372b691ebfc91a02cd441412ef550f14"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7980148",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2025-02-19",
+      "url": "https://www.voanews.com/a/saudi-prince-proving-crucial-to-trump-efforts-to-end-ukraine-gaza-wars/7980148.html",
+      "sha256": "1f704084fc619d893072a847b622c53bd1e75cd6533f5e9ab897d6900e9ef719",
+      "content_group": "ec58a81e87ba090c662d88bd98498bb24933fa1d68257f5e536f8edb21a5b849"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7952796",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2025-01-28",
+      "url": "https://www.voanews.com/a/more-than-300-000-palestinians-returned-to-gaza-city-authorities-say-/7952796.html",
+      "sha256": "fff0b852969d1285dbab07e0ccd0c7371444453604faf618c2bae065057a8f0c",
+      "content_group": "510983e5ac5facf16f706351e008e3d94162d0e1f66ca5bc93fa2b0593cee0b7"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7965802",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2025-02-06",
+      "url": "https://www.voanews.com/a/who-more-routes-out-of-gaza-needed-to-evacuate-thousands-who-need-lifesaving-treatment/7965802.html",
+      "sha256": "7b5b6554320f0d6f9340a8720c58d69ae197b15e8af447dec7f1fee335bca475",
+      "content_group": "3f8babe3bad7a13a01104367e273cf27c9a37cb67237a8721933e658697c0cd5"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7953674",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2025-01-28",
+      "url": "https://www.voanews.com/a/un-chief-appeals-israeli-law-banning-unrwa/7953674.html",
+      "sha256": "a80c54fdd50a6105e588ab819cec84ebd7a4adbda8bde3c8f6d05d9a0e1df966",
+      "content_group": "cef9daf3cb4f37f001978b84a7b7024f6665090d46a4154f77fe9c6d137d564b"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-828636",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-02-16",
+      "url": "https://globalvoices.org/2025/02/16/from-samburu-to-china-women-as-key-custodians-and-perpetrators-of-illegal-sandalwood-trafficking/",
+      "sha256": "7eed01ae9dd38c3a8e3146f8374a04244033f8a3b799c57dbacd3138cba88750",
+      "content_group": "f89ab7468a2e8b774ab845dbd9bc89041f9a41f04f91655ff47df6af6d929a83"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-830110",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-03-06",
+      "url": "https://globalvoices.org/2025/03/06/usaid-suspension-has-far-reaching-impacts-in-south-asia/",
+      "sha256": "875d7f4de60b7b5d635030dd71d63f1267ee57445274011c3324344c7b445643",
+      "content_group": "fad0aebc569cf01da3269bcc7b332aac877d947d1fec49f3f1f13c4576277618"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-832655",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-04-20",
+      "url": "https://globalvoices.org/2025/04/20/pakistani-survivor-of-morocco-boat-tragedy-speaks-out-amid-rising-illegal-migration-trends/",
+      "sha256": "4a0b274b828adeee7a48f496419d8eaca809c9f00e6d7fa6b072af0c45326024",
+      "content_group": "5de5fd42bd0115f09d97bebf7fd83eb5e9dcce177e081dc7a81e65e9207ee1e4"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-833569",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-05-03",
+      "url": "https://globalvoices.org/2025/05/03/mizzima-news-surviving-the-junta-and-reporting-myanmars-spring-revolution/",
+      "sha256": "3a1829b47997eac4c64c79c0b411199dd3a1390321a6da126104425ae5a00cf5",
+      "content_group": "6b2373ecc6785fbe54c740dbbac7a11a9457246162f71567595894041c6bc28d"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-829515",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-02-21",
+      "url": "https://globalvoices.org/2025/02/21/nepali-students-death-in-an-indian-university-raises-questions-about-harassment-and-accountability/",
+      "sha256": "192e459fb5c844b116d37ab31a94695c05612a33616594f3e757a46c06ca7380",
+      "content_group": "650715ebf132c689c0d782db1d90f882c82ed3842fefd7a9203c4ce13c6f7b3f"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-829353",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-03-05",
+      "url": "https://globalvoices.org/2025/03/05/pakistan-struggles-with-governance-and-rampant-corruption/",
+      "sha256": "5f5ceec42aca364672ddb9bb5465f1c52b27c4046e518a3e52ca0361b0f86ea6",
+      "content_group": "ce73c8cbbf4d592a9e516c215c0eb69668afa753e3b682300ce3e3e1113864f3"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-832184",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-04-11",
+      "url": "https://globalvoices.org/2025/04/11/chinas-vested-interest-in-electrifying-public-transport-in-nepal/",
+      "sha256": "fd1112b4104430214e5b111b3c1dfb6fc6ddee71da736fb5413754882ce684c1",
+      "content_group": "b5c542464991aab66102f3e9feabeb1bbe30a43d5d632dc572334a38db1c8d53"
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-833369",
+      "window": "cross-S020",
+      "publisher": "Global Voices",
+      "date": "2025-05-02",
+      "url": "https://globalvoices.org/2025/05/02/pahalgam-attack-raises-tensions-between-india-and-pakistan-amid-disinformation-surge/",
+      "sha256": "4ac56291dc0d60d6a5f43fc61e8ec541ea0881d7a5b6e8e0c4ee36586f41ccb3",
+      "content_group": "705db87e685fe24bbe1ec96f180a6013b4f09e542f4aea247984a9361d185624"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-7966135",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-02-07",
+      "url": "https://www.voanews.com/a/gunfight-kills-pakistani-soldier-12-militants-near-afghan-border-/7966135.html",
+      "sha256": "b18ac9b3021d8ecfb1fa23d4c0bafcb1967f961fb508e0c8d81adbea0824486b",
+      "content_group": "b5873f85868aa40d6891f48e0ad5a4314a4120fb2ce02ef641155c1265cf71d6"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-8003634",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-03-08",
+      "url": "https://www.voanews.com/a/india-says-it-is-working-to-cut-tariffs-as-it-eyes-us-trade-deal/8003634.html",
+      "sha256": "842a2bf9b53f1a3e4e86253aa251f9a3904c915a7768a2f6a80debb379d39986",
+      "content_group": "25bc04e990cb3d6f9c012870a13e9a450e388b57d12dbd97bf6059f9b3b6646e"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-7987593",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-02-25",
+      "url": "https://www.voanews.com/a/dying-to-leave-why-pakistanis-are-risking-their-lives-to-reach-europe/7987593.html",
+      "sha256": "074ae633a09d14379224acc2436db83438f12dca031654d1383b078481358597",
+      "content_group": "722f892bf913629588a946d04870ee1805ae2a827082c481fff11ca5487edbaa"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-8011076",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-03-14",
+      "url": "https://www.voanews.com/a/military-says-death-toll-in-pakistan-s-train-hijacking-rises-to-31/8011076.html",
+      "sha256": "03e87ffca743fb37423c9a52fe12d850859949a81792e532670204f04359abcd",
+      "content_group": "1430090f527291747a064d78465db4f96575d8142dbbf69ba02ff490670106e1"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-7986025",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-02-24",
+      "url": "https://www.voanews.com/a/pakistan-azerbaijan-sign-agreements-mous-on-trade-and-energy/7986025.html",
+      "sha256": "1a0cb858800a4acbacbef64eda6bb1776d45f8c1b04a59c1b17db5c8d86d90e9",
+      "content_group": "22986b502ecbe793676614398b5add2d9fc99075c645571de5d875de70186ebe"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-7995718",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-03-03",
+      "url": "https://www.voanews.com/a/growing-space-cooperation-between-pakistan-china-presents-risks-and-opportunities-experts-say-/7995718.html",
+      "sha256": "133483e5c7e9397555438f08987af59c47b03b994f7cc4b1868ac06b0282f3cf",
+      "content_group": "4a564696e2990bbd2dcd941c44d2e33ca25f41aeeb516e78519117da6842db7d"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-7991547",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-02-28",
+      "url": "https://www.voanews.com/a/india-eu-pledge-to-push-free-trade-agreement-elevate-strategic-ties-/7991547.html",
+      "sha256": "0f6e250d2fc324e60325c2a49f6dda1932c22ea913df2ddce551c4faa40b6e5f",
+      "content_group": "3e62317e45abb424ef9494043a391ab402bd12b6bf6ff49ae8f28fe480a0f456"
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-7995327",
+      "window": "cross-S020",
+      "publisher": "Voice of America",
+      "date": "2025-03-03",
+      "url": "https://www.voanews.com/a/female-bomber-s-attack-on-military-convoy-in-southwest-pakistan-kills-1/7995327.html",
+      "sha256": "72421f7610bfe13f6314a8b2ad99685e970ccef4eb3a0dd2741c07697b1a8810",
+      "content_group": "d23a536d02ce38deda59fd8c3175bac7367837397b632222e295676a64c87bab"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::GV-805492",
+      "window": "calendar-S016",
+      "publisher": "Global Voices",
+      "date": "2024-01-22",
+      "url": "https://globalvoices.org/2024/01/22/terrorists-from-tajikistan-have-become-a-global-menace/",
+      "sha256": "20e506bf3d580fc0dbedfd121a2cbba60e9012211394cb8ed2d35ae19a3e2e6b",
+      "content_group": "fcb885f3f81e87c2e8bc9fa7507ee6ed23ea36d79c6ea9816c953f2640173388"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::GV-807224",
+      "window": "calendar-S016",
+      "publisher": "Global Voices",
+      "date": "2024-02-20",
+      "url": "https://globalvoices.org/2024/02/20/turkeys-search-for-gold-has-a-massive-humanitarian-and-environmental-impact/",
+      "sha256": "b975816904e6738f2f5fbe4767797cc585a45f1f1e45ccd33bc85a43914b88e2",
+      "content_group": "e0429688208734afd02bc5bd67699f62566ea50e07a38c53fdd8529e33775b94"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::GV-808573",
+      "window": "calendar-S016",
+      "publisher": "Global Voices",
+      "date": "2024-03-19",
+      "url": "https://globalvoices.org/2024/03/19/how-the-north-caucasus-became-one-of-russias-arms-for-imperial-policy-in-ukraine/",
+      "sha256": "8e3394743804ca2817d3b30c5a8f214923fb703a09c94c45d4bce35739ebe037",
+      "content_group": "8085e78350795228261c6a24919839794e1e640463992e2758f072b0049be726"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::GV-804266",
+      "window": "calendar-S016",
+      "publisher": "Global Voices",
+      "date": "2024-01-03",
+      "url": "https://globalvoices.org/2024/01/03/a-horse-for-a-car-a-tale-of-modern-diplomacy-between-turkey-and-hungary/",
+      "sha256": "ae48ed2516ccecf32c5dcfef2d1f8f5544805e37c8573f384a03b75d51eaf564",
+      "content_group": "bf86d35db019eeab8e69bcca2db64fce7a5107d33bd78594e35dca045f31276c"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::GV-808704",
+      "window": "calendar-S016",
+      "publisher": "Global Voices",
+      "date": "2024-03-21",
+      "url": "https://globalvoices.org/2024/03/21/how-turkeys-opposition-media-empowers-erdogan/",
+      "sha256": "e38a72481d96b077f6fc4cf1f1eddfbdff38602b7c22715d04f53943722cae90",
+      "content_group": "57f4d5b9c9f30914fae59056d4da55a0da7606c48460dba15557b18f2a818e4f"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::GV-808840",
+      "window": "calendar-S016",
+      "publisher": "Global Voices",
+      "date": "2024-03-21",
+      "url": "https://globalvoices.org/2024/03/21/kyrgyzstans-blockbuster-film-is-a-moving-tale-of-the-bond-between-a-mother-and-son/",
+      "sha256": "0843c92745c25e8b3f997282a846afa4210a063a3e83dde92e860a763a86f434",
+      "content_group": "6042aa4a34de434bc76bcd3e28c4dc1fb403e30e233fd247298be82a76dcc76c"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::GV-808098",
+      "window": "calendar-S016",
+      "publisher": "Global Voices",
+      "date": "2024-03-07",
+      "url": "https://globalvoices.org/2024/03/07/i-will-tell-you-what-numbers-cant-about-gaza/",
+      "sha256": "1b1d3425b39f291af771dea37fbacc594d9a0ec7d8fb9152aebad817d5a912b7",
+      "content_group": "0d391f3c34325934c42daa7a308fa3172739059715caed3069db0312c9307c46"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7454725",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-01-24",
+      "url": "https://www.voanews.com/a/syrian-kurdish-journalist-missing-3-months-after-arrest-in-iraqi-kurdistan/7454725.html",
+      "sha256": "82d7d856b4c5d6137745fdf51446d686b0e2b6a15696e4c2f0cfa9a4c2ff9b69",
+      "content_group": "4a79c4ffdc920988bd8df83c1a64c1f5b7f6911d52166f143313a3caa7379d0d"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7508887",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-02-29",
+      "url": "https://www.voanews.com/a/who-is-the-syrian-christian-militia-targeted-in-turkish-drone-attacks-/7508887.html",
+      "sha256": "8245412c32f6420a56180c99520986621dab26f0c3313ca63c0586750460e8a4",
+      "content_group": "5ce673962998cbeeadebed79e92dd4751faf8619a841331c11d1e00136fae7fc"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7528269",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-03-14",
+      "url": "https://www.voanews.com/a/more-than-a-decade-on-no-end-in-sight-for-syria-s-war/7528269.html",
+      "sha256": "6b8f06aedb313f2cc0430ed7e31369db4dc6490d6c9fd68a60e037e9900590c3",
+      "content_group": "4118bbea1a23ca130f86fef9e38a5b727537778064f9fe86ea25ad874da8cbdf"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7470102",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-02-04",
+      "url": "https://www.voanews.com/a/iraq-syria-along-with-iran-russia-condemn-us-strikes/7470102.html",
+      "sha256": "9bc4223c89e56998a88f4beb192d3849f0b4ae6ef50ed8813ad4de02cabda911",
+      "content_group": "550e4418ab4540d2ac92c0e264b6e2e3beddd132e8c4f9d3c0d4d5eb084cd89f"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7518396",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-03-07",
+      "url": "https://www.voanews.com/a/protests-grow-against-powerful-jihadist-group-in-syria-enclave-/7518396.html",
+      "sha256": "9049d679a8d80f31f3f8d1ff988ab140228d35f342e009722e9bf07b6110def5",
+      "content_group": "ee77a3c6b3da7087dbba2b8a7be6aa7014da6f61dbdea6928ad24922df54021e"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7475760",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-02-06",
+      "url": "https://www.voanews.com/a/millions-of-survivors-of-2023-turkey-syria-quakes-remain-destitute-traumatized/7475760.html",
+      "sha256": "26383cd014a8811a9ebd32fb5ba899ec9176b466a3b25fea4d26674af8069e3c",
+      "content_group": "e6a539638738f80098372ada51b06f6a815e29d480c805251999a219bba62ce6"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7539864",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-03-23",
+      "url": "https://www.voanews.com/a/ignoring-syrian-crisis-risks-destabilizing-region-experts-say/7539864.html",
+      "sha256": "e54a4aac76c5a3708bbbe170988b9a5af396bf9aabf2f7fe07975e884af0f146",
+      "content_group": "67930bf025dad0e10fa3ca47ab3410b05fe06b7c0173476b4a3bb8f42a653f83"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7530476",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-03-16",
+      "url": "https://www.voanews.com/a/syria-s-plight-seems-forgotten-as-nation-enters-14th-year-of-civil-war/7530476.html",
+      "sha256": "490ec7e0e3b36d44c8c65b3472569aecba44922fe22830f6c51d26c680a3035e",
+      "content_group": "a0bd6f8ea9bee63162a9f47c8b99a1f78604e4a73ec65eadc93e1a795ee04f62"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-804506",
+      "window": "calendar-S017",
+      "publisher": "Global Voices",
+      "date": "2024-01-06",
+      "url": "https://globalvoices.org/2024/01/06/how-african-nations-could-successfully-navigate-the-electoral-process-in-2024/",
+      "sha256": "62b5ce95914401462c7e9618fb971fe1c36de8925f32b2dfe56a2ff4ffacf454",
+      "content_group": "cf58051f5ed4d03efa9f53c101bf33b56328b2b5a7bf2f89345e911bdd1563b5"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-805702",
+      "window": "calendar-S017",
+      "publisher": "Global Voices",
+      "date": "2024-02-05",
+      "url": "https://globalvoices.org/2024/02/05/how-rwandas-literary-giants-promoted-their-countrys-rich-culture-through-their-work/",
+      "sha256": "9fd498b1bda45cfd571fc44816187ab33f4ebb3253702a590b23cc73e2d40704",
+      "content_group": "bd2a7b59f98e44e120f0b841450bf55f0f2e5aae2fc79d656b186d7090edae69"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-804550",
+      "window": "calendar-S017",
+      "publisher": "Global Voices",
+      "date": "2024-01-12",
+      "url": "https://globalvoices.org/2024/01/12/drc-opposition-groups-are-decrying-president-felix-tshisekedis-re-election-as-fraudulent/",
+      "sha256": "359fe72d14e26d06682940e7a1973883874c196a10b36c74a9b726872405d3bf",
+      "content_group": "bfe25404f947664d27c0ceea21e7fe6907c5d06f5b810e207692d86a6f28cc1e"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-806343",
+      "window": "calendar-S017",
+      "publisher": "Global Voices",
+      "date": "2024-02-13",
+      "url": "https://globalvoices.org/2024/02/13/tensions-escalate-between-burundi-and-rwanda/",
+      "sha256": "2da6f199462bd04855021c82e20d071a38235529aaa180cb5299fde6148d067a",
+      "content_group": "daf254ab5c36e5adc31e135edb4c97cb80ef6ff5c9fb5fafdd6c51bbc373db08"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-805279",
+      "window": "calendar-S017",
+      "publisher": "Global Voices",
+      "date": "2024-01-19",
+      "url": "https://globalvoices.org/2024/01/19/navigating-rwandas-media-landscape-ahead-of-the-upcoming-election/",
+      "sha256": "014a8eab34571d18889038c519ccd8958e3e99f9d444f05544d026d12a89823b",
+      "content_group": "ff9321de274b4276c6034e89dcee04177a80b7fe930abf0fc9574a02b57a630f"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-807444",
+      "window": "calendar-S017",
+      "publisher": "Global Voices",
+      "date": "2024-02-22",
+      "url": "https://globalvoices.org/2024/02/22/which-local-language-is-most-widely-spoken-in-togo/",
+      "sha256": "f16e45212f4f93b6aee8d215ec1731fda13853bc72fa254a488050d861891f16",
+      "content_group": "a35d1612c368aff55e859042d22cd13be3365716249c686c88ec2f96fd54bdc6"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7496092",
+      "window": "calendar-S017",
+      "publisher": "Voice of America",
+      "date": "2024-02-21",
+      "url": "https://www.voanews.com/a/un-security-council-sanctions-6-rebel-leaders-in-congo/7496092.html",
+      "sha256": "a1cf9908c2bfd9884051765966eb2379826661f2325f0ff3860db69e41f38eb5",
+      "content_group": "403855930a83c6e0e538ef5ac4defb6113fcc7fd94f5167ebfbde3f2c76ca983"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7539028",
+      "window": "calendar-S017",
+      "publisher": "Voice of America",
+      "date": "2024-03-22",
+      "url": "https://www.voanews.com/a/dr-congo-facing-alarming-levels-of-violence-hunger-poverty-disease-/7539028.html",
+      "sha256": "d623dbf8c19f431f62f803dd93fcae30179a9075d5addda328085cd24f556b9f",
+      "content_group": "bbaac7ea515368852011e4b93910f17c2bc43f5fdfeda196c960ea956b94df3c"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::GV-804645",
+      "window": "calendar-S018",
+      "publisher": "Global Voices",
+      "date": "2024-01-17",
+      "url": "https://globalvoices.org/2024/01/17/the-socotri-language-straddling-survival-amidst-the-absence-of-technology/",
+      "sha256": "f00b21464d11d720de3daa3c79e8521eeef52666585692d37cf745faa1d42456",
+      "content_group": "c6d02c49225b76946dcd60adae9d5deb7eae544ba696a158c9ebd9879a78d5c1"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::GV-806852",
+      "window": "calendar-S018",
+      "publisher": "Global Voices",
+      "date": "2024-02-14",
+      "url": "https://globalvoices.org/2024/02/14/keepiton-in-times-of-war-sudans-communications-shutdown-must-be-reversed-urgently/",
+      "sha256": "5e3c23d63278c2d16036a4826f5f1253d4dd816145bb69d78a81c55c778b8912",
+      "content_group": "0f5023aed55154312eeb253820bb07f347fc64995c325d9477ede0067304aa9a"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7433777",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-01-10",
+      "url": "https://www.voanews.com/a/un-security-council-to-vote-on-resolution-after-houthi-red-sea-attacks/7433777.html",
+      "sha256": "2e60ed4b7c7aaecde7960d40edf987503e456290ea9efbf641156a9fe4317774",
+      "content_group": "b0b40304ddf8ce048a3714e20f903562974beb60d420fa229bc6b17fb255a02e"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7478387",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-02-07",
+      "url": "https://www.voanews.com/a/us-intelligence-warns-of-growing-iranian-houthi-weapons-cooperation-/7478387.html",
+      "sha256": "c8c073bff9c8b669a6d4a62f9cdb76864c119c7556fc7f9b1b00127fab661a0c",
+      "content_group": "5b5915286d72cf4987ac118aaa0eb5759cb6db96fc40476cbafb640bc5c50236"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7516779",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-03-07",
+      "url": "https://www.voanews.com/a/at-least-2-killed-in-houthi-strike-on-commercial-ship/7516779.html",
+      "sha256": "4ab6775a7af290903f223f4865aa58b99358688f6740ffead88a8f82a40f0adf",
+      "content_group": "80a0236e54735e552303097f1d81a362cf311c65d12d7597e2fa61527d553a71"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7442506",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-01-16",
+      "url": "https://www.voanews.com/a/houthis-attack-maltese-flagged-vessel-in-the-gulf-of-aden-/7442506.html",
+      "sha256": "d786da4641522141bf66d97a8665928e9e804b482297895fdeb7e5f469dab873",
+      "content_group": "0f460d5f2a28335e3e554867886fc4e0328c05b7f771bcb98e1aa07c4a1f7fc7"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7491150",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-02-16",
+      "url": "https://www.voanews.com/a/us-reinstates-sanctions-on-yemen-s-houthi-rebels-effective-friday/7491150.html",
+      "sha256": "804f32942be3b9389304cbb4c6b662436a2142dedcc546a043e2b115212439bc",
+      "content_group": "6ef3f6a6a70e9bc2c98ddcf86cab4598f75a31e6be4a9d16b7f96335211b54a6"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7446136",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-01-19",
+      "url": "https://www.voanews.com/a/us-strikes-houthi-missiles-in-yemen-/7446136.html",
+      "sha256": "8dd804a5e3440c876fbdc4ec7b4a93629fd8992f7a61fb51f2a50d8962caf766",
+      "content_group": "4226692ae8cd9e40d5608ae866df3ac5ca6b40b3ba8c117dcac77cb8e31fc0d3"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7496303",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-02-21",
+      "url": "https://www.voanews.com/a/us-mq-9-drone-shot-down-by-houthis-/7496303.html",
+      "sha256": "bdb725d585b6afa47006b842d088390c586581f7a1997ea59b050250077e58a0",
+      "content_group": "607fcf9ef721f1d0a407d05eda51ed89d17df3ea28768c7010dd9f666cb3913f"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7426890",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-01-04",
+      "url": "https://www.voanews.com/a/freight-costs-rise-as-houthi-attacks-disrupt-global-shipping/7426890.html",
+      "sha256": "52cec31af7d0f0eed3343975ae804407a309da0446a473db22521c5179cc4288",
+      "content_group": "24c066a8ce06436a754e0a64a82f3891846451a251122a94a40a147be13e8d84"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-805295",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-01-19",
+      "url": "https://globalvoices.org/2024/01/19/jamaica-born-jason-allen-paisant-is-the-latest-caribbean-poet-to-win-the-esteemed-t-s-eliot-prize/",
+      "sha256": "ec68d70412fc343e0fbce96f11754f20e60fb428c914d022acbd3f38a0785e67",
+      "content_group": "52b88466f2cd74b8f8a02f6d88279789f578616b497d4f5db429c6632ca1f275"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-806959",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-02-16",
+      "url": "https://globalvoices.org/2024/02/16/i-dont-feel-safe-reactions-to-germanys-suppression-of-pro-palestine-solidarity/",
+      "sha256": "8aa321080e4ce57c74a5b54d23051be85e276f94ad7671f9daed78e5010c3ed6",
+      "content_group": "669bd85ba224bf5c4758e46ec84c9f75dc8176264aac5efcd0005f3497281fb0"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-808580",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-03-15",
+      "url": "https://globalvoices.org/2024/03/15/the-ball-is-back-in-jamaicas-appeals-court-as-uk-privy-council-quashes-dancehall-star-vybz-kartels-conviction/",
+      "sha256": "38debd88a1eeb74aa98056c5392d93891e990a27e6e95af2114401791c020228",
+      "content_group": "e570ab1db0eac7a719d5506627125dbd63d856ae01b37fce4f6427c5841abe4d"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-805492",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-01-22",
+      "url": "https://globalvoices.org/2024/01/22/terrorists-from-tajikistan-have-become-a-global-menace/",
+      "sha256": "20e506bf3d580fc0dbedfd121a2cbba60e9012211394cb8ed2d35ae19a3e2e6b",
+      "content_group": "fcb885f3f81e87c2e8bc9fa7507ee6ed23ea36d79c6ea9816c953f2640173388"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-806377",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-02-05",
+      "url": "https://globalvoices.org/2024/02/05/the-suriname-book-prohibition-in-a-global-context-of-free-expression/",
+      "sha256": "ce6e0f9570c32975bac91a06b0d8db8fa597fb4c19d2c47e259f859dd6dd6355",
+      "content_group": "1eff1c198caf626d11fbdd5ebff65c425210c23cd5f923576244ea5147534b8f"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-809026",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-03-27",
+      "url": "https://globalvoices.org/2024/03/27/to-get-a-stethoscope-into-gaza-you-needed-to-buy-a-tv/",
+      "sha256": "53508fdc67090cd3954ca9b3ef5d573aead0e0140a3186dedbddefc2f13f52fb",
+      "content_group": "0a5436164bfb901725422b47054cd01b53ce0d9c53a72ad78d921bf3de1d3fe0"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-805553",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-01-26",
+      "url": "https://globalvoices.org/2024/01/26/national-broadcaster-axes-australian-journalist-antoinette-lattouf-over-gaza-social-media-post/",
+      "sha256": "35bdb872cf3f62a99ffa5ea403d95dcbd9a1b84c33f1a106e83cab12aad3881b",
+      "content_group": "2931418b77c29191a76fc398e8d81c72ffd4bcffa850c12bb5d8db044c46f844"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::GV-807340",
+      "window": "calendar-S019",
+      "publisher": "Global Voices",
+      "date": "2024-02-22",
+      "url": "https://globalvoices.org/2024/02/22/despite-escalating-sanctions-key-machines-imported-from-east-asia-sustain-russias-war-effort-in-ukraine/",
+      "sha256": "0ba856d32c3b6371f13616731b4575d16dd40d5e341948100052d435eece8225",
+      "content_group": "89db23ca41e1ae6ee5735ad231d847ee71c331544f790eb5656e7ffed6c151d2"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7453714",
+      "window": "calendar-S019",
+      "publisher": "Voice of America",
+      "date": "2024-01-24",
+      "url": "https://www.voanews.com/a/nations-reaffirm-urgency-of-two-state-solution-for-israel-and-palestine-/7453714.html",
+      "sha256": "e107a0d94c01696c4d44f07cba5d1b89df481ba0cedd6823a4bbad86bf24e5c2",
+      "content_group": "3bbc01873dda4c0d701a6c496edd2a639546463bfec31b46ff7ec1f1e72f0d78"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7504758",
+      "window": "calendar-S019",
+      "publisher": "Voice of America",
+      "date": "2024-02-27",
+      "url": "https://www.voanews.com/a/analysts-lebanon-bracing-for-more-deadly-conflict-with-israel/7504758.html",
+      "sha256": "f96760f2e14375785c072dafa8e98aa0aa63f68c943df9eaf0d193649af58d21",
+      "content_group": "108ad3e14acd38938ec0d20876347fd12fb1c85061e0a4b95c67dbcfb70c8ce9"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7542616",
+      "window": "calendar-S019",
+      "publisher": "Voice of America",
+      "date": "2024-03-26",
+      "url": "https://www.voanews.com/a/israel-us-diplomatic-spat-complicates-gaza-situation-/7542616.html",
+      "sha256": "1b16df01b784ca595de31038a906f5f21f349d9a87ff1a6672ce62054e36706f",
+      "content_group": "6aa9dc02110e755fe09e82072abf4e1d68c27f4773f02752b1419df98c887c98"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7497240",
+      "window": "calendar-S019",
+      "publisher": "Voice of America",
+      "date": "2024-02-22",
+      "url": "https://www.voanews.com/a/humanitarian-groups-call-on-israel-to-provide-aid-to-palestinians/7497240.html",
+      "sha256": "8709cbf7ff606109f9b002b0d6f189894b34ee3ecbe2bb5dc981dcc6cfad4120",
+      "content_group": "6af240729646a2adeb4a3810477e2c6ce2c27cb4348973ccea4dd60044c9b66e"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-804313",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-01-02",
+      "url": "https://globalvoices.org/2024/01/02/on-the-first-day-of-2024-former-trinidad-tobago-prime-minister-basdeo-panday-dies/",
+      "sha256": "9b0c15a721e97641ffa13f7742836220abda91017f8f821376de81e4b3cea8b8",
+      "content_group": "27d0ae6fe91d31613897d52f3a0b8b51f0f7feb5e53e929d7d628cd5423aac2a"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-806542",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-02-06",
+      "url": "https://globalvoices.org/2024/02/06/pakistans-political-landscape-what-to-expect-from-the-2024-elections/",
+      "sha256": "a54718c4b172d1b2c3209b2fc4b793a818bd7738d7e2a550b61e22528b17b3fe",
+      "content_group": "cd6843a9041fd9da9503b5d625d90722cbbedfb26dfdbf3fc4f07513e83819e4"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-808472",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-03-19",
+      "url": "https://globalvoices.org/2024/03/19/women-march-for-palestine-and-against-patriarchy-in-pakistan/",
+      "sha256": "4ffd560bf24fb67847950a7f86eaa9f8dc0247911471e7d289682eaa3db10c4b",
+      "content_group": "a2151478b17f5018dcd088d5b8e34c9c643ba54964c8b7dacc87dc81cf41c3f0"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-805473",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-01-22",
+      "url": "https://globalvoices.org/2024/01/22/uzbekistan-is-finally-starting-to-address-its-air-pollution-problem/",
+      "sha256": "571e38f9b4fc2f44607efb2bd04e5cedc506d8037b95b148958d54b8e3d3e6df",
+      "content_group": "b07a328e07db27ac1cf726f2ef379b77bd703281952a99ae36b20b6e048b1a84"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-806800",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-02-11",
+      "url": "https://globalvoices.org/2024/02/11/pakistans-general-elections-ai-internet-shutdowns-and-disillusionment/",
+      "sha256": "6372256ff354a923f79b73da52e6fa184a813112c8f2d0104134748677416cc9",
+      "content_group": "cd35dead7c5dfb44704984622749b7fa0b8139abdc2786ec4ca676cdc2ed01cc"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-809519",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-03-31",
+      "url": "https://globalvoices.org/2024/03/31/how-indias-amended-citizenship-law-is-creating-a-large-pool-of-exclusion/",
+      "sha256": "ffcfca8fedf70d1117a6cce8b365d09c17c6c2183ad73e1667fc2cd69a7bde5b",
+      "content_group": "7c24b220b74b94bfcaec6defe06a493e64387c907a18ee7cc5f6f2a600cd1c9c"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-804606",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-01-12",
+      "url": "https://globalvoices.org/2024/01/12/the-spirited-competition-between-ghanaians-and-nigerians-continues-to-fuel-greatness-among-its-citizens/",
+      "sha256": "fb6fb77d5670bfdac2a55a4498e9dfd9ad1031b9f2641f49099358779a343b7d",
+      "content_group": "0533ba1c61415983077790625b3186c4c25ed0644c6a80c3cccd5abce2a8cead"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::GV-806177",
+      "window": "calendar-S020",
+      "publisher": "Global Voices",
+      "date": "2024-02-06",
+      "url": "https://globalvoices.org/2024/02/06/bharat-jodo-nyay-yatra-a-springboard-for-the-indian-national-congresss-path-back-to-power/",
+      "sha256": "fb884902053bc9e5ab2d15d6f99877a48a6b1c6bab0aa51970284b408cc4b93c",
+      "content_group": "0f2e514cdd7fc18bb3d24995ee646a1964b600ada8c181639710a0bcf22a8ec0"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7443769",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-01-17",
+      "url": "https://www.voanews.com/a/pakistan-suspends-diplomatic-ties-with-iran-to-protest-cross-border-deadly-raid-/7443769.html",
+      "sha256": "371f40ca070e94c39040adf7931172247238081d36849b6c462abfcea6e7f368",
+      "content_group": "c34c5a898dde2edaba3448a05eb20924f0fd9acd524a5b3d15672812f7f5ac75"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7489945",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-02-16",
+      "url": "https://www.voanews.com/a/what-are-the-key-takeaways-from-pakistan-s-election-/7489945.html",
+      "sha256": "66114d4ae8ed5a6c484a861159927d36b3d7254089f26b616c5af273635f483b",
+      "content_group": "fafac93a77da683df39d43671c23e6ce1c30e02ba67d82503f28dce709c0a6a5"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7547645",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-03-28",
+      "url": "https://www.voanews.com/a/pakistan-to-probe-military-s-alleged-coercion-of-senior-judges/7547645.html",
+      "sha256": "aedf255587aa7724860e3ef8f74deaf5a562e8e6b00f2f382f5a3a6f9aba5060",
+      "content_group": "3fa9d0af70c23eb4a8c2717516053d189a5cba45d30fac24d933481472210269"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7447338",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-01-19",
+      "url": "https://www.voanews.com/a/pakistan-iran-agree-to-de-escalate-after-trading-airstrikes-/7447338.html",
+      "sha256": "7f932c308e279cfe05150743e1c58db75ec8e3846b46172f7b779e135170b07e",
+      "content_group": "6a96022e912010efba40de0bbae42f333b9cbe060fbf1564d5b58a119d36f737"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7491919",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-02-17",
+      "url": "https://www.voanews.com/a/official-resigns-admits-tampering-in-pakistan-s-controversy-marred-vote-/7491919.html",
+      "sha256": "2a24bc88e0332f0483faf1a4a2cbf97002ebe252aae4e2fb1a0ae09e26360769",
+      "content_group": "f33aa6f5ece20ce7366c471f3a6b1e7a3ae99b34881355a41bf6bd85234c00a4"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7545543",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-03-27",
+      "url": "https://www.voanews.com/a/senior-pakistan-judges-allege-intimidation-torture-by-military-run-spy-agency-/7545543.html",
+      "sha256": "9f311281e97c30bf578c4b51865c9eec5ebcf027217efb67ea7d6752261a38d7",
+      "content_group": "885116f652229eb4c3edd77215028d539628b5e08772a16dcc01a79ddc04b40e"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7464528",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-01-31",
+      "url": "https://www.voanews.com/a/ex-pakistani-prime-minister-wife-receive-14-year-prison-sentences-on-corruption-charges/7464528.html",
+      "sha256": "8278f006145b14d413a726d567058b5841b355c354dbf40011d0ceab3fd3ea6f",
+      "content_group": "eeb104f7751e9993c814cff20a5d04b86d87ffed48b275040c73d49413d51173"
+    },
+    {
+      "pair_id": "EXP-calendar-S020::VOA-7471058",
+      "window": "calendar-S020",
+      "publisher": "Voice of America",
+      "date": "2024-02-05",
+      "url": "https://www.voanews.com/a/pakistan-police-station-assault-kills-10-officers/7471058.html",
+      "sha256": "fab5366da3021ac7de6727ee7b59b5fe1dea6563124e9e2b830337f44c9b442a",
+      "content_group": "6e1cb0e9e0e32e079c887198286d010a00ca9e85f0c04e804a7f10bbe2a0218a"
+    },
+    {
+      "pair_id": "EXP-cross-S016::MEMO-748566",
+      "window": "cross-S016",
+      "publisher": "Middle East Monitor",
+      "date": "2024-08-28",
+      "url": "https://www.middleeastmonitor.com/20240828-syria-receives-thousands-of-russia-language-books-in-accelerated-drive-to-teach-russian-countrywide/",
+      "sha256": "ec759fe399d2f6c5d34e83640c15205aecc995b61d215fc1c9c6cbfc81f7efe2",
+      "content_group": "8f9e8546be85d7c22072db56e0879147146005248cd3f147f18bbeb93aa13356"
+    },
+    {
+      "pair_id": "EXP-cross-S016::MEMO-751691",
+      "window": "cross-S016",
+      "publisher": "Middle East Monitor",
+      "date": "2024-09-16",
+      "url": "https://www.middleeastmonitor.com/20240916-un-approving-plan-to-return-30000-refugees-to-syria-from-lebanon-despite-grave-human-rights-threats/",
+      "sha256": "b18c2d34ff961a881a76791742ddc8e922988e997f7287c5007cdae040ab1cf4",
+      "content_group": "7dd0ca9b92bcd7e8062aea71cb00b6579c1bcf9f69b4be5e016feecc46234928"
+    },
+    {
+      "pair_id": "EXP-cross-S017::ISS-48bce6fbf9345fee",
+      "window": "cross-S017",
+      "publisher": "ISS Today",
+      "date": "2024-10-28",
+      "url": "https://issafrica.org/iss-today/can-samidrc-be-spared-the-fate-of-previous-peace-missions",
+      "sha256": "22d798b27777e8ccec5f7e6c4837b40ea908267f078d4f979e1019430ccad1d6",
+      "content_group": "2e20d786ad9a5dea2d085ce9d68c9d154a8ce9a6ecaf2d6496f9d0c758362fc2"
+    },
+    {
+      "pair_id": "EXP-cross-S017::MB-290668",
+      "window": "cross-S017",
+      "publisher": "Mongabay",
+      "date": "2024-11-26",
+      "url": "https://news.mongabay.com/2024/11/illegal-gold-mining-drives-deforestation-in-drc-reserve-home-to-african-unicorn/",
+      "sha256": "402c8eaaa86929329fd5a8bf1d09e6425a9819fc7ca736b43dc83b56d3bbddda",
+      "content_group": "230bf01305d41fbf3ebdda926b764c5e36022bfcbf8125cea862a484c9c37b72"
+    },
+    {
+      "pair_id": "EXP-cross-S017::AA-28407e075a448b7f",
+      "window": "cross-S017",
+      "publisher": "African Arguments",
+      "date": "2024-11-05",
+      "url": "https://africanarguments.org/2024/11/children-and-the-coltan-wars-in-eastern-congo/",
+      "sha256": "fe95f41202f42d5a937c4d929a4576b2c1ea6c021ffdc60745523264558bae5e",
+      "content_group": "f74285d8d5e58cd3744045548fb2dc74b59849262355b05dae1e557e012e2d33"
+    },
+    {
+      "pair_id": "EXP-cross-S017::VOA-7889825",
+      "window": "cross-S017",
+      "publisher": "Voice of America",
+      "date": "2024-12-06",
+      "url": "https://www.voanews.com/a/doctors-want-urgent-action-on-drc-s-yet-to-be-identified-disease-outbreak/7889825.html",
+      "sha256": "32344faf5d740637b5e65af4265bf4fcb5198d2dc67287e97d2e6e2a2446c9b2",
+      "content_group": "90f21b5e7867da37037e71bb480815128f9226cbbb6672ba31beaae58f70e8a5"
+    },
+    {
+      "pair_id": "EXP-cross-S017::MB-292518",
+      "window": "cross-S017",
+      "publisher": "Mongabay",
+      "date": "2024-12-30",
+      "url": "https://news.mongabay.com/2024/12/in-drc-bid-to-grow-more-food-smallholders-are-overshadowed-by-industrial-farming/",
+      "sha256": "87c95ebf2818052ef37422e812cdd49c839aa9ad1efd3911452098e6c5bcbe6a",
+      "content_group": "470b1ba317f595cd951e4e63bc39d2d6b0c2aad4e6679090dedfd7ede73e50a0"
+    },
+    {
+      "pair_id": "EXP-cross-S017::ISS-47821550a0bc4d88",
+      "window": "cross-S017",
+      "publisher": "ISS Today",
+      "date": "2024-12-13",
+      "url": "https://issafrica.org/iss-today/tshisekedi-kagame-to-meet-on-crucial-eastern-drc-peace-deal",
+      "sha256": "0cc750ba46a75faa6b143f8926e5738fa092eb2e7aeeee6a82665ed0f46ed7cd",
+      "content_group": "4956eb0f29a59485fe413d28eab436be35e98a9e711b41fff84de0a6505401ec"
+    },
+    {
+      "pair_id": "EXP-cross-S017::MB-292797",
+      "window": "cross-S017",
+      "publisher": "Mongabay",
+      "date": "2025-01-10",
+      "url": "https://news.mongabay.com/short-article/2025/01/bonobo-numbers-in-drc-park-stable-but-signs-of-decline-appear/",
+      "sha256": "c78500b088a95a142a7baa9b64b5fdf33635abe7864baea34568c1a875e43e6e",
+      "content_group": "f771de627248567f8b421555e0c8551f14bb24c9ed2465bd43e6536448a99872"
+    },
+    {
+      "pair_id": "EXP-cross-S017::ISS-806dc2ebdef87c5d",
+      "window": "cross-S017",
+      "publisher": "ISS Today",
+      "date": "2024-10-31",
+      "url": "https://issafrica.org/iss-today/can-tanzania-bring-east-and-southern-africa-together-on-east-drc",
+      "sha256": "97b6fe3bd6c56f6493987bedb9f31c9801c8bb066536de977a542b84e8f4c4ba",
+      "content_group": "a56379d9a8ece2857f2a5393b8a8536bd49e1b690b82addc8335862f0caf1c36"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-767750",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2024-12-24",
+      "url": "https://www.middleeastmonitor.com/20241224-who-warns-yemen-faces-highest-burden-of-cholera-globally/",
+      "sha256": "fc25d0fbb6591ec1d3837d874308e24359d9cee675ecce3c1043763a8e950ffc",
+      "content_group": "2918ab12c1888429ecc1f2f974296119abcf3c5385469119caa0c0276654e6c1"
+    },
+    {
+      "pair_id": "EXP-cross-S018::CD-5049a925d7593c2f",
+      "window": "cross-S018",
+      "publisher": "Common Dreams",
+      "date": "2025-01-01",
+      "url": "https://www.commondreams.org/news/us-israel-airstrikes-yemen",
+      "sha256": "8e6d6187a4481a2820cf9dd562c4f899e37e0fb89e03b3e7f36723f3f20f28db",
+      "content_group": "2752e67fe4e4ef01dfb2259c1a2329411622d42d9c14d49873c1937be181d4c2"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-770689",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-01-14",
+      "url": "https://www.middleeastmonitor.com/20250114-houthis-target-vital-israel-site-with-ballistic-missile-4-drones/",
+      "sha256": "0fc6c6df897f96ce3d2d8bbd4444e6bdb393a88ffb7769ec783a83f8f096f9f3",
+      "content_group": "9093d28449e39fd52ec52353d37b5a82ea47f8e89dfa805b3445783c174217aa"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-775873",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-02-10",
+      "url": "https://www.middleeastmonitor.com/20250210-jordan-and-yemens-houthi-led-govt-sign-agreement-on-drug-cooperation/",
+      "sha256": "2e594abd5d6a2466b30268be4fc8862606367a6f45127187a616772d0f0e89d7",
+      "content_group": "394922e0cca0f37c636f5c56793193eb9de2dab9dd4b9736cfef0bae16ec6a8a"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-780133",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-03-06",
+      "url": "https://www.middleeastmonitor.com/20250306-us-confirms-drone-downed-over-red-sea-as-houthis-release-footage-of-strike/",
+      "sha256": "5088fce124ee42422827fbffc3e03d1b5e2b80c921d043ae4571de3de3f075a7",
+      "content_group": "a3d84c26e00818cb6995eecaf60e11c6d02b2e1d27be5b37f653900988c4c83c"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-767447",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2024-12-23",
+      "url": "https://www.middleeastmonitor.com/20241223-israel-faces-intelligence-difficulties-in-identifying-houthi-missile-bunkers/",
+      "sha256": "c0b8d599c4ff2d4d1b6cefb8668729fab3f8931d3b51089b5e000ab0fc806ac1",
+      "content_group": "27e79dce5ce92b78bf51bd4ac80212f97da5ce985cc5da67cd453ffa6632a083"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-770908",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-01-15",
+      "url": "https://www.middleeastmonitor.com/20250115-houthis-announce-strikes-on-tel-aviv-power-station-in-eilat/",
+      "sha256": "9b96030881c055d9d28b516d1a459fdf6007285b70938be067dfc88a9330697a",
+      "content_group": "2c1f576f9f6faf91c8599a5a7903cad46e26aa10bfeb798050a063508e0c0b34"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-776543",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-02-13",
+      "url": "https://www.middleeastmonitor.com/20250213-yemens-houthi-leader-accuses-us-of-encouraging-israel-to-violate-gaza-ceasefire-deal/",
+      "sha256": "1dc6e5753f617f746defff23d6964af4fea5641b7005e5f5c0e68d3f26de8899",
+      "content_group": "10ed4300ab881772d1bef1515dd41252c778295de4aaeebc933473e9c25be617"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-780771",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-03-10",
+      "url": "https://www.middleeastmonitor.com/20250310-houthi-leader-condemns-killings-in-syria-accuses-us-and-israel-of-backing-takfiris/",
+      "sha256": "0f847d2dfe4f55df8dde9af16469ed6f0e8e0323a0d3b4df348257263664cfb6",
+      "content_group": "15d95ed315c240054ae23a8b15b1505ea5716b1703c0699a2bcc418370c1e16e"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-767366",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2024-12-22",
+      "url": "https://www.middleeastmonitor.com/20241222-yemens-houthis-report-313m-in-losses-from-israeli-strikes-on-hudaydah/",
+      "sha256": "0c2ebbff3a02bb05e465d1d486c8510af04aba10704a9ee3c10b33f40fc541da",
+      "content_group": "7c7e84a800a7af13981fef799f3a697b0a6bbb3178cc870e0fe33f5693dff872"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-769350",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-01-06",
+      "url": "https://www.middleeastmonitor.com/20250106-egypt-is-not-preparing-to-strike-yemen-says-official-source/",
+      "sha256": "83a15ab59701b38b3d1f91f116f2879728155cc7ee5ef6c94c0c39d3122a4dec",
+      "content_group": "67dcef6ff4cee8e145cb881651a0214e4f91c4e315783e9d419beac6bcf50f25"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-777019",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-02-17",
+      "url": "https://www.middleeastmonitor.com/20250217-un-maintains-yemen-operations-despite-death-of-aid-worker-in-houthi-custody/",
+      "sha256": "f6f040f3f04a5d9fe5fdf68777ef4df8abf1d9909a5cb60ff3771a45114f9509",
+      "content_group": "2442e820cb8f2768ae02e466650ca2b7efade1ec47a14d4064dacc1a1973edfa"
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-781203",
+      "window": "cross-S018",
+      "publisher": "Middle East Monitor",
+      "date": "2025-03-13",
+      "url": "https://www.middleeastmonitor.com/20250313-hamas-praises-houthi-decision-to-resume-attacks-on-israeli-ships/",
+      "sha256": "71f32fe7e1214e2cf5cd6e88dd7f9e8d17c235f543db9e2c3bf6a351d3e882b2",
+      "content_group": "239f08b0fb061c12d2ee0472f397b3cf58fbe12cdded7b8fca656c045540454e"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-7963488",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2025-02-05",
+      "url": "https://www.voanews.com/a/trump-says-u-s-will-take-ownership-of-gaza/7963488.html",
+      "sha256": "345fffadf255ecd7dc75c4a804b4ee0eb2470ff44ea7cb6ddd3395583b3f6d3e",
+      "content_group": "8199fb986e6638c8735598c9c5f6d05a9fc9159bfd1ff678d4a9c71b9331c581"
+    },
+    {
+      "pair_id": "EXP-cross-S019::VOA-8007713",
+      "window": "cross-S019",
+      "publisher": "Voice of America",
+      "date": "2025-03-12",
+      "url": "https://www.voanews.com/a/irish-pm-visits-white-house-amid-divisions-on-economy-ukraine-gaza/8007713.html",
+      "sha256": "e54d40ae35bc82fd106f21b14b9e0c0a99f42f8002a5893aada7b9c3bcbb2f02",
+      "content_group": "a91b7421d70ce6fb74cef64e319dfe3ca12b666f46a524a8d8d1d90d0e715515"
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7448479",
+      "window": "calendar-S016",
+      "publisher": "Voice of America",
+      "date": "2024-01-20",
+      "url": "https://www.voanews.com/a/israeli-attack-kills-top-iranian-commanders-in-damascus-/7448479.html",
+      "sha256": "840104123d96884444ff809d87de5e0e33e01ef32ad84fd336f1f63d5f17a7c7",
+      "content_group": "a01c870089c5ba1e091237c893667c9e79010da00a306ba8d40d50ae0e5c8d4d"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::MB-277443",
+      "window": "calendar-S017",
+      "publisher": "Mongabay",
+      "date": "2024-01-08",
+      "url": "https://news.mongabay.com/2024/01/togo-monkey-seizure-turns-spotlight-on-illicit-wildlife-trafficking-from-dr-congo/",
+      "sha256": "a120ba268e73a848bc4a8057f837ef1e15992560b70745b464c322b76ffab6a8",
+      "content_group": "c1c5cfadb9d9410a96561c02d4bb1923576ee53e0b38eaf9e9f676872e52465e"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::ISS-b0abef5ab0208a1a",
+      "window": "calendar-S017",
+      "publisher": "ISS Today",
+      "date": "2024-02-07",
+      "url": "https://issafrica.org/iss-today/drc-misses-another-opportunity-to-build-a-democracy",
+      "sha256": "a974ccedd0b5eb5b31b3a8056b1f874552fbc4c253c2c665afaa17e1be71a746",
+      "content_group": "1b0257818682b2a2f96014b66b14ee53e260b7e6f516ad9956faebaaa1d66ef0"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GU-db9b918a09f6646d",
+      "window": "calendar-S017",
+      "publisher": "GroundUp",
+      "date": "2024-03-18",
+      "url": "https://groundup.org.za/article/congolese-march-to-parliament-to-draw-attention-to-war-at-home/",
+      "sha256": "48f5aebc7b769cb1b9de88ac6f95956b886282b9d9e4c64c94462c6468b31795",
+      "content_group": "b2093dc931e1f1f40d0a8af72901d2d7c18069f80372fade78fd5533c26748d8"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::MB-280300",
+      "window": "calendar-S017",
+      "publisher": "Mongabay",
+      "date": "2024-03-27",
+      "url": "https://news.mongabay.com/2024/03/global-cobalt-rush-drives-toxic-toll-near-drc-mines/",
+      "sha256": "4039ec10b6ff6e5e49cc78b47c5e06455307f0459b1c54a2cec61286e4ec663e",
+      "content_group": "468c9759b7334e33f060e4fb294b23b5c80ad79b32823cbda17d6c8311d88c8b"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::ISS-7511499b4b88aaf8",
+      "window": "calendar-S017",
+      "publisher": "ISS Today",
+      "date": "2024-02-09",
+      "url": "https://issafrica.org/iss-today/once-more-into-the-breach-sadc-troops-in-drc",
+      "sha256": "e343c0cbc534221ccd02af10fdb095f7d3655ea7ad143f1d04fa7910cfd56469",
+      "content_group": "85612d1de29f20ae8af629b561ddadd318ebd9dd3a768904442dabe9be8bef3f"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7458908",
+      "window": "calendar-S017",
+      "publisher": "Voice of America",
+      "date": "2024-01-26",
+      "url": "https://www.voanews.com/a/uncertainties-remain-with-renegotiated-chinese-mining-deal-in-drc-/7458908.html",
+      "sha256": "f3d86f0de276bb61ecbec82bc6d18c56730e1eddc753b040eb2dcaf4c4c4a061",
+      "content_group": "461d55346d45aedfcd9499f451f6a27add81d4a0813b033d66bdecb641699079"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::MB-280037",
+      "window": "calendar-S017",
+      "publisher": "Mongabay",
+      "date": "2024-03-25",
+      "url": "https://news.mongabay.com/2024/03/under-the-shadow-of-war-in-the-drc-a-mining-companys-actions-face-impunity/",
+      "sha256": "d6e63a66e2ce00b2ce46c6471c93472a4f7add54578631c7dd9e12790bb0b075",
+      "content_group": "3a015b0e1bc1c2d53a566ee585b10b9245d9bc35cb23271432f7c2d37eafdd50"
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7510198",
+      "window": "calendar-S017",
+      "publisher": "Voice of America",
+      "date": "2024-03-01",
+      "url": "https://www.voanews.com/a/fact-check-african-stream-falsely-claims-that-us-arms-congo-s-m23-rebels/7510198.html",
+      "sha256": "3572da474ade3824d61e7859bbe64fb7f596c47e88fbca3160201d1dce8123d2",
+      "content_group": "d5c8e20d1101b36b6b1fa58d6776e56ffae02c7b10725518612be6fcff19a8d1"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::ISS-c56281ddeae387ab",
+      "window": "calendar-S018",
+      "publisher": "ISS Today",
+      "date": "2024-01-22",
+      "url": "https://issafrica.org/iss-today/africa-needs-a-stronger-voice-on-resolving-the-red-sea-crisis",
+      "sha256": "4ddc446bc257107a880758d44b66908effcddd6cca2ef242799c16ade8bd4050",
+      "content_group": "cfc83cb023b4bee0ec511b0767d01d1b2f06d3d620f17a72b2a852ad8a14df24"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::ISS-56acff844790d238",
+      "window": "calendar-S018",
+      "publisher": "ISS Today",
+      "date": "2024-02-12",
+      "url": "https://issafrica.org/iss-today/impact-of-red-sea-crisis-on-africa-red-flag-or-red-herring",
+      "sha256": "0093e0205142d153ffdda38e61df2fbdce37bc2d56e20994441963ed716f9e0d",
+      "content_group": "634a3d0656e45e21e1491ffb095ca0f19c2e3b50af8a307220e59e4f4e6cb77e"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::ISS-492edc29681eb8d0",
+      "window": "calendar-S018",
+      "publisher": "ISS Today",
+      "date": "2024-02-01",
+      "url": "https://issafrica.org/iss-today/africas-oceans-could-pay-dearly-for-the-red-sea-crisis",
+      "sha256": "73137019e86accd237c646cbd705c1c2b830db311c543fdad9e3f6c011b35c99",
+      "content_group": "13507830d30f78edd55211eb6e3c4150c47c4316988c90215a907b8eea3b0b58"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7436803",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-01-12",
+      "url": "https://www.voanews.com/a/us-uk-strike-back-at-several-houthi-sites-in-yemen-/7436803.html",
+      "sha256": "76235352a14c1f6d000e90a38b65406606449a66823a985f5b3323924556027d",
+      "content_group": "98f6578aa40192aff341356164f73f58b34d2867f9830eb1d0280f32fe0ef78c"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7497821",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-02-22",
+      "url": "https://www.voanews.com/a/missile-attack-reported-targeting-ship-in-gulf-of-aden-/7497821.html",
+      "sha256": "642aac4d1cbdd3ccb77f053471a5a3419aaf59b90a899e6e756da4fcefee4920",
+      "content_group": "5d7775ebebb6c90ed63f5695bf571dbee88ad8c24531fcb21b0a8440f449fdc8"
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7438907",
+      "window": "calendar-S018",
+      "publisher": "Voice of America",
+      "date": "2024-01-13",
+      "url": "https://www.voanews.com/a/egypt-worries-us-british-attacks-on-houthis-could-escalate-gaza-conflict/7438907.html",
+      "sha256": "46c5c25b63de5656297a211fe355020bb1e94dc1bbe8031483c2273d36fe6b83",
+      "content_group": "dd72ceacd95ca2841420a6f265b7bf4b70f7b6c73e6bb29764daad8915d02d15"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::ISS-55f05604f9b0afd2",
+      "window": "calendar-S019",
+      "publisher": "ISS Today",
+      "date": "2024-02-13",
+      "url": "https://issafrica.org/iss-today/icjs-gaza-genocide-case-big-win-but-with-what-effect",
+      "sha256": "216fe7d27dd98238fca1b0ebd81d58f0547ccb7c73cc29bf0a9d1554bc8fcaeb",
+      "content_group": "7383bbb6e88c2a0b0342c5e8532d5e272d0e1b44fc706943f8fa1f91f839e6e9"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::ISS-54e5d6964edabac5",
+      "window": "calendar-S019",
+      "publisher": "ISS Today",
+      "date": "2024-02-27",
+      "url": "https://issafrica.org/iss-today/african-countries-join-a-united-front-against-israeli-occupation",
+      "sha256": "78553fe70af5e6f91518bc5a2c0809138608b0e9ba0ffc261f6e76722f80485a",
+      "content_group": "66b9cf5c6fb5cb99235c829b00325b3169da4a2f1675db10671838bf97583c66"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7458679",
+      "window": "calendar-S019",
+      "publisher": "Voice of America",
+      "date": "2024-01-26",
+      "url": "https://www.voanews.com/a/several-un-agency-staff-fired-for-alleged-ties-to-oct-7-israel-attack/7458679.html",
+      "sha256": "dd65938973885be3ee22c7b4ddf3037f63e4818a06cf01fe2856492c3f4f0022",
+      "content_group": "7eb8350db8ac369a4d7e8d7cbc9103edd1aa222dcce1f2ac5aa532f5f4af2991"
+    },
+    {
+      "pair_id": "EXP-calendar-S019::VOA-7486115",
+      "window": "calendar-S019",
+      "publisher": "Voice of America",
+      "date": "2024-02-13",
+      "url": "https://www.voanews.com/a/unrwa-chief-agency-essential-to-respond-to-humanitarian-crisis-in-gaza/7486115.html",
+      "sha256": "42e01367efbc76b2edffbab8dd75cb9e6e1c572e2e4238f2a215d1af1e6d1ae2",
+      "content_group": "f268ca2667c04c8e6c88868374972e4903737fdeff7a855c00db9a045503c20d"
+    }
+  ]
+}

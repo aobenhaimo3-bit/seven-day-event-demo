@@ -1,0 +1,27 @@
+{
+  "version": "calendar-source-expansion-v3",
+  "created_on": "2026-11-04",
+  "base_version": "calendar-source-expansion-v2",
+  "base_sha256": "4a5789f2034b58be03e0615defedf970df7d261a1d9d024861e2d60ba08f7109",
+  "seed": "seven-day-calendar-source-v3-supplement",
+  "target_per_window": 16,
+  "sources": ["Global Voices", "Voice of America", "African Arguments", "Common Dreams", "The Conversation", "ISS Today", "Middle East Monitor", "Mongabay", "GroundUp"],
+  "title_focus_cases": ["S016", "S017", "S018", "S019", "S020"],
+  "required_context_terms": {
+    "S017": ["Congo", "Congolese", "DRC", "M23", "Goma", "Kinshasa", "SAMIDRC"],
+    "S019": ["Gaza", "Hamas", "Palestine", "Palestinian"]
+  },
+  "focus_revision_note": "Pre-delivery QA found lead mentions of Rwanda in country lists/historical analogies, Red Sea in Horn-of-Africa-only articles, and Gaza in articles primarily about Sudan. All new additions therefore require a neutral title match; Red Sea titles also need Yemen/Houthi geographic context in the body. SAMIDRC is a neutral named mission alias, not an event-outcome filter. This improves precision at a known cost to recall and introduces an explicit headline-language selection bias. No source article or original window date is changed.",
+  "revision_reason": "The delivered v2 has 44 unfilled publisher-window quotas. Preserve its 116 records exactly; broaden the accessible editorial-source panel and fill window totals without altering dates. Original GV/VOA quotas are reported separately and are not claimed complete by substituting another publisher.",
+  "selection": "New URLs and normalized text must not occur in the delivered v2 or existing development data. Require neutral case aliases in the title (initial title/lead discovery remains logged); this is a scope screen, not human relevance verification. Within each window prefer the currently least represented available publisher, rotate calendar months, then rank by SHA256(seed|window|publisher|URL). Exclude exact/title/strong text near-duplicates. Never select on event labels or detector scores. Leave unfilled totals visible.",
+  "terms": {
+    "S016": ["Syria", "Syrian", "Damascus", "Aleppo"],
+    "S017": ["Congo", "Congolese", "DRC", "DR Congo", "Democratic Republic of Congo", "M23", "Rwanda", "Rwandan", "Goma", "Kinshasa", "SAMIDRC", "Tshisekedi", "Kagame", "MONUSCO", "Kivu", "Bukavu", "Lubumbashi"],
+    "S018": ["Yemen", "Yemeni", "Houthi", "Houthis", "Red Sea", "Aden", "Hodeidah", "Sanaa"],
+    "S019": ["Gaza", "Israel", "Israeli", "Palestine", "Palestinian"],
+    "S020": ["India", "Indian", "Pakistan", "Pakistani", "Kashmir"]
+  },
+  "label_policy": "All additions unassigned, pending, labels:null, relevance_verified:false, negative_label_verified:false, historical_snapshot_verified:false. Calendar sampling is not a verified peaceful period or a negative label.",
+  "source_policy": "Use only individually attributable available original full text under a verified source reuse policy. Record commentary/analysis separately from reporting and distinguish named editorial sources from outlets they cite. Retain source hyperlinks and licensing metadata; no images or media. Source availability is a selection limitation, not representative media coverage.",
+  "freeze_policy": "Never modify the delivered v2, fixed 60 review articles, train/validation files or frozen model. Never overwrite a changed v3 review record. Original snapshots and current audit findings remain separate."
+}

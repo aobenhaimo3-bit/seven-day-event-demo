@@ -1,0 +1,367 @@
+{
+  "comparison_date": "2026-11-04",
+  "baseline_version": "scoped-assertion-v4",
+  "baseline_engine_sha256": "7d36d35025ea125bf115c600ae7b2a15556bcaeb908b8439d9eb14c4109dd0c5",
+  "current_source_sha256": {
+    "lib/engine.mjs": "079f2326864ea62d9842ade82418c1c737167db675d266b72860d58122c41e7a",
+    "lib/assertions.mjs": "8c2a3d43b62d6250c727e425c77d613728292f6787482fba62bf5ca45f110d18",
+    "lib/temporal.mjs": "30d837e8ee893e805247edb6217e7932d291a55f65a6a8d17d7545dd135247bf",
+    "lib/event-relations.mjs": "022156c7668dcd9262b249742d5461280c55e96a2a759bfcbf6ee8cea415aac5"
+  },
+  "data_provenance": {
+    "train": {
+      "path": "local-data/train_pairs.jsonl",
+      "sha256": "ee18ecc341d1b656e3cffa182a29f8af3a078ac618b1ad22cd8b563a7721d601"
+    },
+    "validation": {
+      "path": "local-data/validation_pairs.jsonl",
+      "sha256": "dbe10025d0b0a09615a1355174215d2aa63a65e1bcc6a98631c543eba817c51a"
+    },
+    "pilot": {
+      "path": "local-data/annotations.jsonl",
+      "sha256": "50a9e4cd83c81c3977a4a301fafc4a6c3be009f66dfd07e9c1742bbea5a994a0"
+    },
+    "aliases": {
+      "path": "local-data/case_aliases.json",
+      "sha256": "271b219e1ba58b5395edaadd81fb67aadfac0eda144c41f41cfe048d2d351e70"
+    }
+  },
+  "evaluation_contract": {
+    "split_unchanged": true,
+    "fit_on_training_only": true,
+    "test_input_used": false,
+    "independent_gold_available": false,
+    "hyperparameters": "Each version uses its own validation-selected lambda from the unchanged grid [0.1,1,10,50]. This is development validation, not an untouched test.",
+    "comparison_limit": "Extraction and eligibility changed together, so native samples and targets may differ; inspect common_windows and changed_labels. Common-window matrices hold both windows and labels fixed, in both label definitions; neither label definition is independent gold.",
+    "scope_limit": "Conservative lexical scope gates do not implement full actor-relation extraction. False negatives and residual false positives remain possible."
+  },
+  "native": {
+    "before": {
+      "rule_version": "scoped-assertion-v4",
+      "train_windows": 70,
+      "validation_cases": 3,
+      "lambda": 50,
+      "metrics": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.095961,
+        "log_loss": 0.318185,
+        "accuracy": 0.928571,
+        "confusion": {
+          "tp": 11,
+          "tn": 2,
+          "fp": 0,
+          "fn": 1
+        },
+        "baseline_brier": 0.12511,
+        "baseline_log_loss": 0.419278,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    },
+    "after": {
+      "rule_version": "event-context-coverage-v5",
+      "train_windows": 70,
+      "validation_cases": 3,
+      "lambda": 50,
+      "metrics": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.073717,
+        "log_loss": 0.26599,
+        "accuracy": 1,
+        "confusion": {
+          "tp": 12,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0
+        },
+        "baseline_brier": 0.12387,
+        "baseline_log_loss": 0.415213,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    }
+  },
+  "common_windows": {
+    "count": 14,
+    "changed_labels": 0,
+    "evaluated_on_old_labels": {
+      "before": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.095961,
+        "log_loss": 0.318185,
+        "accuracy": 0.928571,
+        "confusion": {
+          "tp": 11,
+          "tn": 2,
+          "fp": 0,
+          "fn": 1
+        },
+        "baseline_brier": 0.12511,
+        "baseline_log_loss": 0.419278,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      },
+      "after": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.073717,
+        "log_loss": 0.26599,
+        "accuracy": 1,
+        "confusion": {
+          "tp": 12,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0
+        },
+        "baseline_brier": 0.12387,
+        "baseline_log_loss": 0.415213,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    },
+    "evaluated_on_new_labels": {
+      "before": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.095961,
+        "log_loss": 0.318185,
+        "accuracy": 0.928571,
+        "confusion": {
+          "tp": 11,
+          "tn": 2,
+          "fp": 0,
+          "fn": 1
+        },
+        "baseline_brier": 0.12511,
+        "baseline_log_loss": 0.419278,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      },
+      "after": {
+        "sample_count": 14,
+        "positives": 12,
+        "negatives": 2,
+        "brier": 0.073717,
+        "log_loss": 0.26599,
+        "accuracy": 1,
+        "confusion": {
+          "tp": 12,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0
+        },
+        "baseline_brier": 0.12387,
+        "baseline_log_loss": 0.415213,
+        "baseline_accuracy": 0.857143,
+        "persistence_brier": 0.071429,
+        "target_semantics": "weak_news_proxy_validation",
+        "independently_verified_real_event_labels": false
+      }
+    },
+    "note": "Persistence uses each version’s own historical action detector; constant baselines use each version’s training rate."
+  },
+  "dropped_validation_windows": [],
+  "added_validation_windows": [],
+  "validation_predictions": [
+    {
+      "key": "S018/2025-01-18",
+      "before": {
+        "label": 1,
+        "probability": 0.6205442511024751,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.6247876581262467,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-01-14",
+      "before": {
+        "label": 1,
+        "probability": 0.9181010048827852,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9238361619025183,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-01-21",
+      "before": {
+        "label": 1,
+        "probability": 0.9201850164226644,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9337105191427396,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-01-28",
+      "before": {
+        "label": 1,
+        "probability": 0.9145376461185041,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9275139302219465,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-04",
+      "before": {
+        "label": 1,
+        "probability": 0.9178206172767286,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9307772770975492,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-11",
+      "before": {
+        "label": 1,
+        "probability": 0.9090388492767603,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9275898812524348,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-18",
+      "before": {
+        "label": 1,
+        "probability": 0.9061184805632981,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9162806009219596,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-02-25",
+      "before": {
+        "label": 1,
+        "probability": 0.9108756934591096,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9297285350656724,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S019/2025-03-04",
+      "before": {
+        "label": 1,
+        "probability": 0.9121486632812214,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.9175237527693703,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S020/2025-03-06",
+      "before": {
+        "label": 0,
+        "probability": 0.3921544952483327,
+        "persistence": 0
+      },
+      "after": {
+        "label": 0,
+        "probability": 0.3943571776588444,
+        "persistence": 0
+      }
+    },
+    {
+      "key": "S020/2025-03-13",
+      "before": {
+        "label": 0,
+        "probability": 0.4171646396117828,
+        "persistence": 0
+      },
+      "after": {
+        "label": 0,
+        "probability": 0.42256716861309407,
+        "persistence": 0
+      }
+    },
+    {
+      "key": "S020/2025-04-10",
+      "before": {
+        "label": 1,
+        "probability": 0.3063213481413456,
+        "persistence": 0
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.5231811801576741,
+        "persistence": 0
+      }
+    },
+    {
+      "key": "S020/2025-04-17",
+      "before": {
+        "label": 1,
+        "probability": 0.5172926882705732,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.5523937740693695,
+        "persistence": 1
+      }
+    },
+    {
+      "key": "S020/2025-04-24",
+      "before": {
+        "label": 1,
+        "probability": 0.6876250796334155,
+        "persistence": 1
+      },
+      "after": {
+        "label": 1,
+        "probability": 0.7080522141101854,
+        "persistence": 1
+      }
+    }
+  ]
+}
