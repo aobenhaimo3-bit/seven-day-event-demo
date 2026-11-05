@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "annotation_kind": "model_assisted_silver_labels",
+  "model_id": "gpt-6-astra",
+  "human_reviewed": 0,
+  "independent_human_gold": false,
+  "training_modified": false,
+  "summary": {
+    "count": 220,
+    "uncertain_records": 31,
+    "labels": {
+      "relevance": {
+        "yes": 132,
+        "no": 87,
+        "uncertain": 1
+      },
+      "action": {
+        "yes": 68,
+        "no": 136,
+        "uncertain": 16
+      },
+      "threat": {
+        "yes": 26,
+        "no": 187,
+        "uncertain": 7
+      },
+      "posture": {
+        "yes": 4,
+        "no": 206,
+        "uncertain": 10
+      },
+      "cooperation": {
+        "yes": 28,
+        "no": 187,
+        "uncertain": 5
+      }
+    }
+  },
+  "by_dataset": {
+    "fixed_60": {
+      "count": 60,
+      "uncertain_records": 7,
+      "labels": {
+        "relevance": {
+          "yes": 40,
+          "no": 20,
+          "uncertain": 0
+        },
+        "action": {
+          "yes": 21,
+          "no": 35,
+          "uncertain": 4
+        },
+        "threat": {
+          "yes": 10,
+          "no": 48,
+          "uncertain": 2
+        },
+        "posture": {
+          "yes": 0,
+          "no": 58,
+          "uncertain": 2
+        },
+        "cooperation": {
+          "yes": 7,
+          "no": 53,
+          "uncertain": 0
+        }
+      }
+    },
+    "expansion_160": {
+      "count": 160,
+      "uncertain_records": 24,
+      "labels": {
+        "relevance": {
+          "yes": 92,
+          "no": 67,
+          "uncertain": 1
+        },
+        "action": {
+          "yes": 47,
+          "no": 101,
+          "uncertain": 12
+        },
+        "threat": {
+          "yes": 16,
+          "no": 139,
+          "uncertain": 5
+        },
+        "posture": {
+          "yes": 4,
+          "no": 148,
+          "uncertain": 8
+        },
+        "cooperation": {
+          "yes": 21,
+          "no": 134,
+          "uncertain": 5
+        }
+      }
+    }
+  },
+  "by_case": {
+    "S016": {
+      "count": 44,
+      "uncertain_records": 9,
+      "labels": {
+        "relevance": {
+          "yes": 29,
+          "no": 15,
+          "uncertain": 0
+        },
+        "action": {
+          "yes": 19,
+          "no": 24,
+          "uncertain": 1
+        },
+        "threat": {
+          "yes": 1,
+          "no": 40,
+          "uncertain": 3
+        },
+        "posture": {
+          "yes": 1,
+          "no": 39,
+          "uncertain": 4
+        },
+        "cooperation": {
+          "yes": 2,
+          "no": 40,
+          "uncertain": 2
+        }
+      }
+    },
+    "S017": {
+      "count": 44,
+      "uncertain_records": 12,
+      "labels": {
+        "relevance": {
+          "yes": 20,
+          "no": 23,
+          "uncertain": 1
+        },
+        "action": {
+          "yes": 10,
+          "no": 25,
+          "uncertain": 9
+        },
+        "threat": {
+          "yes": 2,
+          "no": 42,
+          "uncertain": 0
+        },
+        "posture": {
+          "yes": 1,
+          "no": 39,
+          "uncertain": 4
+        },
+        "cooperation": {
+          "yes": 2,
+          "no": 40,
+          "uncertain": 2
+        }
+      }
+    },
+    "S018": {
+      "count": 44,
+      "uncertain_records": 5,
+      "labels": {
+        "relevance": {
+          "yes": 41,
+          "no": 3,
+          "uncertain": 0
+        },
+        "action": {
+          "yes": 26,
+          "no": 16,
+          "uncertain": 2
+        },
+        "threat": {
+          "yes": 17,
+          "no": 24,
+          "uncertain": 3
+        },
+        "posture": {
+          "yes": 1,
+          "no": 41,
+          "uncertain": 2
+        },
+        "cooperation": {
+          "yes": 7,
+          "no": 36,
+          "uncertain": 1
+        }
+      }
+    },
+    "S019": {
+      "count": 44,
+      "uncertain_records": 1,
+      "labels": {
+        "relevance": {
+          "yes": 37,
+          "no": 7,
+          "uncertain": 0
+        },
+        "action": {
+          "yes": 11,
+          "no": 32,
+          "uncertain": 1
+        },
+        "threat": {
+          "yes": 6,
+          "no": 38,
+          "uncertain": 0
+        },
+        "posture": {
+          "yes": 1,
+          "no": 43,
+          "uncertain": 0
+        },
+        "cooperation": {
+          "yes": 17,
+          "no": 27,
+          "uncertain": 0
+        }
+      }
+    },
+    "S020": {
+      "count": 44,
+      "uncertain_records": 4,
+      "labels": {
+        "relevance": {
+          "yes": 5,
+          "no": 39,
+          "uncertain": 0
+        },
+        "action": {
+          "yes": 2,
+          "no": 39,
+          "uncertain": 3
+        },
+        "threat": {
+          "yes": 0,
+          "no": 43,
+          "uncertain": 1
+        },
+        "posture": {
+          "yes": 0,
+          "no": 44,
+          "uncertain": 0
+        },
+        "cooperation": {
+          "yes": 0,
+          "no": 44,
+          "uncertain": 0
+        }
+      }
+    }
+  },
+  "secondary_review": {
+    "kind": "same_model_blind_spot_check_not_independent_human_review",
+    "count": 20,
+    "complete_label_agreement": 14,
+    "disagreements": [
+      {
+        "pair_id": "S016::P3N07668",
+        "disagreed_fields": [
+          "relevance"
+        ],
+        "primary_labels": {
+          "relevance": true,
+          "action": false,
+          "threat": false,
+          "posture": false,
+          "cooperation": false
+        },
+        "secondary_labels": {
+          "relevance": false,
+          "action": false,
+          "threat": false,
+          "posture": false,
+          "cooperation": false
+        }
+      },
+      {
+        "pair_id": "EXP-calendar-S016::VOA-7508887",
+        "disagreed_fields": [
+          "posture"
+        ],
+        "primary_labels": {
+          "relevance": true,
+          "action": true,
+          "threat": false,
+          "posture": null,
+          "cooperation": false
+        },
+        "secondary_labels": {
+          "relevance": true,
+          "action": true,
+          "threat": false,
+          "posture": false,
+          "cooperation": false
+        }
+      },
+      {
+        "pair_id": "EXP-cross-S018::MEMO-780771",
+        "disagreed_fields": [
+          "action"
+        ],
+        "primary_labels": {
+          "relevance": true,
+          "action": true,
+          "threat": false,
+          "posture": false,
+          "cooperation": false
+        },
+        "secondary_labels": {
+          "relevance": true,
+          "action": false,
+          "threat": false,
+          "posture": false,
+          "cooperation": false
+        }
+      },
+      {
+        "pair_id": "EXP-calendar-S018::VOA-7496303",
+        "disagreed_fields": [
+          "threat"
+        ],
+        "primary_labels": {
+          "relevance": true,
+          "action": true,
+          "threat": true,
+          "posture": false,
+          "cooperation": false
+        },
+        "secondary_labels": {
+          "relevance": true,
+          "action": true,
+          "threat": null,
+          "posture": false,
+          "cooperation": false
+        }
+      },
+      {
+        "pair_id": "S019::P3N07848",
+        "disagreed_fields": [
+          "cooperation"
+        ],
+        "primary_labels": {
+          "relevance": true,
+          "action": false,
+          "threat": true,
+          "posture": false,
+          "cooperation": true
+        },
+        "secondary_labels": {
+          "relevance": true,
+          "action": false,
+          "threat": true,
+          "posture": false,
+          "cooperation": null
+        }
+      },
+      {
+        "pair_id": "EXP-cross-S019::GV-826263",
+        "disagreed_fields": [
+          "relevance"
+        ],
+        "primary_labels": {
+          "relevance": true,
+          "action": false,
+          "threat": false,
+          "posture": false,
+          "cooperation": false
+        },
+        "secondary_labels": {
+          "relevance": false,
+          "action": false,
+          "threat": false,
+          "posture": false,
+          "cooperation": false
+        }
+      }
+    ]
+  },
+  "priority_review_count": 37,
+  "validation": {
+    "validated": 220,
+    "warnings": []
+  },
+  "protected_files_unchanged": true,
+  "input_sha256": "bfca5543280b8bd64250fc6e75dcdd92c4cfac5ef343ecb79d589fdce766a598",
+  "protocol_sha256": "049924d87a940f618df1646303ac6f97bffa4136f7854210f5fb704318915e18",
+  "annotation_sha256": "3d34df5f764b4b108294c38aeb9ebb3404ad6c2dfa10c58457edf5f70892e012",
+  "limitations": [
+    "Silver labels generated by GPT-6 Astra, not human annotations or independently verified truth.",
+    "Model confidence is qualitative and uncalibrated. Nulls and model disagreements remain unresolved.",
+    "Source versions, source dependence and current-window relevance still require human verification.",
+    "No classifier accuracy or future-event forecast accuracy is inferred from these annotations."
+  ]
+}

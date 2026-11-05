@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "public_model_annotation_reference",
+  "model_id": "gpt-6-astra",
+  "human_reviewed": 0,
+  "primary_records": 220,
+  "secondary_records": 20,
+  "input_sha256": "bfca5543280b8bd64250fc6e75dcdd92c4cfac5ef343ecb79d589fdce766a598",
+  "annotation_sha256": "3d34df5f764b4b108294c38aeb9ebb3404ad6c2dfa10c58457edf5f70892e012",
+  "protocol_path": "research/astra-annotation-protocol.md",
+  "protocol_sha256": "049924d87a940f618df1646303ac6f97bffa4136f7854210f5fb704318915e18",
+  "source_hash_semantics": "source_sha256 is the SHA-256 of the original complete case/news input JSON including article text; sources.json contains metadata only. news.text_sha256 hashes the original complete article text.",
+  "source_evidence_verification": "Export validated all original source text/hash and literal evidence against retained local inputs. Metadata alone cannot repeat full-text evidence verification.",
+  "files": {
+    "annotations.jsonl": {
+      "bytes": 197009,
+      "sha256": "3d34df5f764b4b108294c38aeb9ebb3404ad6c2dfa10c58457edf5f70892e012"
+    },
+    "secondary-annotations.jsonl": {
+      "bytes": 17922,
+      "sha256": "7e245aabd4262172fdf5983e9234b7dabab218b11a440441edbd0c9743ca01b6"
+    },
+    "sources.json": {
+      "bytes": 198774,
+      "sha256": "61ebab96382d739c156a54285c05ac524ed3e91ba1ec4dfd618c0151c6e8809a"
+    },
+    "annotation-report.json": {
+      "bytes": 8835,
+      "sha256": "d2da3238270eee9462d1be8b473c581b2f86ce77def0dd44de0e6f9b111aed2b"
+    },
+    "review-queue.json": {
+      "bytes": 11144,
+      "sha256": "8c5a92fe3c3c42dde1acfab449848375db8f38e78bd2d4990aa3eff80c68ecda"
+    },
+    "recognition-cohort.json": {
+      "bytes": 15244,
+      "sha256": "bd3460e309928cec5c78bb71b9c186c32d64225aef8e9566872d6ae9d349c514"
+    },
+    "Astra-model-annotations.xlsx": {
+      "bytes": 90223,
+      "sha256": "d1002ae229a57b76be31f0bad2c508185bee68e7b49735c108efa5982a2f3b84"
+    },
+    "reference.html": {
+      "bytes": 253860,
+      "sha256": "c25dc78da16f0a7151e2da53e9340d1a889a7a7bdf369d36f17fcb6cece66c26"
+    }
+  }
+}

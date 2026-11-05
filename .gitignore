@@ -15,6 +15,7 @@ node_modules/
 !datasets/project3/news.jsonl
 !datasets/project3/case_news.jsonl
 !research/annotations.jsonl
+!research/astra-annotations-v1/*.jsonl
 *.pdf
 *.html.bak
 artifacts/*

@@ -10,3 +10,4 @@ research/baselines/scoped-assertion-v4-engine.mjs -text
 research/baselines/event-context-coverage-v5/* -text
 research/baselines/full-text-multisignal-v6/* -text
 research/baselines/scoped-event-recall-v7/* -text
+research/astra-annotations-v1/* -text

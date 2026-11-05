@@ -21,6 +21,7 @@ jobs:
           package-manager-cache: false
       - run: node scripts/prepare-development.mjs
       - run: node scripts/prepare-input.mjs
+      - run: node scripts/verify-reference-annotations.mjs
       - run: node build-model.mjs
       - run: node scripts/predict-batch.mjs
       - run: node scripts/prepare-evaluation.mjs

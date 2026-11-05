@@ -1,0 +1,4707 @@
+[
+  {
+    "pair_id": "S016::P3N07350",
+    "dataset": "fixed_60",
+    "source_sha256": "768249ba08580fa66e4698237814341e1bc1ffbf5a5198d74de4974e57a553f3",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07350",
+      "date": "2024-09-04",
+      "title": "Photos: In Syria, local Paralympic games bring hope and joy",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "9abe32d6bfdae1755f0db1e70cf3e49f2eaf17f05c04dbdfd605a25a8373da1b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07398",
+    "dataset": "fixed_60",
+    "source_sha256": "c9afc67d4ce689ce3d9a3d1ee438b622e08c774cf535ccbc475b827ac183b9a8",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07398",
+      "date": "2024-09-09",
+      "title": "Israeli attack kills five in central Syria: State media",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "e1c36ccb202d9b5f5187502212cda23ab4d2bcf54d02a1e45477d41d194fa386"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07599",
+    "dataset": "fixed_60",
+    "source_sha256": "af93be8706001c85aa80b926bcde7a78de8c0ee44744d2732048732663e083d4",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07599",
+      "date": "2024-09-26",
+      "title": "Syria funding crisis leaves vital Idlib hospital on brink of closure",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "d85f71f19b2783bfc11524b5600fbf188dc2fc9083a95d3fb34757760dc3b3e3"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07606",
+    "dataset": "fixed_60",
+    "source_sha256": "ca10d3db9ced6d5a9c9bfc2633d0a92aea6082bd45ee6fe17656b298f27104b5",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07606",
+      "date": "2024-09-27",
+      "title": "More than 30,000 people crossed into Syria from Lebanon: UN",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "1428081cf15f2fb154354cbcddaf2aba63d44b5dd7794dfb3f0cdb73bfb88b0b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07641",
+    "dataset": "fixed_60",
+    "source_sha256": "97b6a2dc53671eb07007646b20e49eecbccd8203233198f8c8ddb6e325d7b478",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07641",
+      "date": "2024-09-29",
+      "title": "US says it killed 37 fighters in separate Syria attacks this month",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "cc4e42a09796b78ab92dcb46445d28fa6dc79bf9918157a39339b04fabb3f654"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07660",
+    "dataset": "fixed_60",
+    "source_sha256": "543efa0cf5f9e4b8f62c4245ff73e6aa4d7a2874335f91c316169056168f6123",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07660",
+      "date": "2024-09-30",
+      "title": "Israeli bombardment of Lebanon sends 100,000 fleeing to war-torn Syria: UN",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "9c8c9518d60596eb7659a52361284d958dee62b7f4fadb7f177ce13171d501f2"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07668",
+    "dataset": "fixed_60",
+    "source_sha256": "6763fd2b0a435bf2299fdb2a9beb07cc85ef0e082e49e385a344dc62efcacc01",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07668",
+      "date": "2024-10-04",
+      "title": "Israel rocks Beirut with huge attack and cuts off main Lebanon-Syria road",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "da1460586349e9b06caef7c1d732d375d8816721dae91270e529239be4d19ba0"
+    },
+    "evaluation_exclusion_reasons": [
+      "secondary_model_disagreement"
+    ]
+  },
+  {
+    "pair_id": "S016::P3N07675",
+    "dataset": "fixed_60",
+    "source_sha256": "993251647e84395e45719c45a73a652b49faeb483cc5f77f6a413da856efac74",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07675",
+      "date": "2024-10-24",
+      "title": "Israel strikes Syrian capital Damascus, military site near Homs",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "9779a58d157c99972142199095d277e1fa84d331f54ff22f9d33ae99e51d4474"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07681",
+    "dataset": "fixed_60",
+    "source_sha256": "68dc701b75aa2c3e4e3cc5252cf2772bb6a3d7c7388b5b54fdfe1a92fcb7fcd2",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07681",
+      "date": "2024-11-12",
+      "title": "US military says strikes in Syria targeted ‘Iranian backed groups’",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "19c82bdd7b7a87262878709893989e3047b871ca0c0cd42c9df4490740c1c73b"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "S016::P3N07683",
+    "dataset": "fixed_60",
+    "source_sha256": "61a76c3a7d5fe3184440efc0bc946f5e97d5d11817bf3c33b0aceeb589c9d049",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07683",
+      "date": "2024-11-14",
+      "title": "Why is Tulsi Gabbard, Trump’s new intel tsar, so controversial?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "f26107661c63354b42ec8bd4f4532f7c9834ff946c7e1e3719e6f71ea049f8af"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07684",
+    "dataset": "fixed_60",
+    "source_sha256": "5d7b6ad90cc1b2fc9bbfdbf937ecdc475e70f7ccd2ba828244545cb61bffeecb",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07684",
+      "date": "2024-11-14",
+      "title": "At least 15 people killed in Israeli strikes on Syria’s Damascus",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "8bd3013be6e2d2c8701e09d713a4f0cebbf628c4c56f73199ccd16a2c155bb2b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S016::P3N07686",
+    "dataset": "fixed_60",
+    "source_sha256": "8464d9d4a27b19b525b40abcdf1cf9e51113698eb362b04459c9e8169ac69485",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "P3N07686",
+      "date": "2024-11-20",
+      "title": "Iraq conducts first national census in nearly 40 years",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "e179bdce896b1de4f383f3d06254ee463dc6f4c525433b6ed7e6b01314bd1bd0"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07677",
+    "dataset": "fixed_60",
+    "source_sha256": "7323d4d7ba3063ab212cfb22200d60f40a29c1775dd86f72ebddaaee1d9dff81",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07677",
+      "date": "2024-10-26",
+      "title": "How the world keeps failing eastern DRC",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "968e6d0d28dc48f4fbe4bc0f6e7fc28a4c729039d210e2106a02c1f64e28738c"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "S017::P3N07678",
+    "dataset": "fixed_60",
+    "source_sha256": "0ef0f9321f25bef0ad2ccaa12d69d71526af0ede3800143ebc7a41bacd112687",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07678",
+      "date": "2024-11-04",
+      "title": "Kemi Badenoch: UK Conservatives’ new leader fighting ‘left-wing nonsense’",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "16cdd33a719d5a1947cca68b5b519d8a8613f9b4c94eb29312c80ffde4b34c19"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07688",
+    "dataset": "fixed_60",
+    "source_sha256": "529684fbcdd4260acf1f8f747ceb46ff325f934a8e659a08d54e96dbf965345f",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07688",
+      "date": "2024-12-13",
+      "title": "‘We’re worried’: Fears as DRC mystery disease kills dozens, mainly children",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "cdcbf49ee7a910f621cb20af98e632650cb1150f7efa6b56b7bdc23b8a27a54f"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07689",
+    "dataset": "fixed_60",
+    "source_sha256": "6bb2b06aea7ccbd2496b3c470bc3079f6e8f7dd272c9336f8cdc06d718c61967",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07689",
+      "date": "2024-12-15",
+      "title": "Rwanda, DR Congo peace talks hit snag as mediator Angola calls off meeting",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "aafc28624b56ab1b7f7e4c5c4c7bab68a84d811ab4b36c4cefbe324183fd5144"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07701",
+    "dataset": "fixed_60",
+    "source_sha256": "ef213420b3e3b0212a05a3005aa711873f9636c2e47c3354f348bb0423ab3484",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07701",
+      "date": "2024-12-18",
+      "title": "Search continues for missing after DRC boat capsizing kills at least 25",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "d5b1f3ded62c438bfb4847eb634f2e6ede5639cdec9cb9e93fd4a89582468278"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07732",
+    "dataset": "fixed_60",
+    "source_sha256": "825bf380d873ef8143ac6ff570ffe2371a0b5760f1bbbcc437f230af72b6b815",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07732",
+      "date": "2024-12-22",
+      "title": "Dozens dead after ferry capsizes in DR Congo: Official",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "03dea7762fb11bb1df3c8d884a8a4c71b94491ac22f89ab8d7ee19d9ea9722b4"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07817",
+    "dataset": "fixed_60",
+    "source_sha256": "8413adaa22159b4335901f7755e953f46ed0dc92852d503039c9f8ee81fe7911",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07817",
+      "date": "2025-01-01",
+      "title": "M23 ‘waging an existential war’ in DRC, says rebel leader Bertrand Bisimwa",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "6863a85081c50c6e163b1685eb8737495b36d18809cb4f45a9df8425bddc4ed7"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "S017::P3N07835",
+    "dataset": "fixed_60",
+    "source_sha256": "afa2f728f5db792bbd677504e1e569bfb7609592b91976668f7f9834500fd7a3",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07835",
+      "date": "2025-01-05",
+      "title": "M23 rebels take key town of Masisi as they advance in eastern DRC",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "9b9d1993bbc03d449379ae88ccbb1bf83321d33094d83bb70bd38b54aa530937"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07844",
+    "dataset": "fixed_60",
+    "source_sha256": "71ffb35018f36e4de83375bd321ab8e0f9ccf02a8d8c5170e395df4400ceb37c",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07844",
+      "date": "2025-01-06",
+      "title": "How to end the conflict in eastern DRC?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "d4c6c01262c82832df14358b5b57ee28a4939200c8ee9e0f781c432e462c2fb4"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07888",
+    "dataset": "fixed_60",
+    "source_sha256": "e045c21f5dea4e59ef6d280215e91faba2f211df21ebfc96fe16f6757921f45a",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07888",
+      "date": "2025-01-13",
+      "title": "DR Congo says several towns recaptured from rebels, but fighting persists",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "ff689f0ee519819d8ea896e7b12536d61178e08a10d1848c385bd90cae928121"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07937",
+    "dataset": "fixed_60",
+    "source_sha256": "68a6bf28d82d1521cd12ccb0f9c7808e305f4b8683a37b94a214cd7fe14b1f7e",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07937",
+      "date": "2025-01-17",
+      "title": "‘Symbol of resistance’: How Lumumba’s killing shapes Congo 64 years later",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "954580bfd0e0cc6db1c74d69c2e7098123d728efcc6b89aed448d90e0d9c29d7"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S017::P3N07942",
+    "dataset": "fixed_60",
+    "source_sha256": "9400b86890b16c45b61d2580ff6376534205272b1d5b9f0f55d280a5b5a1274d",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "P3N07942",
+      "date": "2025-01-17",
+      "title": "‘Symbol of resistance’: How Lumumba’s killing shapes Congo 64 years later",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "5babc17b014ae43a79042b41f41d2210753ebf279abda6c5d60289e770c6a820"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N07724",
+    "dataset": "fixed_60",
+    "source_sha256": "5d945df3d065ae67d82c7a7ce283d1fb24d071e9f95c056c789dcd5dcdf2a220",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N07724",
+      "date": "2024-12-20",
+      "title": "What are the implications of Israel’s attacks on Yemen?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "424d7cd554077278fee2792c788c663c66a63af62de8b72aae9975871d394823"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N07807",
+    "dataset": "fixed_60",
+    "source_sha256": "d5d973b96ffc5f1b6ac89015c4bd3bc091a52189656028bd6e19bbbee2191bb8",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N07807",
+      "date": "2024-12-31",
+      "title": "Yemen’s Houthis defiant after new US strikes",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "21df3ace64734835d7bda437bedfb91b29824c0edd437036dbe00a71557ce744"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N07866",
+    "dataset": "fixed_60",
+    "source_sha256": "a5cb6de2d0bc8b295c607a764ff05416d0bfe5fb41483f9e65fd49c023f569d1",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N07866",
+      "date": "2025-01-10",
+      "title": "Israel launches air raids on power station, ports in Yemen",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "f64e0611069ad503c311bda7157262c4bd8743f4507d5a9741632124a2340f18"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N07873",
+    "dataset": "fixed_60",
+    "source_sha256": "2f0479be88c036db3934d7fdd0ce5c10d9767eda9a8ffc1ef178614969b01f9a",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N07873",
+      "date": "2025-01-11",
+      "title": "Israeli strikes hit Yemen, Lebanon as more than 20 killed in Gaza attacks",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "d39884a7f85f869071510219e6d7c58bacfeda16a49de6d7ace3c2ce2e99d5a5"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N07980",
+    "dataset": "fixed_60",
+    "source_sha256": "fa7e96cc577278484c4783330d44261cbbe3d3549246e8653c2354b562bcc939",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N07980",
+      "date": "2025-01-20",
+      "title": "Yemen’s Houthis to only target Israel-linked ships following Gaza ceasefire",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "a54cd52f7c68833dca8fa187d9631b815d0ce127523ffb3373923af5636d0858"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N08010",
+    "dataset": "fixed_60",
+    "source_sha256": "1c8484cb35a09b246dbe5991a3bfbf5029b4676539a6504741640dacb9b4c758",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N08010",
+      "date": "2025-01-22",
+      "title": "US military sends troops to Mexico border amid Trump immigration crackdown",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "18496b5a8f01e298621bfb253ebdabac574e6372105700bd681afbb10b9bbe72"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N08199",
+    "dataset": "fixed_60",
+    "source_sha256": "dedafd99849f8b9dfa3ad62053b5e94ae503dd8d049a706cf849a29ec275a68f",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N08199",
+      "date": "2025-02-07",
+      "title": "The Take: Trump wants the US to take over Gaza. What does that mean?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "2bbf2493d695b4d1f27a91cfabe6eb6dfbf3135c66e441229432b9f582e5f16c"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N08235",
+    "dataset": "fixed_60",
+    "source_sha256": "6fa6fe88d192c97a3941df7584840c4a65ca286af91168c0aada3e535e1a1ce5",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N08235",
+      "date": "2025-02-11",
+      "title": "UN halts operations in Yemen’s Houthi stronghold after more staff detained",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "933952be46119c7d2cc6bfcf7f6a326ea1f724a568ff7cb3851a5bb3afb45d01"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N08326",
+    "dataset": "fixed_60",
+    "source_sha256": "fb0ca68ea8fb7d2e87421019974ccae56c42c1aee009133d4bf9b5fdc493a4b6",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N08326",
+      "date": "2025-02-18",
+      "title": "A letter from Gaza to Mr Trump",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "02a63808f5f5f550cb62e412e9a356d63c3eff14ec85de75732e65008dd5a797"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "S018::P3N08490",
+    "dataset": "fixed_60",
+    "source_sha256": "ed89fa8cde1cf4cc1bec2bc9028b90ca3c955de75d7de1e916be7553157e8b6e",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N08490",
+      "date": "2025-03-07",
+      "title": "Two dead, 186 missing after four boats sink off Yemen and Djibouti: UN",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "ba706c4a2189e1b5e0b07532fa1c854b22517be570ee6509febc55821f97c790"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N08493",
+    "dataset": "fixed_60",
+    "source_sha256": "d7b9ec12d83603b4e3e19b3cd380d08738ccb46785ba2c41fe6663390252e012",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N08493",
+      "date": "2025-03-08",
+      "title": "Israel attacks Gaza, killing two, as Muslim nations endorse Egypt-led plan",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "3a70265845dedfcaab21eeb933c3ab13910dc4ad0a8a34a8af9e0458e36f7407"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S018::P3N08531",
+    "dataset": "fixed_60",
+    "source_sha256": "a9dccf7b50021a8dd532f5544241fcf7649c7a25af68bf4645e4104cc0c5bbd3",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "P3N08531",
+      "date": "2025-03-12",
+      "title": "Yemen’s Houthis to resume shipping attacks over Gaza aid cutoff",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "af7c5922a393bbbfa57c3c32c2da9b6aa082e7c2d5ace3e8a0b1667aa5f900f9"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N07814",
+    "dataset": "fixed_60",
+    "source_sha256": "b7e35d8420937e207d2441c1258f8393545aa8591fc492b2d3964c7e2704ae84",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N07814",
+      "date": "2025-01-01",
+      "title": "Israel pounds Gaza as heavy rains worsen misery of war-weary Palestinians",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "100d4415edb32b9f116802aaefacc8539818e266316a9899f7bc701fc200eabd"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N07836",
+    "dataset": "fixed_60",
+    "source_sha256": "8d90053bddd2aa34455897945b1dd9bd253161badb78c86d0acf09c57dc6eaa8",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N07836",
+      "date": "2025-01-05",
+      "title": "‘I refuse a cheap death’: Israel kills Palestinian journalist in Gaza",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "c7dee6c84e3bc89b7158a4a54bcd6f3448f25aa14fdfe36cdc84e0b47121de96"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N07848",
+    "dataset": "fixed_60",
+    "source_sha256": "26a6aa21e4bad96656390ab8f5894c4283a64c528248f94c217f866e6bc2e554",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N07848",
+      "date": "2025-01-07",
+      "title": "‘Hell will break loose’: Trump hints at military moves in Mideast, Americas",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "5b89d8c53934094ef3cb07a3493cccdbe35c32d67fc09ba1aae8720a0fca1c52"
+    },
+    "evaluation_exclusion_reasons": [
+      "secondary_model_disagreement"
+    ]
+  },
+  {
+    "pair_id": "S019::P3N07924",
+    "dataset": "fixed_60",
+    "source_sha256": "a0741bcde608aca87c81dff1263084a770173b2889b42c308b8eb87d895e2ddc",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N07924",
+      "date": "2025-01-16",
+      "title": "Can the ceasefire agreement lead to lasting peace in Gaza?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "7ae066b4e1432acbaf5652dc0114dcba6a6be6031497578b39bb08b5fc68b9a3"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N07971",
+    "dataset": "fixed_60",
+    "source_sha256": "470ccd0fb53175f51785e319501ed8bad56eff078a652bd5c65364a7c00d583f",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N07971",
+      "date": "2025-01-19",
+      "title": "Palestinians in Gaza desperate to travel abroad for life-saving treatment",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "4686f3d15140695a181654dd3daba12e50fa77b44147766386ce9372771b8bae"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N07991",
+    "dataset": "fixed_60",
+    "source_sha256": "d8eb3287ae4f337a1854f9ff9300e06c4205132642c67ef1adff2d27e7e335e1",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N07991",
+      "date": "2025-01-21",
+      "title": "Qatar PM hopes Palestinian Authority will return to Gaza when war ends",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "d3e6a1883db22ea16076caa04b5e3531a0ae6c87334841ae09e6bdb2f23fbb67"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N08018",
+    "dataset": "fixed_60",
+    "source_sha256": "6878f432c9e4b0602816627091f0848f79f92a4d1e63bc1f0173c63ee5073c36",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N08018",
+      "date": "2025-01-23",
+      "title": "Photos: Israel continues Jenin raid as two Palestinians killed in West Bank",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "6e5b525acf1342e055ff25e933ed5c45031c99273dd41cc02765cca8d338e204"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N08265",
+    "dataset": "fixed_60",
+    "source_sha256": "1350210339f1a2570d8ade68b6085d16fc0c42f28ae6095ba28bce97b554983b",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N08265",
+      "date": "2025-02-13",
+      "title": "Israel issues more war threats; Egypt, Qatar scramble to rescue Gaza deal",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "a514a2386843c2e962a625273989825a0385aac0c977e7f35c2c815c36e0b17d"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N08295",
+    "dataset": "fixed_60",
+    "source_sha256": "e59fa50989f2824d8fd195864067dcec2d0bbd433f08a00ab1559cca7500a30c",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N08295",
+      "date": "2025-02-16",
+      "title": "Marco Rubio meets Netanyahu as Israel strikes Rafah despite ceasefire",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "07ac880380dd0732d184ed7cacfc0bd9178b140feb6a42c0a93ed7c8ed137c04"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N08356",
+    "dataset": "fixed_60",
+    "source_sha256": "f8040df50947e6bbec8bc612f1a16357f4d8a2c9fdcb52051db5c05b580ed759",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N08356",
+      "date": "2025-02-21",
+      "title": "Israel claims one body returned was not of female Israeli captive",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "cfc2bdc802bc3aa5667e4bf17d795f296ee59e7cc3a4911b5745e777298ee379"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S019::P3N08487",
+    "dataset": "fixed_60",
+    "source_sha256": "2c709bfe9b85abf0bbd38d8641c5b2883674a551d90ba09032f97dac2b1b63cc",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N08487",
+      "date": "2025-03-06",
+      "title": "US-Hamas direct talks: What’s happening and what comes next",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "79a24f14274b905b8e855d3110d2a3b00b9d53d8afa2cff0e48da1fad2d91870"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "S019::P3N08528",
+    "dataset": "fixed_60",
+    "source_sha256": "896a4ccf494be7a34731bd901c26670dc792c8fe6a30bdc001b5464a3060f618",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "P3N08528",
+      "date": "2025-03-12",
+      "title": "Trump wants to deport foreign students like me. Universities must defy him",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "d266a6013508b880c049e31f12f415cebb32766485432cc75ee217919ebae76e"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08202",
+    "dataset": "fixed_60",
+    "source_sha256": "859f0fdc7e672dfaca1e1aa871f55f6470a940e6bd849a78d59c32abb5b5f80c",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08202",
+      "date": "2025-02-08",
+      "title": "Why has Pakistan’s Punjab province imposed a complete ban on kite flying?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "9d4124dafa72feb29cf33acc4f796b2efb58a42e569e0d843a9620c2211e09bf"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08254",
+    "dataset": "fixed_60",
+    "source_sha256": "940aad5768b7c711bccc67883a44e9fbe8acda841fbe4df4577a3b227ad181f5",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08254",
+      "date": "2025-02-12",
+      "title": "How Pakistan’s Imran Khan is losing a remittance war against the government",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "b672de4b5e1175b032ecea1b48811a6597a3ab1fd55386a53a788583a3490450"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08394",
+    "dataset": "fixed_60",
+    "source_sha256": "e134f1086560a41169b03823e5f51b36d11999fb16e762365abc261e6905b5f7",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08394",
+      "date": "2025-02-25",
+      "title": "‘Cricket is dead in Pakistan’: Fans, experts berate Champions Trophy exit",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "4956487fabea717976e615f125afea2c92bd10126cf699999e55ec5549775cd3"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08415",
+    "dataset": "fixed_60",
+    "source_sha256": "b320fdebb088315e4e3209871d86da5a8b89eb5a960c8fd290c48202bb719b1c",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08415",
+      "date": "2025-02-27",
+      "title": "Pakistan, Bangladesh to play for pride after Champions Trophy exit",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "39277f51b19e8a0430b0ca58b5320029fce9f0d5d5d80781cd97a9a9cf3c2e6b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08617",
+    "dataset": "fixed_60",
+    "source_sha256": "b24c48382b28e6d3f34b1307665ddf1696e0f60679f8a050134fe3663e1ed21e",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08617",
+      "date": "2025-03-20",
+      "title": "Trump moves to deport Indian pro-Palestinian Georgetown University student",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "4c2fad33108de2ca17920d09489a422a3e26a2c4863cc98966e21540d20aa31d"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08640",
+    "dataset": "fixed_60",
+    "source_sha256": "0e06847009c2b72198d6a1ae1d0a17972ee564c28d3243ac7faac8cb36183229",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08640",
+      "date": "2025-03-22",
+      "title": "New Zealand vs Pakistan: fourth T20I – all you need to know",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "498ba014618105d274d186a84be86b516bea83a9174b6aedc0ee8626dd8faee5"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08701",
+    "dataset": "fixed_60",
+    "source_sha256": "12d5f2e03bb39281814cc8928a54e13acd9d807b2a0d0bcd48863319299c5519",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08701",
+      "date": "2025-03-28",
+      "title": "What caused the powerful Myanmar earthquake?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "88df2566683712609f64259cd06c662c905b5627ad1b6788382e21ceda124bbf"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08742",
+    "dataset": "fixed_60",
+    "source_sha256": "e2ecddce37707f61c7e48c2a724c4cf72cdd671a84375c7398dff86399931ba7",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08742",
+      "date": "2025-04-02",
+      "title": "Why is Pakistan deporting Afghans?",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "96c839769ea15750cde7456ff799db9ba6e469b0f83a030a3f2d21eb0675c229"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08888",
+    "dataset": "fixed_60",
+    "source_sha256": "dc8c3930691100fdf42f598ef4c2d88d059ac9d80a7a70e462c7c498ffe5db2f",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08888",
+      "date": "2025-04-19",
+      "title": "‘I always come here’: The Indian tea shop that runs on trust",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "751cc35b4266d54219fa2efcef369420b79e5078508275fd0fe4d6172a110aeb"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "S020::P3N08937",
+    "dataset": "fixed_60",
+    "source_sha256": "e9f823af9e3685368d54ad9fc6164981a5c2af6cee29e669591de45db9e1d68b",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08937",
+      "date": "2025-04-23",
+      "title": "Photos: Manhunt under way in Kashmir after deadly attack on tourists",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "fdcbdab042644cb146f50bb65a24ce017080c96bec638ab12b79fc76142a9c3e"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "S020::P3N08956",
+    "dataset": "fixed_60",
+    "source_sha256": "445c822762f4d3f809f5ef9833f8a4da5b13aaf8c2c0ec4c9eb33a646f16d367",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08956",
+      "date": "2025-04-25",
+      "title": "‘We are condemned’: Kashmiri tourism pays the price of Pahalgam killings",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "06717026b49c9139dd222b8a6011baca5c9febdc9a64cc418f49d844cf3388ce"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "S020::P3N08970",
+    "dataset": "fixed_60",
+    "source_sha256": "7f6bc03883ed8a79f8ed20aa5e38d13063763af62b322a0899ad55fce0ee2d68",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "P3N08970",
+      "date": "2025-04-26",
+      "title": "Photos: Homes of Kashmir attack suspects blown up",
+      "publisher": "Al Jazeera",
+      "url": null,
+      "text_sha256": "3e0398138501ee16bd307a7c184d768dcdefeae0991462134bfe14f6dafcc432"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-820578",
+    "dataset": "expansion_160",
+    "source_sha256": "a8357b33210fa0034577441a00c7effaaad5d15b595a083d16086a76fd3528ed",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "GV-820578",
+      "date": "2024-09-18",
+      "title": "Mass pager attack in Lebanon raises concerns over cyber warfare and terrorism",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/09/18/mass-pager-attack-in-lebanon-raises-concerns-over-cyber-warfare-and-terrorism/",
+      "text_sha256": "caba096d2ac292aa0cf2cdec23ae56403911ceac79773aa3d7bd9e640a60f8a0"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-822001",
+    "dataset": "expansion_160",
+    "source_sha256": "b5441f20f83b60d56b8ce68f75ecdfeaac58230d0359a2205442e69b7ee4bd8e",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "GV-822001",
+      "date": "2024-10-11",
+      "title": "Israel is using surveillance technology to subjugate and target Palestinians",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/10/11/israel-is-using-surveillance-technologically-to-subjugate-and-target-palestinians/",
+      "text_sha256": "5bcceb7c18ee4d8b6d6560bd8855ea0325bd84abdb3ce7fb72e2b52944ba1c4e"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-823893",
+    "dataset": "expansion_160",
+    "source_sha256": "e8fa9bc8b32b0e4730ceaabbf4e595727ec2d9209612af6d06ac3793a2babce1",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "GV-823893",
+      "date": "2024-11-13",
+      "title": "From Egypt to Libya, migrant deaths in the Mediterranean are either ignored or normalized",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/11/13/from-egypt-to-libya-migrant-deaths-in-the-mediterranean-are-either-ignored-or-normalized/",
+      "text_sha256": "ff440d2140877bc30c2f3cdcd5aea538d8253e998c112dd95dbac92d7266ec40"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-668706",
+    "dataset": "expansion_160",
+    "source_sha256": "28d4ede1394e28c14bb06d06084fe5862706b0f80cf0546cc8236a1e5d5f8d83",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "GV-668706",
+      "date": "2024-09-10",
+      "title": "Paralympics ceremony in Syria faces backlash and censorship amid accusations of paganism",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/09/10/paralympics-ceremony-in-syria-faces-backlash-and-censorship-amid-accusations-of-paganism/",
+      "text_sha256": "3c2b0077ad20dcfdb3b8e90f0f5247b455f53a67dfbab6213fb9649a4bab4974"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-822972",
+    "dataset": "expansion_160",
+    "source_sha256": "1df5def8f5842f160bbe7ba7203edea89a98b7935fdd3a29b8891347df1cea5e",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "GV-822972",
+      "date": "2024-10-24",
+      "title": "Turkey rocked by a terrorist attack",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/10/24/turkey-rocked-by-a-terrorist-attack/",
+      "text_sha256": "edab4f8924d48ec54b70dedc2f851ce47063852fbf3f620b24fee4431ec47fa9"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-822397",
+    "dataset": "expansion_160",
+    "source_sha256": "acfad387bedff938514787515792ccbd544ceaf9d563fdb63acab376a7c76938",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "GV-822397",
+      "date": "2024-10-14",
+      "title": "‘Our heart that burned’: Israel is wiping out centuries of heritage in southern Lebanon",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/10/14/our-heart-that-burned-israel-is-wiping-out-centuries-of-heritage-in-southern-lebanon/",
+      "text_sha256": "0884ae1eb7ad35c22037c7e038e8242767a7c38376ff6687bef7bf3ffd56f84b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-823296",
+    "dataset": "expansion_160",
+    "source_sha256": "e07d9891d3e0b63d12bb89d3694154403e1ac4b0cc539d0fcae5a5e9b3768ff3",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "GV-823296",
+      "date": "2024-10-30",
+      "title": "Israel’s war on the United Nations: Why a ban on UNRWA sets a dangerous precedent",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/10/30/israels-war-on-the-united-nations-why-a-ban-on-unrwa-sets-a-dangerous-precedent/",
+      "text_sha256": "f4b75ced34c77e57dafe3713acf4b50e6717b3e030467fe28140a0acfd1f383a"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7793374",
+    "dataset": "expansion_160",
+    "source_sha256": "4b904d6588e10df2037211003c52002cdf1b8f1566f1deb3c4598438cef240b4",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "VOA-7793374",
+      "date": "2024-09-21",
+      "title": "Humanitarian crisis in Syria threatens to spiral out of control",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/humanitarian-crisis-in-syria-threatens-to-spiral-out-of-control/7793374.html",
+      "text_sha256": "b4801423bde7445ff78e395ac7253467cfddb6b9c12fe140574c7313b7ca64c3"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7810883",
+    "dataset": "expansion_160",
+    "source_sha256": "b26e671713152e7f6b66b4169fbb59fc2aaf21a78f65c45711fc6c252ae41aff",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "VOA-7810883",
+      "date": "2024-10-04",
+      "title": "Why has Syria stayed out of the Israel-Hezbollah conflict?",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/why-has-syria-stayed-out-of-the-israel-hezbollah-conflict-/7810883.html",
+      "text_sha256": "028ab7506db88032f20d4271b436794409648df98dc8e755dd15e9aa9321edb6"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7848255",
+    "dataset": "expansion_160",
+    "source_sha256": "bd0cfc0ad81393098948d2a713dd0cbcc70186dfd94a731273ce9e3f5205510f",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "VOA-7848255",
+      "date": "2024-11-01",
+      "title": "Recent US strikes spotlight growing Islamic State threat in Syria",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/recent-us-strikes-spotlight-growing-islamic-state-threat-in-syria/7848255.html",
+      "text_sha256": "2682ac52125321024a0242fee2b47eccb6a01928d57dba2c2771a8f482c9e42f"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7792540",
+    "dataset": "expansion_160",
+    "source_sha256": "15fcd981be864a5be46b838266f549d5948d0faa185706898b65465318993e66",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "VOA-7792540",
+      "date": "2024-09-20",
+      "title": "Fresh clashes reported between US-backed forces, government troops in eastern Syria",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/fresh-clashes-reported-between-us-backed-forces-government-troops-in-eastern-syria/7792540.html",
+      "text_sha256": "2535c01bdc231da252d89edd9db2c888e58aa7396919fc663daec6f4cafdb5a3"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7876656",
+    "dataset": "expansion_160",
+    "source_sha256": "5f1f77d796b46cda63ee55d0a8365e462e61238b2948a990cffbdcf1772ec09b",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "VOA-7876656",
+      "date": "2024-11-25",
+      "title": "Can Israeli strikes in Syria undermine Iran-backed militias?",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/can-israeli-strikes-in-syria-undermine-iran-backed-militias-/7876656.html",
+      "text_sha256": "3c1036eea810d05ef1e909e974408b143a74d45e9829e3a7860c94aea8ecd443"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7800869",
+    "dataset": "expansion_160",
+    "source_sha256": "cc063c6c7e133369824f076e63a1a61140adc47e7c5c10a6c731fd2952f7e3fe",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "VOA-7800869",
+      "date": "2024-09-26",
+      "title": "Syrian refugees flee increasing conflict in Lebanon",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/syrian-refugees-flee-increasing-conflict-in-lebanon/7800869.html",
+      "text_sha256": "ebc4c2a77250a9931f4943280461327390ec2c8a1f715ebe545c0229c948eb51"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7787117",
+    "dataset": "expansion_160",
+    "source_sha256": "d42f5800356a78cea3279a74ead86a687d1811d4a00aa54723022bec6cd4f0d9",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "VOA-7787117",
+      "date": "2024-09-17",
+      "title": "Turkish-backed group besieges Syrian-Kurdish village after protest",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/turkish-backed-group-besiege-syrian-kurdish-village-after-protest/7787117.html",
+      "text_sha256": "494d70d75f8caee553ad7c36a1b38fc1fdecec08f419fe168bbdfdc0bf11879a"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-822887",
+    "dataset": "expansion_160",
+    "source_sha256": "63203abe75d7d8c77b8429f25e33eb20484e56e5e29a4b4c1b509bc049b31193",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-822887",
+      "date": "2024-10-31",
+      "title": "Ugandan journalist Nila Yasmin: African women hold the power to transform intra-African trade",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/10/31/ugandan-journalist-nila-yasmin-african-women-hold-the-power-to-transform-intra-african-trade/",
+      "text_sha256": "b4ec27310c89deec5da8d6ad866c359d358ca71370fea03ee8c911737642beb4"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-823830",
+    "dataset": "expansion_160",
+    "source_sha256": "863aeced2a3be88cfeefbfffde9609c9dcf2b994d6f00587e41a915dc2b3cbd1",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-823830",
+      "date": "2024-11-14",
+      "title": "Hostile hosts in African football: The Nigeria versus Libya scandal",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/11/14/hostile-hosts-in-african-football-the-nigeria-versus-libya-scandal/",
+      "text_sha256": "9c61b833b5b72f794b3e7352ce404bf95ebcf1f1d24c9e130fba236072554d40"
+    },
+    "evaluation_exclusion_reasons": [
+      "prior_source_scope_quarantine"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-825517",
+    "dataset": "expansion_160",
+    "source_sha256": "696490bac9aa589579c708d4d235875072233473229a6f45051fb3ad16cac8e7",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-825517",
+      "date": "2024-12-14",
+      "title": "The revolving door of Africa's displacement crises",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/12/14/the-revolving-door-of-africas-displacement-crises/",
+      "text_sha256": "1e0d0446b5237bad3ef6db095e10f1f9c662067718807c63ae2c51a210bac9a8"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-825796",
+    "dataset": "expansion_160",
+    "source_sha256": "75ea8aefa11266e5143f2d8fe50949f821b932cc15e85380ad27c7f19fa93431",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-825796",
+      "date": "2025-01-03",
+      "title": "Cameroonian journalist revisits the 2010–2011 Ivorian political crisis in a documentary",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/01/03/cameroonian-journalist-revisits-the-2010-2011-ivorian-political-crisis-in-a-documentary/",
+      "text_sha256": "6bd0a5c2f8c333c9839125775b352e072e600c9df87ef4ad657e6c7dcfa71106"
+    },
+    "evaluation_exclusion_reasons": [
+      "prior_source_scope_quarantine"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-823101",
+    "dataset": "expansion_160",
+    "source_sha256": "198940112a6272ce89bcb3267cb39472c70ebd35be4efcf84d5ccf93968815be",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-823101",
+      "date": "2024-11-01",
+      "title": "Transforming trauma into art through smoke and spirit: Congolese artist Géraldine Tobe",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/11/01/transforming-trauma-into-art-through-smoke-and-spirit-congolese-artist-geraldine-tobe/",
+      "text_sha256": "49a97877bc228dc3b6270419403aa8c8d5e8a0dad2c337a834f99f06317d8eff"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-827322",
+    "dataset": "expansion_160",
+    "source_sha256": "6ea742794a605338390cca6631b901647428396b69103ef2716c4482599322eb",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-827322",
+      "date": "2025-01-18",
+      "title": "At what cost are we bridging Africa’s digital divide?",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/01/18/at-what-cost-are-we-bridging-africas-digital-divide/",
+      "text_sha256": "99e4088b06c8968a9ab95c6df3e0bc79b646ad7ea57434a6eb3cb2d800b66d6f"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-824104",
+    "dataset": "expansion_160",
+    "source_sha256": "5e2bb142462ca7807a278bfb5ad7d55d9ed91dc2d4173810f74ae7a56346750f",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-824104",
+      "date": "2024-11-22",
+      "title": "The art of destruction and creation: Exploring identity and spirituality in the work of Alexis Peskine",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/11/22/the-art-of-destruction-and-creation-exploring-identity-and-spirituality-in-the-work-of-alexis-peskine/",
+      "text_sha256": "a7a81c53287499661a5fcf44d267c21e54080778ecde32fd4406f6fa4388dcdd"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-823013",
+    "dataset": "expansion_160",
+    "source_sha256": "728d0fba18a1c12c2e6fa9a8cca6c2943c29d147d856728084cecf5b46aef62a",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "GV-823013",
+      "date": "2024-11-20",
+      "title": "Nigeria ranks lowest among Sub-Saharan African countries in women’s representation in parliament",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/11/20/nigeria-ranks-lowest-among-sub-saharan-african-countries-in-womens-representation-in-parliament/",
+      "text_sha256": "25609a521cb2b51d56923937071bcc5d14661f4030d38cee5b2e272c145c381f"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::GV-825627",
+    "dataset": "expansion_160",
+    "source_sha256": "263ab87f497ec70e6dc9a9523e712036bfd1c856d59c8ff01429de8bf5811751",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "GV-825627",
+      "date": "2024-12-23",
+      "title": "West Asia and North Africa in 2024: Turmoil, transformation, and trauma",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/12/23/west-asia-and-north-africa-in-2024-turmoil-transformation-and-trauma/",
+      "text_sha256": "9c84d89fd965b11cbd8d3b7140401f8d20cec2a26162d0fb408425cc7e6b730c"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::VOA-7920087",
+    "dataset": "expansion_160",
+    "source_sha256": "f615f5cf713ccbf5a67c0b8fc11b638d646bc43633cd178004d2f542ecb907e9",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "VOA-7920087",
+      "date": "2024-12-31",
+      "title": "US strikes Houthi-controlled sites in Yemen amid rising regional tensions",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/us-strikes-houthi-controlled-sites-in-yemen-amid-rising-regional-tensions/7920087.html",
+      "text_sha256": "eba8e540f9235837c4abdb06bc068424889e300d87f1b3e58ed47dd14c346618"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::VOA-7947198",
+    "dataset": "expansion_160",
+    "source_sha256": "23e20a23741fe14e5acc70104695e9204af3d1ac712fd3fbef4b975e2ca09395",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "VOA-7947198",
+      "date": "2025-01-23",
+      "title": "Researchers: Houthis have advantages in protecting leaders from Israeli strikes",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/researchers-houthis-have-advantages-in-protecting-leaders-from-threatened-strikes/7947198.html",
+      "text_sha256": "d8bc30101ccd948d2521ac2e1aec58612617629c2ffa0957480fbb3bb4a1e505"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-826263",
+    "dataset": "expansion_160",
+    "source_sha256": "a5805c3f5dd8d9e9fc9e7544c2e8f89f30b33ce56747a87594d93f2af6e195cb",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-826263",
+      "date": "2024-12-23",
+      "title": "Artificial Intelligence Narratives: A Global Voices Report",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/12/23/artificial-intelligence-narratives-a-global-voices-report/",
+      "text_sha256": "808bffe0dc66886474736b0ddcd26d74f90eaf3a8985891d8f8f66e53f79832e"
+    },
+    "evaluation_exclusion_reasons": [
+      "secondary_model_disagreement"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-827541",
+    "dataset": "expansion_160",
+    "source_sha256": "6746fbc98500675b540c583a610df851a119c29c15d68981e46fc90040d1452a",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-827541",
+      "date": "2025-01-18",
+      "title": "After 466 days of war, a ceasefire is declared in Gaza, to begin on Biden’s last day in office",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/01/18/after-466-days-of-war-a-ceasefire-is-declared-in-gaza-to-begin-on-bidens-last-day-in-office/",
+      "text_sha256": "b5bbc747c0f9490e3a1f95175976d7b2284dff5ab72f26be0881728e3cb2e9db"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-829479",
+    "dataset": "expansion_160",
+    "source_sha256": "45aa83d593e3aaea75de0dde9a7cbd66832666e3c5d483ee8f1b3b73dea2aa59",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-829479",
+      "date": "2025-02-26",
+      "title": "For how long? Aramaic language and its enduring legacy in Syria",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/02/26/for-how-long-aramaic-language-and-its-enduring-legacy-in-syria/",
+      "text_sha256": "93a58c7854b24a924dd9feb67cf6ef16516c551e3b397acaf41b62041ca975c3"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-830639",
+    "dataset": "expansion_160",
+    "source_sha256": "0da27c94d8c8b954573b8a70ee86c22b74fcdcb0aca9c3b81ac284c58dd625d8",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-830639",
+      "date": "2025-03-15",
+      "title": "Another test for international justice: Sudan takes the UAE to the ICJ over its complicity in genocide",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/03/15/another-test-for-international-justice-sudan-takes-the-uae-to-the-icj-over-its-complicity-in-genocide/",
+      "text_sha256": "3c8495720ba0e07458ef137ca9230970ab4d82fc38650ee5791b720186b18538"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-826293",
+    "dataset": "expansion_160",
+    "source_sha256": "2260092663e8042560ea1e41158b2ba8f76ded9d5c02c0cf3ec229773d4bd5af",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-826293",
+      "date": "2024-12-31",
+      "title": "Namesakes in Gaza: Carrying the martyrs with us in diaspora",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/12/31/namesakes-in-gaza-carrying-the-martyrs-with-us-in-diaspora/",
+      "text_sha256": "5d0c3818faf3a6b94e5549560df03328e6b8eaa3232742f4f96bfea21d62badb"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-827361",
+    "dataset": "expansion_160",
+    "source_sha256": "b1ed116a8acc37fc13306a0c09b07706856f5efd5e06dd1ddb33a6c8e5407d06",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-827361",
+      "date": "2025-01-16",
+      "title": "Guided by the light: Photos from Latin America and the Caribbean, with love",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/01/16/guided-by-the-light-photos-from-latin-america-and-the-caribbean-with-love/",
+      "text_sha256": "db873933249cf83b17c1fada912c17e0782e180c8782d297fce0fc36efe7a678"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-829351",
+    "dataset": "expansion_160",
+    "source_sha256": "fbb297973057bbd49475ebef602ec81c403098f742d10a79bea10008db756e66",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-829351",
+      "date": "2025-02-26",
+      "title": "Misinformation and smear attacks follow the freeze of USAID funding in the Western Balkans",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/02/26/misinformation-and-smear-attacks-follow-the-freeze-of-usaid-funding-in-the-western-balkans/",
+      "text_sha256": "4aa2be1dfd0276ada0454c648b39d103bc88c90e51df5abee6668846336eab81"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-830268",
+    "dataset": "expansion_160",
+    "source_sha256": "e489e5ae8bf4a3f1c9b54553986101e7937dc8289298008102ba389ed54e944a",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "GV-830268",
+      "date": "2025-03-08",
+      "title": "The crackdown on academic freedom in Europe: More than just a right-wing phenomenon",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/03/08/the-crackdown-on-academic-freedom-in-europe-more-than-just-a-right-wing-phenomenon/",
+      "text_sha256": "588f7438eb124e13fabc7508e5aaeb3905c70b2fa634158dbce1854ebb2fa662"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-7908063",
+    "dataset": "expansion_160",
+    "source_sha256": "0ac42f220c14465584870cd72281f87b52400b26375b9c1fb03fad2c20ef10cd",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-7908063",
+      "date": "2024-12-20",
+      "title": "Trump wants to quickly end Gaza war — can he?",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/trump-wants-to-quickly-end-gaza-war-can-he-/7908063.html",
+      "text_sha256": "2b91411ef0e1eb177d334ca21fed23f7902c2660af29387e4584f94c9e524481"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-7939119",
+    "dataset": "expansion_160",
+    "source_sha256": "ef486b91155eb9796882f5aba1bb6e1e7d8adfea64f93ed7cd8823413f65411c",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-7939119",
+      "date": "2025-01-16",
+      "title": "Report: China, Israel named leading jailers of journalists",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/report-china-israel-named-leading-jailers-of-journalists-/7939119.html",
+      "text_sha256": "fb2294db66c40493185130adbdcdc3d71cadc34017619bb236512276bd7768e7"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-7980148",
+    "dataset": "expansion_160",
+    "source_sha256": "f1ee3d98ed81157dfe5905a3ecc0661b2dc2ee9ee6756a76a9298f3d0e7e790e",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-7980148",
+      "date": "2025-02-19",
+      "title": "Saudi prince proving crucial to Trump efforts to end Ukraine, Gaza wars",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/saudi-prince-proving-crucial-to-trump-efforts-to-end-ukraine-gaza-wars/7980148.html",
+      "text_sha256": "1f704084fc619d893072a847b622c53bd1e75cd6533f5e9ab897d6900e9ef719"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-7952796",
+    "dataset": "expansion_160",
+    "source_sha256": "11d1730fb13c9c1d562573b589b6b060ea4f0ff0109d3d9e600cdbaf6c182ed1",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-7952796",
+      "date": "2025-01-28",
+      "title": "Palestinians return to Gaza as Trump doubles down on their removal",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/more-than-300-000-palestinians-returned-to-gaza-city-authorities-say-/7952796.html",
+      "text_sha256": "fff0b852969d1285dbab07e0ccd0c7371444453604faf618c2bae065057a8f0c"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-7965802",
+    "dataset": "expansion_160",
+    "source_sha256": "1039d6d088f896b1c30c6e2bdbc62638af7f9cbc7096819a3e0f3a37a93b0b65",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-7965802",
+      "date": "2025-02-06",
+      "title": "WHO: More routes out of Gaza needed to evacuate thousands who need lifesaving treatment",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/who-more-routes-out-of-gaza-needed-to-evacuate-thousands-who-need-lifesaving-treatment/7965802.html",
+      "text_sha256": "7b5b6554320f0d6f9340a8720c58d69ae197b15e8af447dec7f1fee335bca475"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-7953674",
+    "dataset": "expansion_160",
+    "source_sha256": "07d8f4b3464bd1393172bfed1baac3f3cc090c44c6f84bd59ee0bc51cec30eb9",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-7953674",
+      "date": "2025-01-28",
+      "title": "UN chief appeals Israeli law banning UNRWA",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/un-chief-appeals-israeli-law-banning-unrwa/7953674.html",
+      "text_sha256": "a80c54fdd50a6105e588ab819cec84ebd7a4adbda8bde3c8f6d05d9a0e1df966"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-828636",
+    "dataset": "expansion_160",
+    "source_sha256": "21f2405ad1265ecbb70eeb355afb09ac5e5ab56aa1ee2371113e920d32b4aa3b",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-828636",
+      "date": "2025-02-16",
+      "title": "From Samburu to China: Women as key custodians and perpetrators of illegal sandalwood trafficking",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/02/16/from-samburu-to-china-women-as-key-custodians-and-perpetrators-of-illegal-sandalwood-trafficking/",
+      "text_sha256": "7eed01ae9dd38c3a8e3146f8374a04244033f8a3b799c57dbacd3138cba88750"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-830110",
+    "dataset": "expansion_160",
+    "source_sha256": "a33f01b32d4092f670cb93ab6f01db608665dd8c4004ca5dd471e78d1efa3b6a",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-830110",
+      "date": "2025-03-06",
+      "title": "USAID suspension has far-reaching impacts in South Asia",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/03/06/usaid-suspension-has-far-reaching-impacts-in-south-asia/",
+      "text_sha256": "875d7f4de60b7b5d635030dd71d63f1267ee57445274011c3324344c7b445643"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-832655",
+    "dataset": "expansion_160",
+    "source_sha256": "bb22da81f6474751b69621805fcec4e15da6b1def47e178628bc3f7880dfff8e",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-832655",
+      "date": "2025-04-20",
+      "title": "Pakistani survivor of Morocco boat tragedy speaks out amid rising illegal migration trends",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/04/20/pakistani-survivor-of-morocco-boat-tragedy-speaks-out-amid-rising-illegal-migration-trends/",
+      "text_sha256": "4a0b274b828adeee7a48f496419d8eaca809c9f00e6d7fa6b072af0c45326024"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-833569",
+    "dataset": "expansion_160",
+    "source_sha256": "a341081e443cff11b7888d302f0ed98895ce5dd3108a95fa09f7f19f4884daf3",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-833569",
+      "date": "2025-05-03",
+      "title": "Mizzima News: Surviving the junta and reporting Myanmar's ‘Spring Revolution’",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/05/03/mizzima-news-surviving-the-junta-and-reporting-myanmars-spring-revolution/",
+      "text_sha256": "3a1829b47997eac4c64c79c0b411199dd3a1390321a6da126104425ae5a00cf5"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-829515",
+    "dataset": "expansion_160",
+    "source_sha256": "cb1ee21be66cc2a389b385ab03c8c7fdb4c409c98ecda37962bef18859d32f56",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-829515",
+      "date": "2025-02-21",
+      "title": "Nepali student's death in an Indian University raises questions about harassment and accountability",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/02/21/nepali-students-death-in-an-indian-university-raises-questions-about-harassment-and-accountability/",
+      "text_sha256": "192e459fb5c844b116d37ab31a94695c05612a33616594f3e757a46c06ca7380"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-829353",
+    "dataset": "expansion_160",
+    "source_sha256": "a34765b3e8f61f2a7d8e4c434b064f27bbf9c88e1e339d6ce1c7a113ee70d95c",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-829353",
+      "date": "2025-03-05",
+      "title": "Pakistan struggles with governance and rampant corruption",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/03/05/pakistan-struggles-with-governance-and-rampant-corruption/",
+      "text_sha256": "5f5ceec42aca364672ddb9bb5465f1c52b27c4046e518a3e52ca0361b0f86ea6"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-832184",
+    "dataset": "expansion_160",
+    "source_sha256": "f2ad0927da426fa75b853c5f22b4c3aead19317256692ef9b8228d8d09d2a8fd",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-832184",
+      "date": "2025-04-11",
+      "title": "China makes inroads into electric transportation in Nepal",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/04/11/chinas-vested-interest-in-electrifying-public-transport-in-nepal/",
+      "text_sha256": "fd1112b4104430214e5b111b3c1dfb6fc6ddee71da736fb5413754882ce684c1"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-833369",
+    "dataset": "expansion_160",
+    "source_sha256": "9b6abbb5f0a47a1b2f07f0e5384f77ffed97dd623f4c9b457f0fdf7c652bbd8e",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "GV-833369",
+      "date": "2025-05-02",
+      "title": "Pahalgam attack raises tensions between India and Pakistan amid disinformation surge",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2025/05/02/pahalgam-attack-raises-tensions-between-india-and-pakistan-amid-disinformation-surge/",
+      "text_sha256": "4ac56291dc0d60d6a5f43fc61e8ec541ea0881d7a5b6e8e0c4ee36586f41ccb3"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label",
+      "model_quality_flag"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-7966135",
+    "dataset": "expansion_160",
+    "source_sha256": "dcc7dc971e4eebf17b66bfeb4dbf935b33c5149011ec82a6fa9f8cce26d8305b",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-7966135",
+      "date": "2025-02-07",
+      "title": "Gunfight kills Pakistani soldier, 12 militants near Afghan border",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/gunfight-kills-pakistani-soldier-12-militants-near-afghan-border-/7966135.html",
+      "text_sha256": "b18ac9b3021d8ecfb1fa23d4c0bafcb1967f961fb508e0c8d81adbea0824486b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-8003634",
+    "dataset": "expansion_160",
+    "source_sha256": "00b0815af435cd461977c57aa43992f8f722c0c9979570f0c763170f62972e6d",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-8003634",
+      "date": "2025-03-08",
+      "title": "India says it is working to cut tariffs as it eyes US trade deal",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/india-says-it-is-working-to-cut-tariffs-as-it-eyes-us-trade-deal/8003634.html",
+      "text_sha256": "842a2bf9b53f1a3e4e86253aa251f9a3904c915a7768a2f6a80debb379d39986"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-7987593",
+    "dataset": "expansion_160",
+    "source_sha256": "68d7cc34d61d5d798ce160d32d882a3224570d9be50cf8b9da7222789de809e1",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-7987593",
+      "date": "2025-02-25",
+      "title": "Dying to leave: Why Pakistanis are risking their lives to reach Europe",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/dying-to-leave-why-pakistanis-are-risking-their-lives-to-reach-europe/7987593.html",
+      "text_sha256": "074ae633a09d14379224acc2436db83438f12dca031654d1383b078481358597"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-8011076",
+    "dataset": "expansion_160",
+    "source_sha256": "705b0bcb0500c29ec1e6564c62a1e48bd138be40f93fe9e0803873b8df351b00",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-8011076",
+      "date": "2025-03-14",
+      "title": "Military says death toll in Pakistan's train hijacking rises to 31",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/military-says-death-toll-in-pakistan-s-train-hijacking-rises-to-31/8011076.html",
+      "text_sha256": "03e87ffca743fb37423c9a52fe12d850859949a81792e532670204f04359abcd"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-7986025",
+    "dataset": "expansion_160",
+    "source_sha256": "8ae8a9c59f16ff656fe9ac324aa4cccb8593bfd22f80e748520e32ba7c0f248a",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-7986025",
+      "date": "2025-02-24",
+      "title": "Pakistan, Azerbaijan sign agreements, MOUs on trade and energy",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/pakistan-azerbaijan-sign-agreements-mous-on-trade-and-energy/7986025.html",
+      "text_sha256": "1a0cb858800a4acbacbef64eda6bb1776d45f8c1b04a59c1b17db5c8d86d90e9"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-7995718",
+    "dataset": "expansion_160",
+    "source_sha256": "f137a530db300eb623c2acf9979ec93b41be131d60ca71b8c6d9934b5d145478",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-7995718",
+      "date": "2025-03-03",
+      "title": "Growing space cooperation between Pakistan, China presents risks and opportunities, experts say",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/growing-space-cooperation-between-pakistan-china-presents-risks-and-opportunities-experts-say-/7995718.html",
+      "text_sha256": "133483e5c7e9397555438f08987af59c47b03b994f7cc4b1868ac06b0282f3cf"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-7991547",
+    "dataset": "expansion_160",
+    "source_sha256": "e509a81dd340d33bb526e431c295d14ef8eba9744896f620b5d9f702f72c4bdd",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-7991547",
+      "date": "2025-02-28",
+      "title": "India, EU, pledge to push free trade agreement, elevate strategic ties",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/india-eu-pledge-to-push-free-trade-agreement-elevate-strategic-ties-/7991547.html",
+      "text_sha256": "0f6e250d2fc324e60325c2a49f6dda1932c22ea913df2ddce551c4faa40b6e5f"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-7995327",
+    "dataset": "expansion_160",
+    "source_sha256": "f3c2ef610a907da9dc2455281fffeba8b5c1bd61929dbd773f08d047ed7ead19",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2025-02-07",
+      "news_end": "2025-05-06"
+    },
+    "news": {
+      "news_id": "VOA-7995327",
+      "date": "2025-03-03",
+      "title": "Female bomber's attack on military convoy in southwest Pakistan kills 1",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/female-bomber-s-attack-on-military-convoy-in-southwest-pakistan-kills-1/7995327.html",
+      "text_sha256": "72421f7610bfe13f6314a8b2ad99685e970ccef4eb3a0dd2741c07697b1a8810"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::GV-805492",
+    "dataset": "expansion_160",
+    "source_sha256": "a726635003f9bd11a095f1d2ef4a617c13706bf24c76058b8d89c2af937c3581",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-805492",
+      "date": "2024-01-22",
+      "title": "Terrorists from Tajikistan have become a global menace",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/22/terrorists-from-tajikistan-have-become-a-global-menace/",
+      "text_sha256": "20e506bf3d580fc0dbedfd121a2cbba60e9012211394cb8ed2d35ae19a3e2e6b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::GV-807224",
+    "dataset": "expansion_160",
+    "source_sha256": "2e8e307cb681a91e1c44e8307c17cd751322d464697299ec21483fac6f908a23",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-807224",
+      "date": "2024-02-20",
+      "title": "Turkey's search for gold has a massive humanitarian and environmental impact",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/20/turkeys-search-for-gold-has-a-massive-humanitarian-and-environmental-impact/",
+      "text_sha256": "b975816904e6738f2f5fbe4767797cc585a45f1f1e45ccd33bc85a43914b88e2"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::GV-808573",
+    "dataset": "expansion_160",
+    "source_sha256": "54ce1bc719e8768f861aa86e0cc32b3de3d83c31809d4a5fbc02563be7001d20",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-808573",
+      "date": "2024-03-19",
+      "title": "How the North Caucasus became one of Russia’s arms for imperial policy in Ukraine",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/19/how-the-north-caucasus-became-one-of-russias-arms-for-imperial-policy-in-ukraine/",
+      "text_sha256": "8e3394743804ca2817d3b30c5a8f214923fb703a09c94c45d4bce35739ebe037"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::GV-804266",
+    "dataset": "expansion_160",
+    "source_sha256": "9e2925cd55d7de92a4865168c894bad2bf709e9f3fc6b2cd1e7975a97cfe59e7",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-804266",
+      "date": "2024-01-03",
+      "title": "A horse for a car — a tale of modern diplomacy between Turkey and Hungary",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/03/a-horse-for-a-car-a-tale-of-modern-diplomacy-between-turkey-and-hungary/",
+      "text_sha256": "ae48ed2516ccecf32c5dcfef2d1f8f5544805e37c8573f384a03b75d51eaf564"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::GV-808704",
+    "dataset": "expansion_160",
+    "source_sha256": "8ef63af0322560928eb1f425f382984be7a6a57fe1d855e3b660073db3bb3926",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-808704",
+      "date": "2024-03-21",
+      "title": "How Turkey’s opposition media empowers Erdoğan",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/21/how-turkeys-opposition-media-empowers-erdogan/",
+      "text_sha256": "e38a72481d96b077f6fc4cf1f1eddfbdff38602b7c22715d04f53943722cae90"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::GV-808840",
+    "dataset": "expansion_160",
+    "source_sha256": "e343372d87f70ffc67569f2a482254a9f4e3d0a112a494200ae2d91581f226b3",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-808840",
+      "date": "2024-03-21",
+      "title": "Kyrgyzstan’s blockbuster film is a moving tale of the bond between a mother and son",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/21/kyrgyzstans-blockbuster-film-is-a-moving-tale-of-the-bond-between-a-mother-and-son/",
+      "text_sha256": "0843c92745c25e8b3f997282a846afa4210a063a3e83dde92e860a763a86f434"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::GV-808098",
+    "dataset": "expansion_160",
+    "source_sha256": "72908a3467ce85b94f972244db732a32c3503315f9610990a65809eb428c96fc",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-808098",
+      "date": "2024-03-07",
+      "title": "‘I will tell you what numbers can’t about Gaza’",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/07/i-will-tell-you-what-numbers-cant-about-gaza/",
+      "text_sha256": "1b1d3425b39f291af771dea37fbacc594d9a0ec7d8fb9152aebad817d5a912b7"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7454725",
+    "dataset": "expansion_160",
+    "source_sha256": "60d5509742a78f75264208f020b4f349ef39490413509c5b2fde9ef8bd8bed24",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7454725",
+      "date": "2024-01-24",
+      "title": "Syrian Kurdish Journalist Missing 3 Months after Arrest in Iraqi Kurdistan",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/syrian-kurdish-journalist-missing-3-months-after-arrest-in-iraqi-kurdistan/7454725.html",
+      "text_sha256": "82d7d856b4c5d6137745fdf51446d686b0e2b6a15696e4c2f0cfa9a4c2ff9b69"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7508887",
+    "dataset": "expansion_160",
+    "source_sha256": "1b2951fffea30646548687b0cd2701655f145b5e6a86fe8646e58140ed3f8a77",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7508887",
+      "date": "2024-02-29",
+      "title": "Who Is Syrian Christian Militia Targeted in Turkish Drone Attacks?",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/who-is-the-syrian-christian-militia-targeted-in-turkish-drone-attacks-/7508887.html",
+      "text_sha256": "8245412c32f6420a56180c99520986621dab26f0c3313ca63c0586750460e8a4"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label",
+      "secondary_model_disagreement"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7528269",
+    "dataset": "expansion_160",
+    "source_sha256": "f1f62810d28eb0867ffc19ffd8e9784b3aad35dd516d84330acf76dd65c2c879",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7528269",
+      "date": "2024-03-14",
+      "title": "More Than A Decade on, No End in Sight for Syria's War",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/more-than-a-decade-on-no-end-in-sight-for-syria-s-war/7528269.html",
+      "text_sha256": "6b8f06aedb313f2cc0430ed7e31369db4dc6490d6c9fd68a60e037e9900590c3"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7470102",
+    "dataset": "expansion_160",
+    "source_sha256": "b1bbd0b5783e86303add44d62242c06cc45697aa2372202fd545f9aeccacfc83",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7470102",
+      "date": "2024-02-04",
+      "title": "Iraq, Syria, Along With Iran, Russia, Condemn US Strikes",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/iraq-syria-along-with-iran-russia-condemn-us-strikes/7470102.html",
+      "text_sha256": "9bc4223c89e56998a88f4beb192d3849f0b4ae6ef50ed8813ad4de02cabda911"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7518396",
+    "dataset": "expansion_160",
+    "source_sha256": "4f717907b67bc624917b549e059bbb5a781d98841c84e80212d59d55088706fd",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7518396",
+      "date": "2024-03-07",
+      "title": "Protests Grow Against Powerful Jihadist Group in Syria Enclave",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/protests-grow-against-powerful-jihadist-group-in-syria-enclave-/7518396.html",
+      "text_sha256": "9049d679a8d80f31f3f8d1ff988ab140228d35f342e009722e9bf07b6110def5"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7475760",
+    "dataset": "expansion_160",
+    "source_sha256": "4bbfb05eee745b1152d4a421cc1b461e717dbf5416afb60ab9e26c5a69ea6509",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7475760",
+      "date": "2024-02-06",
+      "title": "Millions of Survivors of 2023 Turkey-Syria Quakes Remain Destitute, Traumatized",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/millions-of-survivors-of-2023-turkey-syria-quakes-remain-destitute-traumatized/7475760.html",
+      "text_sha256": "26383cd014a8811a9ebd32fb5ba899ec9176b466a3b25fea4d26674af8069e3c"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7539864",
+    "dataset": "expansion_160",
+    "source_sha256": "cf3d53f2a3b7995e99d14ea55be273631f8feb82126fa15d8ab4ea175a3a0220",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7539864",
+      "date": "2024-03-23",
+      "title": "Ignoring Syrian Crisis Risks Destabilizing Region, Experts Say",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/ignoring-syrian-crisis-risks-destabilizing-region-experts-say/7539864.html",
+      "text_sha256": "e54a4aac76c5a3708bbbe170988b9a5af396bf9aabf2f7fe07975e884af0f146"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7530476",
+    "dataset": "expansion_160",
+    "source_sha256": "1ab887eee87ac84314f23e37f1bdce2d1a02792ffd7b34d8610f90fe1c6f8b05",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7530476",
+      "date": "2024-03-16",
+      "title": "Syria’s Plight Seems Forgotten as Nation Enters 14th Year of Civil War",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/syria-s-plight-seems-forgotten-as-nation-enters-14th-year-of-civil-war/7530476.html",
+      "text_sha256": "490ec7e0e3b36d44c8c65b3472569aecba44922fe22830f6c51d26c680a3035e"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-804506",
+    "dataset": "expansion_160",
+    "source_sha256": "883bc9979ed76b30835a3180baf82579acd88d4a980228a2034485febadcf325",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-804506",
+      "date": "2024-01-06",
+      "title": "How African nations could successfully navigate the electoral process in 2024",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/06/how-african-nations-could-successfully-navigate-the-electoral-process-in-2024/",
+      "text_sha256": "62b5ce95914401462c7e9618fb971fe1c36de8925f32b2dfe56a2ff4ffacf454"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-805702",
+    "dataset": "expansion_160",
+    "source_sha256": "96ec92f674fb73f95f74815ab6a2dc338f49ccbda206cf66ef6b5942dd19f2bc",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-805702",
+      "date": "2024-02-05",
+      "title": "How Rwanda's literary giants promoted their country's rich culture through their work",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/05/how-rwandas-literary-giants-promoted-their-countrys-rich-culture-through-their-work/",
+      "text_sha256": "9fd498b1bda45cfd571fc44816187ab33f4ebb3253702a590b23cc73e2d40704"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-804550",
+    "dataset": "expansion_160",
+    "source_sha256": "7559ceca30988201baa28b5a760d4810b0cae7bdd7523f32684b206f6dc518a5",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-804550",
+      "date": "2024-01-12",
+      "title": "DRC: opposition groups are decrying President Félix Tshisekedi's re-election as fraudulent",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/12/drc-opposition-groups-are-decrying-president-felix-tshisekedis-re-election-as-fraudulent/",
+      "text_sha256": "359fe72d14e26d06682940e7a1973883874c196a10b36c74a9b726872405d3bf"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-806343",
+    "dataset": "expansion_160",
+    "source_sha256": "cce9d4dbf06fcea42cc3782cf13ae1548d07c767c7d0a699174996ad0f1f09b4",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-806343",
+      "date": "2024-02-13",
+      "title": "Tensions escalate between Burundi and Rwanda",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/13/tensions-escalate-between-burundi-and-rwanda/",
+      "text_sha256": "2da6f199462bd04855021c82e20d071a38235529aaa180cb5299fde6148d067a"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-805279",
+    "dataset": "expansion_160",
+    "source_sha256": "a854539d52ed377b47d371917bf7db399c00b4065b4809b40d5393d6ab7a0fb1",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-805279",
+      "date": "2024-01-19",
+      "title": "Navigating Rwanda's media landscape ahead of the upcoming election",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/19/navigating-rwandas-media-landscape-ahead-of-the-upcoming-election/",
+      "text_sha256": "014a8eab34571d18889038c519ccd8958e3e99f9d444f05544d026d12a89823b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-807444",
+    "dataset": "expansion_160",
+    "source_sha256": "503e1d3f5d596e1f13662c300c8a8f509e09bba754496578216729ebb860450c",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-807444",
+      "date": "2024-02-22",
+      "title": "Which local language is most widely spoken in Togo?",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/22/which-local-language-is-most-widely-spoken-in-togo/",
+      "text_sha256": "f16e45212f4f93b6aee8d215ec1731fda13853bc72fa254a488050d861891f16"
+    },
+    "evaluation_exclusion_reasons": [
+      "prior_source_scope_quarantine"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S017::VOA-7496092",
+    "dataset": "expansion_160",
+    "source_sha256": "321be9acc633d7799ee2478d1ae9a2d3b6ad3382ccb45977863571877da158fa",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7496092",
+      "date": "2024-02-21",
+      "title": "UN Security Council Sanctions 6 Rebel Leaders in Congo",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/un-security-council-sanctions-6-rebel-leaders-in-congo/7496092.html",
+      "text_sha256": "a1cf9908c2bfd9884051765966eb2379826661f2325f0ff3860db69e41f38eb5"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::VOA-7539028",
+    "dataset": "expansion_160",
+    "source_sha256": "a8474331d7d4d90b0ac4ad1f2abbf1e86adce414792950bf34d35aa35b6200d2",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7539028",
+      "date": "2024-03-22",
+      "title": "DR Congo Facing Alarming Levels of Violence, Hunger, Poverty, Disease",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/dr-congo-facing-alarming-levels-of-violence-hunger-poverty-disease-/7539028.html",
+      "text_sha256": "d623dbf8c19f431f62f803dd93fcae30179a9075d5addda328085cd24f556b9f"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S018::GV-804645",
+    "dataset": "expansion_160",
+    "source_sha256": "efc01addec16393179c9b61e6ee6bb7d194e2103d17ade1470fbdf6c278a84d5",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-804645",
+      "date": "2024-01-17",
+      "title": "The Socotri language straddling survival amidst the absence of technology",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/17/the-socotri-language-straddling-survival-amidst-the-absence-of-technology/",
+      "text_sha256": "f00b21464d11d720de3daa3c79e8521eeef52666585692d37cf745faa1d42456"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::GV-806852",
+    "dataset": "expansion_160",
+    "source_sha256": "1b120c093fec5e38250e86e56dafd0c78341806bbc06a9a8c9d8a5c0961ddb85",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-806852",
+      "date": "2024-02-14",
+      "title": "#KeepItOn in times of war: Sudan’s communications shutdown must be reversed urgently",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/14/keepiton-in-times-of-war-sudans-communications-shutdown-must-be-reversed-urgently/",
+      "text_sha256": "5e3c23d63278c2d16036a4826f5f1253d4dd816145bb69d78a81c55c778b8912"
+    },
+    "evaluation_exclusion_reasons": [
+      "prior_source_scope_quarantine"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7433777",
+    "dataset": "expansion_160",
+    "source_sha256": "9f3632478b09e711bc279c1079a17372b979ad648bda4cdd056be484fa434409",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7433777",
+      "date": "2024-01-10",
+      "title": "UN Security Council Demands Houthis Cease Red Sea Attacks",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/un-security-council-to-vote-on-resolution-after-houthi-red-sea-attacks/7433777.html",
+      "text_sha256": "2e60ed4b7c7aaecde7960d40edf987503e456290ea9efbf641156a9fe4317774"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7478387",
+    "dataset": "expansion_160",
+    "source_sha256": "b7c95d73c0a7e6e09906cacd484b235040e97fa067ad520fff5c4dd3def25584",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7478387",
+      "date": "2024-02-07",
+      "title": "US Intelligence Warns of Growing Iranian-Houthi Weapons Cooperation",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/us-intelligence-warns-of-growing-iranian-houthi-weapons-cooperation-/7478387.html",
+      "text_sha256": "c8c073bff9c8b669a6d4a62f9cdb76864c119c7556fc7f9b1b00127fab661a0c"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7516779",
+    "dataset": "expansion_160",
+    "source_sha256": "ffbab997e23660c08f788c023e18d73141e3e9862907b3e7fd67f3cdbce887fb",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7516779",
+      "date": "2024-03-07",
+      "title": "3 Killed, 4 Hurt in Houthi Strike on Commercial Ship",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/at-least-2-killed-in-houthi-strike-on-commercial-ship/7516779.html",
+      "text_sha256": "4ab6775a7af290903f223f4865aa58b99358688f6740ffead88a8f82a40f0adf"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7442506",
+    "dataset": "expansion_160",
+    "source_sha256": "11e57250fed5076e5fa51ace89f66702e49db2c12d2dccb211a87e317a195d47",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7442506",
+      "date": "2024-01-16",
+      "title": "Houthis Attack Maltese-Flagged Vessel in the Gulf of Aden",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/houthis-attack-maltese-flagged-vessel-in-the-gulf-of-aden-/7442506.html",
+      "text_sha256": "d786da4641522141bf66d97a8665928e9e804b482297895fdeb7e5f469dab873"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7491150",
+    "dataset": "expansion_160",
+    "source_sha256": "2950d2570608686d7114a04b9d6934a901973ba9726b73ad70eb920d2a955410",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7491150",
+      "date": "2024-02-16",
+      "title": "Houthi Rebels Claim Responsibility for Oil Tanker Attack",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/us-reinstates-sanctions-on-yemen-s-houthi-rebels-effective-friday/7491150.html",
+      "text_sha256": "804f32942be3b9389304cbb4c6b662436a2142dedcc546a043e2b115212439bc"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label",
+      "model_quality_flag"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7446136",
+    "dataset": "expansion_160",
+    "source_sha256": "f9269442812cd69b6399e88f544ac72a51b92f76d1e7fab0eafbf520ea7a4569",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7446136",
+      "date": "2024-01-19",
+      "title": "US Says Houthis Launched Missiles at American-Owned Tanker",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/us-strikes-houthi-missiles-in-yemen-/7446136.html",
+      "text_sha256": "8dd804a5e3440c876fbdc4ec7b4a93629fd8992f7a61fb51f2a50d8962caf766"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7496303",
+    "dataset": "expansion_160",
+    "source_sha256": "9b5ea39c5bdd373fd32a5417be25191a48b477708e49958404115e13f79509cb",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7496303",
+      "date": "2024-02-21",
+      "title": "US MQ-9 Drone Shot Down by Houthis",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/us-mq-9-drone-shot-down-by-houthis-/7496303.html",
+      "text_sha256": "bdb725d585b6afa47006b842d088390c586581f7a1997ea59b050250077e58a0"
+    },
+    "evaluation_exclusion_reasons": [
+      "secondary_model_disagreement"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7426890",
+    "dataset": "expansion_160",
+    "source_sha256": "6c6dd76c8afa15f21a5e5b7f39081ac4cdc7d1fcf3d8f02254c94c7e2d2f1c73",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7426890",
+      "date": "2024-01-04",
+      "title": "Freight Costs Rise as Houthi Attacks Disrupt Global Shipping",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/freight-costs-rise-as-houthi-attacks-disrupt-global-shipping/7426890.html",
+      "text_sha256": "52cec31af7d0f0eed3343975ae804407a309da0446a473db22521c5179cc4288"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-805295",
+    "dataset": "expansion_160",
+    "source_sha256": "71c0d9d43ac99b34d095a6ca552333bb2542a06f3ea8b479ae29c15a393c8855",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-805295",
+      "date": "2024-01-19",
+      "title": "Jamaica-born Jason Allen-Paisant is the latest Caribbean poet to win the esteemed T.S. Eliot Prize",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/19/jamaica-born-jason-allen-paisant-is-the-latest-caribbean-poet-to-win-the-esteemed-t-s-eliot-prize/",
+      "text_sha256": "ec68d70412fc343e0fbce96f11754f20e60fb428c914d022acbd3f38a0785e67"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-806959",
+    "dataset": "expansion_160",
+    "source_sha256": "a220bb6bdb080e497695fc66153d91f32a1c659517a18e7c8ba83b0741cfd254",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-806959",
+      "date": "2024-02-16",
+      "title": "‘I don’t feel safe': Reactions to Germany’s suppression of pro-Palestine solidarity",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/16/i-dont-feel-safe-reactions-to-germanys-suppression-of-pro-palestine-solidarity/",
+      "text_sha256": "8aa321080e4ce57c74a5b54d23051be85e276f94ad7671f9daed78e5010c3ed6"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-808580",
+    "dataset": "expansion_160",
+    "source_sha256": "db27740212cd123e890cc389e68dfdb8b6fe102ca88ced6b39ff54c371a925ac",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-808580",
+      "date": "2024-03-15",
+      "title": "The ball is back in Jamaica’s Appeals Court as UK Privy Council quashes dancehall star Vybz Kartel’s conviction",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/15/the-ball-is-back-in-jamaicas-appeals-court-as-uk-privy-council-quashes-dancehall-star-vybz-kartels-conviction/",
+      "text_sha256": "38debd88a1eeb74aa98056c5392d93891e990a27e6e95af2114401791c020228"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-805492",
+    "dataset": "expansion_160",
+    "source_sha256": "a07d078c33152a72f877eebe534cb48c513354fe3a16573b2625d3bc639b61ee",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-805492",
+      "date": "2024-01-22",
+      "title": "Terrorists from Tajikistan have become a global menace",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/22/terrorists-from-tajikistan-have-become-a-global-menace/",
+      "text_sha256": "20e506bf3d580fc0dbedfd121a2cbba60e9012211394cb8ed2d35ae19a3e2e6b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-806377",
+    "dataset": "expansion_160",
+    "source_sha256": "cc0344d7d5f74ded17afb1922363cd7e00e4e5ba5f1a19bfe9419dc604f94f2f",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-806377",
+      "date": "2024-02-05",
+      "title": "The Suriname book prohibition in a global context of free expression",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/05/the-suriname-book-prohibition-in-a-global-context-of-free-expression/",
+      "text_sha256": "ce6e0f9570c32975bac91a06b0d8db8fa597fb4c19d2c47e259f859dd6dd6355"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-809026",
+    "dataset": "expansion_160",
+    "source_sha256": "bdc904f537f24f4c6f611aed7a822945095bbdee76603bfbd0a9cf72d72145cb",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-809026",
+      "date": "2024-03-27",
+      "title": "To get a stethoscope into Gaza you needed to buy a TV",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/27/to-get-a-stethoscope-into-gaza-you-needed-to-buy-a-tv/",
+      "text_sha256": "53508fdc67090cd3954ca9b3ef5d573aead0e0140a3186dedbddefc2f13f52fb"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-805553",
+    "dataset": "expansion_160",
+    "source_sha256": "871a41b531d42dd725c8736dcbe9176f2ccf67fb16174a2c5d393edede23624b",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-805553",
+      "date": "2024-01-26",
+      "title": "National broadcaster axes Australian journalist Antoinette Lattouf over Gaza social media post",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/26/national-broadcaster-axes-australian-journalist-antoinette-lattouf-over-gaza-social-media-post/",
+      "text_sha256": "35bdb872cf3f62a99ffa5ea403d95dcbd9a1b84c33f1a106e83cab12aad3881b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::GV-807340",
+    "dataset": "expansion_160",
+    "source_sha256": "a8636633de6c2be6e4e50181587dbc20f67c9e12fbdb4585a1a73e19e299be00",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-807340",
+      "date": "2024-02-22",
+      "title": "Despite escalating sanctions, key machines imported from East Asia sustain Russia’s war effort in Ukraine",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/22/despite-escalating-sanctions-key-machines-imported-from-east-asia-sustain-russias-war-effort-in-ukraine/",
+      "text_sha256": "0ba856d32c3b6371f13616731b4575d16dd40d5e341948100052d435eece8225"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::VOA-7453714",
+    "dataset": "expansion_160",
+    "source_sha256": "609464ed454f83e4ae1824609007ff0bcb2f426f38b5a86de557820ef2f5c507",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7453714",
+      "date": "2024-01-24",
+      "title": "Nations Reaffirm Urgency of Two-State Solution for Israel and Palestine",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/nations-reaffirm-urgency-of-two-state-solution-for-israel-and-palestine-/7453714.html",
+      "text_sha256": "e107a0d94c01696c4d44f07cba5d1b89df481ba0cedd6823a4bbad86bf24e5c2"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::VOA-7504758",
+    "dataset": "expansion_160",
+    "source_sha256": "1326a1fb0b2852f47cfc19810c782fce4e1b71cecd9a16c487eb531a893eea42",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7504758",
+      "date": "2024-02-27",
+      "title": "Analysts: Lebanon Bracing for More Deadly Conflict With Israel",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/analysts-lebanon-bracing-for-more-deadly-conflict-with-israel/7504758.html",
+      "text_sha256": "f96760f2e14375785c072dafa8e98aa0aa63f68c943df9eaf0d193649af58d21"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::VOA-7542616",
+    "dataset": "expansion_160",
+    "source_sha256": "fcd0050ac6a5ba72abe9f286979d99552257f42baf4353ccf9204d4c21d995fa",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7542616",
+      "date": "2024-03-26",
+      "title": "Israel-US Diplomatic Spat Complicates Gaza Situation",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/israel-us-diplomatic-spat-complicates-gaza-situation-/7542616.html",
+      "text_sha256": "1b16df01b784ca595de31038a906f5f21f349d9a87ff1a6672ce62054e36706f"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::VOA-7497240",
+    "dataset": "expansion_160",
+    "source_sha256": "afdafd27745211422509804196fe718b8ecb66fde5275e6771f3e281ff092fcd",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7497240",
+      "date": "2024-02-22",
+      "title": "Humanitarian Agencies Call On Israel to Provide Aid to Palestinians",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/humanitarian-groups-call-on-israel-to-provide-aid-to-palestinians/7497240.html",
+      "text_sha256": "8709cbf7ff606109f9b002b0d6f189894b34ee3ecbe2bb5dc981dcc6cfad4120"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-804313",
+    "dataset": "expansion_160",
+    "source_sha256": "ccde80b2fe75e4c5fc063a01d1676476b6813a4a826319350b8911b087e78e93",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-804313",
+      "date": "2024-01-02",
+      "title": "On the first day of 2024, former Trinidad & Tobago prime minister Basdeo Panday dies",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/02/on-the-first-day-of-2024-former-trinidad-tobago-prime-minister-basdeo-panday-dies/",
+      "text_sha256": "9b0c15a721e97641ffa13f7742836220abda91017f8f821376de81e4b3cea8b8"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-806542",
+    "dataset": "expansion_160",
+    "source_sha256": "f16815156513bae83ec8b87ab0b1de644680064c602ab34fb4902eea67045ecb",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-806542",
+      "date": "2024-02-06",
+      "title": "Pakistan’s political landscape: What to expect from the 2024 elections",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/06/pakistans-political-landscape-what-to-expect-from-the-2024-elections/",
+      "text_sha256": "a54718c4b172d1b2c3209b2fc4b793a818bd7738d7e2a550b61e22528b17b3fe"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-808472",
+    "dataset": "expansion_160",
+    "source_sha256": "687cc6e66e7e78269c9c4f7ed6df75a1e9db40e5e1e2b1d892e33d8fd50455bf",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-808472",
+      "date": "2024-03-19",
+      "title": "Women march for Palestine and against patriarchy in Pakistan",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/19/women-march-for-palestine-and-against-patriarchy-in-pakistan/",
+      "text_sha256": "4ffd560bf24fb67847950a7f86eaa9f8dc0247911471e7d289682eaa3db10c4b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-805473",
+    "dataset": "expansion_160",
+    "source_sha256": "14d42b9d4bd419ae656d31480690c98aac3a3cd7d60c6b9b524b189f7f9ace9f",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-805473",
+      "date": "2024-01-22",
+      "title": "Uzbekistan is finally starting to address its air pollution problem",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/22/uzbekistan-is-finally-starting-to-address-its-air-pollution-problem/",
+      "text_sha256": "571e38f9b4fc2f44607efb2bd04e5cedc506d8037b95b148958d54b8e3d3e6df"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-806800",
+    "dataset": "expansion_160",
+    "source_sha256": "392d2c023f2c9ab030978a63f3e0bb414b0445d67b95634f3ea60974213acec3",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-806800",
+      "date": "2024-02-11",
+      "title": "Pakistan’s general elections: AI, internet shutdowns and disillusionment",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/11/pakistans-general-elections-ai-internet-shutdowns-and-disillusionment/",
+      "text_sha256": "6372256ff354a923f79b73da52e6fa184a813112c8f2d0104134748677416cc9"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-809519",
+    "dataset": "expansion_160",
+    "source_sha256": "12c0c63537efcbfa27788197a8df1db92eb7bc5f2c9555de4ec1d65f3e9228bf",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-809519",
+      "date": "2024-03-31",
+      "title": "How India’s amended citizenship law is creating a large pool of exclusion",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/03/31/how-indias-amended-citizenship-law-is-creating-a-large-pool-of-exclusion/",
+      "text_sha256": "ffcfca8fedf70d1117a6cce8b365d09c17c6c2183ad73e1667fc2cd69a7bde5b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-804606",
+    "dataset": "expansion_160",
+    "source_sha256": "2ca5f021a2341c148eb4ed53d61811fac4afea4d46143d6f5830303cab6a4d35",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-804606",
+      "date": "2024-01-12",
+      "title": "The spirited competition between Ghanaians and Nigerians continues to fuel greatness among its citizens",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/01/12/the-spirited-competition-between-ghanaians-and-nigerians-continues-to-fuel-greatness-among-its-citizens/",
+      "text_sha256": "fb6fb77d5670bfdac2a55a4498e9dfd9ad1031b9f2641f49099358779a343b7d"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::GV-806177",
+    "dataset": "expansion_160",
+    "source_sha256": "83abce90a2afc37ec19f5e53df525a8d66f36b185e25becf2cf093cf230633f2",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GV-806177",
+      "date": "2024-02-06",
+      "title": "Bharat Jodo Nyay Yatra: A springboard for the Indian National Congress's path back to power?",
+      "publisher": "Global Voices",
+      "url": "https://globalvoices.org/2024/02/06/bharat-jodo-nyay-yatra-a-springboard-for-the-indian-national-congresss-path-back-to-power/",
+      "text_sha256": "fb884902053bc9e5ab2d15d6f99877a48a6b1c6bab0aa51970284b408cc4b93c"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7443769",
+    "dataset": "expansion_160",
+    "source_sha256": "6faf4a379d2dc70acf01c99d514ef582ca9970ee922c8a0718fd9bffe74a82d6",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7443769",
+      "date": "2024-01-17",
+      "title": "Pakistan Suspends Diplomatic Ties With Iran to Protest Cross-Border Deadly Raid",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/pakistan-suspends-diplomatic-ties-with-iran-to-protest-cross-border-deadly-raid-/7443769.html",
+      "text_sha256": "371f40ca070e94c39040adf7931172247238081d36849b6c462abfcea6e7f368"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7489945",
+    "dataset": "expansion_160",
+    "source_sha256": "1870899f6869755cfb056376633aca54929b82b8ec7270c1571f313f98fcc6b5",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7489945",
+      "date": "2024-02-16",
+      "title": "What Are Key Takeaways From Pakistan’s Election?",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/what-are-the-key-takeaways-from-pakistan-s-election-/7489945.html",
+      "text_sha256": "66114d4ae8ed5a6c484a861159927d36b3d7254089f26b616c5af273635f483b"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7547645",
+    "dataset": "expansion_160",
+    "source_sha256": "deb89ef8a8599a5ac88daee149f7599761ae20111775767310c1996b7e3e5d2e",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7547645",
+      "date": "2024-03-28",
+      "title": "Pakistan to Probe Military's Alleged Coercion of Senior Judges",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/pakistan-to-probe-military-s-alleged-coercion-of-senior-judges/7547645.html",
+      "text_sha256": "aedf255587aa7724860e3ef8f74deaf5a562e8e6b00f2f382f5a3a6f9aba5060"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7447338",
+    "dataset": "expansion_160",
+    "source_sha256": "8dcd9bc9912a2eb2ad06f658bca8199cc021b08577f40741bd304573d533802f",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7447338",
+      "date": "2024-01-19",
+      "title": "Pakistan, Iran Agree to De-escalate After Trading Airstrikes",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/pakistan-iran-agree-to-de-escalate-after-trading-airstrikes-/7447338.html",
+      "text_sha256": "7f932c308e279cfe05150743e1c58db75ec8e3846b46172f7b779e135170b07e"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7491919",
+    "dataset": "expansion_160",
+    "source_sha256": "d6237b21d36d37eec75d7539a06bd34ee994908d136f807b5979467254dc1ed8",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7491919",
+      "date": "2024-02-17",
+      "title": "Official Resigns, Admits Tampering in Pakistan's Controversy-Marred Vote",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/official-resigns-admits-tampering-in-pakistan-s-controversy-marred-vote-/7491919.html",
+      "text_sha256": "2a24bc88e0332f0483faf1a4a2cbf97002ebe252aae4e2fb1a0ae09e26360769"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7545543",
+    "dataset": "expansion_160",
+    "source_sha256": "b8c8ca488694131368391c079f14a63724b43471d14687f2a3b7040a9cd6a4c7",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7545543",
+      "date": "2024-03-27",
+      "title": "Senior Pakistan Judges Allege Intimidation, Torture by Military-Run Spy Agency",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/senior-pakistan-judges-allege-intimidation-torture-by-military-run-spy-agency-/7545543.html",
+      "text_sha256": "9f311281e97c30bf578c4b51865c9eec5ebcf027217efb67ea7d6752261a38d7"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7464528",
+    "dataset": "expansion_160",
+    "source_sha256": "bc7101a93ccf67c29e4e274e936a0165ca8cf4b50ced1eebf36c635d70098228",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7464528",
+      "date": "2024-01-31",
+      "title": "Pakistan’s Ex-PM Khan, Wife, Sentenced to 14 Years Over Graft Charges",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/ex-pakistani-prime-minister-wife-receive-14-year-prison-sentences-on-corruption-charges/7464528.html",
+      "text_sha256": "8278f006145b14d413a726d567058b5841b355c354dbf40011d0ceab3fd3ea6f"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S020::VOA-7471058",
+    "dataset": "expansion_160",
+    "source_sha256": "3fc46661ffa3c128559414da1358e974ecbc40aa5f60e32eb0776b2aed5c6d06",
+    "case": {
+      "case_id": "S020",
+      "countries_regions": "印度；巴基斯坦",
+      "target_situation": "印度—巴基斯坦关系、克什米尔及相关地区的政治、军事、安全、外交和双方相关动向。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7471058",
+      "date": "2024-02-05",
+      "title": "Pakistan Police Station Assault Kills 10 Officers",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/pakistan-police-station-assault-kills-10-officers/7471058.html",
+      "text_sha256": "fab5366da3021ac7de6727ee7b59b5fe1dea6563124e9e2b830337f44c9b442a"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::MEMO-748566",
+    "dataset": "expansion_160",
+    "source_sha256": "393bda30ff90b5dc5269530fa33cbc1a551adf1b6e39057f5286d40f8217a82e",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "MEMO-748566",
+      "date": "2024-08-28",
+      "title": "Syria receives thousands of Russia language books, in accelerated drive to teach Russian countrywide",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20240828-syria-receives-thousands-of-russia-language-books-in-accelerated-drive-to-teach-russian-countrywide/",
+      "text_sha256": "ec759fe399d2f6c5d34e83640c15205aecc995b61d215fc1c9c6cbfc81f7efe2"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S016::MEMO-751691",
+    "dataset": "expansion_160",
+    "source_sha256": "3250d9e8f8f3a987941c5b9ec96ca4d5e3dd329d23c2225bf5c5c7a0ff245ef5",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-08-27",
+      "news_end": "2024-11-26"
+    },
+    "news": {
+      "news_id": "MEMO-751691",
+      "date": "2024-09-16",
+      "title": "UN approving plan to return 30,000 refugees to Syria from Lebanon, despite grave human rights threats",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20240916-un-approving-plan-to-return-30000-refugees-to-syria-from-lebanon-despite-grave-human-rights-threats/",
+      "text_sha256": "b18c2d34ff961a881a76791742ddc8e922988e997f7287c5007cdae040ab1cf4"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::ISS-48bce6fbf9345fee",
+    "dataset": "expansion_160",
+    "source_sha256": "2a77128e8141ae651e4a3e97f11899fd0f8340068ca47beadcc1adecb07b76f8",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "ISS-48bce6fbf9345fee",
+      "date": "2024-10-28",
+      "title": "Can SAMIDRC be spared the fate of previous peace missions?",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/can-samidrc-be-spared-the-fate-of-previous-peace-missions",
+      "text_sha256": "22d798b27777e8ccec5f7e6c4837b40ea908267f078d4f979e1019430ccad1d6"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S017::MB-290668",
+    "dataset": "expansion_160",
+    "source_sha256": "40182730d360da1b52dff1685a08618876c05b60f033d13bd3d5a5b6e9dada23",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "MB-290668",
+      "date": "2024-11-26",
+      "title": "Illegal gold mining drives deforestation in DRC reserve home to ‘African unicorn’",
+      "publisher": "Mongabay",
+      "url": "https://news.mongabay.com/2024/11/illegal-gold-mining-drives-deforestation-in-drc-reserve-home-to-african-unicorn/",
+      "text_sha256": "402c8eaaa86929329fd5a8bf1d09e6425a9819fc7ca736b43dc83b56d3bbddda"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S017::AA-28407e075a448b7f",
+    "dataset": "expansion_160",
+    "source_sha256": "324397f368d94409a98dca6abe80d5ab926b379de064971f937625ae24b5eb0b",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "AA-28407e075a448b7f",
+      "date": "2024-11-05",
+      "title": "Children and the Coltan Wars in Eastern Congo",
+      "publisher": "African Arguments",
+      "url": "https://africanarguments.org/2024/11/children-and-the-coltan-wars-in-eastern-congo/",
+      "text_sha256": "fe95f41202f42d5a937c4d929a4576b2c1ea6c021ffdc60745523264558bae5e"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S017::VOA-7889825",
+    "dataset": "expansion_160",
+    "source_sha256": "df55f34602c9147fe20aadea908749f4d57df7121f53090d29cd3dd16e494771",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "VOA-7889825",
+      "date": "2024-12-06",
+      "title": "Doctors want urgent action on DRC’s yet-to-be identified disease outbreak",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/doctors-want-urgent-action-on-drc-s-yet-to-be-identified-disease-outbreak/7889825.html",
+      "text_sha256": "32344faf5d740637b5e65af4265bf4fcb5198d2dc67287e97d2e6e2a2446c9b2"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::MB-292518",
+    "dataset": "expansion_160",
+    "source_sha256": "3ddee26d1f6b7f68cc45e2f35aac4803dc2fa492b9b15c6018b502dc541af75a",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "MB-292518",
+      "date": "2024-12-30",
+      "title": "In DRC bid to grow more food, smallholders are overshadowed by industrial farming",
+      "publisher": "Mongabay",
+      "url": "https://news.mongabay.com/2024/12/in-drc-bid-to-grow-more-food-smallholders-are-overshadowed-by-industrial-farming/",
+      "text_sha256": "87c95ebf2818052ef37422e812cdd49c839aa9ad1efd3911452098e6c5bcbe6a"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::ISS-47821550a0bc4d88",
+    "dataset": "expansion_160",
+    "source_sha256": "f479ff1cb65456b9d4c1ce6486298c2477a229860a6bae7bcf5ce837b4904e45",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "ISS-47821550a0bc4d88",
+      "date": "2024-12-13",
+      "title": "Tshisekedi, Kagame to meet on crucial eastern DRC peace deal",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/tshisekedi-kagame-to-meet-on-crucial-eastern-drc-peace-deal",
+      "text_sha256": "0cc750ba46a75faa6b143f8926e5738fa092eb2e7aeeee6a82665ed0f46ed7cd"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::MB-292797",
+    "dataset": "expansion_160",
+    "source_sha256": "8d082e028c9a393387560492748861d19f175da638767f94d049c70de947d836",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "MB-292797",
+      "date": "2025-01-10",
+      "title": "Bonobo numbers in DRC park stable, but signs of decline appear",
+      "publisher": "Mongabay",
+      "url": "https://news.mongabay.com/short-article/2025/01/bonobo-numbers-in-drc-park-stable-but-signs-of-decline-appear/",
+      "text_sha256": "c78500b088a95a142a7baa9b64b5fdf33635abe7864baea34568c1a875e43e6e"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S017::ISS-806dc2ebdef87c5d",
+    "dataset": "expansion_160",
+    "source_sha256": "4a96f3feb9550a7d7372d0bfdaa8018fbf3c257224e5e6d63431401253a5eb67",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-10-23",
+      "news_end": "2025-01-22"
+    },
+    "news": {
+      "news_id": "ISS-806dc2ebdef87c5d",
+      "date": "2024-10-31",
+      "title": "Can Tanzania bring East and Southern Africa together on east DRC?",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/can-tanzania-bring-east-and-southern-africa-together-on-east-drc",
+      "text_sha256": "97b6fe3bd6c56f6493987bedb9f31c9801c8bb066536de977a542b84e8f4c4ba"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-767750",
+    "dataset": "expansion_160",
+    "source_sha256": "ad8f0a9e70157968cf3952f57859a58b1bf659ee0fb25df98c19641cf2002805",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-767750",
+      "date": "2024-12-24",
+      "title": "WHO warns Yemen faces ‘highest burden’ of cholera globally",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20241224-who-warns-yemen-faces-highest-burden-of-cholera-globally/",
+      "text_sha256": "fc25d0fbb6591ec1d3837d874308e24359d9cee675ecce3c1043763a8e950ffc"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::CD-5049a925d7593c2f",
+    "dataset": "expansion_160",
+    "source_sha256": "8c0ca8ebf85c4ad9280bd5a41050c3d0f6f1e44fc59b7085415df65d7cdb32c9",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "CD-5049a925d7593c2f",
+      "date": "2025-01-01",
+      "title": "Aid Coalition Warns Millions of Civilians at Risk as Israel and US Bomb Yemen",
+      "publisher": "Common Dreams",
+      "url": "https://www.commondreams.org/news/us-israel-airstrikes-yemen",
+      "text_sha256": "8e6d6187a4481a2820cf9dd562c4f899e37e0fb89e03b3e7f36723f3f20f28db"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-770689",
+    "dataset": "expansion_160",
+    "source_sha256": "026d61ca1a84363abed19b2aab17e06e7da302e3a870d01eca08d0dc9c7069a1",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-770689",
+      "date": "2025-01-14",
+      "title": "Houthis target vital Israel site with ballistic missile, 4 drones",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250114-houthis-target-vital-israel-site-with-ballistic-missile-4-drones/",
+      "text_sha256": "0fc6c6df897f96ce3d2d8bbd4444e6bdb393a88ffb7769ec783a83f8f096f9f3"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-775873",
+    "dataset": "expansion_160",
+    "source_sha256": "0a9d11b7d351530ba7da2b8474c2f75c7246764e3e6441a5c3696386aa79eda7",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-775873",
+      "date": "2025-02-10",
+      "title": "Jordan and Yemen’s Houthi-led gov’t sign agreement on drug cooperation",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250210-jordan-and-yemens-houthi-led-govt-sign-agreement-on-drug-cooperation/",
+      "text_sha256": "2e594abd5d6a2466b30268be4fc8862606367a6f45127187a616772d0f0e89d7"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-780133",
+    "dataset": "expansion_160",
+    "source_sha256": "2a0a5fb2a13f7f58c96bb58a0f1efeb31ca964ac0ebb8c43201f852af4e210c3",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-780133",
+      "date": "2025-03-06",
+      "title": "US confirms drone downed over Red Sea as Houthis release footage of strike",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250306-us-confirms-drone-downed-over-red-sea-as-houthis-release-footage-of-strike/",
+      "text_sha256": "5088fce124ee42422827fbffc3e03d1b5e2b80c921d043ae4571de3de3f075a7"
+    },
+    "evaluation_exclusion_reasons": [
+      "model_quality_flag"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-767447",
+    "dataset": "expansion_160",
+    "source_sha256": "023b5781117f5de4b465a455becf7f0d61d88cc1ea95a573f55e307701713178",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-767447",
+      "date": "2024-12-23",
+      "title": "Israel faces intelligence difficulties in identifying Houthi missile bunkers",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20241223-israel-faces-intelligence-difficulties-in-identifying-houthi-missile-bunkers/",
+      "text_sha256": "c0b8d599c4ff2d4d1b6cefb8668729fab3f8931d3b51089b5e000ab0fc806ac1"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-770908",
+    "dataset": "expansion_160",
+    "source_sha256": "42a2961094abc4d31806a59380b22a8cbdeeeeb2ef202555bc31f1f45231c137",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-770908",
+      "date": "2025-01-15",
+      "title": "Houthis announce strikes on Tel Aviv, power station in Eilat",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250115-houthis-announce-strikes-on-tel-aviv-power-station-in-eilat/",
+      "text_sha256": "9b96030881c055d9d28b516d1a459fdf6007285b70938be067dfc88a9330697a"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-776543",
+    "dataset": "expansion_160",
+    "source_sha256": "67e03b39f59280d7f9ec5baad38cae58a8cd2e0789b99acad2aff5c14b41239f",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-776543",
+      "date": "2025-02-13",
+      "title": "Yemen’s Houthi leader accuses US of encouraging Israel to violate Gaza ceasefire deal",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250213-yemens-houthi-leader-accuses-us-of-encouraging-israel-to-violate-gaza-ceasefire-deal/",
+      "text_sha256": "1dc6e5753f617f746defff23d6964af4fea5641b7005e5f5c0e68d3f26de8899"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-780771",
+    "dataset": "expansion_160",
+    "source_sha256": "099d16788b7200960a13b118bddeaddca0ff29ac4a59bde13239d2b52f954c10",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-780771",
+      "date": "2025-03-10",
+      "title": "Houthi leader condemns killings in Syria, accuses US and Israel of backing ‘Takfiris’",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250310-houthi-leader-condemns-killings-in-syria-accuses-us-and-israel-of-backing-takfiris/",
+      "text_sha256": "0f847d2dfe4f55df8dde9af16469ed6f0e8e0323a0d3b4df348257263664cfb6"
+    },
+    "evaluation_exclusion_reasons": [
+      "secondary_model_disagreement"
+    ]
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-767366",
+    "dataset": "expansion_160",
+    "source_sha256": "eb58a2c473b96f0f3621703a07662c33f148eab59c3ec6bc5d9f981a90881a8a",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-767366",
+      "date": "2024-12-22",
+      "title": "Yemen’s Houthis report $313m in losses from Israeli strikes on Hudaydah",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20241222-yemens-houthis-report-313m-in-losses-from-israeli-strikes-on-hudaydah/",
+      "text_sha256": "0c2ebbff3a02bb05e465d1d486c8510af04aba10704a9ee3c10b33f40fc541da"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-769350",
+    "dataset": "expansion_160",
+    "source_sha256": "998f685994e46954185e7315dfde87dbfdab7de53bf6a1e9daf7ea658b982fba",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-769350",
+      "date": "2025-01-06",
+      "title": "Egypt is not preparing to strike Yemen, says official source",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250106-egypt-is-not-preparing-to-strike-yemen-says-official-source/",
+      "text_sha256": "83a15ab59701b38b3d1f91f116f2879728155cc7ee5ef6c94c0c39d3122a4dec"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-777019",
+    "dataset": "expansion_160",
+    "source_sha256": "4861074f632b7c2dd257419d2076002f7d2e1f74c44ea98a92d45b01e8b487ed",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-777019",
+      "date": "2025-02-17",
+      "title": "UN maintains Yemen operations despite death of aid worker in Houthi custody",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250217-un-maintains-yemen-operations-despite-death-of-aid-worker-in-houthi-custody/",
+      "text_sha256": "f6f040f3f04a5d9fe5fdf68777ef4df8abf1d9909a5cb60ff3771a45114f9509"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-781203",
+    "dataset": "expansion_160",
+    "source_sha256": "91004044a993f8c04595e1aa220f5b4b2ecf81919d216f9dbd6d94ae7c31ae1b",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-12-15",
+      "news_end": "2025-03-14"
+    },
+    "news": {
+      "news_id": "MEMO-781203",
+      "date": "2025-03-13",
+      "title": "Hamas praises Houthi decision to resume attacks on Israeli ships",
+      "publisher": "Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20250313-hamas-praises-houthi-decision-to-resume-attacks-on-israeli-ships/",
+      "text_sha256": "71f32fe7e1214e2cf5cd6e88dd7f9e8d17c235f543db9e2c3bf6a351d3e882b2"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-7963488",
+    "dataset": "expansion_160",
+    "source_sha256": "e4ae6ac72c36a35f5d15771ed4cfc9d8bf8cc997888ee37c98df57a7619d2f84",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-7963488",
+      "date": "2025-02-05",
+      "title": "Trump says US will take ownership of Gaza",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/trump-says-u-s-will-take-ownership-of-gaza/7963488.html",
+      "text_sha256": "345fffadf255ecd7dc75c4a804b4ee0eb2470ff44ea7cb6ddd3395583b3f6d3e"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-cross-S019::VOA-8007713",
+    "dataset": "expansion_160",
+    "source_sha256": "1fd8ae94622489acf2622ac0f080a4c9621a1bea7127225b541a73b58b55c734",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-12-18",
+      "news_end": "2025-03-17"
+    },
+    "news": {
+      "news_id": "VOA-8007713",
+      "date": "2025-03-12",
+      "title": "Irish PM visits White House amid divisions on economy, Ukraine, Gaza",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/irish-pm-visits-white-house-amid-divisions-on-economy-ukraine-gaza/8007713.html",
+      "text_sha256": "e54d40ae35bc82fd106f21b14b9e0c0a99f42f8002a5893aada7b9c3bcbb2f02"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7448479",
+    "dataset": "expansion_160",
+    "source_sha256": "c5974a6d88d77b1e087faec626537a926ecd1930710a5dbc44762ef1190d102d",
+    "case": {
+      "case_id": "S016",
+      "countries_regions": "叙利亚政府；反对派／HTS",
+      "target_situation": "叙利亚政府与反对派的政治、军事和安全局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7448479",
+      "date": "2024-01-20",
+      "title": "Israeli Attack Kills Top Iranian Commanders in Damascus",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/israeli-attack-kills-top-iranian-commanders-in-damascus-/7448479.html",
+      "text_sha256": "840104123d96884444ff809d87de5e0e33e01ef32ad84fd336f1f63d5f17a7c7"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::MB-277443",
+    "dataset": "expansion_160",
+    "source_sha256": "bf7265fbf201562081e597df63db0180085919f4500eba1abf08a3194eb5153e",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "MB-277443",
+      "date": "2024-01-08",
+      "title": "Togo monkey seizure turns spotlight on illicit wildlife trafficking from DR Congo",
+      "publisher": "Mongabay",
+      "url": "https://news.mongabay.com/2024/01/togo-monkey-seizure-turns-spotlight-on-illicit-wildlife-trafficking-from-dr-congo/",
+      "text_sha256": "a120ba268e73a848bc4a8057f837ef1e15992560b70745b464c322b76ffab6a8"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::ISS-b0abef5ab0208a1a",
+    "dataset": "expansion_160",
+    "source_sha256": "4b4f069d4ba3dc37f70d7c6aceb5aa4a6104d2c44076e29d51b253efbf717fbd",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "ISS-b0abef5ab0208a1a",
+      "date": "2024-02-07",
+      "title": "DRC misses another opportunity to build a democracy",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/drc-misses-another-opportunity-to-build-a-democracy",
+      "text_sha256": "a974ccedd0b5eb5b31b3a8056b1f874552fbc4c253c2c665afaa17e1be71a746"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GU-db9b918a09f6646d",
+    "dataset": "expansion_160",
+    "source_sha256": "5dcd1c049c7fb476be55fc4aab28c982175d9ac212510c592293261aa36a8520",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "GU-db9b918a09f6646d",
+      "date": "2024-03-18",
+      "title": "Congolese march to Parliament to draw attention to war at home",
+      "publisher": "GroundUp",
+      "url": "https://groundup.org.za/article/congolese-march-to-parliament-to-draw-attention-to-war-at-home/",
+      "text_sha256": "48f5aebc7b769cb1b9de88ac6f95956b886282b9d9e4c64c94462c6468b31795"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S017::MB-280300",
+    "dataset": "expansion_160",
+    "source_sha256": "9533ffd84d165b53aa06efdbca1ee142a6143a193571bcb0d613a379f25b7bca",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "MB-280300",
+      "date": "2024-03-27",
+      "title": "Global cobalt rush drives toxic toll near DRC mines",
+      "publisher": "Mongabay",
+      "url": "https://news.mongabay.com/2024/03/global-cobalt-rush-drives-toxic-toll-near-drc-mines/",
+      "text_sha256": "4039ec10b6ff6e5e49cc78b47c5e06455307f0459b1c54a2cec61286e4ec663e"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::ISS-7511499b4b88aaf8",
+    "dataset": "expansion_160",
+    "source_sha256": "15f80f7a2e31817e67010f1bdb2b0556500e45eb9f3d5e67abe3f697ae070c98",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "ISS-7511499b4b88aaf8",
+      "date": "2024-02-09",
+      "title": "Once more into the breach: SADC troops in DRC",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/once-more-into-the-breach-sadc-troops-in-drc",
+      "text_sha256": "e343c0cbc534221ccd02af10fdb095f7d3655ea7ad143f1d04fa7910cfd56469"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::VOA-7458908",
+    "dataset": "expansion_160",
+    "source_sha256": "fbf9c7179d66259cec7c4b5f25882b07ad06305ccf615b79ce8b3d4396d846da",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7458908",
+      "date": "2024-01-26",
+      "title": "Uncertainties Remain With Renegotiated Chinese Mining Deal in DRC",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/uncertainties-remain-with-renegotiated-chinese-mining-deal-in-drc-/7458908.html",
+      "text_sha256": "f3d86f0de276bb61ecbec82bc6d18c56730e1eddc753b040eb2dcaf4c4c4a061"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S017::MB-280037",
+    "dataset": "expansion_160",
+    "source_sha256": "ddc1b56928ba0ef2f13c056faf448660e88426683d68bbb233fbe9b11f47cf62",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "MB-280037",
+      "date": "2024-03-25",
+      "title": "Under the shadow of war in the DRC, a mining company acts with impunity",
+      "publisher": "Mongabay",
+      "url": "https://news.mongabay.com/2024/03/under-the-shadow-of-war-in-the-drc-a-mining-companys-actions-face-impunity/",
+      "text_sha256": "d6e63a66e2ce00b2ce46c6471c93472a4f7add54578631c7dd9e12790bb0b075"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S017::VOA-7510198",
+    "dataset": "expansion_160",
+    "source_sha256": "6e7a14d116dee699b1fe48bda4d31af5cf4ae24de1b50a97ea4ce4b52a3cd7bd",
+    "case": {
+      "case_id": "S017",
+      "countries_regions": "刚果（金）；M23／卢旺达",
+      "target_situation": "刚果（金）东部的政治与安全局势、M23，以及刚果（金）—卢旺达关系。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7510198",
+      "date": "2024-03-01",
+      "title": "African Stream Falsely Claims That US Arms Congo's M23 Rebels",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/fact-check-african-stream-falsely-claims-that-us-arms-congo-s-m23-rebels/7510198.html",
+      "text_sha256": "3572da474ade3824d61e7859bbe64fb7f596c47e88fbca3160201d1dce8123d2"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::ISS-c56281ddeae387ab",
+    "dataset": "expansion_160",
+    "source_sha256": "05e0a1b1040e1f2f620a17b9f4c6e4bfcb149f8881d1afcef98b613d4b97c6cb",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "ISS-c56281ddeae387ab",
+      "date": "2024-01-22",
+      "title": "Africa needs a stronger voice on resolving the Red Sea crisis",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/africa-needs-a-stronger-voice-on-resolving-the-red-sea-crisis",
+      "text_sha256": "4ddc446bc257107a880758d44b66908effcddd6cca2ef242799c16ade8bd4050"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S018::ISS-56acff844790d238",
+    "dataset": "expansion_160",
+    "source_sha256": "317642f0df41b193d2ae5a96d3e848c1b758e4efe9ed14f73cf01a9a44132624",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "ISS-56acff844790d238",
+      "date": "2024-02-12",
+      "title": "Impact of Red Sea crisis on Africa – red flag or red herring?",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/impact-of-red-sea-crisis-on-africa-red-flag-or-red-herring",
+      "text_sha256": "0093e0205142d153ffdda38e61df2fbdce37bc2d56e20994441963ed716f9e0d"
+    },
+    "evaluation_exclusion_reasons": [
+      "uncertain_model_label"
+    ]
+  },
+  {
+    "pair_id": "EXP-calendar-S018::ISS-492edc29681eb8d0",
+    "dataset": "expansion_160",
+    "source_sha256": "2fbd3e74c1c66b31422174f4d924cebc20bb53f79b5f1257a03bf73c3aa492c3",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "ISS-492edc29681eb8d0",
+      "date": "2024-02-01",
+      "title": "Africa’s oceans could pay dearly for the Red Sea Crisis",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/africas-oceans-could-pay-dearly-for-the-red-sea-crisis",
+      "text_sha256": "73137019e86accd237c646cbd705c1c2b830db311c543fdad9e3f6c011b35c99"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7436803",
+    "dataset": "expansion_160",
+    "source_sha256": "d6e28974bc8f8dca646e7fad6e5d402923cae26a62a552a480677b5955dc39fa",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7436803",
+      "date": "2024-01-12",
+      "title": "US, UK Strike Back at Several Houthi Sites in Yemen",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/us-uk-strike-back-at-several-houthi-sites-in-yemen-/7436803.html",
+      "text_sha256": "76235352a14c1f6d000e90a38b65406606449a66823a985f5b3323924556027d"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7497821",
+    "dataset": "expansion_160",
+    "source_sha256": "8945d18fd898cc1bc29a811ade7b2929b89754868e4fda2cca54fac938a7d157",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7497821",
+      "date": "2024-02-22",
+      "title": "Missile Attack Reported Targeting Ship in Gulf of Aden",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/missile-attack-reported-targeting-ship-in-gulf-of-aden-/7497821.html",
+      "text_sha256": "642aac4d1cbdd3ccb77f053471a5a3419aaf59b90a899e6e756da4fcefee4920"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7438907",
+    "dataset": "expansion_160",
+    "source_sha256": "3c4c348458c3f7986122ce951da578d24a642bec251929a627a2ce8567158d06",
+    "case": {
+      "case_id": "S018",
+      "countries_regions": "美国；也门胡塞武装",
+      "target_situation": "美国、也门、胡塞武装及相关红海、中东地区的外交、军事、安全和政治局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7438907",
+      "date": "2024-01-13",
+      "title": "Egypt Worries US-British Attacks on Houthis Could Escalate Gaza Conflict",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/egypt-worries-us-british-attacks-on-houthis-could-escalate-gaza-conflict/7438907.html",
+      "text_sha256": "46c5c25b63de5656297a211fe355020bb1e94dc1bbe8031483c2273d36fe6b83"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::ISS-55f05604f9b0afd2",
+    "dataset": "expansion_160",
+    "source_sha256": "362b1ba74bb9535bdc694bbdf5faef2bd4f4c18135bd52082f678116354d0ca0",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "ISS-55f05604f9b0afd2",
+      "date": "2024-02-13",
+      "title": "ICJ’s Gaza genocide case – big win, but with what effect?",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/icjs-gaza-genocide-case-big-win-but-with-what-effect",
+      "text_sha256": "216fe7d27dd98238fca1b0ebd81d58f0547ccb7c73cc29bf0a9d1554bc8fcaeb"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::ISS-54e5d6964edabac5",
+    "dataset": "expansion_160",
+    "source_sha256": "e1598c5a4c2c70d0200b9576078bda060bf0dde79b5576187d9d72cf89b18bf9",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "ISS-54e5d6964edabac5",
+      "date": "2024-02-27",
+      "title": "African countries join a united front against Israeli occupation",
+      "publisher": "ISS Today",
+      "url": "https://issafrica.org/iss-today/african-countries-join-a-united-front-against-israeli-occupation",
+      "text_sha256": "78553fe70af5e6f91518bc5a2c0809138608b0e9ba0ffc261f6e76722f80485a"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::VOA-7458679",
+    "dataset": "expansion_160",
+    "source_sha256": "b0601781306f41c59dcda00e4d40cb777b69fbbb7cb1e47f349c05a6e2540c79",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7458679",
+      "date": "2024-01-26",
+      "title": "Several UN Agency Staff Fired for Alleged Ties to October 7 Attack on Israel",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/several-un-agency-staff-fired-for-alleged-ties-to-oct-7-israel-attack/7458679.html",
+      "text_sha256": "dd65938973885be3ee22c7b4ddf3037f63e4818a06cf01fe2856492c3f4f0022"
+    },
+    "evaluation_exclusion_reasons": []
+  },
+  {
+    "pair_id": "EXP-calendar-S019::VOA-7486115",
+    "dataset": "expansion_160",
+    "source_sha256": "61923371d3b944913ab87389bf1b11d3f08baa8fa190424262cad356e72c0676",
+    "case": {
+      "case_id": "S019",
+      "countries_regions": "以色列；哈马斯／加沙",
+      "target_situation": "以色列、巴勒斯坦、加沙、哈马斯及相关地区的政治、军事、安全和外交局势。",
+      "news_start": "2024-01-01",
+      "news_end": "2024-03-31"
+    },
+    "news": {
+      "news_id": "VOA-7486115",
+      "date": "2024-02-13",
+      "title": "UNRWA Chief: Agency Essential to Respond to Humanitarian Crisis in Gaza",
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/a/unrwa-chief-agency-essential-to-respond-to-humanitarian-crisis-in-gaza/7486115.html",
+      "text_sha256": "42e01367efbc76b2edffbab8dd75cb9e6e1c572e2e4238f2a215d1af1e6d1ae2"
+    },
+    "evaluation_exclusion_reasons": []
+  }
+]

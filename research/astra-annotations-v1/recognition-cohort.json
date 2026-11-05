@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "evaluation_kind": "development_agreement_with_astra_silver_labels",
+  "label_provenance": "GPT-6 Astra model-assisted silver labels, not human gold",
+  "independent_holdout": false,
+  "input_sha256": "bfca5543280b8bd64250fc6e75dcdd92c4cfac5ef343ecb79d589fdce766a598",
+  "annotation_sha256": "3d34df5f764b4b108294c38aeb9ebb3404ad6c2dfa10c58457edf5f70892e012",
+  "protocol_sha256": "049924d87a940f618df1646303ac6f97bffa4136f7854210f5fb704318915e18",
+  "secondary_annotation_sha256": "7e245aabd4262172fdf5983e9234b7dabab218b11a440441edbd0c9743ca01b6",
+  "quality_findings_sha256": "c10a0d9704779b741a6602021bb64947f34bf29f6982c2cecd5ed4b71e70906b",
+  "selected": 220,
+  "eligible_pair_ids": [
+    "S016::P3N07350",
+    "S016::P3N07398",
+    "S016::P3N07599",
+    "S016::P3N07606",
+    "S016::P3N07641",
+    "S016::P3N07660",
+    "S016::P3N07675",
+    "S016::P3N07683",
+    "S016::P3N07684",
+    "S016::P3N07686",
+    "S017::P3N07678",
+    "S017::P3N07688",
+    "S017::P3N07689",
+    "S017::P3N07701",
+    "S017::P3N07732",
+    "S017::P3N07835",
+    "S017::P3N07844",
+    "S017::P3N07888",
+    "S017::P3N07937",
+    "S017::P3N07942",
+    "S018::P3N07724",
+    "S018::P3N07807",
+    "S018::P3N07866",
+    "S018::P3N07873",
+    "S018::P3N07980",
+    "S018::P3N08010",
+    "S018::P3N08199",
+    "S018::P3N08235",
+    "S018::P3N08490",
+    "S018::P3N08493",
+    "S018::P3N08531",
+    "S019::P3N07814",
+    "S019::P3N07836",
+    "S019::P3N07924",
+    "S019::P3N07971",
+    "S019::P3N07991",
+    "S019::P3N08018",
+    "S019::P3N08265",
+    "S019::P3N08295",
+    "S019::P3N08356",
+    "S019::P3N08528",
+    "S020::P3N08202",
+    "S020::P3N08254",
+    "S020::P3N08394",
+    "S020::P3N08415",
+    "S020::P3N08617",
+    "S020::P3N08640",
+    "S020::P3N08701",
+    "S020::P3N08742",
+    "S020::P3N08888",
+    "S020::P3N08970",
+    "EXP-cross-S016::GV-822001",
+    "EXP-cross-S016::GV-823893",
+    "EXP-cross-S016::GV-822972",
+    "EXP-cross-S016::GV-822397",
+    "EXP-cross-S016::GV-823296",
+    "EXP-cross-S016::VOA-7793374",
+    "EXP-cross-S016::VOA-7848255",
+    "EXP-cross-S016::VOA-7800869",
+    "EXP-cross-S016::VOA-7787117",
+    "EXP-cross-S017::GV-822887",
+    "EXP-cross-S017::GV-823101",
+    "EXP-cross-S017::GV-827322",
+    "EXP-cross-S017::GV-824104",
+    "EXP-cross-S017::GV-823013",
+    "EXP-cross-S018::GV-825627",
+    "EXP-cross-S018::VOA-7920087",
+    "EXP-cross-S018::VOA-7947198",
+    "EXP-cross-S019::GV-827541",
+    "EXP-cross-S019::GV-829479",
+    "EXP-cross-S019::GV-830639",
+    "EXP-cross-S019::GV-826293",
+    "EXP-cross-S019::GV-827361",
+    "EXP-cross-S019::GV-829351",
+    "EXP-cross-S019::GV-830268",
+    "EXP-cross-S019::VOA-7908063",
+    "EXP-cross-S019::VOA-7939119",
+    "EXP-cross-S019::VOA-7980148",
+    "EXP-cross-S019::VOA-7952796",
+    "EXP-cross-S019::VOA-7965802",
+    "EXP-cross-S019::VOA-7953674",
+    "EXP-cross-S020::GV-828636",
+    "EXP-cross-S020::GV-830110",
+    "EXP-cross-S020::GV-832655",
+    "EXP-cross-S020::GV-833569",
+    "EXP-cross-S020::GV-829515",
+    "EXP-cross-S020::GV-829353",
+    "EXP-cross-S020::GV-832184",
+    "EXP-cross-S020::VOA-7966135",
+    "EXP-cross-S020::VOA-8003634",
+    "EXP-cross-S020::VOA-7987593",
+    "EXP-cross-S020::VOA-7986025",
+    "EXP-cross-S020::VOA-7995718",
+    "EXP-cross-S020::VOA-7991547",
+    "EXP-cross-S020::VOA-7995327",
+    "EXP-calendar-S016::GV-805492",
+    "EXP-calendar-S016::GV-807224",
+    "EXP-calendar-S016::GV-808573",
+    "EXP-calendar-S016::GV-804266",
+    "EXP-calendar-S016::GV-808704",
+    "EXP-calendar-S016::GV-808840",
+    "EXP-calendar-S016::GV-808098",
+    "EXP-calendar-S016::VOA-7454725",
+    "EXP-calendar-S016::VOA-7518396",
+    "EXP-calendar-S016::VOA-7475760",
+    "EXP-calendar-S016::VOA-7539864",
+    "EXP-calendar-S016::VOA-7530476",
+    "EXP-calendar-S017::GV-804506",
+    "EXP-calendar-S017::GV-805702",
+    "EXP-calendar-S017::GV-805279",
+    "EXP-calendar-S017::VOA-7496092",
+    "EXP-calendar-S018::GV-804645",
+    "EXP-calendar-S018::VOA-7433777",
+    "EXP-calendar-S018::VOA-7478387",
+    "EXP-calendar-S018::VOA-7516779",
+    "EXP-calendar-S018::VOA-7442506",
+    "EXP-calendar-S018::VOA-7446136",
+    "EXP-calendar-S019::GV-805295",
+    "EXP-calendar-S019::GV-806959",
+    "EXP-calendar-S019::GV-808580",
+    "EXP-calendar-S019::GV-805492",
+    "EXP-calendar-S019::GV-806377",
+    "EXP-calendar-S019::GV-809026",
+    "EXP-calendar-S019::GV-805553",
+    "EXP-calendar-S019::GV-807340",
+    "EXP-calendar-S019::VOA-7453714",
+    "EXP-calendar-S019::VOA-7504758",
+    "EXP-calendar-S019::VOA-7542616",
+    "EXP-calendar-S019::VOA-7497240",
+    "EXP-calendar-S020::GV-804313",
+    "EXP-calendar-S020::GV-806542",
+    "EXP-calendar-S020::GV-808472",
+    "EXP-calendar-S020::GV-805473",
+    "EXP-calendar-S020::GV-806800",
+    "EXP-calendar-S020::GV-809519",
+    "EXP-calendar-S020::GV-804606",
+    "EXP-calendar-S020::GV-806177",
+    "EXP-calendar-S020::VOA-7443769",
+    "EXP-calendar-S020::VOA-7489945",
+    "EXP-calendar-S020::VOA-7547645",
+    "EXP-calendar-S020::VOA-7447338",
+    "EXP-calendar-S020::VOA-7491919",
+    "EXP-calendar-S020::VOA-7545543",
+    "EXP-calendar-S020::VOA-7464528",
+    "EXP-calendar-S020::VOA-7471058",
+    "EXP-cross-S016::MEMO-748566",
+    "EXP-cross-S016::MEMO-751691",
+    "EXP-cross-S017::VOA-7889825",
+    "EXP-cross-S017::MB-292518",
+    "EXP-cross-S017::ISS-47821550a0bc4d88",
+    "EXP-cross-S017::MB-292797",
+    "EXP-cross-S018::MEMO-767750",
+    "EXP-cross-S018::CD-5049a925d7593c2f",
+    "EXP-cross-S018::MEMO-770689",
+    "EXP-cross-S018::MEMO-775873",
+    "EXP-cross-S018::MEMO-767447",
+    "EXP-cross-S018::MEMO-770908",
+    "EXP-cross-S018::MEMO-776543",
+    "EXP-cross-S018::MEMO-767366",
+    "EXP-cross-S018::MEMO-769350",
+    "EXP-cross-S018::MEMO-777019",
+    "EXP-cross-S018::MEMO-781203",
+    "EXP-cross-S019::VOA-7963488",
+    "EXP-cross-S019::VOA-8007713",
+    "EXP-calendar-S016::VOA-7448479",
+    "EXP-calendar-S017::MB-277443",
+    "EXP-calendar-S017::ISS-b0abef5ab0208a1a",
+    "EXP-calendar-S017::MB-280300",
+    "EXP-calendar-S017::ISS-7511499b4b88aaf8",
+    "EXP-calendar-S017::VOA-7458908",
+    "EXP-calendar-S017::VOA-7510198",
+    "EXP-calendar-S018::ISS-492edc29681eb8d0",
+    "EXP-calendar-S018::VOA-7436803",
+    "EXP-calendar-S018::VOA-7497821",
+    "EXP-calendar-S018::VOA-7438907",
+    "EXP-calendar-S019::ISS-55f05604f9b0afd2",
+    "EXP-calendar-S019::ISS-54e5d6964edabac5",
+    "EXP-calendar-S019::VOA-7458679",
+    "EXP-calendar-S019::VOA-7486115"
+  ],
+  "excluded": [
+    {
+      "pair_id": "S016::P3N07668",
+      "reasons": [
+        "secondary_model_disagreement"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S016::P3N07681",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S017::P3N07677",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S017::P3N07817",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S018::P3N08326",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S019::P3N07848",
+      "reasons": [
+        "secondary_model_disagreement"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S019::P3N08487",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S020::P3N08937",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "S020::P3N08956",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-820578",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S016::GV-668706",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7810883",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7792540",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S016::VOA-7876656",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-823830",
+      "reasons": [
+        "prior_source_scope_quarantine"
+      ],
+      "quality_finding": {
+        "pair_id": "EXP-cross-S017::GV-823830",
+        "code": "incidental_country_mention",
+        "suggested_disposition": "quarantine_from_case_coverage",
+        "detail": "主要报道尼日利亚与利比亚足球争议，卢旺达仅出现在小组积分对比；不是以刚果或卢旺达为主要对象的新闻。",
+        "evidence": "while Rwanda has five points",
+        "url": "https://globalvoices.org/2024/11/14/hostile-hosts-in-african-football-the-nigeria-versus-libya-scandal/"
+      }
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-825517",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S017::GV-825796",
+      "reasons": [
+        "prior_source_scope_quarantine"
+      ],
+      "quality_finding": {
+        "pair_id": "EXP-cross-S017::GV-825796",
+        "code": "historical_analogy_not_case_focus",
+        "suggested_disposition": "quarantine_from_case_coverage",
+        "detail": "报道科特迪瓦 2010–2011 年危机纪录片，卢旺达仅是人物经历的类比；新闻发表日不能把被类比的历史内容变为当前案例报道。",
+        "evidence": "whether in Kigali, Rwanda, or the Bakassi Peninsula between Cameroon and Nigeria",
+        "url": "https://globalvoices.org/2025/01/03/cameroonian-journalist-revisits-the-2010-2011-ivorian-political-crisis-in-a-documentary/"
+      }
+    },
+    {
+      "pair_id": "EXP-cross-S019::GV-826263",
+      "reasons": [
+        "secondary_model_disagreement"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S020::GV-833369",
+      "reasons": [
+        "uncertain_model_label",
+        "model_quality_flag"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S020::VOA-8011076",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7508887",
+      "reasons": [
+        "uncertain_model_label",
+        "secondary_model_disagreement"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7528269",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S016::VOA-7470102",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-804550",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-806343",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GV-807444",
+      "reasons": [
+        "prior_source_scope_quarantine"
+      ],
+      "quality_finding": {
+        "pair_id": "EXP-calendar-S017::GV-807444",
+        "code": "geographic_term_false_match",
+        "suggested_disposition": "quarantine_from_case_coverage",
+        "detail": "全文关于多哥语言，Congo 只出现在 Niger-Congo 语系名称中；不构成刚果（金）/M23/卢旺达主题报道。",
+        "evidence": "which belong to the large Niger-Congo language family",
+        "url": "https://globalvoices.org/2024/02/22/which-local-language-is-most-widely-spoken-in-togo/"
+      }
+    },
+    {
+      "pair_id": "EXP-calendar-S017::VOA-7539028",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S018::GV-806852",
+      "reasons": [
+        "prior_source_scope_quarantine"
+      ],
+      "quality_finding": {
+        "pair_id": "EXP-calendar-S018::GV-806852",
+        "code": "co_publication_and_original_date_unresolved",
+        "suggested_disposition": "quarantine_pending_origin_and_scope_review",
+        "detail": "主体是苏丹断网声明；正文明确与 Access Now 共同发表，且宣称原发于 2023-02-09。现有来源字段只写 Global Voices、页面日期为 2024-02-14，不足以证明独立来源或原发时间；原文日期也可能为笔误，不能擅自更正。",
+        "evidence": "Originally co-published by Access Now on February 9, 2023",
+        "url": "https://globalvoices.org/2024/02/14/keepiton-in-times-of-war-sudans-communications-shutdown-must-be-reversed-urgently/"
+      }
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7491150",
+      "reasons": [
+        "uncertain_model_label",
+        "model_quality_flag"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7496303",
+      "reasons": [
+        "secondary_model_disagreement"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S018::VOA-7426890",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S017::ISS-48bce6fbf9345fee",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S017::MB-290668",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S017::AA-28407e075a448b7f",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S017::ISS-806dc2ebdef87c5d",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-780133",
+      "reasons": [
+        "model_quality_flag"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-cross-S018::MEMO-780771",
+      "reasons": [
+        "secondary_model_disagreement"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S017::GU-db9b918a09f6646d",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S017::MB-280037",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S018::ISS-c56281ddeae387ab",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    },
+    {
+      "pair_id": "EXP-calendar-S018::ISS-56acff844790d238",
+      "reasons": [
+        "uncertain_model_label"
+      ],
+      "quality_finding": null
+    }
+  ],
+  "exclusion_counts": {
+    "model_review_queue": 37,
+    "prior_quarantine": 4,
+    "overlap": 0,
+    "total": 41
+  }
+}

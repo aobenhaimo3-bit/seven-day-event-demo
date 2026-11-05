@@ -1,0 +1,408 @@
+[
+  {
+    "pair_id": "S016::P3N07668",
+    "label_uncertainties": [],
+    "quality_flags": [],
+    "model_disagreement": {
+      "pair_id": "S016::P3N07668",
+      "disagreed_fields": [
+        "relevance"
+      ],
+      "primary_labels": {
+        "relevance": true,
+        "action": false,
+        "threat": false,
+        "posture": false,
+        "cooperation": false
+      },
+      "secondary_labels": {
+        "relevance": false,
+        "action": false,
+        "threat": false,
+        "posture": false,
+        "cooperation": false
+      }
+    }
+  },
+  {
+    "pair_id": "S016::P3N07681",
+    "label_uncertainties": [
+      "威胁表态未明确承诺未来动武，保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "S017::P3N07677",
+    "label_uncertainties": [
+      "当前持续军事支持与战事缺少可定位七天内的事件，action与posture保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "S017::P3N07817",
+    "label_uncertainties": [
+      "当前动员描述与12月旧部署混杂，posture无法确定在七天内。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "S018::P3N08326",
+    "label_uncertainties": [
+      "威胁表态的发生日期未明，无法确定是否在发表日前七天内。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "S019::P3N07848",
+    "label_uncertainties": [],
+    "quality_flags": [],
+    "model_disagreement": {
+      "pair_id": "S019::P3N07848",
+      "disagreed_fields": [
+        "cooperation"
+      ],
+      "primary_labels": {
+        "relevance": true,
+        "action": false,
+        "threat": true,
+        "posture": false,
+        "cooperation": true
+      },
+      "secondary_labels": {
+        "relevance": true,
+        "action": false,
+        "threat": true,
+        "posture": false,
+        "cooperation": null
+      }
+    }
+  },
+  {
+    "pair_id": "S019::P3N08487",
+    "label_uncertainties": [
+      "停火期间空袭与炮击未具体定位于发表日前七天。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "S020::P3N08937",
+    "label_uncertainties": [
+      "游客枪击确已发生，但正文不足以确定其是否满足常规军事行为口径；不能将恐袭自动等同常规军事冲突。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "S020::P3N08956",
+    "label_uncertainties": [
+      "游客枪击确已发生，但正文不足以确定其是否满足常规军事行为口径；不能将恐袭自动等同常规军事冲突。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-820578",
+    "label_uncertainties": [
+      "秘密电子装置爆炸与常规军事行动分类边界不明，action保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S016::GV-668706",
+    "label_uncertainties": [
+      "HTS与土耳其合作及同意联合作战室未交代具体会谈时间，cooperation保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7810883",
+    "label_uncertainties": [
+      "撤军时间无法确定在七天内，posture为null。",
+      "威胁为专家对空袭信息的解释，缺少实际发言或确定时点。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7792540",
+    "label_uncertainties": [
+      "地区部分动员可能涵盖叙利亚，但具体范围时间不明。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S016::VOA-7876656",
+    "label_uncertainties": [
+      "顾问从叙撤出与伊朗否认直接矛盾，缺少可确认部署变化。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S017::GV-825517",
+    "label_uncertainties": [
+      "刚果段落未给出东部地点或相关主体，relevance及action保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S019::GV-826263",
+    "label_uncertainties": [],
+    "quality_flags": [],
+    "model_disagreement": {
+      "pair_id": "EXP-cross-S019::GV-826263",
+      "disagreed_fields": [
+        "relevance"
+      ],
+      "primary_labels": {
+        "relevance": true,
+        "action": false,
+        "threat": false,
+        "posture": false,
+        "cooperation": false
+      },
+      "secondary_labels": {
+        "relevance": false,
+        "action": false,
+        "threat": false,
+        "posture": false,
+        "cooperation": false
+      }
+    }
+  },
+  {
+    "pair_id": "EXP-cross-S020::GV-833369",
+    "label_uncertainties": [
+      "莫迪誓言发生于袭击后但未给出日期，不能确认在发表日前七天内。"
+    ],
+    "quality_flags": [
+      "source_event_date_unverified"
+    ],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S020::VOA-8011076",
+    "label_uncertainties": [
+      "俾路支军队战斗事实明确，但与印巴冲突的关联仅为巴方指控、印方否认，action范围归属不明。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7508887",
+    "label_uncertainties": [
+      "美军训练叙利亚军委部队未给出时间，不能确认当期演训。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": {
+      "pair_id": "EXP-calendar-S016::VOA-7508887",
+      "disagreed_fields": [
+        "posture"
+      ],
+      "primary_labels": {
+        "relevance": true,
+        "action": true,
+        "threat": false,
+        "posture": null,
+        "cooperation": false
+      },
+      "secondary_labels": {
+        "relevance": true,
+        "action": true,
+        "threat": false,
+        "posture": false,
+        "cooperation": false
+      }
+    }
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7528269",
+    "label_uncertainties": [
+      "UN多轮谈判和拖延描述不足确认七天内实际协商。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S016::VOA-7470102",
+    "label_uncertainties": [
+      "will be held accountable未明确军事措施，threat保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-804550",
+    "label_uncertainties": [
+      "持续历史描述未给近七日事件，action保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GV-806343",
+    "label_uncertainties": [
+      "clashed未标时间，无法确认当期军事行动。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S017::VOA-7539028",
+    "label_uncertainties": [
+      "战斗描述与累计伤者未明确当期持续性和时间，action保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7491150",
+    "label_uncertainties": [
+      "威胁声明无具体日期，且开头周六声明与周五发表日期不一致。"
+    ],
+    "quality_flags": [
+      "publication_text_date_inconsistency"
+    ],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7496303",
+    "label_uncertainties": [],
+    "quality_flags": [],
+    "model_disagreement": {
+      "pair_id": "EXP-calendar-S018::VOA-7496303",
+      "disagreed_fields": [
+        "threat"
+      ],
+      "primary_labels": {
+        "relevance": true,
+        "action": true,
+        "threat": true,
+        "posture": false,
+        "cooperation": false
+      },
+      "secondary_labels": {
+        "relevance": true,
+        "action": true,
+        "threat": null,
+        "posture": false,
+        "cooperation": false
+      }
+    }
+  },
+  {
+    "pair_id": "EXP-calendar-S018::VOA-7426890",
+    "label_uncertainties": [
+      "护航行动启动仅称上月底，无法确定是否落在发表日前七天。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S017::ISS-48bce6fbf9345fee",
+    "label_uncertainties": [
+      "作战描述覆盖长时段，action无法确定近七日。",
+      "训练队部署无时间，posture保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S017::MB-290668",
+    "label_uncertainties": [
+      "政府与机构联合委员会合作是否在近七日实际协商不清。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S017::AA-28407e075a448b7f",
+    "label_uncertainties": [
+      "战争概述无法定位近七日行动；儿童入伍描述混合历史统计，posture亦保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S017::ISS-806dc2ebdef87c5d",
+    "label_uncertainties": [
+      "recently held inter-ministerial dialogues未说明是否七天内。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-780133",
+    "label_uncertainties": [],
+    "quality_flags": [
+      "embedded_old_social_post_not_used_as_current_evidence"
+    ],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-cross-S018::MEMO-780771",
+    "label_uncertainties": [],
+    "quality_flags": [],
+    "model_disagreement": {
+      "pair_id": "EXP-cross-S018::MEMO-780771",
+      "disagreed_fields": [
+        "action"
+      ],
+      "primary_labels": {
+        "relevance": true,
+        "action": true,
+        "threat": false,
+        "posture": false,
+        "cooperation": false
+      },
+      "secondary_labels": {
+        "relevance": true,
+        "action": false,
+        "threat": false,
+        "posture": false,
+        "cooperation": false
+      }
+    }
+  },
+  {
+    "pair_id": "EXP-calendar-S017::GU-db9b918a09f6646d",
+    "label_uncertainties": [
+      "当期战斗仅抗议者概述及部队任务背景，action时效不清。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S017::MB-280037",
+    "label_uncertainties": [
+      "反复交战为长期背景，缺少当期明确行动时间，action保留null。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S018::ISS-c56281ddeae387ab",
+    "label_uncertainties": [
+      "除明确超七天的事件外，其他袭击、军力转向和会商无法确定发生日期或持续性。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  },
+  {
+    "pair_id": "EXP-calendar-S018::ISS-56acff844790d238",
+    "label_uncertainties": [
+      "未明确当期具体袭击或实际威胁表态，行动与威胁保留歧义。"
+    ],
+    "quality_flags": [],
+    "model_disagreement": null
+  }
+]

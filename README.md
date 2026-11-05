@@ -180,6 +180,8 @@ node scripts/audit-expansion.mjs local-data/expansion/2026-11-04/samples-calenda
 
 产物位于 `local-data/model-annotation/astra-v1/`，工作区 `outputs/Astra模型标注/` 提供 Excel、完整原文阅读页和 JSONL。全部明确记录为模型银标，人工复核完成数仍为 0；标注阶段没有修改原人工审核文件、训练集、验证集及模型，后续规则重训见下一节。原 60 条人工评估仍报告 `not_evaluable`，不得将模型标签改名为人工金标或把银标一致性当成人工金标准确率。
 
+**公开标注参考包**见 [research/astra-annotations-v1](research/astra-annotations-v1/README.md)，包含 220 条初审、20 条二次盲审、来源索引、未决复核记录、原 Excel 和可下载阅读页。原模型身份和 `null` 不确定项保留，提供逐文件 SHA-256；公开包不含新增新闻全文。可运行 `node scripts/verify-reference-annotations.mjs` 离线校验。完整识别复现仍需要当时的本地全文归档。
+
 输入、协议及标注已冻结。当前模型升级后，识别评估对照归档 v5 模型核验原标注来源：
 
 ```sh
